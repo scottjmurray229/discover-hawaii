@@ -1,0 +1,102 @@
+[
+  {
+    "id": "island-hopper",
+    "title": "Island Hopper",
+    "subtitle": "Experience multiple islands in one epic trip",
+    "duration": 10,
+    "themes": ["beach", "adventure", "culture"],
+    "destinations": ["waikiki", "lahaina", "kona", "na-pali-coast"],
+    "budget": { "backpacker": 1500, "midRange": 3500, "luxury": 8000 },
+    "description": "The ultimate Hawaii experience — hop between four islands to see the best of Oahu's city buzz, Maui's beaches, Big Island's volcanoes, and Kauai's dramatic coastline. Inter-island flights are quick and affordable, giving you a taste of each island's unique personality."
+  },
+  {
+    "id": "oahu-explorer",
+    "title": "Oahu Explorer",
+    "subtitle": "City, surf, and history on one island",
+    "duration": 7,
+    "themes": ["history", "surfing", "culture", "nightlife"],
+    "destinations": ["waikiki", "honolulu", "pearl-harbor", "north-shore", "diamond-head", "kailua"],
+    "budget": { "backpacker": 900, "midRange": 2200, "luxury": 5500 },
+    "description": "Dive deep into Oahu with a week exploring Waikiki's iconic beach scene, Honolulu's rich culture and cuisine, Pearl Harbor's powerful history, the North Shore's legendary surf, Diamond Head's panoramic views, and Kailua's laid-back charm."
+  },
+  {
+    "id": "maui-romantic-getaway",
+    "title": "Maui Romantic Getaway",
+    "subtitle": "Sunsets, beaches, and unforgettable moments",
+    "duration": 7,
+    "themes": ["romance", "beach", "luxury", "scenic"],
+    "destinations": ["wailea", "lahaina", "haleakala", "road-to-hana"],
+    "budget": { "backpacker": 1200, "midRange": 3000, "luxury": 7500 },
+    "description": "Maui is made for romance. Watch the sunrise from Haleakala's summit, drive the winding Road to Hana together, stroll through Lahaina's charming streets, and unwind on Wailea's golden beaches. Sunset dinners and couples' spa treatments complete the experience."
+  },
+  {
+    "id": "big-island-adventure",
+    "title": "Big Island Adventure",
+    "subtitle": "Volcanoes, coffee, and stargazing",
+    "duration": 7,
+    "themes": ["adventure", "nature", "volcano", "stargazing"],
+    "destinations": ["kona", "volcanoes-national-park", "mauna-kea", "hilo"],
+    "budget": { "backpacker": 800, "midRange": 2000, "luxury": 5000 },
+    "description": "Explore the Big Island's incredible diversity — from active volcanoes and lava fields to snow-capped Mauna Kea, lush Hilo rainforests, and the sunny Kona coast. Night dives with manta rays, coffee farm tours, and stargazing at nearly 14,000 feet await."
+  },
+  {
+    "id": "kauai-nature-retreat",
+    "title": "Kauai Nature Retreat",
+    "subtitle": "The Garden Isle's untouched beauty",
+    "duration": 6,
+    "themes": ["nature", "hiking", "scenery", "relaxation"],
+    "destinations": ["na-pali-coast", "waimea-canyon", "poipu"],
+    "budget": { "backpacker": 700, "midRange": 1800, "luxury": 4500 },
+    "description": "Kauai is Hawaii at its most wild and beautiful. Hike along the Na Pali Coast's towering sea cliffs, gaze into Waimea Canyon's colorful depths, snorkel Poipu's crystal waters, and find serenity in the Garden Isle's lush landscapes and unhurried pace."
+  },
+  {
+    "id": "budget-hawaii",
+    "title": "Budget Hawaii",
+    "subtitle": "Paradise without breaking the bank",
+    "duration": 8,
+    "themes": ["budget", "beach", "hiking", "culture"],
+    "destinations": ["north-shore", "diamond-head", "hilo", "kailua"],
+    "budget": { "backpacker": 600, "midRange": 1400, "luxury": 3000 },
+    "description": "Hawaii on a budget is absolutely possible. Stay in hostels and vacation rentals, hike free trails like Diamond Head and Manoa Falls, hit the best beaches for zero cost, explore affordable Hilo, eat at local plate lunch spots, and discover that the best things in Hawaii — sunsets, beaches, and aloha — are free."
+  },
+  {
+    "id": "luxury-hawaii",
+    "title": "Luxury Hawaii",
+    "subtitle": "Five-star island indulgence",
+    "duration": 10,
+    "themes": ["luxury", "spa", "dining", "golf", "romance"],
+    "destinations": ["wailea", "waikiki", "poipu", "kona"],
+    "budget": { "backpacker": 3000, "midRange": 6000, "luxury": 15000 },
+    "description": "Experience Hawaii's finest. Sip cocktails at Wailea's Four Seasons, enjoy Waikiki's legendary Halekulani, pamper yourself at Poipu's Grand Hyatt spa, and dine on Kona's freshest seafood. Private helicopter tours, championship golf, sunset yacht cruises, and overwater spa treatments included."
+  },
+  {
+    "id": "family-fun-hawaii",
+    "title": "Family Fun Hawaii",
+    "subtitle": "Memories the whole family will treasure",
+    "duration": 8,
+    "themes": ["family", "beach", "education", "wildlife", "adventure"],
+    "destinations": ["waikiki", "pearl-harbor", "poipu", "volcanoes-national-park", "kailua"],
+    "budget": { "backpacker": 1200, "midRange": 3000, "luxury": 7000 },
+    "description": "Hawaii is a natural playground for families. Kids will love learning to surf in Waikiki, exploring Pearl Harbor's history, watching monk seals in Poipu, seeing real volcanoes up close, and kayaking in Kailua. Mix adventure with beach days for the perfect family vacation."
+  },
+  {
+    "id": "surf-safari",
+    "title": "Surf Safari",
+    "subtitle": "Chase waves across the Hawaiian Islands",
+    "duration": 10,
+    "themes": ["surfing", "beach", "adventure", "fitness"],
+    "destinations": ["north-shore", "waikiki", "kailua", "lahaina", "poipu"],
+    "budget": { "backpacker": 1000, "midRange": 2500, "luxury": 6000 },
+    "description": "Ride the waves that made surfing famous. Start with longboarding in Waikiki where the sport was born, graduate to Kailua's wind-swept breaks, challenge yourself at the North Shore's legendary Pipeline and Sunset Beach, catch Maui's south swell, and finish with Kauai's uncrowded reef breaks."
+  },
+  {
+    "id": "hawaiian-culture-deep-dive",
+    "title": "Hawaiian Culture Deep Dive",
+    "subtitle": "Connect with the spirit of aloha",
+    "duration": 9,
+    "themes": ["culture", "history", "food", "spirituality", "authenticity"],
+    "destinations": ["honolulu", "molokai", "lahaina", "hilo", "pearl-harbor"],
+    "budget": { "backpacker": 1000, "midRange": 2400, "luxury": 5500 },
+    "description": "Go beyond the resorts to experience authentic Hawaii. Visit Iolani Palace and the Bishop Museum in Honolulu, explore Molokai — the most Hawaiian island with its small-town traditions, learn about Lahaina's whaling history, discover Hilo's farmers markets and hula traditions, and pay respects at Pearl Harbor. Attend a traditional luau, take a lei-making class, and taste poi and laulau."
+  }
+]

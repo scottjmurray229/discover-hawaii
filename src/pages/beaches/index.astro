@@ -1,0 +1,933 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Hawaii Beach Guide', url: '/beaches/' },
+];
+
+const pageTitle = 'Hawaii Beach Guide — The Best Beaches on Every Island';
+const pageDescription = "From Waikiki's famous shore to hidden North Shore coves. Island-by-island guide to Hawaii's best beaches — white sand, black sand, green sand, and everything in between.";
+
+interface Beach {
+  name: string;
+  image?: string;
+  destination: string;
+  slug: string;
+  price: string;
+  description: string;
+  tag?: string;
+}
+
+interface BeachSection {
+  region: string;
+  tagline: string;
+  gradient: string;
+  beaches: Beach[];
+}
+
+const sections: BeachSection[] = [
+  {
+    region: 'Oahu',
+    tagline: 'World-famous shores, legendary surf breaks, and turquoise water minutes from Honolulu',
+    gradient: 'linear-gradient(135deg, #0891b2 0%, #06b6d4 100%)',
+    beaches: [
+      {
+        name: 'Waikiki Beach',
+        destination: 'Oahu',
+        slug: 'waikiki',
+        price: 'Free · Parking $3–6/hr',
+        description: "The world's most famous beach. Gentle waves, warm water, and Diamond Head views make this the perfect starting point for first-timers. Two miles of golden sand lined with hotels, shops, and surf rental stands — it's busy for a reason.",
+        tag: 'Iconic',
+      },
+      {
+        name: 'Lanikai Beach',
+        destination: 'Oahu',
+        slug: 'kailua',
+        price: 'Free · Street parking only',
+        description: 'Powdery white sand, calm turquoise water, and the twin Mokulua Islands as a backdrop. Consistently rated one of America\'s best beaches. No facilities and limited parking keep it from feeling overcrowded.',
+        tag: 'Hidden Gem',
+      },
+      {
+        name: 'North Shore Sunset Beach',
+        destination: 'North Shore, Oahu',
+        slug: 'north-shore',
+        price: 'Free · Parking lot available',
+        description: 'Winter swells bring 30-foot waves that draw the world\'s best surfers for the Vans Triple Crown. Come summer, the same beach goes flat and swimmable — a completely different experience six months apart.',
+        tag: 'Surfing',
+      },
+      {
+        name: 'Kailua Beach Park',
+        destination: 'Oahu',
+        slug: 'kailua',
+        price: 'Free · Free parking lot',
+        description: 'Wide golden sand stretching 2.5 miles with steady trade winds that make it Hawaii\'s best spot for kiteboarding and windsurfing. Less crowded than Waikiki, more facilities than Lanikai, and the water is just as clear.',
+        tag: 'Family-Friendly',
+      },
+    ],
+  },
+  {
+    region: 'Maui',
+    tagline: 'Golden resort beaches, volcanic red sand, and hidden coves along the Road to Hana',
+    gradient: 'linear-gradient(135deg, #065f46 0%, #059669 100%)',
+    beaches: [
+      {
+        name: "Ka'anapali Beach",
+        destination: 'Maui',
+        slug: 'lahaina',
+        price: 'Free · Resort parking $20–40',
+        description: "A mile-long golden beach with daily cliff diving at Black Rock (Pu'u Keka'a) every sunset. Excellent snorkeling along the rocky point where sea turtles cruise the reef. The beach walk connects to Whaler's Village shops and restaurants.",
+        tag: 'Iconic',
+      },
+      {
+        name: 'Big Beach (Makena)',
+        destination: 'Maui',
+        slug: 'wailea',
+        price: 'Free · Parking lot $10',
+        description: 'A massive undeveloped beach with powerful shorebreak that bodyboarders love. No resorts, no vendors, no crowds — just a wide sweep of golden sand backed by lava fields. The ocean here is rougher than resort beaches, so swim with caution.',
+        tag: 'Surfing',
+      },
+      {
+        name: 'Red Sand Beach (Kaihalulu)',
+        destination: 'Maui',
+        slug: 'road-to-hana',
+        price: 'Free · Short hike required',
+        description: 'Volcanic red cinder beach tucked inside a hidden cove near Hana. The deep red sand against turquoise water is dramatic and otherworldly. The trail in is steep and eroded — wear proper shoes and check conditions before going.',
+        tag: 'Hidden Gem',
+      },
+      {
+        name: 'Hamoa Beach',
+        destination: 'Maui',
+        slug: 'road-to-hana',
+        price: 'Free · Roadside parking',
+        description: 'James Michener called it "the best beach in the Pacific." A secluded gray-sand crescent surrounded by sea cliffs and lush jungle near Hana. The surf can be strong, but the setting is worth the drive down the winding coast road.',
+        tag: 'Hidden Gem',
+      },
+    ],
+  },
+  {
+    region: 'Big Island',
+    tagline: 'White sand, black sand, and green sand — volcanic beaches unlike anywhere else on Earth',
+    gradient: 'linear-gradient(135deg, #1A2332 0%, #0891b2 50%, #D4A574 100%)',
+    beaches: [
+      {
+        name: 'Hapuna Beach',
+        destination: 'Big Island',
+        slug: 'kona',
+        price: 'Free · Parking $10',
+        description: "Hawaii's largest white sand beach. Wide, long, and consistently sunny on the Kohala Coast. Calm summer waters are perfect for swimming and bodyboarding. Winter brings bigger surf but the beach is still stunning year-round.",
+        tag: 'Iconic',
+      },
+      {
+        name: "Punalu'u Black Sand Beach",
+        destination: 'Big Island',
+        slug: 'hilo',
+        price: 'Free · Free parking lot',
+        description: "Jet-black volcanic sand where endangered Hawaiian green sea turtles (honu) bask in the sun. One of the most photographed beaches in Hawaii. Don't touch the turtles — state law requires staying 10 feet away.",
+        tag: 'Family-Friendly',
+      },
+      {
+        name: 'Papakolea Green Sand Beach',
+        destination: 'Big Island',
+        slug: 'kona',
+        price: 'Free · 5-mile round trip hike',
+        description: "One of only four green sand beaches on Earth. Olivine crystals from a 49,000-year-old volcanic cinder cone give the sand its otherworldly green color. The hike across exposed lava fields is hot and windy — bring water and sun protection.",
+        tag: 'Hidden Gem',
+      },
+    ],
+  },
+  {
+    region: 'Kauai',
+    tagline: 'Reef-protected snorkeling, remote Na Pali shores, and the lushest coastline in Hawaii',
+    gradient: 'linear-gradient(135deg, #0891b2 0%, #065f46 100%)',
+    beaches: [
+      {
+        name: 'Poipu Beach',
+        destination: 'Kauai',
+        slug: 'poipu',
+        price: 'Free · Free parking lot',
+        description: "Kauai's sunniest beach on the south shore with a protected swimming area perfect for kids. Hawaiian monk seals regularly haul out on the sand. A natural breakwater creates a calm lagoon on one side and gentle waves for bodyboarding on the other.",
+        tag: 'Family-Friendly',
+      },
+      {
+        name: 'Tunnels Beach (Makua)',
+        destination: 'Kauai',
+        slug: 'na-pali-coast',
+        price: 'Free · Permit required for parking',
+        description: "World-class reef snorkeling with a backdrop of jagged green mountains. The reef creates underwater tunnels and caverns full of tropical fish, sea turtles, and the occasional reef shark. Summer is best — winter surf makes the water dangerous.",
+        tag: 'Snorkeling',
+      },
+      {
+        name: 'Polihale State Park',
+        destination: 'Kauai',
+        slug: 'na-pali-coast',
+        price: 'Free · 4WD recommended',
+        description: "Seventeen miles of remote, wild beach backed by the towering Na Pali cliffs. The longest and widest beach in Hawaii, and one of the most isolated — you'll need a rough dirt road to get there. Sunset views are unmatched anywhere in the state.",
+        tag: 'Hidden Gem',
+      },
+    ],
+  },
+  {
+    region: 'Molokai',
+    tagline: 'The most Hawaiian island — empty beaches, zero resorts, and total solitude',
+    gradient: 'linear-gradient(135deg, #D4A574 0%, #E8654A 100%)',
+    beaches: [
+      {
+        name: 'Papohaku Beach',
+        destination: 'Molokai',
+        slug: 'molokai',
+        price: 'Free · Free parking',
+        description: "Three miles of empty white sand on Molokai's west shore — one of Hawaii's longest beaches. You'll likely have it entirely to yourself. No vendors, no lifeguards, no crowds. Just sand, sea, and the silhouette of Oahu across the channel.",
+        tag: 'Hidden Gem',
+      },
+    ],
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="beach-hero">
+    <video class="beach-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/videos/pillar/beaches-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="beach-hero-gradient"></div>
+    <div class="beach-hero-noise"></div>
+    <div class="beach-hero-content">
+      <h1 class="beach-hero-title">The Hawaii Beach Guide</h1>
+      <p class="beach-hero-subtitle">From Waikiki's famous shore to hidden volcanic coves — white sand, black sand, green sand, and everything in between. An island-by-island guide to the best beaches in Hawaii.</p>
+      <div class="beach-hero-meta">
+        <div class="beach-hero-meta-item">
+          <span class="beach-hero-meta-label">Beaches</span>
+          <span class="beach-hero-meta-value">16</span>
+        </div>
+        <div class="beach-hero-meta-item">
+          <span class="beach-hero-meta-label">Islands</span>
+          <span class="beach-hero-meta-value">5</span>
+        </div>
+        <div class="beach-hero-meta-item">
+          <span class="beach-hero-meta-label">Sand Colors</span>
+          <span class="beach-hero-meta-value">4</span>
+        </div>
+      </div>
+    </div>
+    <div class="beach-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="beach-personal reveal">
+    <div class="container-content">
+      <blockquote class="beach-personal-quote">
+        <p>Hawaii's beaches aren't just pretty — they're genuinely different from anything on the mainland. Where else can you stand on jet-black volcanic sand watching sea turtles, then drive an hour to one of only four green sand beaches on Earth? Every island has its own character. Oahu has the energy, Maui has the variety, Kauai has the drama, and Molokai has the solitude. I've been to beaches all over the world, and Hawaii's best still stop me in my tracks.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Beach Intro -->
+  <section class="beach-intro reveal">
+    <div class="container-content">
+      <div class="beach-intro-card">
+        <p class="beach-intro-text">This is your island-by-island guide to Hawaii's best beaches. We've organized them across five islands — <strong>Oahu</strong>, <strong>Maui</strong>, <strong>Big Island</strong>, <strong>Kauai</strong>, and <strong>Molokai</strong>. Click any beach to explore the destination where it's located.</p>
+        <div class="beach-intro-legend">
+          <span class="beach-tag beach-tag--iconic">Iconic</span>
+          <span class="beach-tag beach-tag--hiddengem">Hidden Gem</span>
+          <span class="beach-tag beach-tag--snorkeling">Snorkeling</span>
+          <span class="beach-tag beach-tag--surfing">Surfing</span>
+          <span class="beach-tag beach-tag--familyfriendly">Family-Friendly</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beach Sections by Island -->
+  {sections.map((section) => (
+    <section class="beach-region reveal">
+      <div class="container-content">
+        <div class="beach-region-header" style={`background: ${section.gradient};`}>
+          <div class="beach-region-header-inner">
+            <h2 class="beach-region-name">{section.region}</h2>
+            <p class="beach-region-tagline">{section.tagline}</p>
+            <span class="beach-region-count">{section.beaches.length} {section.beaches.length === 1 ? 'beach' : 'beaches'}</span>
+          </div>
+          <div class="beach-region-ornament">&#9733;</div>
+        </div>
+
+        <div class="beach-card-grid">
+          {section.beaches.map((beach) => (
+            <a href={`/destinations/${beach.slug}/`} class="beach-card">
+              <div class="beach-card-media" style={`background: ${section.gradient};`}>
+                {beach.image && (
+                  <img src={beach.image} alt={`${beach.name} — ${beach.destination}`} class="beach-card-img" loading="lazy" />
+                )}
+                {beach.tag && (
+                  <span class={`beach-tag beach-tag--${beach.tag.toLowerCase().replace(/[^a-z]/g, '')}`}>{beach.tag}</span>
+                )}
+              </div>
+              <div class="beach-card-body">
+                <div class="beach-card-top">
+                  <h3 class="beach-card-name">{beach.name}</h3>
+                  <span class="beach-card-price">{beach.price}</span>
+                </div>
+                <p class="beach-card-destination">{beach.destination}</p>
+                <p class="beach-card-desc">{beach.description}</p>
+                <span class="beach-card-cta">Explore {beach.destination} &rarr;</span>
+              </div>
+              <div class="beach-card-overlay">
+                <p class="beach-card-overlay-desc">{beach.description}</p>
+                <span class="beach-card-overlay-cta">Explore {beach.destination} &rarr;</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Bottom CTA -->
+  <section class="beach-cta-section reveal">
+    <div class="container-content">
+      <div class="beach-cta-card">
+        <h2 class="beach-cta-heading">Plan Your Beach Trip</h2>
+        <p class="beach-cta-text">Tell our AI planner which beaches you want to visit and it will build an island-by-island itinerary — with the best snorkeling spots, surf breaks, and hidden coves.</p>
+        <a href="/plan/" class="beach-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FAQ items={[
+    { question: "What is the best time to visit Hawaii beaches?", answer: "Hawaii is a year-round beach destination, but conditions vary by season. Summer (May-September) brings calmer waters on north-facing beaches, making them ideal for swimming and snorkeling. Winter (October-April) brings big swells to the North Shore — great for watching surfers, but dangerous for swimming. South-facing beaches like Waikiki and Poipu stay relatively calm year-round. Water temperature hovers between 75-80 degrees F no matter when you visit." },
+    { question: "Which island has the best beaches?", answer: "It depends on what you want. Maui has the most variety — golden resort beaches, red volcanic sand, and secluded coves along the Road to Hana. Oahu has the most iconic beaches (Waikiki, Lanikai, North Shore). The Big Island has the most unique sand colors — black, green, and white within a few hours' drive. Kauai has the most dramatic scenery with Na Pali cliffs as a backdrop. Molokai has the most solitude." },
+    { question: "Are Hawaii beaches safe for swimming?", answer: "Many are, but conditions vary dramatically by beach, season, and time of day. Always check for posted warning signs and talk to lifeguards. Beaches with lifeguards are safest — Waikiki, Kailua, Hapuna, and Poipu are consistently safe for swimming. North Shore beaches are dangerous in winter due to powerful surf and currents. Never turn your back on the ocean, and when in doubt, stay out." },
+    { question: "Do I need to pay for beach access in Hawaii?", answer: "No. All beaches in Hawaii are public by state law — you can never be charged to access the sand or water. However, some beaches charge for parking ($5-10 at state parks, $20-40 at resort beach lots). Street parking is free where available. Some beaches like Tunnels on Kauai now require advance parking permits to manage overcrowding." },
+    { question: "What should I bring to the beach in Hawaii?", answer: "Reef-safe sunscreen (required by Hawaii law — no oxybenzone or octinoxate), water shoes for rocky entries and black sand beaches, a rash guard for sun protection and snorkeling, reef-safe bug spray, plenty of water, and a shade solution (umbrella or pop-up tent). Snorkel gear can be rented cheaply near most popular beaches. Leave valuables locked in your trunk — car break-ins at trailhead parking lots do happen." },
+    { question: "What is the most unique beach in Hawaii?", answer: "Papakolea Green Sand Beach on the Big Island is one of only four green sand beaches on Earth — olivine crystals from a 49,000-year-old cinder cone color the sand. It requires a 5-mile round trip hike across exposed lava fields. For something easier to reach, Punalu'u Black Sand Beach offers jet-black volcanic sand where sea turtles bask on shore — unlike anything on the mainland." },
+  ]} />
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get Our Free Hawaii Beach Guide"
+      description="An island-by-island PDF guide to Hawaii's best beaches — with safety tips, parking info, and the gear you need for each one."
+      bullets={[
+        'All 16 beaches with access details and parking info',
+        'Season-by-season conditions — when to swim, when to watch',
+        'Snorkeling and surf spots rated by skill level',
+        'Packing list and reef-safe sunscreen recommendations',
+      ]}
+      guideTag="pillar-beaches"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="beach-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="beach-crosslinks-heading">Explore More</h3>
+      <div class="beach-crosslinks-grid">
+        <a href="/cuisine/" class="beach-crosslink-card">
+          <span class="beach-crosslink-icon">&#127858;</span>
+          <span class="beach-crosslink-label">Hawaiian Cuisine</span>
+          <span class="beach-crosslink-desc">Poke, plate lunch, shave ice, and the dishes that define the islands</span>
+        </a>
+        <a href="/finer-things/" class="beach-crosslink-card">
+          <span class="beach-crosslink-icon">&#127866;</span>
+          <span class="beach-crosslink-label">The Finer Things</span>
+          <span class="beach-crosslink-desc">Tropical cocktails, luxury resorts, spas, and luaus</span>
+        </a>
+        <a href="/destinations/" class="beach-crosslink-card">
+          <span class="beach-crosslink-icon">&#127965;</span>
+          <span class="beach-crosslink-label">All Destinations</span>
+          <span class="beach-crosslink-desc">Every island we've explored with honest reviews</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO — Tropical ocean teal gradient
+     ================================================================ */
+  .beach-hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .beach-hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .beach-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  }
+
+  .beach-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .beach-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .beach-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .beach-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .beach-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .beach-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .beach-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .beach-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .beach-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: beachBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes beachBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     BEACH INTRO
+     ================================================================ */
+  .beach-intro {
+    padding: var(--space-8) 0 var(--space-4);
+  }
+
+  .beach-intro-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: var(--space-5) var(--space-6);
+    text-align: center;
+  }
+
+  .beach-intro-text {
+    font-size: 1rem;
+    color: var(--color-slate);
+    line-height: 1.7;
+    max-width: 640px;
+    margin: 0 auto var(--space-4);
+  }
+
+  .beach-intro-legend {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  /* ================================================================
+     TAGS
+     ================================================================ */
+  .beach-tag {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 3px 8px;
+    border-radius: 6px;
+    line-height: 1.4;
+  }
+
+  .beach-tag--iconic {
+    background: rgba(212, 168, 83, 0.15);
+    color: #9A7B2E;
+  }
+
+  .beach-tag--hiddengem {
+    background: rgba(106, 27, 154, 0.1);
+    color: #6A1B9A;
+  }
+
+  .beach-tag--snorkeling {
+    background: rgba(8, 145, 178, 0.1);
+    color: #0891b2;
+  }
+
+  .beach-tag--surfing {
+    background: rgba(232, 101, 74, 0.12);
+    color: #E8654A;
+  }
+
+  .beach-tag--familyfriendly {
+    background: rgba(33, 150, 243, 0.1);
+    color: #1565C0;
+  }
+
+  /* ================================================================
+     REGION SECTION
+     ================================================================ */
+  .beach-region {
+    padding: var(--space-6) 0;
+  }
+
+  .beach-region-header {
+    position: relative;
+    border-radius: 20px;
+    padding: var(--space-6) var(--space-6);
+    margin-bottom: var(--space-6);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .beach-region-header-inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  .beach-region-name {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    margin: 0 0 var(--space-1);
+    line-height: 1.1;
+  }
+
+  .beach-region-tagline {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 var(--space-3);
+    max-width: 480px;
+    line-height: 1.5;
+  }
+
+  .beach-region-count {
+    font-size: 0.7rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  .beach-region-ornament {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.08);
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ================================================================
+     BEACH GRID — Card layout
+     ================================================================ */
+  .beach-card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 1024px) {
+    .beach-card-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .beach-card-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .beach-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .beach-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Media placeholder */
+  .beach-card-media {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--space-2);
+    overflow: hidden;
+  }
+
+  .beach-card-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    transition: transform 0.4s ease;
+  }
+
+  .beach-card:hover .beach-card-img {
+    transform: scale(1.06);
+  }
+
+  .beach-card-media .beach-tag {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Card body */
+  .beach-card-body {
+    padding: var(--space-3) var(--space-4) var(--space-4);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .beach-card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-2);
+    margin-bottom: 4px;
+  }
+
+  .beach-card-name {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0;
+    line-height: 1.25;
+  }
+
+  .beach-card-price {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    color: #0891b2;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .beach-card-destination {
+    font-size: 0.72rem;
+    color: #0891b2;
+    font-weight: var(--weight-medium);
+    margin: 0 0 var(--space-2);
+  }
+
+  .beach-card-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.55;
+    margin: 0 0 var(--space-3);
+    flex: 1;
+  }
+
+  .beach-card-cta {
+    font-size: 0.72rem;
+    font-weight: var(--weight-semibold);
+    color: #0891b2;
+    letter-spacing: 0.02em;
+  }
+
+  /* Hover overlay — visible on non-touch hover */
+  .beach-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(26, 35, 50, 0.93);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--space-5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .beach-card:hover .beach-card-overlay {
+    opacity: 1;
+  }
+
+  .beach-card-overlay-desc {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.6;
+    margin: 0 0 var(--space-3);
+  }
+
+  .beach-card-overlay-cta {
+    font-size: 0.75rem;
+    font-weight: var(--weight-semibold);
+    color: #0891b2;
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .beach-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .beach-cta-card {
+    background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .beach-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .beach-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .beach-cta-button {
+    display: inline-block;
+    background: #0891b2;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .beach-cta-button:hover {
+    background: #0e7490;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .beach-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .beach-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .beach-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 640px) {
+    .beach-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .beach-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .beach-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .beach-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .beach-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+  }
+
+  .beach-crosslink-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     RESPONSIVE — Hero & misc
+     ================================================================ */
+  @media (max-width: 640px) {
+    .beach-hero {
+      min-height: 55vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .beach-hero-meta {
+      gap: var(--space-4);
+    }
+
+    .beach-scroll-hint {
+      display: none;
+    }
+
+    .beach-region-header {
+      padding: var(--space-5) var(--space-4);
+    }
+
+    .beach-region-ornament {
+      display: none;
+    }
+  }
+
+  /* Personal intro */
+  .beach-personal {
+    padding-block: var(--space-8);
+  }
+
+  .beach-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid #0891b2;
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .beach-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .beach-personal-quote cite {
+    font-size: var(--text-caption);
+    color: #0891b2;
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+</style>

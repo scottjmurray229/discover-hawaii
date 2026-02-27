@@ -1,0 +1,380 @@
+{
+  "waikiki": {
+    "name": "Waikiki",
+    "region": "Oahu",
+    "highlights": [
+      "Iconic crescent beach with Diamond Head views",
+      "World-class shopping along Kalakaua Avenue",
+      "Legendary surf breaks for beginners and pros",
+      "Vibrant nightlife and dining scene",
+      "Duke Kahanamoku statue and beach culture"
+    ],
+    "bestFor": ["beach", "nightlife", "shopping", "surfing", "dining"],
+    "budget": { "backpacker": 120, "midRange": 280, "luxury": 700 },
+    "transport": "Fly into Honolulu International Airport (HNL), 20 minutes by taxi or TheBus Route 19/20. Waikiki Trolley covers main tourist areas. Most attractions walkable within the district.",
+    "tips": [
+      "Book hotels on the Diamond Head side for quieter beaches",
+      "Free hula shows at Kuhio Beach most evenings",
+      "Rent a surfboard from local shops rather than hotel concierge for better rates",
+      "Visit the International Market Place for upscale shopping with open-air ambiance",
+      "Early morning is best for beach photos with fewer crowds"
+    ]
+  },
+  "north-shore": {
+    "name": "North Shore",
+    "region": "Oahu",
+    "highlights": [
+      "Pipeline and Sunset Beach — world-famous big wave surf spots",
+      "Haleiwa town with art galleries and shave ice",
+      "Sea turtle sightings at Laniakea Beach",
+      "Farm tours and tropical fruit stands",
+      "Shark cage diving adventures"
+    ],
+    "bestFor": ["surfing", "nature", "food", "wildlife", "adventure"],
+    "budget": { "backpacker": 80, "midRange": 200, "luxury": 450 },
+    "transport": "45-minute drive from Waikiki via H-1 and H-2. TheBus Route 52 runs from Honolulu. Limited parking at popular beaches in winter surf season — arrive early.",
+    "tips": [
+      "Winter months (November–February) bring massive swells — watch from the beach if you're not an expert",
+      "Matsumoto Shave Ice is iconic but Giovanni's Shrimp Truck is the must-eat",
+      "Sunset Beach is calmer in summer and great for swimming",
+      "Visit the Dole Plantation on the way up for pineapple treats",
+      "Bring reef-safe sunscreen — it's the law in Hawaii"
+    ]
+  },
+  "pearl-harbor": {
+    "name": "Pearl Harbor",
+    "region": "Oahu",
+    "highlights": [
+      "USS Arizona Memorial over the sunken battleship",
+      "Battleship Missouri where Japan's surrender was signed",
+      "USS Bowfin Submarine Museum",
+      "Pearl Harbor Aviation Museum on Ford Island",
+      "Deeply moving historical experience"
+    ],
+    "bestFor": ["history", "culture", "education", "memorial"],
+    "budget": { "backpacker": 40, "midRange": 100, "luxury": 200 },
+    "transport": "20 minutes west of Waikiki by car. TheBus Routes 20/42 stop nearby. Many tour operators offer round-trip shuttles from Waikiki hotels.",
+    "tips": [
+      "Reserve free USS Arizona Memorial tickets online at recreation.gov well in advance",
+      "No bags, purses, or backpacks allowed — use the on-site storage lockers ($5)",
+      "Arrive by 7 AM to beat the crowds and heat",
+      "Allow at least 4 hours to see everything, a full day for all exhibits",
+      "Wear respectful clothing — this is an active military base and memorial"
+    ]
+  },
+  "diamond-head": {
+    "name": "Diamond Head",
+    "region": "Oahu",
+    "highlights": [
+      "Iconic volcanic crater hike with panoramic views",
+      "360-degree vistas of Waikiki, Honolulu, and the Pacific",
+      "Historic WWII military bunkers at the summit",
+      "One of Hawaii's most photographed landmarks",
+      "Moderate 1.6-mile round trip trail"
+    ],
+    "bestFor": ["hiking", "photography", "landmarks", "fitness"],
+    "budget": { "backpacker": 25, "midRange": 60, "luxury": 150 },
+    "transport": "10-minute drive from Waikiki. TheBus Route 23 stops at the crater entrance. Reservations required for entry — book online at gostateparks.hawaii.gov.",
+    "tips": [
+      "Start early (6:00–6:30 AM) to avoid heat and crowds",
+      "Bring a flashlight for the dark tunnel section near the summit",
+      "Wear proper footwear — the trail has uneven steps and steep sections",
+      "Entry reservations are required and fill up days in advance",
+      "Bring plenty of water — there's no shade on most of the trail"
+    ]
+  },
+  "kailua": {
+    "name": "Kailua",
+    "region": "Oahu",
+    "highlights": [
+      "Kailua Beach — consistently rated among America's best beaches",
+      "Lanikai Pillbox hike with sunrise views",
+      "Kayaking to the Mokulua Islands",
+      "Charming downtown with boutiques and cafes",
+      "Laid-back local community atmosphere"
+    ],
+    "bestFor": ["beach", "kayaking", "hiking", "relaxation", "local culture"],
+    "budget": { "backpacker": 70, "midRange": 180, "luxury": 400 },
+    "transport": "30-minute drive from Waikiki through the Pali Highway tunnel. TheBus Route 56/57. Limited vacation rental options due to local regulations — check current rules.",
+    "tips": [
+      "Lanikai Pillbox hike at sunrise is unforgettable — bring a headlamp",
+      "Rent kayaks from Kailua Beach Adventures to paddle to the Mokes",
+      "Street parking fills up fast on weekends — arrive before 9 AM",
+      "Buzz's Original Steakhouse is a beloved local institution",
+      "Respect the residential neighborhood — noise and parking rules are enforced"
+    ]
+  },
+  "honolulu": {
+    "name": "Honolulu",
+    "region": "Oahu",
+    "highlights": [
+      "Iolani Palace — the only royal palace in the United States",
+      "Bishop Museum for Hawaiian history and culture",
+      "Chinatown arts district with galleries and restaurants",
+      "Ala Moana Center — world's largest open-air mall",
+      "Vibrant food scene from plate lunches to fine dining"
+    ],
+    "bestFor": ["culture", "history", "shopping", "dining", "museums"],
+    "budget": { "backpacker": 90, "midRange": 230, "luxury": 550 },
+    "transport": "Honolulu International Airport (HNL) is the main gateway. Skyline rail connects airport to Ala Moana. TheBus network covers the metro area. Ride-shares widely available.",
+    "tips": [
+      "First Friday Honolulu in Chinatown is a vibrant art walk with food and music",
+      "The Bishop Museum is essential for understanding Hawaiian culture",
+      "Try a plate lunch at Rainbow Drive-In or Helena's Hawaiian Food",
+      "Visit the Honolulu Museum of Art for a world-class collection in a beautiful setting",
+      "Parking downtown is expensive — use TheBus or the new Skyline rail"
+    ]
+  },
+  "lahaina": {
+    "name": "Lahaina",
+    "region": "Maui",
+    "highlights": [
+      "Historic whaling town with Front Street charm",
+      "The famous Banyan Tree — one of the largest in the US",
+      "Prime whale watching from December to April",
+      "Gateway to Maui's west side beaches",
+      "Rich cultural heritage and art galleries"
+    ],
+    "bestFor": ["history", "whale watching", "culture", "dining", "shopping"],
+    "budget": { "backpacker": 100, "midRange": 260, "luxury": 600 },
+    "transport": "Fly into Kahului Airport (OGG), 45-minute drive west on Highway 30. West Maui is being rebuilt after the 2023 wildfire — check current access and business status before visiting.",
+    "tips": [
+      "The community is rebuilding after the August 2023 wildfire — visit respectfully and support local businesses",
+      "Whale season (December–April) offers spectacular humpback sightings from shore",
+      "Book a snorkel trip to Molokini Crater from Lahaina Harbor",
+      "Old Lahaina Luau is widely considered the most authentic luau on Maui",
+      "Check restoration progress and open areas before planning your visit"
+    ]
+  },
+  "haleakala": {
+    "name": "Haleakala",
+    "region": "Maui",
+    "highlights": [
+      "Sunrise above the clouds at 10,023 feet",
+      "Massive volcanic crater with alien-like landscape",
+      "Silversword plants found nowhere else on Earth",
+      "World-class stargazing after sunset",
+      "Downhill biking from summit to sea level"
+    ],
+    "bestFor": ["sunrise", "hiking", "nature", "photography", "adventure"],
+    "budget": { "backpacker": 50, "midRange": 150, "luxury": 350 },
+    "transport": "2-hour drive from Kahului up winding Highway 378. Sunrise viewing requires advance reservations through recreation.gov ($1 per reservation plus $30 park entry per vehicle).",
+    "tips": [
+      "Book sunrise reservations 60 days in advance — they sell out immediately",
+      "Temperatures at the summit can be 30°F colder than sea level — bring warm layers",
+      "The Sliding Sands Trail into the crater is otherworldly but strenuous",
+      "Downhill bike tours are thrilling but research operators carefully for safety records",
+      "Sunset is equally stunning and doesn't require a reservation"
+    ]
+  },
+  "road-to-hana": {
+    "name": "Road to Hana",
+    "region": "Maui",
+    "highlights": [
+      "620 curves and 59 bridges through tropical paradise",
+      "Countless waterfalls and swimming holes",
+      "Black sand beach at Waianapanapa State Park",
+      "Bamboo forest and lush rainforest hikes",
+      "Authentic Hawaiian small-town culture in Hana"
+    ],
+    "bestFor": ["scenic drive", "waterfalls", "nature", "photography", "adventure"],
+    "budget": { "backpacker": 60, "midRange": 180, "luxury": 450 },
+    "transport": "Starts from Kahului heading east on Highway 36/360. Allow a full day. Waianapanapa State Park requires parking reservations. The road beyond Hana (backside) may be unpaved and rental car agreements may not cover it.",
+    "tips": [
+      "Start by 7 AM to beat traffic and have time for stops",
+      "Download an audio tour app — it times narration to your GPS location",
+      "Twin Falls is the first stop and gets very crowded — consider skipping for later falls",
+      "Pack snacks and lunch — food options are limited and expensive along the route",
+      "Pull over at turnouts to let faster traffic pass — it's common courtesy"
+    ]
+  },
+  "wailea": {
+    "name": "Wailea",
+    "region": "Maui",
+    "highlights": [
+      "Five pristine crescent beaches along the coast",
+      "Luxury resorts including Four Seasons and Grand Wailea",
+      "Wailea Beach Path — 1.5-mile oceanfront walk",
+      "Championship golf courses with ocean views",
+      "Whale watching right from the beach in winter"
+    ],
+    "bestFor": ["luxury", "beach", "golf", "relaxation", "romance"],
+    "budget": { "backpacker": 100, "midRange": 350, "luxury": 900 },
+    "transport": "30-minute drive south from Kahului Airport. The Shops at Wailea serve as the area hub. Limited public transit — a rental car is recommended.",
+    "tips": [
+      "All beaches in Hawaii are public — you can access Wailea's beaches even without a resort stay",
+      "Walk the Wailea Beach Path at sunset for spectacular views",
+      "Monkeypod Kitchen and Lineage are excellent dining options at The Shops",
+      "Visit nearby Makena (Big Beach) for a more local, less resort feel",
+      "Morning snorkeling at Ulua Beach often reveals sea turtles"
+    ]
+  },
+  "kona": {
+    "name": "Kona",
+    "region": "Big Island",
+    "highlights": [
+      "World-famous Kona coffee farm tours",
+      "Manta ray night snorkeling and diving",
+      "Historic Kailua Village with oceanfront dining",
+      "Deep-sea fishing capital of Hawaii",
+      "Ironman World Championship host city"
+    ],
+    "bestFor": ["coffee", "snorkeling", "fishing", "dining", "marine life"],
+    "budget": { "backpacker": 90, "midRange": 220, "luxury": 550 },
+    "transport": "Fly into Kona International Airport (KOA) on the Big Island's west coast. Alii Drive is the main strip. A rental car is essential for exploring the Kona Coast.",
+    "tips": [
+      "Book a manta ray night dive/snorkel — it's a bucket-list experience",
+      "Tour a Kona coffee farm along the scenic Coffee Belt on Hualalai's slopes",
+      "Kailua Pier area is great for sunset strolls and casual dining",
+      "Two Step (Honaunau Bay) is one of the best snorkeling spots on the island",
+      "Magic Sands Beach (La'aloa) is a fun body-surfing beach that literally disappears in winter"
+    ]
+  },
+  "hilo": {
+    "name": "Hilo",
+    "region": "Big Island",
+    "highlights": [
+      "Rainbow Falls right in town",
+      "Authentic Hawaiian town with no resort crowds",
+      "Hilo Farmers Market — one of the best in Hawaii",
+      "Gateway to Volcanoes National Park",
+      "Lush, tropical rainforest setting"
+    ],
+    "bestFor": ["nature", "farmers markets", "culture", "waterfalls", "budget"],
+    "budget": { "backpacker": 70, "midRange": 160, "luxury": 350 },
+    "transport": "Fly into Hilo International Airport (ITO) on the Big Island's east coast, or drive 2.5 hours from Kona. Downtown is walkable. A rental car is needed for surrounding attractions.",
+    "tips": [
+      "Hilo is the rainy side of the island — pack a rain jacket but don't let it deter you",
+      "The Hilo Farmers Market is best on Wednesday and Saturday mornings",
+      "Rainbow Falls is a quick, easy stop just minutes from downtown",
+      "Accommodation in Hilo is significantly cheaper than the Kona side",
+      "Visit the Pacific Tsunami Museum to understand Hilo's dramatic history"
+    ]
+  },
+  "volcanoes-national-park": {
+    "name": "Hawaii Volcanoes National Park",
+    "region": "Big Island",
+    "highlights": [
+      "Kilauea — one of the world's most active volcanoes",
+      "Thurston Lava Tube walk-through",
+      "Chain of Craters Road to the coast",
+      "Devastation Trail through volcanic landscapes",
+      "Halemaumau Crater glow at night"
+    ],
+    "bestFor": ["volcano", "hiking", "nature", "photography", "geology"],
+    "budget": { "backpacker": 50, "midRange": 130, "luxury": 300 },
+    "transport": "45-minute drive from Hilo, 2.5 hours from Kona via Saddle Road. $30 per vehicle entry fee valid for 7 days. Volcano House is the only in-park lodge.",
+    "tips": [
+      "Check the NPS website for current eruption status before visiting",
+      "Visit at dusk to see the glow of Halemaumau Crater — it's magical after dark",
+      "The Kilauea Iki trail descends into a crater and crosses a solidified lava lake",
+      "Bring layers — the park sits at 4,000 feet and temperatures are cooler",
+      "Chain of Craters Road ends where lava crossed it — the drive down is spectacular"
+    ]
+  },
+  "mauna-kea": {
+    "name": "Mauna Kea",
+    "region": "Big Island",
+    "highlights": [
+      "Summit observatories at nearly 14,000 feet",
+      "Best stargazing in the Northern Hemisphere",
+      "Free public stargazing program at the Visitor Center",
+      "Sacred mountain in Hawaiian culture",
+      "Sunset above the cloud layer"
+    ],
+    "bestFor": ["stargazing", "astronomy", "photography", "adventure", "sunset"],
+    "budget": { "backpacker": 30, "midRange": 120, "luxury": 300 },
+    "transport": "Access via Saddle Road (Highway 200) between Hilo and Kona. The summit road requires a 4WD vehicle. Guided summit tours are available from both Hilo and Kona.",
+    "tips": [
+      "The Visitor Information Station at 9,200 feet offers free stargazing programs nightly",
+      "Summit access requires 4WD — most rental car companies prohibit driving to the top",
+      "Altitude sickness is real at 13,796 feet — acclimate at the Visitor Station first",
+      "Dress for near-freezing temperatures at the summit, even in summer",
+      "Respect the cultural significance — Mauna Kea is sacred to Native Hawaiians"
+    ]
+  },
+  "na-pali-coast": {
+    "name": "Na Pali Coast",
+    "region": "Kauai",
+    "highlights": [
+      "Towering 4,000-foot sea cliffs draped in green",
+      "Kalalau Trail — one of the world's most dramatic hikes",
+      "Zodiac and catamaran boat tours along the coast",
+      "Helicopter tours for aerial perspectives",
+      "Remote beaches accessible only by sea or trail"
+    ],
+    "bestFor": ["hiking", "scenery", "adventure", "photography", "boat tours"],
+    "budget": { "backpacker": 60, "midRange": 250, "luxury": 600 },
+    "transport": "Access from Kauai's north shore at Ke'e Beach (end of Highway 560). Kalalau Trail permits required through gostateparks.hawaii.gov. Boat tours depart from Port Allen or Hanalei.",
+    "tips": [
+      "Kalalau Trail permits sell out months in advance — plan early",
+      "Boat tours run primarily May–September when north shore waters are calm",
+      "Helicopter tours offer the most comprehensive views of the entire coast",
+      "The first 2 miles to Hanakapi'ai Beach are doable as a day hike without a permit",
+      "Bring proper hiking shoes — the trail is muddy, steep, and narrow in sections"
+    ]
+  },
+  "waimea-canyon": {
+    "name": "Waimea Canyon",
+    "region": "Kauai",
+    "highlights": [
+      "The Grand Canyon of the Pacific — 10 miles long, 3,600 feet deep",
+      "Multiple lookout points along the canyon rim",
+      "Hiking trails from easy rim walks to challenging canyon descents",
+      "Connects to Koke'e State Park and its cloud forest",
+      "Stunning red and green color contrasts"
+    ],
+    "bestFor": ["hiking", "scenery", "photography", "nature", "birdwatching"],
+    "budget": { "backpacker": 40, "midRange": 100, "luxury": 250 },
+    "transport": "Drive up Waimea Canyon Drive (Highway 550) from the town of Waimea on Kauai's west side. About 1 hour from Lihue Airport. No public transit — a rental car is required.",
+    "tips": [
+      "Visit in the morning for the clearest views — clouds often roll in by afternoon",
+      "Drive all the way to the Kalalau Lookout at the top for Na Pali Coast views",
+      "The Cliff Trail and Canyon Trail loop is the best moderate hike in the area",
+      "Stop at the Koke'e Museum and Lodge for information and snacks",
+      "Bring a jacket — temperatures at the rim are significantly cooler than the coast"
+    ]
+  },
+  "poipu": {
+    "name": "Poipu",
+    "region": "Kauai",
+    "highlights": [
+      "Sunny south shore beaches — Kauai's driest coast",
+      "Spouting Horn blowhole natural wonder",
+      "Hawaiian monk seal sightings on the beach",
+      "Excellent snorkeling at Poipu Beach Park",
+      "National Tropical Botanical Garden (Allerton and McBryde)"
+    ],
+    "bestFor": ["beach", "snorkeling", "wildlife", "family", "relaxation"],
+    "budget": { "backpacker": 80, "midRange": 250, "luxury": 600 },
+    "transport": "25-minute drive south from Lihue Airport (LIH). Poipu Road leads to the main beach area. A rental car is recommended for exploring the south shore.",
+    "tips": [
+      "Poipu Beach is one of the best family beaches in Hawaii — gentle waves and lifeguards",
+      "Visit Spouting Horn at high tide for the most dramatic blowhole displays",
+      "The Allerton Garden tour is outstanding — reservations required",
+      "Hawaiian monk seals rest on the beach regularly — maintain 50 feet of distance",
+      "Brennecke's Beach is great for body boarding right next to Poipu Beach"
+    ]
+  },
+  "molokai": {
+    "name": "Molokai",
+    "region": "Molokai",
+    "highlights": [
+      "Hawaii's most Hawaiian island — authentic and uncommercial",
+      "Kalaupapa National Historical Park and its powerful history",
+      "Papohaku Beach — one of Hawaii's longest white sand beaches",
+      "Halawa Valley hike to Moaula Falls",
+      "No traffic lights, no high-rises, no chain restaurants"
+    ],
+    "bestFor": ["culture", "solitude", "history", "nature", "authenticity"],
+    "budget": { "backpacker": 80, "midRange": 180, "luxury": 350 },
+    "transport": "Short flights from Honolulu or Maui to Molokai Airport (MKK). A rental car is essential. Very limited services — bring supplies and book accommodation in advance.",
+    "tips": [
+      "Molokai is intentionally undeveloped — embrace the slow pace and respect the culture",
+      "Kalaupapa tours require advance booking and a guide — no independent visits allowed",
+      "The mule ride down to Kalaupapa is a legendary experience",
+      "Stock up on groceries — options on island are limited and expensive",
+      "Visit Kanemitsu Bakery for famous hot bread served from the back door at night"
+    ]
+  }
+}

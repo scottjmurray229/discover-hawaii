@@ -1,0 +1,903 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'The Finer Things', url: '/finer-things/' },
+];
+
+const pageTitle = 'The Finer Things — Tropical Cocktails, Craft Beer & Island Nightlife Guide';
+const pageDescription = 'Mai Tais, Hawaiian craft beer, tiki cocktails, luau experiences, and the best bars on every island.';
+
+interface TopicSection {
+  id: string;
+  icon: string;
+  title: string;
+  gradient: string;
+  items: { label: string; text: string; link?: string }[];
+}
+
+const topics: TopicSection[] = [
+  {
+    id: 'cocktails',
+    icon: '\u{1F379}',
+    title: 'Tropical Cocktails',
+    gradient: 'linear-gradient(135deg, #0E7490 0%, #06b6d4 100%)',
+    items: [
+      { label: 'Mai Tai', text: 'The quintessential Hawaiian cocktail. Originally invented at Trader Vic\'s in Oakland, the Mai Tai was perfected in Hawaii and became the islands\' signature drink. Rum, fresh lime juice, orgeat syrup, and orange cura\u00e7ao shaken over crushed ice and garnished with a mint sprig. <strong>$12\u201318</strong> at a resort bar, <strong>$8\u201312</strong> at a local spot. The <strong>Royal Hawaiian Hotel</strong> in Waikiki serves a legendary pink Mai Tai made with guava juice \u2014 it\'s been the drink to order on the beach since the 1950s. Every bartender in Hawaii has their own riff, and sampling Mai Tais across islands is a vacation in itself.' },
+      { label: 'Blue Hawaii', text: 'Created by bartender <strong>Harry Yee</strong> at the Hilton Hawaiian Village in Waikiki in 1957. The story goes that a liquor rep asked Yee to create a drink featuring blue cura\u00e7ao, and he delivered a tropical masterpiece that became an icon. Rum, blue cura\u00e7ao, pineapple juice, and sweet and sour mix blended with ice. The electric blue color is ridiculously photogenic against a Hawaiian sunset. <strong>$10\u201315</strong> at most bars. Touristy? Absolutely. Unapologetically fun? Also absolutely.' },
+      { label: 'Lava Flow', text: 'A frozen blend of pi\u00f1a colada (coconut cream, rum, pineapple juice) and strawberry daiquiri (strawberry pur\u00e9e, rum, lime), layered in the glass to look like red lava flowing through white volcanic rock. It\'s a visual spectacle and tastes like a tropical smoothie that happens to contain rum. <strong>$10\u201314</strong> at beachside bars. Touristy but delicious \u2014 the best ones are made with real fruit rather than artificial mixes, so ask before you order. Perfect poolside drink when you don\'t want to think too hard.' },
+      { label: 'POG Mimosa', text: 'Hawaii\'s spin on the classic brunch cocktail. <strong>POG</strong> \u2014 Passion fruit, Orange, Guava \u2014 is the unofficial juice of the islands, found in every grocery store and hotel breakfast buffet. Mix it with champagne or sparkling wine and you\'ve got the best mimosa you\'ll ever drink. Sweet, tangy, tropical, and dangerously easy to put back three of these before your eggs arrive. Most brunch spots in Waikiki and Lahaina serve POG mimosas for <strong>$8\u201312</strong>. Some offer bottomless POG mimosa deals for <strong>$20\u201325</strong> \u2014 Hawaii\'s version of brunch done right.' },
+    ],
+  },
+  {
+    id: 'beer',
+    icon: '\u{1F37A}',
+    title: 'Hawaiian Craft Beer',
+    gradient: 'linear-gradient(135deg, #78350F 0%, #D4A574 100%)',
+    items: [
+      { label: 'Kona Brewing Co.', text: 'Hawaii\'s most recognized brewery, founded in 1994 on the Big Island. <strong>Big Wave Golden Ale</strong> is the flagship \u2014 light, easy-drinking, with a subtle tropical hop character that makes it the perfect beach beer. <strong>Longboard Island Lager</strong> is a smooth, clean lager that pairs well with anything from poke to plate lunch. <strong>$5\u20137</strong> draft at bars and restaurants across all islands. Available everywhere \u2014 from resort restaurants to corner bars to ABC Stores. Visit the <strong>Kona Pub & Brewery</strong> in Kailua-Kona for limited-release brews you can\'t get anywhere else.' },
+      { label: 'Maui Brewing Co.', text: 'The largest craft brewery in the state, brewing everything in-house in Kihei, Maui. <strong>Bikini Blonde Lager</strong> is their best-seller \u2014 crisp and refreshing, a beach day essential. <strong>Coconut Hiwa Porter</strong> is the standout \u2014 a dark, roasty porter brewed with hand-toasted coconut that somehow works perfectly in tropical heat. <strong>$6\u20138</strong> draft. Their <strong>Kihei brewpub</strong> is worth a visit for the full tap list, brewery tours, and great food. Look for limited and seasonal releases in cans at local grocery stores.' },
+      { label: 'Waikiki Brewing Co.', text: 'Small-batch ales brewed right in the heart of Waikiki. Two locations \u2014 the original on Kalakaua Avenue and a larger brewpub in Kakaako. They rotate taps frequently, so there\'s always something new. Try the <strong>Skinny Jeans IPA</strong> \u2014 a West Coast-style IPA with citrus and pine notes that\'s become the fan favorite. Great spot for craft beer enthusiasts who want something beyond the resort bar selection. Not a chain, not a tourist trap \u2014 just good beer brewed locally. <strong>$6\u20139</strong> per pint.' },
+      { label: 'Lanikai Brewing', text: 'Kailua\'s homegrown craft brewery on the windward side of Oahu. Small taproom tucked into an industrial park, big flavors. <strong>Pillbox Pale Ale</strong> is the local favorite \u2014 named after the Lanikai Pillbox Hike, it\'s a hop-forward pale ale that\'s perfect after a morning on the trail. They also brew excellent sours, stouts, and seasonal releases. This is not a tourist spot \u2014 this is where locals drink. Worth the drive from Waikiki for serious craft beer fans. <strong>$6\u20138</strong> per pint in the taproom.' },
+    ],
+  },
+  {
+    id: 'spirits',
+    icon: '\u{1F943}',
+    title: 'Hawaiian Spirits',
+    gradient: 'linear-gradient(135deg, #1A2332 0%, #4A3728 50%, #D4A574 100%)',
+    items: [
+      { label: 'K\u014dloa Rum', text: 'Distilled on Kauai from locally grown sugarcane. K\u014dloa is Hawaii\'s premier rum, and the lineup includes white rum, dark rum, spiced rum, coconut rum, and a gold rum \u2014 all made from sugar grown in the red volcanic soil of the Garden Isle. The <strong>aged dark rum</strong> is excellent for sipping neat. The <strong>coconut rum</strong> is the best you\'ll ever have \u2014 nothing like the artificial stuff on the mainland. <strong>$25\u201335</strong> per bottle at local shops. The <strong>K\u014dloa Rum Company distillery</strong> in Kalaheo offers tours and tastings \u2014 a perfect rainy-day activity on Kauai.' },
+      { label: 'Ocean Vodka', text: 'Made on Maui from organic sugarcane and blended with deep ocean mineral water drawn from 3,000 feet below the Pacific surface. The water comes through a pipeline from the ocean floor, giving it a mineral purity that\'s unique in the spirits world. The result is an exceptionally clean, smooth vodka with a slightly sweet finish. <strong>$30</strong> per bottle. Visit the <strong>Ocean Organic Farm and Distillery</strong> in Kula on the slopes of Haleakala for tours through their organic sugarcane fields. Beautiful setting with panoramic views of Maui\'s central valley. Distillery tours available.' },
+      { label: 'Pau Maui Vodka', text: 'Pineapple-based vodka distilled in Maui from Maui Gold pineapples. The name <strong>Pau</strong> means "finished" or "done" in Hawaiian \u2014 as in pau hana (done with work), the local term for happy hour. Smooth and distinctly Hawaiian with a subtle tropical sweetness that makes it outstanding in cocktails and surprisingly good on the rocks. This is the vodka that local bartenders reach for when making craft cocktails. Bring a bottle home \u2014 it\'s a conversation starter and a souvenir that actually gets used.' },
+    ],
+  },
+  {
+    id: 'nightlife',
+    icon: '\u{1F305}',
+    title: 'Island Nightlife & Experiences',
+    gradient: 'linear-gradient(135deg, #4C1D95 0%, #E8654A 100%)',
+    items: [
+      { label: 'Luau', text: 'The ultimate Hawaiian night out and a bucket-list experience. A traditional <strong>luau</strong> features kalua pork slow-roasted in an underground imu oven, poi, lomi-lomi salmon, haupia coconut pudding, hula dancing, live Hawaiian music, and fire knife performances. <strong>$100\u2013200</strong> per person including dinner and drinks. The <strong>Old Lahaina Luau</strong> on Maui is widely considered the most authentic \u2014 oceanfront setting, traditional focus, and excellent food. On Oahu, <strong>Paradise Cove Luau</strong> in Ko Olina offers a big production with a gorgeous sunset backdrop. Book at least a week ahead during peak season.' },
+      { label: 'Waikiki Strip', text: 'The epicenter of Oahu\'s nightlife. <strong>Kalakaua Avenue</strong> and the surrounding streets are packed with bars, lounges, and live music. <strong>Duke\'s Waikiki</strong> is the iconic beachside bar \u2014 live Hawaiian music, sunset cocktails, and a view that never gets old. <strong>Skull & Crown Trading Co.</strong> is the late-night spot with craft cocktails and a speakeasy vibe. The strip gets lively after 9pm and runs until 2am. The dress code is flip-flops and aloha shirts \u2014 nobody\'s checking at the door. Bars close at 2am by law, so last call comes around 1:30am.' },
+      { label: 'Sunset Cruise', text: 'One of the most memorable ways to spend an evening in Hawaii. Cocktail cruises along the coast during golden hour offer open bars, appetizers, and views of the shoreline you simply cannot get from land. <strong>$80\u2013150</strong> per person including drinks. On Oahu, boats depart from Waikiki and the Ala Wai Harbor. On Maui, cruises along the West Maui coast with views of Molokai are stunning. Many include live music and dancing. Book the later departure for the best sunset timing \u2014 the sky turns pink and orange for a solid 30 minutes.' },
+      { label: 'Local Hangouts Beyond Waikiki', text: 'For a night out like a local, skip the tourist strip. On Oahu, <strong>Chinatown</strong> in downtown Honolulu has the best cocktail bars \u2014 <strong>Bar Leather Apron</strong> is a James Beard-nominated cocktail bar, and <strong>Tchin Tchin</strong> is a lively wine bar. <strong>Kakaako</strong> has brewery taprooms and hip restaurants. On Maui, Front Street in Lahaina has waterfront bars. On the Big Island, <strong>Kailua-Kona</strong>\'s Ali\'i Drive has laid-back beach bars. The local scene is low-key \u2014 don\'t expect Vegas. Expect good drinks, warm people, and live music under the stars.' },
+    ],
+  },
+  {
+    id: 'tips',
+    icon: '\u{1F4A1}',
+    title: 'Practical Tips',
+    gradient: 'linear-gradient(135deg, #0891b2 0%, #06b6d4 100%)',
+    items: [
+      { label: 'Alcohol Laws', text: 'The legal drinking age in Hawaii is <strong>21</strong>, same as the rest of the United States. No open containers on beaches \u2014 technically. Police do enforce this in busy tourist areas like Waikiki Beach, but at quieter beaches many people enjoy drinks discreetly in koozies or opaque cups without issue. <strong>Glass bottles are banned on all beaches statewide.</strong> Use cans or plastic cups. Bars close at 2am by law. DUI enforcement is strict \u2014 use Uber, Lyft, or a designated driver.' },
+      { label: 'Happy Hour', text: 'Hawaii has an excellent happy hour culture. Most bars and restaurants run happy hour from <strong>3\u20136pm</strong>, with some starting as early as 2pm. Expect <strong>$2\u20134 off</strong> cocktails, $1\u20132 off draft beers, and discounted appetizers. Some of the best deals: <strong>Monkeypod Kitchen</strong> (multiple locations) has half-price pizza and $6 Mai Tais. <strong>Duke\'s Waikiki</strong> has a solid pau hana menu. Happy hour is the local way to start the evening \u2014 <strong>pau hana</strong> (after work) drinks are a Hawaiian institution.' },
+      { label: 'ABC Stores', text: 'Hawaii\'s ubiquitous convenience stores \u2014 over 70 locations, mostly in tourist areas. They sell <strong>beer, wine, and spirits</strong> at reasonable prices. A six-pack of <strong>Kona Big Wave</strong> runs about <strong>$10</strong>. They also carry pre-mixed cocktails in cans, wine, and basic spirits. ABC Stores are your best friend for stocking your hotel mini-fridge without paying resort markup. Prices are higher than a mainland liquor store but far cheaper than any hotel bar or poolside service.' },
+      { label: 'Best Value', text: 'The smartest move for budget-conscious drinkers: grab a <strong>six-pack of Kona Big Wave</strong> at an ABC Store for <strong>$10</strong> and enjoy them on your hotel lanai at sunset. That\'s the same price as one resort cocktail. For dining out, hit happy hour aggressively \u2014 <strong>$5\u20138 cocktails</strong> and half-price appetizers make even resort restaurants affordable. If you\'re splurging on one cocktail experience, make it a Mai Tai at the <strong>Royal Hawaiian</strong> \u2014 $18 is steep, but the setting is once-in-a-lifetime.' },
+    ],
+  },
+];
+
+const faqItems = [
+  {
+    question: 'What is the drinking age in Hawaii?',
+    answer: 'The legal drinking age in Hawaii is 21, the same as everywhere in the United States. Bars, restaurants, and stores will ask for valid photo ID if you look under 30. Foreign passports and driver\'s licenses are accepted. There are no exceptions for tourists from countries with lower drinking ages.',
+  },
+  {
+    question: 'Can you drink on the beach in Hawaii?',
+    answer: 'Technically, no. Open containers of alcohol are prohibited on all public beaches and parks in Hawaii. Police do enforce this in busy tourist areas like Waikiki Beach. However, at quieter beaches many people enjoy drinks discreetly in koozies or opaque cups without issue. Glass bottles are banned on all beaches statewide regardless \u2014 use cans or plastic cups.',
+  },
+  {
+    question: 'What is the best Mai Tai in Hawaii?',
+    answer: 'The Royal Hawaiian Hotel in Waikiki is legendary for its pink Mai Tai made with guava juice \u2014 it is the most iconic Mai Tai in the islands. For a more traditional version, the Mai Tai Bar at the Royal Hawaiian Center is excellent. On Maui, Monkeypod Kitchen makes an outstanding version with hand-shaken lilikoi foam. Every bartender in Hawaii has their own riff, and honestly there are no wrong answers.',
+  },
+  {
+    question: 'Are luaus worth the money?',
+    answer: 'Yes, if you choose the right one. A quality luau like the Old Lahaina Luau on Maui or Paradise Cove on Oahu is a genuinely memorable cultural experience with traditional food, music, hula, and fire dancing. Budget $100\u2013200 per person. Avoid the cheapest options, which tend to feel like tourist traps with mediocre buffet food. Book ahead, request oceanfront seating, and go in with the right expectations \u2014 it is a celebration, not a Michelin-star dinner.',
+  },
+  {
+    question: 'What Hawaiian beers should I try?',
+    answer: 'Start with Kona Brewing Co. Big Wave Golden Ale \u2014 it is the quintessential Hawaii beer, light and crushable on a hot day. Maui Brewing Co. Coconut Hiwa Porter is a must-try if you like dark beers. Kona Longboard Island Lager is smooth and crowd-pleasing. For craft beer fans, seek out Waikiki Brewing Co. for their Skinny Jeans IPA or make the drive to Lanikai Brewing in Kailua for the Pillbox Pale Ale. All are brewed in Hawaii and taste best enjoyed on the islands.',
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="ft-hero">
+    <div class="ft-hero-gradient"></div>
+    <div class="ft-hero-noise"></div>
+    <div class="ft-hero-content">
+      <h1 class="ft-hero-title">The Finer Things</h1>
+      <p class="ft-hero-subtitle">Tropical cocktails from Mai Tais to Blue Hawaiis, island-brewed craft beer, locally distilled rum and vodka, luau feasts, and the best bars and nightlife on every Hawaiian island.</p>
+      <div class="ft-hero-meta">
+        <div class="ft-hero-meta-item">
+          <span class="ft-hero-meta-label">Topics</span>
+          <span class="ft-hero-meta-value">5</span>
+        </div>
+        <div class="ft-hero-meta-item">
+          <span class="ft-hero-meta-label">Cocktails & Beers</span>
+          <span class="ft-hero-meta-value">8+</span>
+        </div>
+        <div class="ft-hero-meta-item">
+          <span class="ft-hero-meta-label">Island Experiences</span>
+          <span class="ft-hero-meta-value">10+</span>
+        </div>
+      </div>
+    </div>
+    <div class="ft-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="ft-personal ft-reveal">
+    <div class="container-content">
+      <blockquote class="ft-personal-quote">
+        <p>Hawaii taught me that the best drink is the one with a sunset behind it. I've had Mai Tais at resort bars that cost $18 and Mai Tais at beach shacks that cost $8, and honestly the $8 ones with sand between my toes hit different. The craft beer scene here surprised me — Kona Brewing and Maui Brewing make world-class beer, and the smaller breweries like Lanikai and Waikiki Brewing are putting out stuff that rivals anything on the mainland. The local spirits are legit too — K&#333;loa Rum from Kauai and Ocean Vodka from Maui are made from sugarcane grown in volcanic soil, and you can taste the islands in every sip. But the real magic of Hawaiian drinking culture is the pau hana tradition — that after-work ritual of gathering with friends, ordering the first round, and watching the sky turn pink over the Pacific. No rush, no pretension, just good company and cold drinks in warm air.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Quick Facts Strip -->
+  <section class="ft-quickfacts ft-reveal">
+    <div class="container-content">
+      <div class="ft-quickfacts-bar">
+        <div class="ft-quickfact">
+          <span class="ft-quickfact-label">Beer at a Bar</span>
+          <span class="ft-quickfact-value">$5–8</span>
+        </div>
+        <div class="ft-quickfact-divider"></div>
+        <div class="ft-quickfact">
+          <span class="ft-quickfact-label">Craft Cocktail</span>
+          <span class="ft-quickfact-value">$12–18</span>
+        </div>
+        <div class="ft-quickfact-divider"></div>
+        <div class="ft-quickfact">
+          <span class="ft-quickfact-label">Luau with Drinks</span>
+          <span class="ft-quickfact-value">$100–200</span>
+        </div>
+        <div class="ft-quickfact-divider"></div>
+        <div class="ft-quickfact">
+          <span class="ft-quickfact-label">Happy Hour Drink</span>
+          <span class="ft-quickfact-value">$5–8</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Nav -->
+  <section class="ft-quicknav ft-reveal">
+    <div class="container-content">
+      <div class="ft-quicknav-grid">
+        {topics.map((t) => (
+          <a href={`#${t.id}`} class="ft-quicknav-chip">
+            <span class="ft-quicknav-icon">{t.icon}</span>
+            <span class="ft-quicknav-label">{t.title.split(' ').slice(0, 2).join(' ')}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Topic Sections -->
+  {topics.map((topic) => (
+    <section class="ft-topic ft-reveal" id={topic.id}>
+      <div class="container-content">
+        <div class="ft-topic-header" style={`background: ${topic.gradient};`}>
+          <div class="ft-topic-header-inner">
+            <span class="ft-topic-icon">{topic.icon}</span>
+            <h2 class="ft-topic-title">{topic.title}</h2>
+            <span class="ft-topic-count">{topic.items.length} tips</span>
+          </div>
+        </div>
+
+        <div class="ft-tip-grid">
+          {topic.items.map((item) => (
+            <div class="ft-tip-card">
+              <h3 class="ft-tip-label">{item.label}</h3>
+              <p class="ft-tip-text" set:html={item.text} />
+              {item.link && (
+                <a href={item.link} class="ft-tip-link">Explore {item.label.split(':')[0]} &rarr;</a>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Scott's Pro Tips -->
+  <section class="ft-protips ft-reveal">
+    <div class="container-content">
+      <div class="ft-protips-card">
+        <h2 class="ft-protips-heading">Scott's Pro Tips</h2>
+        <div class="scott-tips">
+          <ul>
+            <li><strong>Pau Hana is Sacred:</strong> The Hawaiian happy hour tradition — pau hana literally means "finished work." Most bars and restaurants run specials from 3–6pm. This is when locals drink, prices are best, and the sunset timing is perfect. Build your evening around pau hana and you'll save serious money while having the most authentic experience.</li>
+            <li><strong>Skip the Resort Bar:</strong> That Mai Tai at the hotel pool bar costs $18. Walk 10 minutes off the resort strip and you'll find the same drink (often better) for $8–12. In Waikiki, head to the side streets off Kalakaua. On Maui, the local spots in Kihei and Paia are half the price of Wailea resorts.</li>
+            <li><strong>ABC Store Strategy:</strong> ABC Stores are everywhere in tourist areas and they sell beer, wine, and spirits. A six-pack of Kona Big Wave runs about $10 — the same price as one draft at a resort. Stock your hotel mini-fridge and enjoy sunset drinks on your lanai. It's the best-value drinking experience in Hawaii.</li>
+            <li><strong>Luau Booking:</strong> Book your luau at least a week in advance during peak season (December–March and June–August). The good ones sell out. Request oceanfront or front-row seating — the experience is significantly better. Old Lahaina Luau on Maui and Paradise Cove on Oahu are consistently the best-reviewed. Skip the cheapest options — you get what you pay for.</li>
+            <li><strong>Uber Over Driving:</strong> Hawaii takes DUI extremely seriously — penalties are steep and checkpoints are common, especially on weekends. Uber and Lyft work well on Oahu and Maui. On the Big Island and Kauai, ride-share availability is spottier, so plan ahead. Many resorts offer shuttle services to nearby dining areas.</li>
+            <li><strong>Bring Bottles Home:</strong> K&#333;loa Rum, Ocean Vodka, and Pau Maui Vodka all make excellent souvenirs. Buy at local liquor stores or distillery gift shops rather than the airport — better selection and lower prices. Pack bottles in the center of your checked bag wrapped in clothes. TSA allows alcohol in checked luggage up to 5 liters per person for spirits under 140 proof.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <div class="container-content ft-reveal">
+    <FAQ items={faqItems} />
+  </div>
+
+  <!-- Bottom CTA -->
+  <section class="ft-cta-section ft-reveal">
+    <div class="container-content">
+      <div class="ft-cta-card">
+        <h2 class="ft-cta-heading">Plan Your Night Out</h2>
+        <p class="ft-cta-text">Tell our AI planner your dates and interests — it'll build a custom itinerary with the best bars, luaus, and island experiences.</p>
+        <a href="/plan/" class="ft-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Email Capture -->
+  <div class="container-content ft-reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get Our Free Hawaii Drinks & Nightlife Guide"
+      description="Cocktails, craft beer, spirits, and nightlife across the Hawaiian Islands — packed into one PDF."
+      bullets={[
+        'Best bars and cocktail spots on Oahu, Maui, Kauai, and the Big Island',
+        'Complete guide to Hawaiian craft beer and local spirits',
+        'Luau comparison — which ones are worth the money',
+        'Happy hour deals and pau hana culture tips',
+      ]}
+      guideTag="pillar-finer-things"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="ft-crosslinks ft-reveal">
+    <div class="container-content">
+      <h3 class="ft-crosslinks-heading">Explore More</h3>
+      <div class="ft-crosslinks-grid">
+        <a href="/cuisine/" class="ft-crosslink-card">
+          <span class="ft-crosslink-icon">&#127860;</span>
+          <span class="ft-crosslink-label">Food & Cuisine</span>
+          <span class="ft-crosslink-desc">Poke, plate lunch, shave ice, and local favorites island by island</span>
+        </a>
+        <a href="/festivals/" class="ft-crosslink-card">
+          <span class="ft-crosslink-icon">&#127914;</span>
+          <span class="ft-crosslink-label">Festival Calendar</span>
+          <span class="ft-crosslink-desc">Cultural celebrations and events across the islands, month by month</span>
+        </a>
+        <a href="/destinations/" class="ft-crosslink-card">
+          <span class="ft-crosslink-icon">&#127965;</span>
+          <span class="ft-crosslink-label">All Destinations</span>
+          <span class="ft-crosslink-desc">Every destination we've explored with honest reviews</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer (uses ft-reveal/ft-visible to avoid Tailwind .visible conflict) -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const ftRevealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('ft-visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.ft-reveal').forEach((el) => ftRevealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.ft-reveal').forEach((el) => el.classList.add('ft-visible'));
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO — Tropical teal/ocean gradient
+     ================================================================ */
+  .ft-hero {
+    position: relative;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .ft-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(135deg, #1A2332 0%, #0E7490 40%, #06b6d4 100%);
+  }
+
+  .ft-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .ft-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .ft-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .ft-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .ft-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .ft-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .ft-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .ft-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .ft-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: ftBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes ftBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     PERSONAL INTRO
+     ================================================================ */
+  .ft-personal {
+    padding-block: var(--space-8);
+  }
+
+  .ft-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid #0891b2;
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .ft-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .ft-personal-quote cite {
+    font-size: var(--text-caption);
+    color: #0891b2;
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+
+  /* ================================================================
+     QUICK FACTS STRIP
+     ================================================================ */
+  .ft-quickfacts {
+    padding: 0 0 var(--space-4);
+  }
+
+  .ft-quickfacts-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-5);
+    background: var(--color-sky);
+    border-radius: 16px;
+    padding: var(--space-4) var(--space-6);
+    flex-wrap: wrap;
+  }
+
+  .ft-quickfact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    text-align: center;
+  }
+
+  .ft-quickfact-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-slate);
+  }
+
+  .ft-quickfact-value {
+    font-size: 1.05rem;
+    font-weight: var(--weight-extrabold);
+    color: var(--color-deep-night);
+  }
+
+  .ft-quickfact-divider {
+    width: 1px;
+    height: 28px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  /* ================================================================
+     QUICK NAV — Jump-to chips
+     ================================================================ */
+  .ft-quicknav {
+    padding: 0 0 var(--space-6);
+  }
+
+  .ft-quicknav-grid {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .ft-quicknav-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    font-size: 0.8rem;
+    font-weight: var(--weight-medium);
+    color: #4A5568;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+
+  .ft-quicknav-chip:hover {
+    background: #F0FDFA;
+    color: #0891b2;
+    transform: translateY(-2px);
+  }
+
+  .ft-quicknav-icon {
+    font-size: 1rem;
+  }
+
+  .ft-quicknav-label {
+    white-space: nowrap;
+  }
+
+  /* ================================================================
+     TOPIC SECTION
+     ================================================================ */
+  .ft-topic {
+    padding: var(--space-4) 0 var(--space-6);
+    scroll-margin-top: 80px;
+  }
+
+  .ft-topic-header {
+    position: relative;
+    border-radius: 20px;
+    padding: var(--space-5) var(--space-6);
+    margin-bottom: var(--space-5);
+    overflow: hidden;
+  }
+
+  .ft-topic-header-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .ft-topic-icon {
+    font-size: 1.6rem;
+  }
+
+  .ft-topic-title {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    margin: 0;
+    line-height: 1.2;
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .ft-topic-count {
+    font-size: 0.7rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  /* ================================================================
+     TIP CARDS
+     ================================================================ */
+  .ft-tip-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (max-width: 768px) {
+    .ft-tip-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .ft-tip-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    padding: var(--space-5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .ft-tip-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .ft-tip-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0 0 var(--space-2);
+    line-height: 1.3;
+  }
+
+  .ft-tip-text {
+    font-size: 0.85rem;
+    color: var(--color-slate);
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  .ft-tip-text :global(a) {
+    color: #0891b2;
+    font-weight: var(--weight-semibold);
+    text-decoration: underline;
+    text-decoration-color: rgba(8, 145, 178, 0.3);
+    text-underline-offset: 2px;
+    transition: text-decoration-color 0.2s ease;
+  }
+
+  .ft-tip-text :global(a:hover) {
+    text-decoration-color: #0891b2;
+  }
+
+  .ft-tip-link {
+    display: inline-block;
+    margin-top: var(--space-3);
+    font-size: 0.8rem;
+    font-weight: var(--weight-semibold);
+    color: #0891b2;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .ft-tip-link:hover {
+    color: #06b6d4;
+  }
+
+  /* ================================================================
+     SCOTT'S PRO TIPS
+     ================================================================ */
+  .ft-protips {
+    padding: var(--space-4) 0 var(--space-6);
+  }
+
+  .ft-protips-card {
+    background: linear-gradient(135deg, #1A2332 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-6) var(--space-6);
+  }
+
+  .ft-protips-heading {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-weight: var(--weight-bold);
+    color: #06b6d4;
+    margin: 0 0 var(--space-4);
+  }
+
+  .ft-protips-card .scott-tips {
+    background: transparent;
+    border-left: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ft-protips-card .scott-tips ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: var(--space-3);
+  }
+
+  .ft-protips-card .scott-tips li {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.65;
+    padding-left: var(--space-4);
+    position: relative;
+  }
+
+  .ft-protips-card .scott-tips li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #06b6d4;
+  }
+
+  .ft-protips-card .scott-tips :global(strong) {
+    color: #06b6d4;
+    font-weight: var(--weight-semibold);
+  }
+
+  .ft-protips-card .scott-tips :global(a) {
+    color: #22d3ee;
+    font-weight: var(--weight-semibold);
+    text-decoration: underline;
+    text-decoration-color: rgba(34, 211, 238, 0.4);
+    text-underline-offset: 2px;
+    transition: text-decoration-color 0.2s ease;
+  }
+
+  .ft-protips-card .scott-tips :global(a:hover) {
+    text-decoration-color: #22d3ee;
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .ft-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .ft-cta-card {
+    background: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .ft-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .ft-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .ft-cta-button {
+    display: inline-block;
+    background: var(--color-deep-night);
+    color: #06b6d4;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .ft-cta-button:hover {
+    background: #0D1117;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .ft-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .ft-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .ft-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 640px) {
+    .ft-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .ft-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .ft-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .ft-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .ft-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: #1A2332;
+  }
+
+  .ft-crosslink-desc {
+    font-size: 0.78rem;
+    color: #4A5568;
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     SCROLL REVEAL (page-specific, avoids Tailwind .visible conflict)
+     ================================================================ */
+  .ft-reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+                transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .ft-reveal.ft-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @keyframes ftRevealFallback {
+    to { opacity: 1; transform: none; }
+  }
+
+  .ft-reveal {
+    animation: ftRevealFallback 0s 3s forwards;
+  }
+
+  /* ================================================================
+     RESPONSIVE
+     ================================================================ */
+  @media (max-width: 640px) {
+    .ft-hero {
+      min-height: 50vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .ft-hero-meta {
+      gap: var(--space-4);
+    }
+
+    .ft-scroll-hint {
+      display: none;
+    }
+
+    .ft-topic-header {
+      padding: var(--space-4) var(--space-4);
+    }
+
+    .ft-quickfacts-bar {
+      gap: var(--space-3);
+      padding: var(--space-3) var(--space-4);
+    }
+
+    .ft-quickfact-divider {
+      display: none;
+    }
+
+    .ft-quickfact {
+      min-width: 80px;
+    }
+
+    .ft-personal-quote {
+      padding: var(--space-4) var(--space-5);
+    }
+
+    .ft-protips-card {
+      padding: var(--space-5) var(--space-4);
+    }
+  }
+</style>

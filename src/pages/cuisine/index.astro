@@ -1,0 +1,924 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Hawaiian Cuisine Guide', url: '/cuisine/' },
+];
+
+const pageTitle = 'Hawaiian Cuisine Guide — Eat Your Way Across the Islands';
+const pageDescription = 'An island-by-island menu of the dishes that define Hawaiian food culture — from poke and plate lunch to loco moco and malasadas. Find where to eat the real thing.';
+
+interface Dish {
+  name: string;
+  image?: string;
+  destination: string;
+  slug: string;
+  price: string;
+  description: string;
+  tag?: string;
+}
+
+interface MenuSection {
+  region: string;
+  tagline: string;
+  gradient: string;
+  dishes: Dish[];
+}
+
+const menu: MenuSection[] = [
+  {
+    region: 'Oahu',
+    tagline: 'Plate lunch counters, poke shops, shrimp trucks, and the heart of Hawaiian food culture',
+    gradient: 'linear-gradient(135deg, #0891b2 0%, #06b6d4 100%)',
+    dishes: [
+      {
+        name: 'Poke',
+        destination: 'Oahu',
+        slug: 'oahu',
+        price: '$14–18/lb (counter) · $18–25 (bowl)',
+        description: 'Cubed raw ahi tuna seasoned with soy sauce, sesame oil, and limu seaweed. Hawaiian poke predates European contact — it\'s the islands\' original seafood dish. Grocery store counters like Foodland and Ono Seafood in Honolulu serve the best versions.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Plate Lunch',
+        destination: 'Oahu',
+        slug: 'oahu',
+        price: '$10–14',
+        description: 'Two scoops rice, one scoop mac salad, and a protein — kalua pork, chicken katsu, or teriyaki beef. The backbone of everyday Hawaiian eating since the plantation era. Rainbow Drive-In in Honolulu has served them since 1961.',
+        tag: 'Must-Try',
+      },
+      {
+        name: 'Spam Musubi',
+        destination: 'Oahu',
+        slug: 'oahu',
+        price: '$2–3',
+        description: 'Grilled spam on a block of rice wrapped in nori — Hawaii\'s ultimate grab-and-go snack. Available at every convenience store, gas station, and ABC Store across the islands. Hawaii consumes more spam per capita than any other state.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Garlic Shrimp',
+        destination: 'North Shore, Oahu',
+        slug: 'oahu',
+        price: '$14–16',
+        description: 'A dozen shrimp swimming in garlic butter with rice, served from the famous North Shore shrimp trucks along the Kamehameha Highway. Giovanni\'s has the longest line and the most aggressive garlic flavor.',
+        tag: 'Must-Try',
+      },
+      {
+        name: 'Malasadas',
+        destination: 'Oahu',
+        slug: 'oahu',
+        price: '$1.65–2.15',
+        description: 'Portuguese-style fried dough balls rolled in sugar — brought to Hawaii by plantation workers in the 1800s. Leonard\'s Bakery in Honolulu has made them since 1952. The haupia-filled version is perfection.',
+        tag: 'Heritage',
+      },
+    ],
+  },
+  {
+    region: 'Maui & Kauai',
+    tagline: 'Fresh-caught poke, shave ice institutions, saimin shops, and farm-to-table island flavors',
+    gradient: 'linear-gradient(135deg, #065f46 0%, #059669 100%)',
+    dishes: [
+      {
+        name: 'Shave Ice',
+        destination: 'Maui',
+        slug: 'maui',
+        price: '$5–8',
+        description: 'Ultra-fine shaved ice (not crushed) topped with tropical syrups — lilikoi, guava, coconut, mango — with optional ice cream or azuki beans at the bottom. Ululani\'s on Maui and Matsumoto\'s on Oahu\'s North Shore are legendary.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Kalua Pork',
+        destination: 'Maui',
+        slug: 'maui',
+        price: '$10–14',
+        description: 'Slow-cooked in an underground imu oven lined with banana leaves and hot stones. The result is tender, smoky shredded pork unlike any other barbecue style. Best experienced at an authentic luau where you see the imu uncovering ceremony.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Laulau',
+        destination: 'Maui',
+        slug: 'maui',
+        price: '$12–16',
+        description: 'Pork and fish wrapped in taro leaves and steamed in ti leaves for hours until meltingly tender. The taro leaves absorb the pork fat and become silky and rich. This is traditional Hawaiian food at its most fundamental.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Saimin',
+        destination: 'Kauai',
+        slug: 'kauai',
+        price: '$8–12',
+        description: 'Hawaii\'s own noodle soup — thin wheat noodles in a dashi broth topped with spam, green onions, and kamaboko fish cake. A plantation-era dish blending Japanese, Chinese, and Filipino influences. Hamura Saimin on Kauai is the standard.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Poi',
+        destination: 'Kauai',
+        slug: 'kauai',
+        price: '$4–6',
+        description: 'Taro root pounded into a smooth, starchy paste — the most sacred and traditional Hawaiian food. Fresh poi is mildly sweet; aged poi develops a tangy fermented flavor. Best enjoyed alongside kalua pork and laulau at a Hawaiian food restaurant.',
+        tag: 'Heritage',
+      },
+    ],
+  },
+  {
+    region: 'Big Island & Beyond',
+    tagline: 'Loco moco birthplace, Kona coffee country, luau feasts, and tropical flavors from every shore',
+    gradient: 'linear-gradient(135deg, #1A2332 0%, #0891b2 50%, #D4A574 100%)',
+    dishes: [
+      {
+        name: 'Loco Moco',
+        destination: 'Big Island (Hilo)',
+        slug: 'big-island',
+        price: '$5–12',
+        description: 'White rice topped with a hamburger patty, a fried egg, and brown gravy — invented in Hilo in 1949. Cafe 100 in Hilo is the most famous spot with over 30 variations. Simple, heavy, and deeply satisfying.',
+        tag: 'Legendary',
+      },
+      {
+        name: 'Kona Coffee',
+        destination: 'Big Island (Kona)',
+        slug: 'big-island',
+        price: '$4–6 (cup) · $25–45 (lb bag)',
+        description: 'Grown on the slopes of Hualalai and Mauna Loa, Kona coffee is one of the most prized single-origin coffees in the world. The volcanic soil and microclimate produce a smooth, low-acid brew. Many farms offer free tours and tastings.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Haupia',
+        destination: 'Big Island',
+        slug: 'big-island',
+        price: '$3–6',
+        description: 'Coconut pudding made from coconut milk and sugar, cut into squares and served as dessert. Simple, creamy, and refreshing after a heavy plate lunch. Also found as haupia pie at Ted\'s Bakery on Oahu\'s North Shore.',
+        tag: 'Heritage',
+      },
+      {
+        name: 'Manapua',
+        destination: 'Oahu (Chinatown)',
+        slug: 'oahu',
+        price: '$2–3',
+        description: 'Hawaii\'s version of Chinese char siu bao — steamed or baked buns filled with sweet barbecue pork. Royal Kitchen in Honolulu\'s Chinatown has made them since 1975. Soft, fluffy, and irresistible.',
+        tag: 'Must-Try',
+      },
+      {
+        name: 'Acai Bowl',
+        destination: 'All Islands',
+        slug: 'oahu',
+        price: '$12–16',
+        description: 'Blended frozen acai topped with granola, banana, honey, and tropical fruits. Not traditionally Hawaiian, but deeply embedded in modern island food culture. Banan in Waikiki uses local bananas for a more affordable, authentic version.',
+        tag: 'Fresh Catch',
+      },
+    ],
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="menu-hero">
+    <video class="menu-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/videos/pillar/cuisine-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="menu-hero-gradient"></div>
+    <div class="menu-hero-noise"></div>
+    <div class="menu-hero-content">
+      <h1 class="menu-hero-title">The Hawaii Menu</h1>
+      <p class="menu-hero-subtitle">From Oahu plate lunch counters to Big Island loco moco, North Shore shrimp trucks to Maui shave ice — eat your way across the islands and discover the dishes that define each destination.</p>
+      <div class="menu-hero-meta">
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Dishes</span>
+          <span class="menu-hero-meta-value">15</span>
+        </div>
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Regions</span>
+          <span class="menu-hero-meta-value">3</span>
+        </div>
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Islands</span>
+          <span class="menu-hero-meta-value">4</span>
+        </div>
+      </div>
+    </div>
+    <div class="menu-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="menu-personal reveal">
+    <div class="container-content">
+      <blockquote class="menu-personal-quote">
+        <p>Hawaiian food is one of the most underrated culinary traditions in the world. It's not just luau pig and pineapple — it's a deep, multicultural fusion shaped by Native Hawaiian, Japanese, Chinese, Filipino, Portuguese, and Korean influences over centuries. A plate lunch from a roadside counter is as satisfying as any Michelin meal I've had. The poke alone is worth the flight. Every trip, the food is half the reason I go.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Menu Intro -->
+  <section class="menu-intro reveal">
+    <div class="container-content">
+      <div class="menu-intro-card">
+        <p class="menu-intro-text">Think of this as your tasting menu for Hawaii. We've organized the islands' essential dishes by region — <strong>Oahu</strong>, <strong>Maui & Kauai</strong>, and <strong>Big Island</strong>. Click any dish to explore the destination where it's famous.</p>
+        <div class="menu-intro-legend">
+          <span class="menu-tag menu-tag--heritage">Heritage</span>
+          <span class="menu-tag menu-tag--musttry">Must-Try</span>
+          <span class="menu-tag menu-tag--iconic">Iconic</span>
+          <span class="menu-tag menu-tag--freshcatch">Fresh Catch</span>
+          <span class="menu-tag menu-tag--legendary">Legendary</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Sections by Region -->
+  {menu.map((section) => (
+    <section class="menu-region reveal">
+      <div class="container-content">
+        <div class="menu-region-header" style={`background: ${section.gradient};`}>
+          <div class="menu-region-header-inner">
+            <h2 class="menu-region-name">{section.region}</h2>
+            <p class="menu-region-tagline">{section.tagline}</p>
+            <span class="menu-region-count">{section.dishes.length} dishes</span>
+          </div>
+          <div class="menu-region-ornament">&#9733;</div>
+        </div>
+
+        <div class="menu-dish-grid">
+          {section.dishes.map((dish) => (
+            <a href={`/destinations/${dish.slug}/`} class="menu-dish-card">
+              <div class="menu-dish-media" style={`background: ${section.gradient};`}>
+                {dish.image && (
+                  <img src={dish.image} alt={`${dish.name} — ${dish.destination}`} class="menu-dish-img" loading="lazy" />
+                )}
+                {dish.tag && (
+                  <span class={`menu-tag menu-tag--${dish.tag.toLowerCase().replace(/[^a-z]/g, '')}`}>{dish.tag}</span>
+                )}
+              </div>
+              <div class="menu-dish-body">
+                <div class="menu-dish-top">
+                  <h3 class="menu-dish-name">{dish.name}</h3>
+                  <span class="menu-dish-price">{dish.price}</span>
+                </div>
+                <p class="menu-dish-destination">{dish.destination}</p>
+                <p class="menu-dish-desc">{dish.description}</p>
+                <span class="menu-dish-cta">Explore {dish.destination} &rarr;</span>
+              </div>
+              <div class="menu-dish-overlay">
+                <p class="menu-dish-overlay-desc">{dish.description}</p>
+                <span class="menu-dish-overlay-cta">Explore {dish.destination} &rarr;</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Bottom CTA -->
+  <section class="menu-cta-section reveal">
+    <div class="container-content">
+      <div class="menu-cta-card">
+        <h2 class="menu-cta-heading">Plan Your Food Trip</h2>
+        <p class="menu-cta-text">Tell our AI planner which dishes you want to try and it will build an island-by-island itinerary — with the best restaurants, plate lunch counters, and food trucks.</p>
+        <a href="/plan/" class="menu-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FAQ items={[
+    { question: "What is the most iconic Hawaiian dish?", answer: "Poke is Hawaii's most internationally recognized dish, but plate lunch, loco moco, and spam musubi are equally beloved by locals. Each island has its own specialties — Oahu has the most diverse food scene, Hilo on the Big Island is the birthplace of loco moco, and the North Shore of Oahu is famous for garlic shrimp trucks." },
+    { question: "Is Hawaiian food just American food?", answer: "Not at all. Hawaiian cuisine is a unique multicultural fusion shaped by Native Hawaiian, Japanese, Chinese, Filipino, Portuguese, and Korean influences — all born from the plantation era when workers from different countries shared their food traditions. Dishes like poke, poi, and laulau are indigenous Hawaiian. Plate lunch, spam musubi, and saimin are distinctly local creations you won't find anywhere else." },
+    { question: "How much does a meal cost in Hawaii?", answer: "Spam musubi: $2-3. Plate lunch: $10-14. Poke bowl: $14-25. Shave ice: $5-8. Sit-down restaurant dinner: $25-50 per person. A daily food budget of $30-40 per person covers three solid meals if you eat at plate lunch counters, poke shops, and food trucks." },
+    { question: "Can I eat well in Hawaii on a budget?", answer: "Absolutely. Hawaii's best food is affordable — plate lunches at local counters ($10-14), grocery store poke ($14-18/lb), spam musubi at convenience stores ($2-3), and farmers market food stalls. The KCC Farmers Market on Oahu and Hilo Farmers Market on the Big Island are food tours in themselves." },
+    { question: "What about food allergies and dietary restrictions?", answer: "Hawaii is generally accommodating. Many dishes contain soy, wheat, fish, and shellfish. Vegetarian and vegan options are increasingly available, especially on Maui and Oahu. Acai bowls, poi, haupia, and many plate lunch sides are naturally plant-based. Most restaurants are familiar with common allergies and can accommodate." },
+    { question: "What is the best Hawaiian dessert?", answer: "Shave ice is the quintessential Hawaiian dessert — fluffy shaved ice with tropical syrups and optional ice cream at the bottom. Malasadas (Portuguese fried dough) from Leonard's Bakery are legendary. Haupia (coconut pudding) is the traditional Hawaiian dessert served at luaus. Haupia pie from Ted's Bakery on the North Shore combines all three influences — Hawaiian, Portuguese, and local." },
+  ]} />
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get Our Free Hawaiian Food Guide"
+      description="An island-by-island PDF guide to Hawaiian cuisine — with the best restaurants, plate lunch counters, and dishes you can't miss."
+      bullets={[
+        'All 15 dishes with where to find the best version',
+        'Price guide — from $2 spam musubi to $25 poke bowls',
+        'Best food trucks, markets, and local counters by island',
+        'Hawaiian food glossary and ordering tips',
+      ]}
+      guideTag="pillar-cuisine"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="menu-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="menu-crosslinks-heading">Explore More</h3>
+      <div class="menu-crosslinks-grid">
+        <a href="/festivals/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127914;</span>
+          <span class="menu-crosslink-label">Festival Calendar</span>
+          <span class="menu-crosslink-desc">10 Hawaiian festivals and celebrations, month by month</span>
+        </a>
+        <a href="/finer-things/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127866;</span>
+          <span class="menu-crosslink-label">The Finer Things</span>
+          <span class="menu-crosslink-desc">Tropical cocktails, luxury resorts, spas, and luaus</span>
+        </a>
+        <a href="/destinations/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127965;</span>
+          <span class="menu-crosslink-label">All Destinations</span>
+          <span class="menu-crosslink-desc">Every island we've explored with honest reviews</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO — Tropical ocean teal gradient
+     ================================================================ */
+  .menu-hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .menu-hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .menu-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  }
+
+  .menu-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .menu-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .menu-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .menu-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .menu-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .menu-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .menu-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .menu-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .menu-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: menuBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes menuBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     MENU INTRO
+     ================================================================ */
+  .menu-intro {
+    padding: var(--space-8) 0 var(--space-4);
+  }
+
+  .menu-intro-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: var(--space-5) var(--space-6);
+    text-align: center;
+  }
+
+  .menu-intro-text {
+    font-size: 1rem;
+    color: var(--color-slate);
+    line-height: 1.7;
+    max-width: 640px;
+    margin: 0 auto var(--space-4);
+  }
+
+  .menu-intro-legend {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  /* ================================================================
+     TAGS
+     ================================================================ */
+  .menu-tag {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 3px 8px;
+    border-radius: 6px;
+    line-height: 1.4;
+  }
+
+  .menu-tag--heritage {
+    background: rgba(191, 54, 12, 0.1);
+    color: #BF360C;
+  }
+
+  .menu-tag--musttry, .menu-tag--mustry {
+    background: rgba(8, 145, 178, 0.1);
+    color: #0891b2;
+  }
+
+  .menu-tag--iconic {
+    background: rgba(212, 168, 83, 0.15);
+    color: #9A7B2E;
+  }
+
+  .menu-tag--freshcatch {
+    background: rgba(33, 150, 243, 0.1);
+    color: #1565C0;
+  }
+
+  .menu-tag--rare {
+    background: rgba(106, 27, 154, 0.1);
+    color: #6A1B9A;
+  }
+
+  .menu-tag--legendary {
+    background: rgba(212, 168, 83, 0.15);
+    color: #9A7B2E;
+  }
+
+  /* ================================================================
+     REGION SECTION
+     ================================================================ */
+  .menu-region {
+    padding: var(--space-6) 0;
+  }
+
+  .menu-region-header {
+    position: relative;
+    border-radius: 20px;
+    padding: var(--space-6) var(--space-6);
+    margin-bottom: var(--space-6);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-region-header-inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  .menu-region-name {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    margin: 0 0 var(--space-1);
+    line-height: 1.1;
+  }
+
+  .menu-region-tagline {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 var(--space-3);
+    max-width: 480px;
+    line-height: 1.5;
+  }
+
+  .menu-region-count {
+    font-size: 0.7rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  .menu-region-ornament {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.08);
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ================================================================
+     DISH GRID — Menu-style cards
+     ================================================================ */
+  .menu-dish-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 1024px) {
+    .menu-dish-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .menu-dish-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .menu-dish-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .menu-dish-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Media placeholder */
+  .menu-dish-media {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--space-2);
+    overflow: hidden;
+  }
+
+  .menu-dish-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    transition: transform 0.4s ease;
+  }
+
+  .menu-dish-card:hover .menu-dish-img {
+    transform: scale(1.06);
+  }
+
+  .menu-dish-media .menu-tag {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Card body */
+  .menu-dish-body {
+    padding: var(--space-3) var(--space-4) var(--space-4);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .menu-dish-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-2);
+    margin-bottom: 4px;
+  }
+
+  .menu-dish-name {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0;
+    line-height: 1.25;
+  }
+
+  .menu-dish-price {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    color: #0891b2;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .menu-dish-destination {
+    font-size: 0.72rem;
+    color: #0891b2;
+    font-weight: var(--weight-medium);
+    margin: 0 0 var(--space-2);
+  }
+
+  .menu-dish-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.55;
+    margin: 0 0 var(--space-3);
+    flex: 1;
+  }
+
+  .menu-dish-cta {
+    font-size: 0.72rem;
+    font-weight: var(--weight-semibold);
+    color: #0891b2;
+    letter-spacing: 0.02em;
+  }
+
+  /* Hover overlay — visible on non-touch hover */
+  .menu-dish-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(26, 35, 50, 0.93);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--space-5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .menu-dish-card:hover .menu-dish-overlay {
+    opacity: 1;
+  }
+
+  .menu-dish-overlay-desc {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.6;
+    margin: 0 0 var(--space-3);
+  }
+
+  .menu-dish-overlay-cta {
+    font-size: 0.75rem;
+    font-weight: var(--weight-semibold);
+    color: #0891b2;
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .menu-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .menu-cta-card {
+    background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .menu-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .menu-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .menu-cta-button {
+    display: inline-block;
+    background: #0891b2;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .menu-cta-button:hover {
+    background: #0e7490;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .menu-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .menu-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .menu-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 640px) {
+    .menu-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .menu-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .menu-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .menu-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .menu-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+  }
+
+  .menu-crosslink-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     RESPONSIVE — Hero & misc
+     ================================================================ */
+  @media (max-width: 640px) {
+    .menu-hero {
+      min-height: 55vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .menu-hero-meta {
+      gap: var(--space-4);
+    }
+
+    .menu-scroll-hint {
+      display: none;
+    }
+
+    .menu-region-header {
+      padding: var(--space-5) var(--space-4);
+    }
+
+    .menu-region-ornament {
+      display: none;
+    }
+  }
+
+  /* Personal intro */
+  .menu-personal {
+    padding-block: var(--space-8);
+  }
+
+  .menu-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid #0891b2;
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .menu-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .menu-personal-quote cite {
+    font-size: var(--text-caption);
+    color: #0891b2;
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+</style>

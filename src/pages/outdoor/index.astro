@@ -1,0 +1,974 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Outdoor Adventures', url: '/outdoor/' },
+];
+
+const pageTitle = 'Hawaii Outdoor Adventures — Hiking, Surfing, Snorkeling & More';
+const pageDescription = 'From volcano hikes to world-class surf breaks. An island-by-island guide to the best outdoor adventures in Hawaii — trails, water sports, and unforgettable experiences.';
+
+interface Adventure {
+  name: string;
+  image?: string;
+  destination: string;
+  slug: string;
+  price: string;
+  description: string;
+  tag?: string;
+}
+
+interface AdventureSection {
+  region: string;
+  tagline: string;
+  gradient: string;
+  adventures: Adventure[];
+}
+
+const adventures: AdventureSection[] = [
+  {
+    region: 'Oahu',
+    tagline: 'Crater hikes, legendary surf breaks, marine sanctuaries, and calm-water kayaking',
+    gradient: 'linear-gradient(135deg, #0891b2 0%, #06b6d4 100%)',
+    adventures: [
+      {
+        name: 'Diamond Head Summit Trail',
+        destination: 'Oahu',
+        slug: 'diamond-head',
+        price: '$5/person entry',
+        description: '1.6-mile round trip to the iconic crater rim with panoramic views of Waikiki, Honolulu, and the Pacific. The sunrise hike is unforgettable — arrive before 6 AM to beat the crowds and catch golden light spilling over the ocean. Paved switchbacks and stairs make it accessible for most fitness levels.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'North Shore Surfing',
+        destination: 'North Shore, Oahu',
+        slug: 'north-shore',
+        price: '$80–150 (lesson) · Free to watch',
+        description: 'Watch the world\'s best surfers ride Pipeline and Sunset Beach during winter swells from November through February. Waves reach 30+ feet and the energy on the beach is electric. Beginners can take lessons in Haleiwa where smaller breaks offer gentler waves and patient instructors.',
+        tag: 'Surfing',
+      },
+      {
+        name: 'Hanauma Bay Snorkeling',
+        destination: 'Honolulu, Oahu',
+        slug: 'honolulu',
+        price: '$25 entry',
+        description: 'A protected marine sanctuary inside a volcanic crater with over 400 fish species and crystal-clear water. The best beginner snorkeling spot in Hawaii — shallow reef, calm conditions, and abundant sea life right off the beach. Reservations required; closed Mondays and Tuesdays.',
+        tag: 'Snorkeling',
+      },
+      {
+        name: 'Kailua Kayaking',
+        destination: 'Kailua, Oahu',
+        slug: 'kailua',
+        price: '$35–65 (rental) · $130+ (guided tour)',
+        description: 'Paddle from Kailua Beach to the Mokulua Islands — twin islets about a mile offshore with secluded beaches and nesting seabirds. Calm, turquoise waters make this suitable for beginners. Sea turtle sightings are common, especially in the morning hours.',
+        tag: 'Kayaking',
+      },
+    ],
+  },
+  {
+    region: 'Maui',
+    tagline: 'Volcanic sunrises, legendary road trips, underwater craters, and jungle ziplines',
+    gradient: 'linear-gradient(135deg, #065f46 0%, #059669 100%)',
+    adventures: [
+      {
+        name: 'Haleakala Sunrise',
+        destination: 'Haleakala, Maui',
+        slug: 'haleakala',
+        price: '$30/car entry · Reservations required',
+        description: 'Watch dawn break from 10,023 feet above sea level inside a dormant volcano crater. The sky shifts through impossible colors as the sun rises above the cloud layer — Mark Twain called it "the sublimest spectacle I ever witnessed." Temperatures hover near freezing at the summit, so bring layers.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Road to Hana',
+        destination: 'East Maui',
+        slug: 'road-to-hana',
+        price: 'Free (gas + snacks budget ~$40–60)',
+        description: '64 miles, 620 curves, and 59 bridges winding through the lush eastern coast of Maui. Stop at waterfalls, bamboo forests, black sand beaches, and roadside fruit stands along the way. Budget a full day — this is about the journey, not the destination. Start early to avoid traffic.',
+        tag: 'Scenic Drive',
+      },
+      {
+        name: 'Molokini Crater Snorkeling',
+        destination: 'Wailea, Maui',
+        slug: 'wailea',
+        price: '$80–180 (boat tour)',
+        description: 'A boat trip to a partially submerged volcanic crater three miles off Maui\'s coast with 150+ foot visibility and over 250 species of tropical fish. The crescent-shaped crater blocks waves and current, creating some of the calmest, clearest snorkeling water in the Pacific.',
+        tag: 'Snorkeling',
+      },
+      {
+        name: 'Zipline Through Maui Jungle',
+        destination: 'West Maui',
+        slug: 'lahaina',
+        price: '$150–230 (multi-line course)',
+        description: 'Fly over tropical valleys and waterfalls on multi-line courses that stretch up to half a mile between platforms. Several operators on the west side of Maui offer courses through lush jungle canopy with views of the ocean and neighboring islands. No experience necessary — guides handle all the gear.',
+        tag: 'Adventure',
+      },
+    ],
+  },
+  {
+    region: 'Big Island',
+    tagline: 'Active volcanoes, summit stargazing, manta ray encounters, and valley treks',
+    gradient: 'linear-gradient(135deg, #1A2332 0%, #0891b2 50%, #D4A574 100%)',
+    adventures: [
+      {
+        name: 'Volcanoes National Park',
+        destination: 'Big Island',
+        slug: 'volcanoes-national-park',
+        price: '$30/car entry',
+        description: 'Hike across active lava fields, walk through 500-year-old lava tubes, and peer over steaming crater rims at one of the most geologically active places on Earth. The Kilauea Iki trail descends into a crater that was a lake of molten lava in 1959. Check current eruption status before your visit — seeing active lava flow is life-changing.',
+        tag: 'Iconic',
+      },
+      {
+        name: 'Mauna Kea Stargazing',
+        destination: 'Big Island',
+        slug: 'mauna-kea',
+        price: 'Free (summit access) · $250+ (guided tour)',
+        description: 'Drive to nearly 14,000 feet for the clearest stargazing on Earth — there\'s a reason the world\'s most powerful telescopes are here. The summit sits above 40% of Earth\'s atmosphere and most of its water vapor. Free public stargazing programs at the Visitor Information Station offer telescopes and expert guides nightly.',
+        tag: 'Stargazing',
+      },
+      {
+        name: 'Manta Ray Night Dive',
+        destination: 'Kona, Big Island',
+        slug: 'kona',
+        price: '$100–180 (snorkel) · $150–250 (dive)',
+        description: 'Swim with gentle giant manta rays — wingspans up to 12 feet — attracted by underwater lights off the Kona coast after dark. You float on the surface or hover underwater as mantas barrel-roll inches from your face, feeding on plankton drawn to the lights. One of the most magical wildlife encounters in the world.',
+        tag: 'Diving',
+      },
+      {
+        name: 'Waipio Valley Hike',
+        destination: 'Hilo, Big Island',
+        slug: 'hilo',
+        price: 'Free (self-guided) · $60–100 (guided tour)',
+        description: 'A steep, mile-long trail descends 1,000 feet into the "Valley of the Kings" — a sacred Hawaiian valley with towering waterfall, taro farms, wild horses, and black sand beach. The 25% grade road down is one of the steepest in Hawaii. Only 4WD vehicles are allowed; most visitors hike in and out.',
+        tag: 'Hiking',
+      },
+    ],
+  },
+  {
+    region: 'Kauai',
+    tagline: 'Dramatic coastlines, canyon rim trails, and sunny south shore water sports',
+    gradient: 'linear-gradient(135deg, #0891b2 0%, #0e7490 100%)',
+    adventures: [
+      {
+        name: 'Na Pali Coast Kayaking',
+        destination: 'Na Pali Coast, Kauai',
+        slug: 'na-pali-coast',
+        price: '$200–350 (guided day trip)',
+        description: '17 miles of paddling along the most dramatic coastline in Hawaii — 4,000-foot emerald cliffs, sea caves, waterfalls pouring directly into the ocean, and isolated beaches only accessible by water. Multi-day camping trips are available for the adventurous. Summer months (May-September) offer the calmest conditions.',
+        tag: 'Epic',
+      },
+      {
+        name: 'Waimea Canyon Trails',
+        destination: 'Waimea Canyon, Kauai',
+        slug: 'waimea-canyon',
+        price: 'Free (trails) · $5 parking',
+        description: 'The "Grand Canyon of the Pacific" stretches 14 miles long and 3,600 feet deep, with 10+ hiking trails along the rim and down into the canyon. The Canyon Trail to Waipo\'o Falls is a standout — 3.4 miles round trip with jaw-dropping views of red and green canyon walls. Pack layers; rain comes and goes quickly.',
+        tag: 'Hiking',
+      },
+      {
+        name: 'Poipu Snorkeling & Surfing',
+        destination: 'Poipu, Kauai',
+        slug: 'poipu',
+        price: '$20–40 (board rental) · Free (snorkeling with own gear)',
+        description: 'Kauai\'s sunny south shore delivers consistent surf breaks and calm snorkeling coves — often on the same beach. Poipu Beach is one of the most family-friendly spots in Hawaii, with a protected rock wall creating a natural pool perfect for beginners and children. Monk seal sightings are a regular bonus.',
+        tag: 'Water Sports',
+      },
+    ],
+  },
+  {
+    region: 'Molokai',
+    tagline: 'Untouched Hawaii — remote trails, historic descents, and raw natural beauty',
+    gradient: 'linear-gradient(135deg, #4a3728 0%, #6B4F3A 100%)',
+    adventures: [
+      {
+        name: 'Kalaupapa Trail',
+        destination: 'Molokai',
+        slug: 'molokai',
+        price: '$75–100 (guided tour required)',
+        description: 'A 1,700-foot descent via 26 switchbacks carved into a sea cliff to the remote Kalaupapa Peninsula — once a forced exile colony for Hansen\'s disease patients. The trail drops through lush vegetation with views of the tallest sea cliffs in the world. Guided tours are required and must be booked in advance; no one under 16 is permitted.',
+        tag: 'Hiking',
+      },
+    ],
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="menu-hero">
+    <video class="menu-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/videos/pillar/outdoor-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="menu-hero-gradient"></div>
+    <div class="menu-hero-noise"></div>
+    <div class="menu-hero-content">
+      <h1 class="menu-hero-title">Hawaii Outdoor Adventures</h1>
+      <p class="menu-hero-subtitle">From volcano crater hikes to moonlit manta ray dives, North Shore surf breaks to Na Pali Coast kayak expeditions — an island-by-island guide to the best outdoor experiences in Hawaii.</p>
+      <div class="menu-hero-meta">
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Adventures</span>
+          <span class="menu-hero-meta-value">16</span>
+        </div>
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Islands</span>
+          <span class="menu-hero-meta-value">5</span>
+        </div>
+        <div class="menu-hero-meta-item">
+          <span class="menu-hero-meta-label">Activities</span>
+          <span class="menu-hero-meta-value">8+</span>
+        </div>
+      </div>
+    </div>
+    <div class="menu-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="menu-personal reveal">
+    <div class="container-content">
+      <blockquote class="menu-personal-quote">
+        <p>Hawaii ruined "outdoor activities" for me everywhere else. Where else can you hike into an active volcano at sunrise, snorkel a submerged crater at noon, and watch manta rays dance under the stars by nightfall? Every island has a completely different personality — Kauai is raw jungle drama, the Big Island is otherworldly lava landscapes, Maui is polished adventure, and Oahu is accessible thrills. The variety packed into these islands is staggering. I've traveled to 30+ countries and nothing competes with what Hawaii offers above and below the waterline.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="menu-intro reveal">
+    <div class="container-content">
+      <div class="menu-intro-card">
+        <p class="menu-intro-text">Think of this as your adventure menu for Hawaii. We've organized the islands' best outdoor experiences by island — <strong>Oahu</strong>, <strong>Maui</strong>, <strong>Big Island</strong>, <strong>Kauai</strong>, and <strong>Molokai</strong>. Click any adventure to explore the destination where it happens.</p>
+        <div class="menu-intro-legend">
+          <span class="menu-tag menu-tag--iconic">Iconic</span>
+          <span class="menu-tag menu-tag--surfing">Surfing</span>
+          <span class="menu-tag menu-tag--snorkeling">Snorkeling</span>
+          <span class="menu-tag menu-tag--hiking">Hiking</span>
+          <span class="menu-tag menu-tag--epic">Epic</span>
+          <span class="menu-tag menu-tag--adventure">Adventure</span>
+          <span class="menu-tag menu-tag--stargazing">Stargazing</span>
+          <span class="menu-tag menu-tag--diving">Diving</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Adventure Sections by Island -->
+  {adventures.map((section) => (
+    <section class="menu-region reveal">
+      <div class="container-content">
+        <div class="menu-region-header" style={`background: ${section.gradient};`}>
+          <div class="menu-region-header-inner">
+            <h2 class="menu-region-name">{section.region}</h2>
+            <p class="menu-region-tagline">{section.tagline}</p>
+            <span class="menu-region-count">{section.adventures.length} {section.adventures.length === 1 ? 'adventure' : 'adventures'}</span>
+          </div>
+          <div class="menu-region-ornament">&#9733;</div>
+        </div>
+
+        <div class="menu-dish-grid">
+          {section.adventures.map((adventure) => (
+            <a href={`/destinations/${adventure.slug}/`} class="menu-dish-card">
+              <div class="menu-dish-media" style={`background: ${section.gradient};`}>
+                {adventure.image && (
+                  <img src={adventure.image} alt={`${adventure.name} — ${adventure.destination}`} class="menu-dish-img" loading="lazy" />
+                )}
+                {adventure.tag && (
+                  <span class={`menu-tag menu-tag--${adventure.tag.toLowerCase().replace(/[^a-z]/g, '')}`}>{adventure.tag}</span>
+                )}
+              </div>
+              <div class="menu-dish-body">
+                <div class="menu-dish-top">
+                  <h3 class="menu-dish-name">{adventure.name}</h3>
+                  <span class="menu-dish-price">{adventure.price}</span>
+                </div>
+                <p class="menu-dish-destination">{adventure.destination}</p>
+                <p class="menu-dish-desc">{adventure.description}</p>
+                <span class="menu-dish-cta">Explore {adventure.destination} &rarr;</span>
+              </div>
+              <div class="menu-dish-overlay">
+                <p class="menu-dish-overlay-desc">{adventure.description}</p>
+                <span class="menu-dish-overlay-cta">Explore {adventure.destination} &rarr;</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Bottom CTA -->
+  <section class="menu-cta-section reveal">
+    <div class="container-content">
+      <div class="menu-cta-card">
+        <h2 class="menu-cta-heading">Plan Your Adventure Trip</h2>
+        <p class="menu-cta-text">Tell our AI planner which adventures you want to tackle and it will build an island-by-island itinerary — with the best trails, surf spots, dive operators, and day-trip logistics.</p>
+        <a href="/plan/" class="menu-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FAQ items={[
+    { question: "What are the best hiking trails in Hawaii?", answer: "Diamond Head on Oahu is the most iconic short hike — 1.6 miles round trip with stunning Waikiki views. For a bigger challenge, the Kalalau Trail on Kauai's Na Pali Coast is an 11-mile trek along dramatic sea cliffs. Volcanoes National Park on the Big Island offers surreal lava field hikes, and the Waipio Valley trail descends 1,000 feet into a sacred valley. Maui's Haleakala crater has excellent trails at 10,000+ feet elevation. Each island has a completely different hiking personality." },
+    { question: "Is it safe to surf in Hawaii as a beginner?", answer: "Yes, but location matters enormously. Waikiki Beach on Oahu has gentle, rolling waves perfect for first-timers — it's where modern surfing was born. Poipu on Kauai and Lahaina on Maui also offer beginner-friendly breaks. Avoid the North Shore of Oahu in winter (November-February) when waves can exceed 30 feet. Take a lesson from a certified instructor for your first session — they'll put you in the right spot with the right board. Budget $80-150 for a 90-minute group lesson." },
+    { question: "Do I need a guide for outdoor activities in Hawaii?", answer: "It depends on the activity. Guided tours are required for Kalaupapa Trail on Molokai and strongly recommended for manta ray night dives, Na Pali Coast kayaking, and Mauna Kea summit visits. Self-guided options work well for Diamond Head, Hanauma Bay snorkeling, Volcanoes National Park, and Waimea Canyon trails. When in doubt, a local guide adds safety, cultural context, and access to spots you'd never find on your own." },
+    { question: "What is the best time of year for outdoor activities in Hawaii?", answer: "Hawaii is an outdoor paradise year-round, but seasons matter. Summer (May-September) brings calm ocean conditions ideal for snorkeling, kayaking, and Na Pali Coast trips. Winter (November-February) delivers massive surf on north-facing shores and whale watching season. Hiking is excellent year-round, though Kauai's trails can be muddy in winter. Water temperatures stay between 75-82°F all year. For the broadest range of activities, April-May and September-October offer the best of both worlds." },
+    { question: "What should I pack for Hawaii outdoor adventures?", answer: "Essentials: reef-safe sunscreen (required by Hawaii law), water shoes or sturdy sandals, a rash guard for sun and reef protection, a lightweight rain jacket (especially for Kauai and windward sides), and a reusable water bottle. For hiking, bring proper trail shoes — volcanic rock is rough on feet. For Haleakala sunrise, pack warm layers (it's near freezing at the summit). A dry bag keeps electronics safe during water activities. Skip cotton; it stays wet and heavy in the humidity." },
+    { question: "How much do outdoor activities cost in Hawaii?", answer: "Many of Hawaii's best outdoor experiences are free or low-cost. National and state park entry runs $5-30 per car. Snorkel gear rental is $10-20/day. Surfboard rental is $20-40/day. Guided tours range from $80 for a surf lesson to $200-350 for a Na Pali Coast kayak expedition. A daily adventure budget of $30-50 per person covers entry fees and basic gear rental. Splurge-worthy experiences like manta ray night dives ($100-250) and helicopter tours ($200-400) are worth every penny." },
+  ]} />
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get Our Free Hawaii Adventure Guide"
+      description="An island-by-island PDF guide to Hawaii's best outdoor adventures — with trail maps, gear lists, and insider tips for every activity."
+      bullets={[
+        'All 16 adventures with difficulty ratings and logistics',
+        'Price guide — from free trails to premium guided tours',
+        'Best seasons and conditions for each activity',
+        'Packing checklist and reef-safe gear recommendations',
+      ]}
+      guideTag="pillar-outdoor"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="menu-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="menu-crosslinks-heading">Explore More</h3>
+      <div class="menu-crosslinks-grid">
+        <a href="/cuisine/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127858;</span>
+          <span class="menu-crosslink-label">Hawaiian Cuisine</span>
+          <span class="menu-crosslink-desc">Poke, plate lunch, shave ice, and 15 dishes you can't miss</span>
+        </a>
+        <a href="/beaches/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127754;</span>
+          <span class="menu-crosslink-label">Best Beaches</span>
+          <span class="menu-crosslink-desc">White sand, black sand, and hidden coves across every island</span>
+        </a>
+        <a href="/destinations/" class="menu-crosslink-card">
+          <span class="menu-crosslink-icon">&#127965;</span>
+          <span class="menu-crosslink-label">All Destinations</span>
+          <span class="menu-crosslink-desc">Every island we've explored with honest reviews</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO — Tropical ocean teal gradient
+     ================================================================ */
+  .menu-hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .menu-hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .menu-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  }
+
+  .menu-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .menu-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .menu-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .menu-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .menu-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .menu-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .menu-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .menu-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .menu-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: menuBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes menuBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     MENU INTRO
+     ================================================================ */
+  .menu-intro {
+    padding: var(--space-8) 0 var(--space-4);
+  }
+
+  .menu-intro-card {
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: var(--space-5) var(--space-6);
+    text-align: center;
+  }
+
+  .menu-intro-text {
+    font-size: 1rem;
+    color: var(--color-slate);
+    line-height: 1.7;
+    max-width: 640px;
+    margin: 0 auto var(--space-4);
+  }
+
+  .menu-intro-legend {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  /* ================================================================
+     TAGS
+     ================================================================ */
+  .menu-tag {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 3px 8px;
+    border-radius: 6px;
+    line-height: 1.4;
+  }
+
+  .menu-tag--iconic {
+    background: rgba(212, 168, 83, 0.15);
+    color: #9A7B2E;
+  }
+
+  .menu-tag--surfing {
+    background: rgba(8, 145, 178, 0.1);
+    color: #0891b2;
+  }
+
+  .menu-tag--snorkeling {
+    background: rgba(33, 150, 243, 0.1);
+    color: #1565C0;
+  }
+
+  .menu-tag--hiking {
+    background: rgba(46, 125, 50, 0.1);
+    color: #2E7D32;
+  }
+
+  .menu-tag--epic {
+    background: rgba(232, 101, 74, 0.12);
+    color: #E8654A;
+  }
+
+  .menu-tag--adventure {
+    background: rgba(232, 101, 74, 0.12);
+    color: #E8654A;
+  }
+
+  .menu-tag--kayaking {
+    background: rgba(8, 145, 178, 0.1);
+    color: #0891b2;
+  }
+
+  .menu-tag--scenicdrive {
+    background: rgba(106, 27, 154, 0.1);
+    color: #6A1B9A;
+  }
+
+  .menu-tag--stargazing {
+    background: rgba(26, 35, 50, 0.12);
+    color: #1A2332;
+  }
+
+  .menu-tag--diving {
+    background: rgba(33, 150, 243, 0.1);
+    color: #1565C0;
+  }
+
+  .menu-tag--watersports {
+    background: rgba(8, 145, 178, 0.1);
+    color: #0891b2;
+  }
+
+  /* ================================================================
+     REGION SECTION
+     ================================================================ */
+  .menu-region {
+    padding: var(--space-6) 0;
+  }
+
+  .menu-region-header {
+    position: relative;
+    border-radius: 20px;
+    padding: var(--space-6) var(--space-6);
+    margin-bottom: var(--space-6);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-region-header-inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  .menu-region-name {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    margin: 0 0 var(--space-1);
+    line-height: 1.1;
+  }
+
+  .menu-region-tagline {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 var(--space-3);
+    max-width: 480px;
+    line-height: 1.5;
+  }
+
+  .menu-region-count {
+    font-size: 0.7rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  .menu-region-ornament {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.08);
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ================================================================
+     ADVENTURE GRID — Card layout
+     ================================================================ */
+  .menu-dish-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 1024px) {
+    .menu-dish-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .menu-dish-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .menu-dish-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .menu-dish-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Media placeholder */
+  .menu-dish-media {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--space-2);
+    overflow: hidden;
+  }
+
+  .menu-dish-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    transition: transform 0.4s ease;
+  }
+
+  .menu-dish-card:hover .menu-dish-img {
+    transform: scale(1.06);
+  }
+
+  .menu-dish-media .menu-tag {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Card body */
+  .menu-dish-body {
+    padding: var(--space-3) var(--space-4) var(--space-4);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .menu-dish-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-2);
+    margin-bottom: 4px;
+  }
+
+  .menu-dish-name {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0;
+    line-height: 1.25;
+  }
+
+  .menu-dish-price {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    color: #0891b2;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .menu-dish-destination {
+    font-size: 0.72rem;
+    color: #0891b2;
+    font-weight: var(--weight-medium);
+    margin: 0 0 var(--space-2);
+  }
+
+  .menu-dish-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.55;
+    margin: 0 0 var(--space-3);
+    flex: 1;
+  }
+
+  .menu-dish-cta {
+    font-size: 0.72rem;
+    font-weight: var(--weight-semibold);
+    color: #0891b2;
+    letter-spacing: 0.02em;
+  }
+
+  /* Hover overlay — visible on non-touch hover */
+  .menu-dish-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(26, 35, 50, 0.93);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--space-5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  .menu-dish-card:hover .menu-dish-overlay {
+    opacity: 1;
+  }
+
+  .menu-dish-overlay-desc {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.6;
+    margin: 0 0 var(--space-3);
+  }
+
+  .menu-dish-overlay-cta {
+    font-size: 0.75rem;
+    font-weight: var(--weight-semibold);
+    color: #0891b2;
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .menu-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .menu-cta-card {
+    background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .menu-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .menu-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .menu-cta-button {
+    display: inline-block;
+    background: #0891b2;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .menu-cta-button:hover {
+    background: #0e7490;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .menu-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .menu-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .menu-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 640px) {
+    .menu-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .menu-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .menu-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .menu-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .menu-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+  }
+
+  .menu-crosslink-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     RESPONSIVE — Hero & misc
+     ================================================================ */
+  @media (max-width: 640px) {
+    .menu-hero {
+      min-height: 55vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .menu-hero-meta {
+      gap: var(--space-4);
+    }
+
+    .menu-scroll-hint {
+      display: none;
+    }
+
+    .menu-region-header {
+      padding: var(--space-5) var(--space-4);
+    }
+
+    .menu-region-ornament {
+      display: none;
+    }
+  }
+
+  /* Personal intro */
+  .menu-personal {
+    padding-block: var(--space-8);
+  }
+
+  .menu-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid #0891b2;
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .menu-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .menu-personal-quote cite {
+    font-size: var(--text-caption);
+    color: #0891b2;
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+</style>
