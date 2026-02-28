@@ -1,0 +1,291 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Travel Tips', url: '/practical/' },
+];
+
+const pageTitle = 'Hawaii Travel Tips — Inter-Island Flights, Packing, Culture & Safety Guide 2026';
+const pageDescription = 'Everything you need for your Hawaii trip — inter-island flights, rental cars, reef-safe sunscreen law, sacred site etiquette, and packing for multiple microclimates.';
+
+interface TopicSection {
+  id: string;
+  icon: string;
+  title: string;
+  gradient: string;
+  items: { label: string; text: string }[];
+}
+
+const topics: TopicSection[] = [
+  {
+    id: 'entry',
+    icon: '🛂',
+    title: 'Entry & Getting There',
+    gradient: 'linear-gradient(135deg, #1565C0 0%, #42A5F5 100%)',
+    items: [
+      { label: 'No Visa Needed (Domestic)', text: 'Hawaii is a US state — no passport or visa required for domestic travelers. A valid state-issued ID or driver\'s license is all you need. TSA PreCheck saves time at all Hawaiian airports, especially during peak season.' },
+      { label: 'International Visitors', text: 'International travelers need a valid passport and US visa or ESTA. Honolulu (HNL) has direct flights from Tokyo, Osaka, Seoul, Sydney, Auckland, Vancouver, and several other international cities. Japan Airlines and ANA offer excellent service on the Tokyo-Honolulu route.' },
+      { label: 'Airports', text: 'Daniel K. Inouye International Airport (HNL) on Oahu is the main hub. Kahului Airport (OGG) serves Maui, Kona (KOA) and Hilo (ITO) serve Big Island, and Lihue (LIH) serves Kauai. Direct flights from the West Coast are 5-6 hours. From the East Coast, expect 10-12 hours with a connection or a long direct flight.' },
+      { label: 'Best Booking Strategy', text: 'Book flights 2-3 months ahead for the best prices. Shoulder seasons (April-May and September-November) offer the best combination of weather and prices. Peak season (mid-December through March) and summer (June-August) are the most expensive. Southwest, Hawaiian Airlines, and Alaska Airlines compete heavily on West Coast routes — compare all three.' },
+      { label: 'Agriculture Inspection', text: 'Hawaii has strict agriculture inspection to protect its ecosystem. You cannot bring fresh fruits, plants, or certain foods into the state. On departure, all checked bags are screened by agriculture inspectors. Certain items (pineapples, coconuts from approved vendors) can leave with you, but most fresh produce cannot.' },
+    ],
+  },
+  {
+    id: 'money',
+    icon: '💰',
+    title: 'Money & Budget',
+    gradient: 'linear-gradient(135deg, #2E7D32 0%, #66BB6A 100%)',
+    items: [
+      { label: 'Currency', text: 'US dollars (USD). Credit and debit cards accepted everywhere. Hawaii is expensive — expect to pay 20-30% more than mainland US prices for food, gas, and groceries due to shipping costs. Everything has to come by boat or plane.' },
+      { label: 'Tipping Culture', text: 'Standard US tipping applies. Restaurants: 18-20%. Hotel housekeeping: $3-5/night. Tour guides and boat captains: 15-20%. Surf instructors: $10-20. Taxi/rideshare: 15-20%. Luau performers appreciate tips. Tipping is expected and service workers in Hawaii depend on it — the cost of living here is among the highest in the US.' },
+      { label: 'Daily Budget Ranges', text: 'Budget: $120-180/day — hostels or vacation rentals, grocery store meals, free beaches and hikes. Mid-range: $300-500/day — hotels, restaurants, rental car, one paid activity. Luxury: $700+/day — resorts, fine dining, private tours, helicopter rides. Waikiki and resort areas on Maui are the most expensive; Big Island and Kauai offer slightly more value.' },
+      { label: 'Saving Money', text: 'Grocery stores (Foodland, Safeway, Costco) are much cheaper than restaurants. Pack a cooler with lunch for beach days. Many of Hawaii\'s best experiences are free — beaches, hiking trails, snorkeling at public beach parks. Happy hours are excellent across the islands. Book activities directly through local operators rather than resort concierges, which mark up 20-40%.' },
+      { label: 'Gas & Groceries', text: 'Gas in Hawaii runs $4.50-5.50/gallon — the highest in the US. Groceries cost 50-60% more than the mainland. A gallon of milk is $7-8. Costco membership pays for itself quickly if you\'re staying a week or more. Fill up your rental car before returning it — airport gas stations charge premium rates.' },
+    ],
+  },
+  {
+    id: 'transport',
+    icon: '✈️',
+    title: 'Getting Around',
+    gradient: 'linear-gradient(135deg, #E65100 0%, #FF9800 100%)',
+    items: [
+      { label: 'Inter-Island Flights', text: 'Hawaiian Airlines and Southwest Airlines operate inter-island flights (25-45 minutes, $60-150 one-way). Book early for the best prices. Hawaiian Airlines\' turboprop flights between Oahu and Molokai/Lanai are the only options for those islands. Mokulele Airlines covers smaller routes. No ferries operate between most islands — the Maui-Lanai ferry is the exception.' },
+      { label: 'Rental Car Essential', text: 'A rental car is essential on every island except Waikiki. Public transit barely exists outside Honolulu. Book 4-6 weeks ahead, especially in peak season — Maui and Big Island frequently sell out completely. Budget $60-120/day. Jeeps and convertibles are popular but overpriced. A basic sedan handles 95% of Hawaiian roads fine.' },
+      { label: 'Driving Tips', text: 'Island roads are mostly two-lane highways — don\'t expect mainland speed. Traffic on Oahu (especially H-1 freeway) rivals LA. On Maui, the Road to Hana is 620 curves and 59 bridges in 52 miles — budget a full day. On Big Island, Saddle Road connects Hilo and Kona through the volcanic interior. Drive with aloha — locals are patient but don\'t appreciate aggressive driving.' },
+      { label: 'Limited Public Transit', text: 'TheBus on Oahu is the only reliable public transit system ($2.75/ride, $5.50 day pass). It covers the entire island but is slow. The Waikiki Trolley ($25/day) connects tourist areas. Maui, Big Island, and Kauai have limited bus service that\'s impractical for most tourists. Uber and Lyft work in tourist areas but are unreliable in rural parts of any island.' },
+      { label: 'Biking & Walking', text: 'Waikiki is walkable for beach-hopping and dining. Lahaina (Maui) and Hilo (Big Island) have compact walkable downtown areas. The Kauai coastal path is great for biking. Otherwise, distances between attractions on every island require a car. E-bikes are available for rent in many tourist areas ($50-80/day) and are great for exploring town areas.' },
+    ],
+  },
+  {
+    id: 'connectivity',
+    icon: '📱',
+    title: 'Connectivity',
+    gradient: 'linear-gradient(135deg, #6A1B9A 0%, #AB47BC 100%)',
+    items: [
+      { label: 'Cell Coverage', text: 'All major US carriers work well in populated areas and along main highways. Coverage drops in rural areas, along the Napali Coast (Kauai), in Haleakala crater (Maui), remote parts of Big Island, and on Molokai/Lanai. Verizon and AT&T have the best Hawaiian coverage; T-Mobile is weaker in rural areas.' },
+      { label: 'Dead Zones', text: 'Road to Hana has spotty coverage for large stretches. The Napali Coast (Kauai) has zero service on the trail. Hawaii Volcanoes National Park has limited coverage away from the visitor center. Download offline maps before heading to remote areas. The Kalalau Trail on Kauai requires going fully off-grid for the duration.' },
+      { label: 'WiFi', text: 'Hotel and resort WiFi is standard. Most coffee shops and restaurants offer free WiFi. Connection speeds are generally good in urban areas but slower than mainland US. If you need reliable internet, Airbnb listings often have better WiFi than budget hotels. Starlink is increasingly common in rural vacation rentals.' },
+      { label: 'International Visitors', text: 'Same US carrier options as the mainland. Prepaid SIM or eSIM from T-Mobile, Mint Mobile, or Airalo ($30-40/month). Activate before arrival. Japan-based travelers: note that SoftBank and Docomo have roaming agreements with US carriers that often provide seamless coverage.' },
+    ],
+  },
+  {
+    id: 'safety',
+    icon: '🏥',
+    title: 'Safety & Health',
+    gradient: 'linear-gradient(135deg, #C62828 0%, #EF5350 100%)',
+    items: [
+      { label: 'Ocean Safety', text: 'The Pacific Ocean around Hawaii is powerful and unpredictable. Always swim at lifeguarded beaches. Check surf reports before entering the water — winter north shore swells can reach 30-50ft. Rip currents are the primary danger. Never turn your back to the ocean. Shore break can snap your neck in shallow water. If in doubt, ask a lifeguard.' },
+      { label: 'Sun & Heat', text: 'Hawaii is just south of the Tropic of Cancer — UV is extreme year-round. Apply reef-safe SPF 50+ every 2 hours. Wear a hat, UV sunglasses, and a rashguard for extended water activities. Dehydration happens fast — carry water everywhere. Sunburn can ruin your trip in a single afternoon; it hits harder than most visitors expect, even on cloudy days.' },
+      { label: 'Reef-Safe Sunscreen Law', text: 'Hawaii bans sunscreens containing oxybenzone and octinoxate to protect coral reefs. This is LAW, not a suggestion. Buy reef-safe sunscreen before your trip — options in Hawaii are limited and expensive. Look for zinc oxide or titanium dioxide as active ingredients. Brands like Sun Bum, Raw Elements, and Badger are compliant.' },
+      { label: 'Hiking Safety', text: 'Hawaiian trails can be deceptively dangerous — muddy, steep, and with sheer drop-offs. Flash floods happen quickly in narrow valleys. Never hike in stream beds during rain. Stay on marked trails — rescue operations for off-trail hikers cost tens of thousands of dollars and sometimes fail. Kalalau Trail, Haiku Stairs, and many ridge trails have claimed lives. Start early, bring water, and tell someone your plans.' },
+      { label: 'Wildlife', text: 'No snakes (it\'s illegal to bring them) and no large predators on land. Ocean hazards include Portuguese man-of-war (especially on windward beaches), box jellyfish (arrive 8-10 days after a full moon on Oahu south shore), sea urchins in shallow reef areas, and sharks (rare but present — avoid murky water at dawn/dusk). Centipedes exist on all islands and their sting is painful but not dangerous.' },
+      { label: 'Healthcare', text: 'Quality hospitals exist on every major island: Queens Medical Center (Oahu), Maui Memorial, Kona Community Hospital, Wilcox Medical Center (Kauai). International visitors should have travel insurance — US healthcare is expensive. Nearest pharmacies (Longs Drugs, CVS) are in most towns. For emergencies, call 911.' },
+    ],
+  },
+  {
+    id: 'packing',
+    icon: '🎒',
+    title: 'Packing Essentials',
+    gradient: 'linear-gradient(135deg, #78350F 0%, #D97706 100%)',
+    items: [
+      { label: 'Multiple Microclimates', text: 'Each island has a dry side (leeward/west) and a wet side (windward/east). Waikiki and Kona are dry; Hilo gets 130+ inches of rain per year. Haleakala summit on Maui can be 30F while the beach below is 85F. Pack for both warm beaches and cool elevation. A light rain jacket is essential for windward sides and mountain areas.' },
+      { label: 'Reef-Safe Sunscreen', text: 'Buy this before your trip — selection in Hawaii is limited and marked up. Bring enough for your entire trip (4-6oz per person per week for daily beach use). Mineral-based formulas (zinc oxide) leave a white cast but protect better. Spray sunscreens are less effective in wind. A SPF rashguard reduces how much sunscreen you need.' },
+      { label: 'Water Gear', text: 'Pack your own snorkel mask if you snorkel regularly — rentals are $10-15/day and often scratched. Reef shoes or water sandals protect against sharp coral and sea urchins in shallow water. A waterproof phone pouch lets you take photos while snorkeling. Quick-dry towels save luggage space and weight.' },
+      { label: 'Clothing', text: 'Casual and minimal. Board shorts, t-shirts, sundresses, and flip-flops cover 90% of situations. One nice outfit for a sunset dinner — "resort casual" means a collared shirt and closed-toe shoes for men. Pack 2-3 swimsuits so they can dry between days. A light hoodie or fleece for evening boat tours, Haleakala sunrise, and air-conditioned restaurants.' },
+      { label: 'Hiking Gear', text: 'Proper hiking shoes with grip — Hawaiian trails are muddy and slippery. Trekking poles for steep descents (Diamond Head, Kalalau, Pipiwai). A 2-liter hydration pack or water bottles. Bug spray for jungle trails. A headlamp if you\'re doing Haleakala sunrise (you start in the dark at 3am). Rain jacket for windward side trails — afternoon showers are daily.' },
+    ],
+  },
+  {
+    id: 'culture',
+    icon: '🌺',
+    title: 'Culture & Etiquette',
+    gradient: 'linear-gradient(135deg, #0D7377 0%, #14B8A6 100%)',
+    items: [
+      { label: 'Aloha Spirit', text: 'Aloha is more than a greeting — it\'s a philosophy of kindness, respect, and living in harmony. Locals genuinely embody this. Be patient, be kind, smile. Don\'t rush, don\'t honk, don\'t complain about "island time." If someone waves you into traffic, wave back. The aloha spirit is what makes Hawaii special, and visitors who embrace it have a completely different experience.' },
+      { label: 'Respect Sacred Sites', text: 'Many natural landmarks — volcanoes, valleys, beaches, rock formations — are sacred to Native Hawaiians. Do not take lava rocks from Volcanoes National Park (it\'s disrespectful and bad luck). Do not stack rocks in cairns on beaches or trails. Ask before photographing cultural ceremonies. Heiau (ancient temples) are sacred — observe from a respectful distance and never climb on them.' },
+      { label: 'Private Land & No-Go Zones', text: 'Much of Hawaii is privately owned, including many "Instagram-famous" locations. Trespassing is taken seriously — you can be fined or arrested. The Haiku Stairs ("Stairway to Heaven") on Oahu is illegal to climb and has been demolished. Always verify access before heading to any trail or waterfall not in a state or national park. Respect "Kapu" (forbidden/keep out) signs.' },
+      { label: 'Hawaiian Language', text: '"Mahalo" (thank you), "aloha" (hello/goodbye/love), "ohana" (family), "keiki" (children), "mauka" (toward the mountain), "makai" (toward the ocean), "poke" (pronounced po-keh, not po-key), "pau hana" (after work — happy hour). Locals appreciate visitors who make even small efforts to use Hawaiian words correctly.' },
+      { label: 'Environmental Respect', text: 'Don\'t touch sea turtles (honu) — it\'s a federal offense with fines up to $20,000. Stay 10 feet from turtles and 50 feet from monk seals. Don\'t walk on coral reefs. Don\'t feed wildlife. Take all trash with you. Use reef-safe sunscreen. Hawaii\'s ecosystem is incredibly fragile — invasive species have already devastated native plants and animals. Every small action matters.' },
+      { label: 'Local Food Culture', text: 'Try everything: poke bowls, plate lunches, loco moco, spam musubi, malasadas, shave ice (not "shaved" ice), kalua pork, haupia. Eat where locals eat — food trucks, plate lunch spots, and small family restaurants serve the best food at the best prices. Don\'t call it "Hawaiian pizza" — pineapple on pizza is not Hawaiian. Poi is an acquired taste but try it with respect.' },
+    ],
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  schemaData={{ title: pageTitle, description: pageDescription }}
+  breadcrumbs={breadcrumbs}
+>
+  <header class="prac-hero">
+    <div class="prac-hero-gradient"></div>
+    <div class="prac-hero-noise"></div>
+    <div class="prac-hero-content">
+      <h1 class="prac-hero-title">Hawaii Travel Essentials</h1>
+      <p class="prac-hero-subtitle">Inter-island flights, rental car strategy, reef-safe sunscreen law, sacred site etiquette, and packing for multiple microclimates across the islands.</p>
+      <div class="prac-hero-meta">
+        <div class="prac-hero-meta-item"><span class="prac-hero-meta-label">Topics</span><span class="prac-hero-meta-value">7</span></div>
+        <div class="prac-hero-meta-item"><span class="prac-hero-meta-label">Updated</span><span class="prac-hero-meta-value">Feb 2026</span></div>
+      </div>
+    </div>
+    <div class="prac-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <div class="container-content"><Breadcrumb items={breadcrumbs} /></div>
+
+  <section class="prac-personal reveal">
+    <div class="container-content">
+      <blockquote class="prac-personal-quote">
+        <p>Hawaii is not just another US destination — it's a unique place with its own culture, ecology, and rules. The biggest mistake I see visitors make is treating it like a beach resort with palm trees. The islands deserve more respect than that. This guide covers the practical side so you can experience Hawaii the right way — as a guest in someone else's home, not just a tourist at a theme park.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="prac-quicknav reveal">
+    <div class="container-content">
+      <div class="prac-quicknav-grid">
+        {topics.map((t) => (
+          <a href={`#${t.id}`} class="prac-quicknav-chip">
+            <span class="prac-quicknav-icon">{t.icon}</span>
+            <span class="prac-quicknav-label">{t.title.split(' ').slice(0, 2).join(' ')}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {topics.map((topic) => (
+    <section class="prac-topic reveal" id={topic.id}>
+      <div class="container-content">
+        <div class="prac-topic-header" style={`background: ${topic.gradient};`}>
+          <div class="prac-topic-header-inner">
+            <span class="prac-topic-icon">{topic.icon}</span>
+            <h2 class="prac-topic-title">{topic.title}</h2>
+            <span class="prac-topic-count">{topic.items.length} tips</span>
+          </div>
+        </div>
+        <div class="prac-tip-grid">
+          {topic.items.map((item) => (
+            <div class="prac-tip-card">
+              <h3 class="prac-tip-label">{item.label}</h3>
+              <p class="prac-tip-text" set:html={item.text} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <section class="prac-cta-section reveal">
+    <div class="container-content">
+      <div class="prac-cta-card">
+        <h2 class="prac-cta-heading">Plan Your Hawaii Trip</h2>
+        <p class="prac-cta-text">Tell our AI planner your dates, budget, and interests — it builds a custom day-by-day itinerary with inter-island flights, activities, and dining.</p>
+        <a href="/plan/" class="prac-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <FAQ items={[
+    { question: "What is the best time to visit Hawaii?", answer: "Hawaii is great year-round. Dry season (April-October) has the best weather and calmest ocean. Winter (November-March) brings big surf on north shores, whale watching season, and slightly lower prices outside holidays. Peak pricing hits mid-December through March and June-August. September and October are the sweet spot — warm, dry, fewer crowds, and lower prices." },
+    { question: "Which Hawaiian island should I visit first?", answer: "Oahu for first-timers who want a mix of culture, beaches, history (Pearl Harbor), and nightlife. Maui for couples and luxury travelers (resorts, Road to Hana, Haleakala). Big Island for adventure seekers (volcanoes, snorkeling, diverse landscapes). Kauai for nature lovers and hikers (Napali Coast, Waimea Canyon). Don't try to island-hop in less than 7 days — pick one island and explore it well." },
+    { question: "Do I need a rental car in Hawaii?", answer: "Yes, on every island except possibly Waikiki on Oahu. Public transit is minimal. Book 4-6 weeks ahead, especially December-March and June-August when rentals sell out completely on Maui and Kauai. A basic sedan handles most roads. Jeeps are overpriced and unnecessary unless you specifically want to off-road." },
+    { question: "How expensive is Hawaii?", answer: "Hawaii is the most expensive US state. Budget travelers: $120-180/day with hostels, grocery store meals, and free beaches. Mid-range: $300-500/day with hotels, restaurants, and activities. Luxury: $700+/day at resorts. Gas is $4.50-5.50/gallon, groceries are 50-60% above mainland prices, and restaurant meals average $20-40 per person." },
+    { question: "What is reef-safe sunscreen and do I need it?", answer: "Hawaii law bans sunscreens containing oxybenzone and octinoxate, which damage coral reefs. You must use mineral-based sunscreens with zinc oxide or titanium dioxide as active ingredients. Buy before your trip — options are limited and expensive in Hawaii. Brands like Sun Bum, Raw Elements, and Badger comply with the law." },
+    { question: "What should I pack for Hawaii?", answer: "Light, casual clothing (shorts, t-shirts, sundresses, flip-flops). 2-3 swimsuits, reef-safe sunscreen, UV sunglasses, hat. A light rain jacket for windward sides. Hiking shoes with grip for trails. A light hoodie for evenings and elevation. Snorkel gear if you have it (saves rental costs). Reef shoes for rocky beaches." },
+  ]} />
+
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get Our Free Hawaii Travel Essentials Guide"
+      description="A printable PDF covering everything in this guide — plus inter-island flight tips, packing checklist, and cultural etiquette."
+      bullets={[
+        'Inter-island flight comparison with booking tips',
+        'Island-by-island packing checklist for microclimates',
+        'Sacred site etiquette guide with Hawaiian vocabulary',
+        'Reef-safe sunscreen brand list and ocean safety guide',
+      ]}
+      guideTag="pillar-practical"
+    />
+  </div>
+
+  <section class="prac-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="prac-crosslinks-heading">Explore More</h3>
+      <div class="prac-crosslinks-grid">
+        <a href="/beaches/" class="prac-crosslink-card"><span class="prac-crosslink-icon">&#127958;</span><span class="prac-crosslink-label">Beach Guide</span><span class="prac-crosslink-desc">Top beaches across all islands ranked by activity</span></a>
+        <a href="/cuisine/" class="prac-crosslink-card"><span class="prac-crosslink-icon">&#127860;</span><span class="prac-crosslink-label">Hawaiian Cuisine</span><span class="prac-crosslink-desc">Poke, plate lunch, shave ice, and local favorites</span></a>
+        <a href="/outdoor/" class="prac-crosslink-card"><span class="prac-crosslink-icon">&#127956;</span><span class="prac-crosslink-label">Outdoor Adventures</span><span class="prac-crosslink-desc">Hiking, surfing, snorkeling, and volcano trekking</span></a>
+        <a href="/festivals/" class="prac-crosslink-card"><span class="prac-crosslink-icon">&#127914;</span><span class="prac-crosslink-label">Festivals</span><span class="prac-crosslink-desc">Merrie Monarch, Lei Day, and Aloha Festivals</span></a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const ro = new IntersectionObserver((entries) => { entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach((el) => ro.observe(el));
+  } else { document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible')); }
+</script>
+
+<style>
+  .prac-hero { position: relative; min-height: 55vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 5rem var(--space-6) 60px; overflow: hidden; background: linear-gradient(135deg, #0E7490 0%, #14B8A6 50%, #065F46 100%); }
+  .prac-hero-gradient { position: absolute; inset: 0; z-index: 1; background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%); }
+  .prac-hero-noise { position: absolute; inset: 0; z-index: 2; background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E"); pointer-events: none; }
+  .prac-hero-content { position: relative; z-index: 3; max-width: 720px; }
+  .prac-hero-title { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: var(--weight-bold); color: #fff; line-height: 1.1; margin: 0 0 var(--space-3); }
+  .prac-hero-subtitle { font-size: clamp(1rem, 2vw, 1.15rem); color: rgba(255,255,255,0.85); line-height: 1.6; margin: 0 0 var(--space-5); max-width: 580px; }
+  .prac-hero-meta { display: flex; gap: var(--space-5); flex-wrap: wrap; }
+  .prac-hero-meta-item { display: flex; flex-direction: column; gap: 2px; }
+  .prac-hero-meta-label { font-size: 0.65rem; font-weight: var(--weight-semibold); text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.5); }
+  .prac-hero-meta-value { font-size: 1.1rem; font-weight: var(--weight-bold); color: #fff; }
+  .prac-scroll-hint { position: absolute; bottom: 16px; right: var(--space-6); z-index: 3; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.15em; color: rgba(255,255,255,0.35); text-align: center; animation: pracBounce 2s ease-in-out infinite; }
+  @keyframes pracBounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(6px)} }
+  .prac-personal { padding-block: var(--space-8); }
+  .prac-personal-quote { max-width: 680px; margin: 0 auto; padding: var(--space-6) var(--space-8); border-left: 4px solid var(--color-ocean-teal); background: var(--color-sky); border-radius: 0 12px 12px 0; }
+  .prac-personal-quote p { font-size: var(--text-body); color: var(--color-heading); line-height: var(--leading-body); font-style: italic; margin-bottom: var(--space-3); }
+  .prac-personal-quote cite { font-size: var(--text-caption); color: var(--color-ocean-teal); font-weight: var(--weight-semibold); font-style: normal; }
+  .prac-quicknav { padding: 0 0 var(--space-6); }
+  .prac-quicknav-grid { display: flex; justify-content: center; gap: var(--space-2); flex-wrap: wrap; }
+  .prac-quicknav-chip { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: var(--color-white); border: 1px solid rgba(0,0,0,0.08); border-radius: 40px; font-size: 0.8rem; font-weight: var(--weight-medium); color: var(--color-slate); text-decoration: none; transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease; }
+  .prac-quicknav-chip:hover { background: var(--color-sky); color: var(--color-ocean-teal); transform: translateY(-2px); }
+  .prac-quicknav-icon { font-size: 1rem; }
+  .prac-quicknav-label { white-space: nowrap; }
+  .prac-topic { padding: var(--space-4) 0 var(--space-6); scroll-margin-top: 80px; }
+  .prac-topic-header { position: relative; border-radius: 20px; padding: var(--space-5) var(--space-6); margin-bottom: var(--space-5); overflow: hidden; }
+  .prac-topic-header-inner { position: relative; z-index: 1; display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap; }
+  .prac-topic-icon { font-size: 1.6rem; }
+  .prac-topic-title { font-size: clamp(1.2rem,2.5vw,1.6rem); font-weight: var(--weight-bold); color: #fff; margin: 0; line-height: 1.2; flex: 1; min-width: 200px; }
+  .prac-topic-count { font-size: 0.7rem; font-weight: var(--weight-semibold); text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.55); background: rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 20px; }
+  .prac-tip-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: var(--space-4); }
+  @media(max-width:768px){.prac-tip-grid{grid-template-columns:1fr}}
+  .prac-tip-card { background: var(--color-white); border: 1px solid rgba(0,0,0,0.06); border-radius: 14px; padding: var(--space-5); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+  .prac-tip-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+  .prac-tip-label { font-size: 0.95rem; font-weight: var(--weight-bold); color: var(--color-deep-night); margin: 0 0 var(--space-2); line-height: 1.3; }
+  .prac-tip-text { font-size: 0.85rem; color: var(--color-slate); line-height: 1.65; margin: 0; }
+  .prac-tip-text :global(a) { color: var(--color-ocean-teal); font-weight: var(--weight-semibold); text-decoration: underline; text-decoration-color: rgba(13,115,119,0.3); text-underline-offset: 2px; }
+  .prac-cta-section { padding: var(--space-6) 0 var(--space-8); }
+  .prac-cta-card { background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%); border-radius: 20px; padding: var(--space-8) var(--space-6); text-align: center; color: #fff; }
+  .prac-cta-heading { font-size: clamp(1.3rem,3vw,1.8rem); font-weight: var(--weight-bold); margin: 0 0 var(--space-3); color: #fff; }
+  .prac-cta-text { font-size: 1rem; color: rgba(255,255,255,0.75); max-width: 520px; margin: 0 auto var(--space-5); line-height: 1.6; }
+  .prac-cta-button { display: inline-block; background: var(--color-warm-coral); color: #fff; font-size: 0.9rem; font-weight: var(--weight-semibold); padding: 12px 28px; border-radius: 40px; text-decoration: none; transition: background 0.2s ease, transform 0.2s ease; }
+  .prac-cta-button:hover { background: #d4553b; transform: translateY(-2px); }
+  .prac-crosslinks { padding: 0 0 var(--space-10); }
+  .prac-crosslinks-heading { font-size: 1.1rem; font-weight: var(--weight-bold); color: var(--color-deep-night); text-align: center; margin: 0 0 var(--space-4); }
+  .prac-crosslinks-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: var(--space-4); max-width: 960px; margin: 0 auto; }
+  @media(max-width:768px){.prac-crosslinks-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:480px){.prac-crosslinks-grid{grid-template-columns:1fr}}
+  .prac-crosslink-card { display: flex; flex-direction: column; align-items: center; gap: var(--space-2); padding: var(--space-5) var(--space-4); background: var(--color-white); border: 1px solid rgba(0,0,0,0.06); border-radius: 16px; text-decoration: none; color: inherit; text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+  .prac-crosslink-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+  .prac-crosslink-icon { font-size: 1.8rem; }
+  .prac-crosslink-label { font-size: 0.95rem; font-weight: var(--weight-bold); color: var(--color-deep-night); }
+  .prac-crosslink-desc { font-size: 0.78rem; color: var(--color-slate); line-height: 1.4; }
+  @media(max-width:640px){.prac-hero{min-height:50vh;padding:0 var(--space-4) 40px}.prac-hero-meta{gap:var(--space-4)}.prac-scroll-hint{display:none}.prac-topic-header{padding:var(--space-4) var(--space-4)}}
+</style>
