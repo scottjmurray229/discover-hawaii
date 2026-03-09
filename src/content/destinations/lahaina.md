@@ -2,6 +2,14 @@
 title: 'Lahaina'
 description: 'Explore historic Lahaina on Maui west coast — the former Hawaiian capital, legendary Front Street, whale watching, and the resilient spirit of a storied town.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'History, heart, and Hawaiian soul'
 region: 'maui'

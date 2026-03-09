@@ -2,6 +2,14 @@
 title: 'Pearl Harbor'
 description: 'Visit Pearl Harbor on Oahu — USS Arizona Memorial, Battleship Missouri, Aviation Museum, and the historic site that changed the course of World War II.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'Where history and honor run deep'
 region: 'oahu'

@@ -7,6 +7,7 @@ import FAQ from '../components/FAQ.astro';
 import EmailCapture from '../components/EmailCapture.astro';
 import FTCDisclosure from '../components/FTCDisclosure.astro';
 import CompleteTripFooter from '../components/CompleteTripFooter.astro';
+import AEOQuickFacts from '../components/AEOQuickFacts.astro';
 import { existsSync } from 'node:fs';
 
 interface Props {
@@ -30,6 +31,7 @@ interface Props {
     relatedDestinations?: (string | { slug: string; videoSrc?: string; hook?: string })[];
     faqItems?: { question: string; answer: string }[];
     affiliatePicks?: { name: string; type: 'hotel' | 'restaurant' | 'tour' | 'activity'; price: string; priceNote?: string; personalNote: string; affiliateUrl?: string; badge?: string }[];
+    aeoFacts?: { currency: string; plugType: string; language: string; bestTime: string; visaInfo?: string; timeZone?: string; emergencyNumber?: string };
     videoBreaks?: {
       id: string;
       videoSrc?: string;
@@ -245,6 +247,21 @@ const gradientVar = `var(--gradient-${gradientKey}, var(--gradient-homepage))`;
   <article class="container-content container-prose dest-content">
     <slot />
   </article>
+
+  {frontmatter.aeoFacts && (
+    <div class="container-content container-prose">
+      <AEOQuickFacts
+        destinationName={frontmatter.title}
+        currency={frontmatter.aeoFacts.currency}
+        plugType={frontmatter.aeoFacts.plugType}
+        language={frontmatter.aeoFacts.language}
+        bestTime={frontmatter.aeoFacts.bestTime}
+        visaInfo={frontmatter.aeoFacts.visaInfo}
+        timeZone={frontmatter.aeoFacts.timeZone}
+        emergencyNumber={frontmatter.aeoFacts.emergencyNumber}
+      />
+    </div>
+  )}
 
   <!-- Inline Affiliate Picks Data (for client-side injection) -->
   {frontmatter.affiliatePicks && frontmatter.affiliatePicks.length > 0 && (

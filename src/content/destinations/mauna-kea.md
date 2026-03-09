@@ -2,6 +2,14 @@
 title: 'Mauna Kea'
 description: 'Summit Mauna Kea on the Big Island — world-class stargazing at 13,796 feet, astronomical observatories, snow-capped peaks, and sacred Hawaiian cultural site.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'Touch the stars from a sacred summit'
 region: 'big-island'

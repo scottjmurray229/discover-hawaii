@@ -2,6 +2,14 @@
 title: 'Haleakala'
 description: 'Experience Haleakala National Park on Maui — witness a legendary sunrise above the clouds, hike volcanic craters, and explore rare silversword plants at 10,023 feet.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'Sunrise above the clouds on a sleeping volcano'
 region: 'maui'

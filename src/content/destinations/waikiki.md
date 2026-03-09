@@ -2,6 +2,14 @@
 title: 'Waikiki'
 description: 'Discover Waikiki Beach in Honolulu — iconic surf breaks, oceanfront dining, vibrant nightlife, and stunning Diamond Head views on Oahu south shore.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'Where golden sand meets endless Pacific blue'
 region: 'oahu'

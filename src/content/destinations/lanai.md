@@ -2,6 +2,14 @@
 title: 'Lanai'
 description: 'Lanai travel guide 2026 — Hawaii most exclusive island with two Four Seasons resorts, red clay roads through a former pineapple plantation, pristine beaches accessed only by dirt road, and a small town where barely 3,000 people live completely off the tourist trail.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'Hawaii most exclusive island — two Four Seasons, red clay backcountry roads, empty beaches, and the most peaceful 141 square miles in the Pacific'
 region: 'lanai'

@@ -2,6 +2,14 @@
 title: 'Road to Hana'
 description: 'Drive the legendary Road to Hana on Maui — 64 miles of waterfalls, bamboo forests, black sand beaches, and 620 curves through Hawaii lush tropical coast.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'The journey is the destination'
 region: 'maui'

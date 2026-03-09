@@ -2,6 +2,14 @@
 title: 'Diamond Head'
 description: 'Hike Diamond Head crater on Oahu — the iconic volcanic landmark with panoramic views of Waikiki, Honolulu skyline, and the vast Pacific Ocean horizon.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'Climb an icon, see forever'
 region: 'oahu'

@@ -2,6 +2,14 @@
 title: 'Volcanoes National Park'
 description: 'Experience Hawai i Volcanoes National Park — active Kilauea volcano, lava tubes, steam vents, crater rim trails, and the raw power of Earth creation in real time.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'Where the Earth is still being born'
 region: 'big-island'

@@ -2,6 +2,14 @@
 title: 'Molokai'
 description: 'Experience Molokai, Hawaii most Hawaiian island — towering sea cliffs, Kalaupapa National Historical Park, empty beaches, and authentic island life untouched by resorts.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'Hawaii as it was, and as it should be'
 region: 'molokai'

@@ -2,6 +2,14 @@
 title: 'Waimea Canyon'
 description: 'Explore Waimea Canyon on Kauai — the Grand Canyon of the Pacific with 3,600-foot red cliffs, panoramic lookouts, hiking trails, and lush Koke e State Park.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'The Grand Canyon of the Pacific'
 region: 'kauai'

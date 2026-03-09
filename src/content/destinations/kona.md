@@ -2,6 +2,14 @@
 title: 'Kona'
 description: 'Explore Kona on Hawaii Big Island — world-famous coffee farms, manta ray night dives, historic Kailua Village, deep-sea fishing, and year-round tropical sunshine.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'Coffee, coast, and Big Island magic'
 region: 'big-island'

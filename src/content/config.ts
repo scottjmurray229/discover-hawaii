@@ -60,6 +60,15 @@ const destinations = defineCollection({
     contentStatus: z.enum(['draft', 'review', 'published', 'needs-update']).default('draft'),
     draft: z.boolean().default(true),
     fmContentType: z.string().optional(),
+    aeoFacts: z.object({
+      currency: z.string(),
+      plugType: z.string(),
+      language: z.string(),
+      bestTime: z.string(),
+      visaInfo: z.string().optional(),
+      timeZone: z.string().optional(),
+      emergencyNumber: z.string().optional(),
+    }).optional(),
   }),
 });
 

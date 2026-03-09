@@ -2,6 +2,14 @@
 title: 'Honolulu'
 description: 'Explore Honolulu, Hawaii capital city — world-class museums, vibrant Chinatown, Iolani Palace, farm-to-table dining, and the cultural heart of the Pacific.'
 heroVideo: ''
+aeoFacts:
+  currency: "USD (US Dollar)"
+  plugType: "A/B, 120V"
+  language: "English, Hawaiian"
+  bestTime: "April to October (summer, dry season)"
+  visaInfo: "US territory - no visa required for US citizens; standard US entry for others"
+  timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
+  emergencyNumber: "911"
 heroImage: ''
 tagline: 'The vibrant heart of the Pacific'
 region: 'oahu'
