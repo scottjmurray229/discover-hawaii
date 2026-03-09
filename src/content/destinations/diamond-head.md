@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Diamond Head crater trail and Waikiki Beach below from the summit lookout, Hawaii"
 tagline: 'Climb an icon, see forever'
 region: 'oahu'
 bestMonths: ['March', 'April', 'May', 'September', 'October', 'November']

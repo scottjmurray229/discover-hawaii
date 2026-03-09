@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Banyan tree canopy and Front Street harbor of historic Lahaina, Maui, Hawaii"
 tagline: 'History, heart, and Hawaiian soul'
 region: 'maui'
 bestMonths: ['December', 'January', 'February', 'March', 'April', 'May']

@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Diamond Head and the Waikiki Beach skyline at golden hour, Honolulu, Hawaii"
 tagline: 'The vibrant heart of the Pacific'
 region: 'oahu'
 bestMonths: ['April', 'May', 'June', 'September', 'October', 'November']

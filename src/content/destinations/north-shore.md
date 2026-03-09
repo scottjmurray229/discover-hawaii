@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Pipeline surf break barrel and North Shore beach at sunset, Oahu, Hawaii"
 tagline: 'Big waves, small town, pure aloha'
 region: 'oahu'
 bestMonths: ['April', 'May', 'June', 'July', 'August', 'September']

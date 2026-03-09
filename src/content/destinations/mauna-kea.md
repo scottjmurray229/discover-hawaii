@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Observatory domes above the clouds on snow-capped Mauna Kea, Big Island, Hawaii"
 tagline: 'Touch the stars from a sacred summit'
 region: 'big-island'
 bestMonths: ['April', 'May', 'June', 'July', 'August', 'September', 'October']

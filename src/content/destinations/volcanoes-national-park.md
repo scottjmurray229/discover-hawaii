@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Lava flowing into the Pacific Ocean at Hawaii Volcanoes National Park, Big Island"
 tagline: 'Where the Earth is still being born'
 region: 'big-island'
 bestMonths: ['March', 'April', 'May', 'September', 'October', 'November']

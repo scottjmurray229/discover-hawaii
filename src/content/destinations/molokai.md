@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Sea cliffs of Kalaupapa and the wild undeveloped north shore of Molokaʻi, Hawaii"
 tagline: 'Hawaii as it was, and as it should be'
 region: 'molokai'
 bestMonths: ['April', 'May', 'June', 'September', 'October', 'November']

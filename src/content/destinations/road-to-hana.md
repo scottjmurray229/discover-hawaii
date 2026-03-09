@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Road to Hāna serpentine highway through lush waterfalls and sea cliffs, Maui, Hawaii"
 tagline: 'The journey is the destination'
 region: 'maui'
 bestMonths: ['April', 'May', 'June', 'September', 'October']

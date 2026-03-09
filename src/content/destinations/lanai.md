@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Garden of the Gods lava boulder landscape and remote Lānaʻi coastline, Hawaii"
 tagline: 'Hawaii most exclusive island — two Four Seasons, red clay backcountry roads, empty beaches, and the most peaceful 141 square miles in the Pacific'
 region: 'lanai'
 bestMonths: ['April', 'May', 'June', 'September', 'October', 'November']

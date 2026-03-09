@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Sunrise above the clouds over Haleakalā's volcanic crater, Maui, Hawaii"
 tagline: 'Sunrise above the clouds on a sleeping volcano'
 region: 'maui'
 bestMonths: ['April', 'May', 'June', 'July', 'August', 'September']

@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "USS Arizona Memorial and the mirror-calm harbor waters at Pearl Harbor, Oahu, Hawaii"
 tagline: 'Where history and honor run deep'
 region: 'oahu'
 bestMonths: ['January', 'February', 'March', 'April', 'May', 'October', 'November', 'December']

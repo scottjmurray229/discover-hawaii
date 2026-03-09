@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Iconic pink Royal Hawaiian Hotel on Waikiki Beach with Diamond Head, Oahu, Hawaii"
 tagline: 'Where golden sand meets endless Pacific blue'
 region: 'oahu'
 bestMonths: ['April', 'May', 'June', 'September', 'October']

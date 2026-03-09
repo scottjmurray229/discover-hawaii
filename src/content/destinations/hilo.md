@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Rainbow Falls waterfall and tropical garden nurseries of Hilo, Big Island, Hawaii"
 tagline: 'Rainforest charm on a volcanic shore'
 region: 'big-island'
 bestMonths: ['April', 'May', 'June', 'July', 'August', 'September']

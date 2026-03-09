@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Kailua Beach powder sand and turquoise Oahu coast, Hawaii"
 tagline: 'Turquoise water, powder sand, island soul'
 region: 'oahu'
 bestMonths: ['April', 'May', 'June', 'July', 'August', 'September']

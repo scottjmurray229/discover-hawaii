@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Spouting Horn blowhole and Poipu Beach tide pools, Kauai, Hawaii"
 tagline: 'Kauai sunniest shore, where nature puts on a show'
 region: 'kauai'
 bestMonths: ['April', 'May', 'June', 'September', 'October', 'November']

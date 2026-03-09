@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Grand Canyon of the Pacific layered red rock walls, Waimea Canyon, Kauai, Hawaii"
 tagline: 'The Grand Canyon of the Pacific'
 region: 'kauai'
 bestMonths: ['March', 'April', 'May', 'June', 'September', 'October']

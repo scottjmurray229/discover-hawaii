@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Green sea turtle resting on black lava rock along the Kona Coast, Big Island, Hawaii"
 tagline: 'Coffee, coast, and Big Island magic'
 region: 'big-island'
 bestMonths: ['March', 'April', 'May', 'June', 'September', 'October']

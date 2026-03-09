@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Luxury resort pool and whale-watching at Wailea Beach, Maui, Hawaii"
 tagline: 'Sun-drenched luxury on Maui golden coast'
 region: 'maui'
 bestMonths: ['April', 'May', 'June', 'September', 'October', 'November']

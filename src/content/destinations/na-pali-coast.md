@@ -11,6 +11,7 @@ aeoFacts:
   timeZone: "UTC-10 (Hawaii-Aleutian Standard Time)"
   emergencyNumber: "911"
 heroImage: ''
+heroAlt: "Nā Pali Coast emerald sea cliffs rising 4,000 feet from the Pacific, Kauai, Hawaii"
 tagline: 'Cathedral cliffs rising from an emerald sea'
 region: 'kauai'
 bestMonths: ['April', 'May', 'June', 'July', 'August', 'September']
