@@ -24,7 +24,21 @@ export const HAWAII_CONFIG: PackingConfig = {
   currency: 'USD',
   plugType: 'Type A/B',
   plugVoltage: '120V',
-  affiliateTag: 'discovermore-20',
+  affiliateTag: 'discoverphili-20',
+  seasons: [
+    { value: 'dry', label: 'Dry Season' },
+    { value: 'rainy', label: 'Wet / Rainy Season' },
+    { value: 'shoulder', label: 'Shoulder Season' },
+  ],
+  activities: [
+    { value: 'snorkeling', label: 'Snorkeling', icon: '🤿' },
+    { value: 'diving', label: 'Diving', icon: '🐟' },
+    { value: 'hiking', label: 'Hiking', icon: '🥾' },
+    { value: 'surfing', label: 'Surfing', icon: '🏄' },
+    { value: 'temples', label: 'Temples', icon: '🛕' },
+    { value: 'photography', label: 'Photography', icon: '📸' },
+    { value: 'nightlife', label: 'Nightlife', icon: '🍹' },
+  ],
   destinationEssentials: HAWAII_ESSENTIALS,
   gearRecommendations: HAWAII_GEAR_RECOMMENDATIONS,
 };
