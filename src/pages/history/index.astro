@@ -1,0 +1,1438 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'History of Hawaii', url: '/history/' },
+];
+
+const pageTitle = 'History of Hawaii — From Polynesian Navigation to Pearl Harbor & Statehood';
+const pageDescription = 'Trace Hawaii\'s extraordinary history — from the Polynesian navigators who found these islands by stars alone, through the Hawaiian Kingdom\'s rise and fall, the shock of Pearl Harbor, and the long road to becoming America\'s 50th state.';
+
+interface TimelineEvent {
+  date: string;
+  year: number;
+  title: string;
+  location: string;
+  slug?: string | string[];
+  description: string;
+  whatToSee?: string;
+  side: 'left' | 'right';
+  era: 'polynesian' | 'kingdom' | 'american' | 'statehood';
+}
+
+const timeline: TimelineEvent[] = [
+  // Era: polynesian
+  {
+    date: 'circa 300 AD',
+    year: 300,
+    title: 'First Polynesian Settlement',
+    location: 'Nā Pali Coast, Kauaʻi',
+    slug: 'na-pali-coast',
+    description: 'The first Polynesian voyagers — almost certainly from the Marquesas Islands — made one of the most extraordinary ocean crossings in human history, navigating roughly 2,000 miles of open Pacific using only stars, ocean swells, bird behavior, and cloud patterns. They arrived on Kauaʻi and established the first permanent settlements in the Hawaiian archipelago. These were not accidental arrivals but skilled, intentional navigators who brought with them plants, animals, and an entire cultural system. Their descendants would build a civilization that thrived in isolation for nearly a thousand years before outsiders arrived.',
+    whatToSee: 'The Kauaʻi Museum in Līhuʻe dedicates entire galleries to the first settlement period, with artifacts recovered from ancient Kauaʻi sites. The Nā Pali valleys — Nualolo Kai in particular — contain the oldest habitation sites on the island, visible on guided kayak or boat tours along the coast.',
+    side: 'left',
+    era: 'polynesian',
+  },
+  {
+    date: 'circa 1000 AD',
+    year: 1000,
+    title: 'Second Wave Migration from Tahiti',
+    location: 'Hilo, Hawaiʻi',
+    slug: 'hilo',
+    description: 'A second wave of Polynesian migration, this time from the Society Islands (Tahiti), arrived in Hawaii and fundamentally reshaped the culture already established here. These new arrivals brought the ali\'i (chiefly class) system, the powerful kahuna priesthood, and a more rigid social structure that would define Hawaiian society for centuries. They also brought new agricultural techniques and the concept of heiau — sacred stone temple platforms — that still dot the landscape today. The collision and eventual blending of Marquesan and Tahitian traditions formed the foundations of classical Hawaiian civilization.',
+    whatToSee: 'The Wailuku River near Hilo was an important settlement corridor. The Lyman Museum in Hilo has excellent exhibits on early Hawaiian culture and migration history. The Puʻuhonua o Hōnaunau National Historical Park on the Big Island — though slightly south — preserves the most complete ancient heiau and royal grounds in the state.',
+    side: 'right',
+    era: 'polynesian',
+  },
+  {
+    date: 'circa 1400 AD',
+    year: 1400,
+    title: 'Kapu System Codified',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'By the 1400s, the kapu system — Hawaii\'s elaborate code of sacred prohibitions — had become the bedrock of Hawaiian society. Kapu (the Hawaiian form of the Polynesian "tapu") governed every aspect of daily life: men and women ate separately, common people could not allow their shadows to fall on ali\'i, certain foods were forbidden to women, and certain places could only be entered by priests or chiefs. Violations were punishable by death. The system maintained a rigid hierarchy but also functioned as a form of resource management and social contract. It would survive intact until November 1819 — when it was abolished by King Kamehameha II just months after his father\'s death.',
+    whatToSee: 'The Bishop Museum in Honolulu has the world\'s finest collection of Hawaiian cultural artifacts and provides deep context for the kapu system\'s role in pre-contact Hawaii. The museum\'s Hawaiian Hall — a Victorian-era stone building filled with feathered cloaks, carved ki\'i akua (god images), and navigational instruments — is essential viewing.',
+    side: 'left',
+    era: 'polynesian',
+  },
+
+  // Era: kingdom
+  {
+    date: 'January 18, 1778',
+    year: 1778,
+    title: 'Captain Cook Arrives at Kauaʻi',
+    location: 'Nā Pali Coast, Kauaʻi',
+    slug: 'na-pali-coast',
+    description: 'On January 18, 1778, British explorer Captain James Cook became the first European to make recorded contact with the Hawaiian Islands when his two ships, HMS Resolution and HMS Discovery, arrived off the coast of Kauaʻi. Cook named the archipelago the "Sandwich Islands" in honor of his patron, the Earl of Sandwich. His arrival coincided with the Makahiki festival season — a period when the god Lono was celebrated — which may have led Hawaiians on the Big Island to initially receive him with extraordinary reverence. Cook\'s arrival would set off a chain of events that would ultimately prove catastrophic for the Hawaiian people: within decades, introduced diseases would kill an estimated 90% of the native population.',
+    whatToSee: 'Waimea town on Kauaʻi\'s south shore is where Cook first made landfall. A statue of Captain Cook stands in the town center. The Russian Fort Elizabeth State Historical Park, just outside Waimea, was built by Russian traders who arrived in Cook\'s wake — an overlooked piece of the contact era.',
+    side: 'right',
+    era: 'kingdom',
+  },
+  {
+    date: 'February 14, 1779',
+    year: 1779,
+    title: 'Captain Cook Killed at Kealakekua Bay',
+    location: 'Kailua-Kona, Hawaiʻi',
+    slug: 'kona',
+    description: 'On his second visit to the Big Island, Captain Cook\'s relationship with the Hawaiians deteriorated rapidly after his crew\'s behavior violated kapu and a theft of a ship\'s cutter prompted a confrontation on the beach at Kealakekua Bay. On February 14, 1779, a skirmish broke out and Cook — attempting to take a chief hostage — was killed in the surf along with four of his marines. The Hawaiians later returned Cook\'s bones, which had been treated with the ritual honor reserved for high chiefs. Cook\'s death did not halt European contact; if anything, it accelerated it, as word of the islands spread to traders, missionaries, and whalers across the Pacific.',
+    whatToSee: 'A white obelisk monument marks the exact spot where Cook fell on the shore of Kealakekua Bay. It is accessible only by kayak, boat tour, or a challenging hike down the cliffs from above — which makes it feel genuinely remote. Captain Cook Monument kayak tours from Kailua-Kona are one of the best historical experiences on the Big Island.',
+    side: 'left',
+    era: 'kingdom',
+  },
+  {
+    date: '1795',
+    year: 1795,
+    title: 'Kamehameha I Unifies the Islands',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'King Kamehameha I — the greatest military strategist in Hawaiian history — launched his campaign to unite the Hawaiian Islands under a single rule beginning in the late 1780s. He gained a critical advantage by acquiring European cannons and two foreign advisors — Isaac Davis and John Young — who trained his forces in Western weapons. His conquest culminated in the pivotal Battle of Nu\'uanu in 1795, where he drove rival Oʻahu warriors over the steep Nu\'uanu Pali cliffs to their deaths. By 1810, when Kauaʻi\'s chief Kaumualiʻi yielded without battle, Kamehameha ruled all eight major islands — the first and only time Hawaii was ever politically unified under a single native ruler.',
+    whatToSee: 'The Nu\'uanu Pali Lookout on Oʻahu offers a dramatic view of the cliffs where the 1795 battle\'s final, decisive moment occurred. Human bones were discovered at the base of the pali as recently as the 20th century. The King Kamehameha Statue in downtown Honolulu — directly across from ʻIolani Palace — is the most photographed monument in Hawaii.',
+    side: 'right',
+    era: 'kingdom',
+  },
+  {
+    date: 'April 1820',
+    year: 1820,
+    title: 'First American Missionaries Arrive',
+    location: 'Kailua-Kona, Hawaiʻi',
+    slug: 'kona',
+    description: 'The first company of American Protestant missionaries from New England arrived at Kailua-Kona on April 4, 1820 — just months after Kamehameha II had abolished the kapu system, leaving a spiritual vacuum that proved fortuitous for the mission. The missionaries, sponsored by the American Board of Commissioners for Foreign Missions, brought with them a conviction that Hawaiian society needed to be remade entirely. They created a written Hawaiian language, built schools, translated the Bible, and over the following decades gained extraordinary influence over the Hawaiian monarchy. Historians still debate their legacy: they preserved the Hawaiian language in written form while actively suppressing hula, traditional religion, and cultural practices.',
+    whatToSee: 'Mokuaikaua Church in Kailua-Kona, completed in 1837, is the oldest Christian church in Hawaii — built from lava rock and coral mortar by the first missionary company. The Mission Houses Museum in Honolulu preserves the original 1821 frame house shipped in pieces from New England and is the best place to understand the missionaries\' world.',
+    side: 'left',
+    era: 'kingdom',
+  },
+  {
+    date: '1848',
+    year: 1848,
+    title: 'Great Māhele Land Reform',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'The Great Māhele of 1848 was a land reform that fundamentally transformed Hawaiian society by introducing Western-style private land ownership for the first time. Under the traditional system, all land belonged to the king, who assigned it to chiefs, who in turn allocated it to commoners — but no one "owned" land in the Western legal sense. The Māhele divided land between the king, the government, the ali\'i chiefs, and ordinary Hawaiians. In theory, commoners could claim kuleana (small plots) — but in practice, most lacked the money and legal knowledge to do so. By 1850, foreigners were also permitted to purchase fee simple land. Within decades, sugar plantation owners — many of them missionary descendants — had acquired the majority of Hawaii\'s arable land.',
+    whatToSee: 'The Hawaii State Archives in downtown Honolulu holds the original Māhele Book — the ledger in which King Kamehameha III recorded every land division. The Archives are open to researchers. The Bishop Museum\'s Hawaiian Hall contextualizes the land transformation through objects and oral histories.',
+    side: 'right',
+    era: 'kingdom',
+  },
+  {
+    date: '1882',
+    year: 1882,
+    title: 'ʻIolani Palace Completed',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'ʻIolani Palace, completed in 1882 under King Kalākaua, was the most technologically advanced building in Hawaii and arguably in the entire United States at the time — it had electric lighting installed four years before the White House. Kalākaua built it as a statement of sovereignty and modernity: Hawaii was a civilized, legitimate nation deserving respect from the great powers. The palace hosted state dinners for foreign dignitaries, supported Hawaiian cultural revival through music and hula, and flew the Hawaiian flag over a nation that maintained diplomatic relations with the United States, Great Britain, France, and Japan. It would be the seat of power of two monarchs before the kingdom was overthrown in 1893.',
+    whatToSee: 'ʻIolani Palace in downtown Honolulu is now a National Historic Landmark open for guided and self-guided tours. The throne room, royal suites, and basement jail cell — where Queen Liliʻuokalani was held prisoner after the overthrow — are all accessible. The palace is the only official royal residence on American soil.',
+    side: 'left',
+    era: 'kingdom',
+  },
+
+  // Era: american
+  {
+    date: 'January 17, 1893',
+    year: 1893,
+    title: 'Overthrow of Queen Liliuokalani',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'On January 17, 1893, a small group of American sugar planters and businessmen — backed by 162 US Marines from the USS Boston who surrounded ʻIolani Palace with rifles and a Gatling gun — forced Queen Liliʻuokalani to surrender her throne "to avoid bloodshed." The coup was organized by the Annexation Club, led by Lorrin Thurston, grandson of American missionaries. US Minister John Stevens was directly complicit, ordering the Marines ashore before any violence had occurred. Queen Liliʻuokalani appealed to President Grover Cleveland, who investigated and concluded the overthrow was illegal — but Congress refused to act. The provisional government became the Republic of Hawaii in 1894, controlled entirely by the planter oligarchy.',
+    whatToSee: 'The throne room of ʻIolani Palace is where Queen Liliʻuokalani formally yielded authority. Her basement prison cell, where she was held for eight months after a failed counter-revolution in 1895, is one of the most affecting spaces in Hawaii. The Royal Mausoleum at Mauna ʻAla holds her remains.',
+    side: 'right',
+    era: 'american',
+  },
+  {
+    date: 'August 12, 1898',
+    year: 1898,
+    title: 'US Annexation of Hawaii',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'After President Cleveland\'s refusal to annex Hawaii, the plantation oligarchy found a more willing partner in President William McKinley amid the strategic pressures of the Spanish-American War. On July 7, 1898, McKinley signed the Newlands Resolution annexing Hawaii — but crucially, annexation was achieved by a simple Congressional resolution rather than a treaty, which would have required a two-thirds Senate vote that was unavailable. A petition signed by more than 21,000 Native Hawaiians — representing the majority of the native population — opposing annexation was formally received but ignored. The transfer ceremony at ʻIolani Palace on August 12, 1898 lowered the Hawaiian flag for the last time as Hawaiian women in the crowd wept openly.',
+    whatToSee: 'The Hawaii State Capitol grounds adjacent to ʻIolani Palace include the statue of Queen Liliʻuokalani, depicted holding her song "Aloha ʻOe" and the Hawaiian constitution she was attempting to restore when the overthrow occurred. The statue is a site of regular remembrance and political rallies.',
+    side: 'left',
+    era: 'american',
+  },
+  {
+    date: 'January 20, 1900',
+    year: 1900,
+    title: 'Honolulu Chinatown Fire & Plague',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'In December 1899, bubonic plague arrived in Honolulu\'s Chinatown district aboard a steamship. The newly formed Board of Health — operating under a policy that many historians now recognize as racially targeted — began burning infected buildings in the predominantly Chinese, Japanese, and Hawaiian neighborhood. On January 20, 1900, a controlled burn set to destroy a plague-infected building on Beretania Street jumped its boundaries and, fanned by trade winds, burned 38 acres of Chinatown to the ground. More than 7,000 people lost their homes. The fire was never proven accidental. Chinatown was rebuilt and remains one of Honolulu\'s most historically textured neighborhoods.',
+    whatToSee: 'Honolulu\'s Chinatown district is one of the oldest in the United States and retains its pre-fire street grid. The Hawaii Heritage Center on Merchant Street documents the district\'s Chinese, Japanese, and Filipino communities. Walking tours of Chinatown depart regularly and trace the fire\'s path through the neighborhood.',
+    side: 'right',
+    era: 'american',
+  },
+  {
+    date: 'December 7, 1941',
+    year: 1941,
+    title: 'Attack on Pearl Harbor',
+    location: 'Pearl Harbor, Oʻahu',
+    slug: 'pearl-harbor',
+    description: 'At 7:48 AM on December 7, 1941, 353 Japanese aircraft in two waves attacked the US Pacific Fleet anchored at Pearl Harbor in a strike that was both a military masterpiece and a strategic catastrophe for Japan. In two hours, eight battleships were damaged or sunk, 188 aircraft were destroyed, and 2,403 Americans were killed. The USS Arizona exploded and sank in nine minutes when a bomb detonated its forward ammunition magazine — 1,177 of her crew are still entombed below the surface. The attack ended American isolationism, brought the United States into World War II on all fronts, and set in motion the chain of events that would end Japan\'s Pacific empire. The oil still seeping from the Arizona — more than 80 years later — is the most powerful silent testimony in American history.',
+    whatToSee: 'The Pearl Harbor National Memorial encompasses the USS Arizona Memorial, the battleship USS Missouri (where Japan surrendered in 1945), the submarine USS Bowfin, and the Pacific Aviation Museum. The Arizona Memorial is free but requires timed passes, which should be reserved weeks in advance. The oil slick still visible on the water surface above the wreck is called "the black tears of the Arizona."',
+    side: 'left',
+    era: 'american',
+  },
+  {
+    date: '1942–1945',
+    year: 1942,
+    title: 'Hawaii as Pacific War Command',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'After Pearl Harbor, Hawaii was placed under martial law for nearly three years — the only time in American history that an entire US territory was governed by the military rather than civilian authority. Civil courts were suspended, newspapers were censored, and curfews and blackouts were enforced nightly. Hawaii also became the nerve center of the entire Allied Pacific campaign: Admiral Chester Nimitz commanded Pacific Fleet operations from Pearl Harbor, and the battles of Midway, Guadalcanal, Iwo Jima, and Okinawa were all coordinated from Hawaiian command posts. Over 1.5 million American service members passed through Hawaii during the war years, transforming the islands\' economy and demographics permanently.',
+    whatToSee: 'The USS Missouri at Pearl Harbor — now a museum ship — is where Japan formally surrendered on September 2, 1945, ending the war that began at Pearl Harbor. Walking the surrender deck is one of the most historically layered experiences available anywhere. The Pacific Aviation Museum on Ford Island recreates the attack and the Pacific air war with remarkable authenticity.',
+    side: 'right',
+    era: 'american',
+  },
+
+  // Era: statehood
+  {
+    date: 'August 21, 1959',
+    year: 1959,
+    title: 'Hawaii Becomes 50th State',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'On August 21, 1959, President Dwight D. Eisenhower signed the proclamation admitting Hawaii as the 50th state of the United States — the last state to join the union. The path to statehood had been blocked for decades, partly by Southern senators who feared that Hawaii\'s multiracial population would vote against segregation, and partly by those who questioned whether an island territory could really be "American." A statehood referendum passed with 94% in favor. The news sparked celebrations across Honolulu, with impromptu parties, leis draped over strangers, and the flag changed from 49 to 50 stars. For many Native Hawaiians, however, statehood was one more step in a process of dispossession that had begun in 1893.',
+    whatToSee: 'The Hawaii State Capitol building — a striking modernist structure representing the volcanic islands and surrounding ocean — was built in 1969 as the physical embodiment of the new state. The adjacent ʻIolani Palace grounds tell both stories: the kingdom that was and the state that replaced it.',
+    side: 'left',
+    era: 'statehood',
+  },
+  {
+    date: '1960s–1970s',
+    year: 1965,
+    title: 'Hawaiian Cultural Renaissance',
+    location: 'North Shore, Oʻahu',
+    slug: 'north-shore',
+    description: 'Beginning in the late 1960s and accelerating through the 1970s, a profound cultural revival swept through Hawaii — reclaiming language, hula, voyaging, and land rights that had been suppressed for over a century. Hula halau (schools) proliferated; Hawaiian language classes drew thousands after generations during which speaking Hawaiian in public schools had been discouraged. In 1976, the voyaging canoe Hōkūleʻa sailed from Maui to Tahiti using only traditional Polynesian navigation — no instruments, no charts — proving that the first settlers had arrived exactly as the old stories described. The voyage ignited Hawaiian pride across the archipelago and became the founding symbol of the cultural renaissance.',
+    whatToSee: 'The Polynesian Cultural Center on Oʻahu\'s North Shore preserves and demonstrates the traditional cultures of the Pacific, including ancient Hawaiian practices. The Hōkūleʻa is sometimes docked at the Bernice Pauahi Bishop Museum in Honolulu between voyages — check the museum\'s schedule, as seeing the canoe in person is extraordinary.',
+    side: 'right',
+    era: 'statehood',
+  },
+  {
+    date: '1978',
+    year: 1978,
+    title: 'Constitutional Convention & Hawaiian Language Protection',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'The 1978 Hawaii State Constitutional Convention was one of the most consequential political gatherings in state history. Among its achievements: Hawaiian was declared an official state language alongside English (the only US state with two official languages), the Office of Hawaiian Affairs was created to manage lands held in trust for native Hawaiians, and the state was required to promote the Hawaiian language. Hawaiian-language immersion schools — the Pūnana Leo network — were founded in 1984 as a direct result, and today produce fluent Hawaiian speakers across the state. The language, once on the brink of extinction with only a few dozen native speakers remaining, now has thousands of new speakers.',
+    whatToSee: 'The Hawaii State Archives and the Bishop Museum\'s Hawaiian language collections document the near-extinction and revival of ʻŌlelo Hawaiʻi. The Pūnana Leo preschools scattered across the islands — though not tourist sites — represent the living success of the constitutional mandate.',
+    side: 'left',
+    era: 'statehood',
+  },
+  {
+    date: 'November 23, 1993',
+    year: 1993,
+    title: 'US Apology Resolution for Overthrow',
+    location: 'Honolulu, Oʻahu',
+    slug: 'honolulu',
+    description: 'On the 100th anniversary of the 1893 overthrow of the Hawaiian Kingdom, President Bill Clinton signed Public Law 103-150 — commonly known as the Apology Resolution — in which the United States government formally acknowledged and apologized for the illegal overthrow of the Hawaiian Kingdom. The resolution acknowledged that the Native Hawaiian people "never directly relinquished their claims to their inherent sovereignty as a people or over their national lands to the United States." For Native Hawaiian sovereignty activists, the apology was meaningful but insufficient — it contained no mechanism for reparation and explicitly stated it did not create any legal claims against the government. The debate over Hawaiian sovereignty and federal recognition continues to this day.',
+    whatToSee: 'The January 17 anniversary of the overthrow is marked each year with ceremonies at ʻIolani Palace. The Ka Lāhui Hawaii and other sovereignty organizations hold annual events on the Palace grounds. The palace itself — still in the hands of the state rather than native Hawaiians — is the symbolic center of the sovereignty movement.',
+    side: 'right',
+    era: 'statehood',
+  },
+  {
+    date: 'August 8, 2023',
+    year: 2023,
+    title: 'Lahaina Fire — Deadliest US Wildfire in a Century',
+    location: 'Lahaina, Maui',
+    slug: 'lahaina',
+    description: 'On August 8, 2023, a wildfire driven by hurricane-force winds from Tropical Storm Dora swept through Lahaina — the former capital of the Hawaiian Kingdom — killing at least 101 people and destroying more than 2,200 structures in what became the deadliest American wildfire in over a century. The historic Banyan Tree, which had shaded the town center since 1873, was severely scorched but survived. Front Street — where buildings dated to the whaling era and the missionary period — was almost entirely destroyed. The fire raised urgent questions about climate change, land management, the treatment of Native Hawaiian sacred sites, and the role of outside developers in post-disaster recovery. Lahaina had been the kingdom\'s capital from 1820 until 1845.',
+    whatToSee: 'As of 2024-2025, access to the Lahaina burn zone remains restricted out of respect for the community and ongoing recovery efforts. The Lahaina Banyan Tree Court is open and the tree — now recovering and re-leafing — has become a symbol of resilience. The Waiola Church and Cemetery, one of the oldest in Hawaii and directly adjacent to the burn zone, survived.',
+    side: 'left',
+    era: 'statehood',
+  },
+];
+
+const eraLabels: Record<string, string> = {
+  polynesian: 'Polynesian Era',
+  kingdom: 'Hawaiian Kingdom',
+  american: 'Territory Era',
+  statehood: 'Statehood & Modern',
+};
+
+const eraGradients: Record<string, string> = {
+  polynesian: 'linear-gradient(135deg, #0D7377 0%, #14A085 100%)',
+  kingdom: 'linear-gradient(135deg, #8B2635 0%, #C0392B 100%)',
+  american: 'linear-gradient(135deg, #1565C0 0%, #1976D2 100%)',
+  statehood: 'linear-gradient(135deg, #2E7D32 0%, #388E3C 100%)',
+};
+
+const eraColors: Record<string, string> = {
+  polynesian: '#0D7377',
+  kingdom: '#8B2635',
+  american: '#1565C0',
+  statehood: '#2E7D32',
+};
+
+const geoLookup: Record<string, { lat: number; lng: number; label: string }> = {
+  'honolulu': { lat: 21.3069, lng: -157.8583, label: 'Honolulu' },
+  'pearl-harbor': { lat: 21.3648, lng: -157.9497, label: 'Pearl Harbor' },
+  'kona': { lat: 19.6383, lng: -155.9969, label: 'Kailua-Kona' },
+  'hilo': { lat: 19.7297, lng: -155.0900, label: 'Hilo' },
+  'lahaina': { lat: 20.8784, lng: -156.6825, label: 'Lahaina' },
+  'waikiki': { lat: 21.2793, lng: -157.8293, label: 'Waikiki' },
+  'north-shore': { lat: 21.6475, lng: -158.0440, label: 'North Shore' },
+  'na-pali-coast': { lat: 22.1844, lng: -159.6050, label: 'Nā Pali Coast' },
+  'diamond-head': { lat: 21.2632, lng: -157.8054, label: 'Diamond Head' },
+  'mauna-kea': { lat: 19.8207, lng: -155.4680, label: 'Mauna Kea' },
+  'haleakala': { lat: 20.7097, lng: -156.2530, label: 'Haleakalā' },
+  'volcanoes-national-park': { lat: 19.4194, lng: -155.2885, label: 'Hawaiʻi Volcanoes' },
+};
+
+const histMapMarkers = timeline
+  .filter(e => e.slug)
+  .map(e => {
+    const slugs = Array.isArray(e.slug) ? e.slug : [e.slug!];
+    const primarySlug = slugs[0];
+    const geo = geoLookup[primarySlug];
+    if (!geo) return null;
+    return {
+      lat: geo.lat,
+      lng: geo.lng,
+      title: e.title,
+      date: e.date,
+      location: e.location,
+      era: e.era,
+      color: eraColors[e.era],
+      url: `/destinations/${primarySlug}/`,
+    };
+  })
+  .filter(Boolean);
+
+const histCardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/hist-card-${i + 1}.mp4`);
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  schemaData={{ title: pageTitle, description: pageDescription }}
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="hist-hero">
+    <video class="hist-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/videos/pillar/history-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="hist-hero-gradient"></div>
+    <div class="hist-hero-noise"></div>
+    <div class="hist-hero-content">
+      <h1 class="hist-hero-title">History of Hawaii</h1>
+      <p class="hist-hero-subtitle">From Polynesian navigators who crossed 2,000 miles of open ocean to Pearl Harbor and statehood — the complete arc of Hawaii's extraordinary story.</p>
+      <div class="hist-hero-meta">
+        <div class="hist-hero-meta-item">
+          <span class="hist-hero-meta-label">Events</span>
+          <span class="hist-hero-meta-value">19</span>
+        </div>
+        <div class="hist-hero-meta-item">
+          <span class="hist-hero-meta-label">Eras</span>
+          <span class="hist-hero-meta-value">4</span>
+        </div>
+        <div class="hist-hero-meta-item">
+          <span class="hist-hero-meta-label">Timeline</span>
+          <span class="hist-hero-meta-value">300 AD – 2023</span>
+        </div>
+      </div>
+    </div>
+    <div class="hist-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="hist-personal reveal">
+    <div class="container-content">
+      <blockquote class="hist-personal-quote">
+        <p>Hawaii's history is one of the most dramatic arcs in the Pacific — a civilization that built fishponds and agricultural systems without metal tools, that was then dismantled with terrifying speed by diseases, missionaries, and plantation owners. The overthrow of Queen Liliuokalani in 1893 was a business coup as much as a political one. Pearl Harbor is still one of the most powerful sites I've ever stood at — you can see the oil still seeping from the USS Arizona. You leave a different person.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- View Toggle -->
+  <div class="container-content" style="padding-top: var(--space-2); padding-bottom: var(--space-4);">
+    <div class="hist-view-toggle">
+      <button class="hist-toggle-btn active" id="histBtnTimeline">Timeline</button>
+      <button class="hist-toggle-btn" id="histBtnMap">Map</button>
+    </div>
+  </div>
+
+  <!-- Timeline -->
+  <div id="histTimelineView">
+  <section class="hist-timeline-section">
+    <div class="container-content">
+      <h2 class="hist-timeline-heading reveal">A Kingdom Built from the Sea</h2>
+      <p class="hist-timeline-sub reveal">Hawaii's history spans 1,700 years of human presence — from the first Polynesian canoes to the fires of Lahaina. These are the events that shaped the islands and the places where you can still feel them today.</p>
+
+      <div class="hist-timeline">
+        <div class="hist-timeline-line" aria-hidden="true"></div>
+
+        {(() => {
+          let lastEra = '';
+          return timeline.map((event, idx) => {
+            const showEra = event.era !== lastEra;
+            lastEra = event.era;
+            const slugs = Array.isArray(event.slug) ? event.slug : event.slug ? [event.slug] : [];
+            const primarySlug = slugs[0];
+            const cardVideo = histCardVideos[idx % histCardVideos.length];
+            return (
+              <>
+                {showEra && (
+                  <div class="hist-era-marker reveal">
+                    <div class="hist-era-pill" style={`background: ${eraGradients[event.era]};`}>
+                      {eraLabels[event.era]}
+                    </div>
+                  </div>
+                )}
+                <div class={`hist-event hist-event--${event.side} reveal`}>
+                  <div class="hist-event-dot" style={`background: ${eraGradients[event.era]};`}></div>
+                  {primarySlug && slugs.length === 1 ? (
+                    <a href={`/destinations/${primarySlug}/`} class="hist-event-card">
+                      <div class="hist-event-media" style={`background: ${eraGradients[event.era]};`}>
+                        <video class="hist-event-video" muted loop playsinline preload="none" data-src={cardVideo}></video>
+                        <span class="hist-event-date-badge">{event.date}</span>
+                      </div>
+                      <div class="hist-event-body">
+                        <h3 class="hist-event-title">{event.title}</h3>
+                        <p class="hist-event-location">{event.location}</p>
+                        <p class="hist-event-desc">{event.description}</p>
+                        {event.whatToSee && (
+                          <div class="hist-event-see">
+                            <span class="hist-event-see-label">What to see today:</span>
+                            <p class="hist-event-see-text">{event.whatToSee}</p>
+                          </div>
+                        )}
+                        <span class="hist-event-cta">Explore {event.location.split(',')[0]} &rarr;</span>
+                      </div>
+                      <div class="hist-event-overlay">
+                        <p class="hist-event-overlay-text">{event.description}</p>
+                        {event.whatToSee && (
+                          <div class="hist-event-overlay-see">
+                            <span class="hist-event-overlay-see-label">What to see today:</span>
+                            <p>{event.whatToSee}</p>
+                          </div>
+                        )}
+                        <span class="hist-event-overlay-cta">Explore {event.location.split(',')[0]} &rarr;</span>
+                      </div>
+                    </a>
+                  ) : primarySlug ? (
+                    <div class="hist-event-card hist-event-card--multi">
+                      <div class="hist-event-media" style={`background: ${eraGradients[event.era]};`}>
+                        <video class="hist-event-video" muted loop playsinline preload="none" data-src={cardVideo}></video>
+                        <span class="hist-event-date-badge">{event.date}</span>
+                      </div>
+                      <div class="hist-event-body">
+                        <h3 class="hist-event-title">{event.title}</h3>
+                        <p class="hist-event-location">{event.location}</p>
+                        <p class="hist-event-desc">{event.description}</p>
+                        {event.whatToSee && (
+                          <div class="hist-event-see">
+                            <span class="hist-event-see-label">What to see today:</span>
+                            <p class="hist-event-see-text">{event.whatToSee}</p>
+                          </div>
+                        )}
+                        <div class="hist-event-cta-group">
+                          {slugs.map((s) => (
+                            <a href={`/destinations/${s}/`} class="hist-event-cta hist-event-cta-link">Explore {s.charAt(0).toUpperCase() + s.slice(1)} &rarr;</a>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  ) : (
+                    <div class="hist-event-card hist-event-card--nolink">
+                      <div class="hist-event-media" style={`background: ${eraGradients[event.era]};`}>
+                        <video class="hist-event-video" muted loop playsinline preload="none" data-src={cardVideo}></video>
+                        <span class="hist-event-date-badge">{event.date}</span>
+                      </div>
+                      <div class="hist-event-body">
+                        <h3 class="hist-event-title">{event.title}</h3>
+                        <p class="hist-event-location">{event.location}</p>
+                        <p class="hist-event-desc">{event.description}</p>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </>
+            );
+          });
+        })()}
+      </div>
+    </div>
+  </section>
+
+  </div><!-- /histTimelineView -->
+
+  <!-- Map View (hidden by default) -->
+  <div id="histMapView" style="display:none;">
+    <section style="padding: var(--space-4) 0 var(--space-8);">
+      <div class="container-content">
+        <div class="hist-map-container" id="histMapContainer">
+          <div class="hist-map-tooltip" id="histMapTooltip">
+            <div class="hist-map-tooltip-title" id="histTooltipTitle"></div>
+            <div class="hist-map-tooltip-date" id="histTooltipDate"></div>
+            <div class="hist-map-tooltip-location" id="histTooltipLocation"></div>
+          </div>
+          <div id="histLeafletMap"></div>
+          <div class="hist-map-legend">
+            <div class="hist-map-legend-item"><div class="hist-map-legend-dot" style="background:#0D7377;"></div>Polynesian Era</div>
+            <div class="hist-map-legend-item"><div class="hist-map-legend-dot" style="background:#8B2635;"></div>Hawaiian Kingdom</div>
+            <div class="hist-map-legend-item"><div class="hist-map-legend-dot" style="background:#1565C0;"></div>Territory Era</div>
+            <div class="hist-map-legend-item"><div class="hist-map-legend-dot" style="background:#2E7D32;"></div>Statehood & Modern</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Bottom CTA -->
+  <section class="hist-cta-section reveal">
+    <div class="container-content">
+      <div class="hist-cta-card">
+        <h2 class="hist-cta-heading">Plan a History Trail Through Hawaii</h2>
+        <p class="hist-cta-text">Tell our AI planner you want to follow Hawaii's history trail and it will build you an itinerary — Pearl Harbor, ʻIolani Palace, the Captain Cook monument, and more.</p>
+        <a href="/plan/" class="hist-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FAQ items={[
+    { question: "What happened at Pearl Harbor in 1941?", answer: "On December 7, 1941, 353 Japanese aircraft attacked the US Pacific Fleet at Pearl Harbor in two waves, killing 2,403 Americans, wounding 1,178 more, and sinking or damaging 8 battleships. The attack — which lasted less than two hours — destroyed American isolationism and brought the United States into World War II. The USS Arizona sank in nine minutes after a bomb detonated its forward ammunition magazine, entombing 1,177 sailors still aboard today. The oil still seeping from the Arizona wreck is visible from the memorial above." },
+    { question: "Who was Queen Liliuokalani?", answer: "Liliʻuokalani was the last sovereign monarch of the Hawaiian Kingdom, reigning from 1891 until the illegal overthrow in January 1893. She was also a gifted composer — her song 'Aloha ʻOe' remains one of the most recognizable pieces of Hawaiian music. She spent her post-overthrow years writing her memoirs, fighting for her people in Washington, and composing music. She died in 1917 having never seen Hawaii restored to its people. Her statue stands on the grounds of ʻIolani Palace in Honolulu." },
+    { question: "How did Hawaii become a US state?", answer: "Hawaii's path to statehood was long and contested. After annexation in 1898, Hawaii became a territory but statehood was blocked for decades — partly by racial politics in Congress. The strategic importance Hawaii demonstrated during WWII strengthened the case for statehood. In 1959, a statehood referendum passed with 94% approval, and President Eisenhower signed the proclamation on August 21, 1959, making Hawaii the 50th state. The Hawaiian flag gained a 50th star — but for many Native Hawaiians, the vote represented completion of a dispossession that began in 1893." },
+    { question: "What is the USS Arizona Memorial?", answer: "The USS Arizona Memorial is built directly over the sunken battleship USS Arizona at Pearl Harbor, where 1,177 crew members are still entombed. The white marble structure spans the midship section of the wreck and includes a shrine room with the names of all who died aboard. Visitors reach it by Navy boat from the Pearl Harbor visitor center. The memorial is free but timed passes must be reserved in advance — often weeks ahead during peak season. You can often see the rainbow sheen of oil still seeping from the wreck on the water's surface." },
+    { question: "What is the Hawaiian Kingdom and was it legal to overthrow it?", answer: "The Hawaiian Kingdom was a recognized sovereign nation from 1810 (when Kamehameha I unified the islands) until 1893. It maintained diplomatic relations with major world powers, had its own constitution, parliament, and foreign minister, and was a member of the Universal Postal Union. The 1893 overthrow was carried out by a small group of American businessmen backed by US Marines. President Cleveland's own investigation concluded it was illegal. In 1993, the US Congress passed — and President Clinton signed — a formal apology acknowledging the illegality of the overthrow. Native Hawaiian sovereignty advocates argue the Kingdom was never legally dissolved." },
+    { question: "What is the significance of Lahaina in Hawaiian history?", answer: "Lahaina served as the capital of the Hawaiian Kingdom from approximately 1820 to 1845, when King Kamehameha III moved the capital to Honolulu. During its capital years, Lahaina was the hub of the Pacific whaling industry — at times hosting over 400 ships in its harbor — and the center of missionary activity in Hawaii. The town's architecture, including the historic Banyan Tree planted in 1873, reflected this layered history. On August 8, 2023, a catastrophic wildfire driven by hurricane-force winds destroyed most of Lahaina's historic district, killing over 100 people in the deadliest American wildfire in more than a century." },
+  ]} />
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get Our Free Hawaii History Trail Guide"
+      description="A chronological PDF guide to Hawaii's most significant historical sites — with directions, visiting logistics, and the full story behind each location."
+      bullets={[
+        'Pearl Harbor complete visitor guide with timed pass tips',
+        'ʻIolani Palace tour guide with what to look for in each room',
+        'Captain Cook monument kayak tour recommendations',
+        'Suggested 4-day Oʻahu history trail itinerary',
+      ]}
+      guideTag="pillar-history"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="hist-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="hist-crosslinks-heading">Explore More Hawaii</h3>
+      <div class="hist-crosslinks-grid">
+        <a href="/beaches/" class="hist-crosslink-card">
+          <span class="hist-crosslink-icon">&#127958;</span>
+          <span class="hist-crosslink-label">Beach Guide</span>
+          <span class="hist-crosslink-desc">Best beaches across all islands</span>
+        </a>
+        <a href="/cuisine/" class="hist-crosslink-card">
+          <span class="hist-crosslink-icon">&#127860;</span>
+          <span class="hist-crosslink-label">Hawaiian Cuisine</span>
+          <span class="hist-crosslink-desc">Poke, plate lunch & more</span>
+        </a>
+        <a href="/outdoor/" class="hist-crosslink-card">
+          <span class="hist-crosslink-icon">&#127940;</span>
+          <span class="hist-crosslink-label">Outdoor Adventures</span>
+          <span class="hist-crosslink-desc">Hiking, surfing & volcanoes</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<!-- View Toggle Logic -->
+<script>
+  const histBtnTimeline = document.getElementById('histBtnTimeline');
+  const histBtnMap = document.getElementById('histBtnMap');
+  const histTimelineView = document.getElementById('histTimelineView');
+  const histMapView = document.getElementById('histMapView');
+
+  function histShowTimeline() {
+    histTimelineView!.style.display = '';
+    histMapView!.style.display = 'none';
+    histBtnTimeline!.classList.add('active');
+    histBtnMap!.classList.remove('active');
+  }
+
+  function histShowMap() {
+    histTimelineView!.style.display = 'none';
+    histMapView!.style.display = '';
+    histBtnTimeline!.classList.remove('active');
+    histBtnMap!.classList.add('active');
+    if ((window as any).histMap) {
+      (window as any).histMap.invalidateSize();
+    }
+  }
+
+  histBtnTimeline?.addEventListener('click', histShowTimeline);
+  histBtnMap?.addEventListener('click', histShowMap);
+</script>
+
+<!-- Lazy-load & autoplay history card videos on scroll -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const histVideoObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const video = entry.target as HTMLVideoElement;
+          if (entry.isIntersecting) {
+            if (!video.src && video.dataset.src) {
+              video.src = video.dataset.src;
+            }
+            video.play().catch(() => {});
+          } else {
+            video.pause();
+          }
+        });
+      },
+      { rootMargin: '100px' }
+    );
+    document.querySelectorAll('.hist-event-video').forEach((v) => histVideoObserver.observe(v));
+  }
+</script>
+
+<!-- Leaflet Map for Hawaii History -->
+<script is:inline define:vars={{ markers: histMapMarkers }}>
+  if (!document.getElementById('leaflet-css')) {
+    var lnk = document.createElement('link');
+    lnk.id = 'leaflet-css';
+    lnk.rel = 'stylesheet';
+    lnk.href = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css';
+    document.head.appendChild(lnk);
+  }
+
+  function initHistMap() {
+    var mapEl = document.getElementById('histLeafletMap');
+    if (!mapEl || typeof L === 'undefined') return;
+
+    var map = L.map(mapEl, {
+      center: [20.5, -157.0],
+      zoom: 7,
+      scrollWheelZoom: false,
+      minZoom: 5,
+      maxZoom: 13,
+      maxBounds: [[17, -161], [23, -153]],
+      zoomControl: false,
+      attributionControl: false,
+    });
+
+    window.histMap = map;
+
+    L.control.attribution({ prefix: false }).addTo(map);
+    L.control.zoom({ position: 'topright' }).addTo(map);
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '\u00a9 <a href="https://www.openstreetmap.org/copyright">OSM</a> \u00a9 <a href="https://carto.com/">CARTO</a>',
+      maxZoom: 19,
+    }).addTo(map);
+
+    function makeCircle(color, size, stroke) {
+      return L.divIcon({
+        className: '',
+        html: '<div style="width:' + size + 'px;height:' + size + 'px;border-radius:50%;background:' + color + ';border:2px solid ' + stroke + ';box-shadow:0 0 6px rgba(0,0,0,0.3);cursor:pointer;"></div>',
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2],
+      });
+    }
+
+    var tooltip = document.getElementById('histMapTooltip');
+    var tooltipTitle = document.getElementById('histTooltipTitle');
+    var tooltipDate = document.getElementById('histTooltipDate');
+    var tooltipLocation = document.getElementById('histTooltipLocation');
+    var container = document.getElementById('histMapContainer');
+
+    markers.forEach(function(m) {
+      var icon = makeCircle(m.color, 16, '#ffffff');
+      var marker = L.marker([m.lat, m.lng], { icon: icon, title: m.title }).addTo(map);
+
+      marker.on('mouseover', function(e) {
+        if (tooltipTitle) tooltipTitle.textContent = m.title;
+        if (tooltipDate) tooltipDate.textContent = m.date;
+        if (tooltipLocation) tooltipLocation.textContent = m.location;
+        if (tooltip) tooltip.classList.add('hist-tooltip-visible');
+        if (container && tooltip) {
+          var pt = e.containerPoint;
+          tooltip.style.left = (pt.x + 12) + 'px';
+          tooltip.style.top = (pt.y - 10) + 'px';
+        }
+      });
+
+      marker.on('mouseout', function() {
+        if (tooltip) tooltip.classList.remove('hist-tooltip-visible');
+      });
+
+      marker.on('click', function() {
+        window.location.href = m.url;
+      });
+    });
+  }
+
+  if (typeof L !== 'undefined') {
+    initHistMap();
+  } else {
+    var lscript = document.createElement('script');
+    lscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js';
+    lscript.onload = initHistMap;
+    document.head.appendChild(lscript);
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO
+     ================================================================ */
+  .hist-hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .hist-hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .hist-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  }
+
+  .hist-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .hist-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .hist-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .hist-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .hist-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .hist-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .hist-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .hist-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .hist-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    animation: histBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes histBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ================================================================
+     TIMELINE SECTION
+     ================================================================ */
+  .hist-timeline-section {
+    padding: var(--space-10) 0 var(--space-8);
+  }
+
+  .hist-timeline-heading {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0 0 var(--space-2);
+    text-align: center;
+  }
+
+  .hist-timeline-sub {
+    font-size: 1rem;
+    color: var(--color-slate);
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto var(--space-10);
+    line-height: 1.6;
+  }
+
+  .hist-timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .hist-timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, #0D7377 0%, #8B2635 30%, #1565C0 65%, #2E7D32 100%);
+    transform: translateX(-50%);
+    opacity: 0.3;
+  }
+
+  /* ================================================================
+     ERA MARKERS
+     ================================================================ */
+  .hist-era-marker {
+    position: relative;
+    text-align: center;
+    margin: var(--space-8) 0 var(--space-6);
+    z-index: 2;
+  }
+
+  .hist-era-marker:first-child {
+    margin-top: 0;
+  }
+
+  .hist-era-pill {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 40px;
+  }
+
+  /* ================================================================
+     TIMELINE EVENT
+     ================================================================ */
+  .hist-event {
+    position: relative;
+    display: flex;
+    margin-bottom: var(--space-6);
+    padding: 0 var(--space-4);
+  }
+
+  .hist-event--left {
+    justify-content: flex-start;
+    padding-right: calc(50% + 24px);
+  }
+
+  .hist-event--right {
+    justify-content: flex-end;
+    padding-left: calc(50% + 24px);
+  }
+
+  .hist-event-dot {
+    position: absolute;
+    left: 50%;
+    top: 24px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    border: 3px solid var(--color-sand);
+    z-index: 2;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06);
+  }
+
+  .hist-event-card {
+    position: relative;
+    display: block;
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hist-event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  }
+
+  .hist-event-card--nolink {
+    cursor: default;
+    border-style: dashed;
+    border-color: rgba(0, 0, 0, 0.12);
+  }
+
+  .hist-event-card--nolink:hover {
+    transform: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .hist-event-media {
+    position: relative;
+    aspect-ratio: 21 / 9;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--space-3);
+    overflow: hidden;
+  }
+
+  .hist-event-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .hist-event-date-badge {
+    position: relative;
+    z-index: 1;
+    font-size: 0.65rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 4px 12px;
+    border-radius: 6px;
+  }
+
+  .hist-event-body {
+    padding: var(--space-3) var(--space-4) var(--space-5);
+  }
+
+  .hist-event-title {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    margin: 0 0 4px;
+    line-height: 1.25;
+  }
+
+  .hist-event-location {
+    font-size: 0.72rem;
+    color: var(--color-ocean-teal);
+    font-weight: var(--weight-medium);
+    margin: 0 0 var(--space-2);
+  }
+
+  .hist-event-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.55;
+    margin: 0 0 var(--space-3);
+  }
+
+  .hist-event-see {
+    background: var(--color-sky);
+    border-radius: 8px;
+    padding: var(--space-2) var(--space-3);
+    margin-bottom: var(--space-3);
+  }
+
+  .hist-event-see-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-ocean-teal);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .hist-event-see-text {
+    font-size: 0.75rem;
+    color: var(--color-slate);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .hist-event-cta {
+    font-size: 0.72rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-ocean-teal);
+  }
+
+  .hist-event-cta-group {
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .hist-event-cta-link {
+    color: var(--color-ocean-teal);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .hist-event-cta-link:hover {
+    color: var(--color-ocean-teal-dark, #095456);
+    text-decoration: underline;
+  }
+
+  .hist-event-card--multi {
+    cursor: default;
+  }
+
+  .hist-event-card--multi:hover {
+    transform: translateY(-2px);
+  }
+
+  /* Hover overlay */
+  .hist-event-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(26, 35, 50, 0.94);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--space-4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    overflow-y: auto;
+  }
+
+  .hist-event-card:hover .hist-event-overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .hist-event-overlay-text {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.55;
+    margin: 0 0 var(--space-2);
+  }
+
+  .hist-event-overlay-see {
+    margin-bottom: var(--space-3);
+  }
+
+  .hist-event-overlay-see-label {
+    font-size: 0.6rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .hist-event-overlay-see p {
+    font-size: 0.72rem;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.45;
+    margin: 0;
+  }
+
+  .hist-event-overlay-cta {
+    font-size: 0.75rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-warm-coral);
+  }
+
+  /* ================================================================
+     RESPONSIVE — Stack timeline on mobile
+     ================================================================ */
+  @media (max-width: 768px) {
+    .hist-timeline-line {
+      left: 20px;
+    }
+
+    .hist-event--left,
+    .hist-event--right {
+      padding-left: 48px;
+      padding-right: 0;
+      justify-content: flex-start;
+    }
+
+    .hist-event-dot {
+      left: 20px;
+    }
+
+    .hist-hero {
+      min-height: 55vh;
+      padding: 0 var(--space-4) 40px;
+    }
+
+    .hist-scroll-hint {
+      display: none;
+    }
+  }
+
+  /* ================================================================
+     BOTTOM CTA
+     ================================================================ */
+  .hist-cta-section {
+    padding: var(--space-6) 0 var(--space-8);
+  }
+
+  .hist-cta-card {
+    background: linear-gradient(135deg, var(--color-deep-night) 0%, #2D3748 100%);
+    border-radius: 20px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+    color: #fff;
+  }
+
+  .hist-cta-heading {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-bold);
+    margin: 0 0 var(--space-3);
+    color: #fff;
+  }
+
+  .hist-cta-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 520px;
+    margin: 0 auto var(--space-5);
+    line-height: 1.6;
+  }
+
+  .hist-cta-button {
+    display: inline-block;
+    background: var(--color-warm-coral);
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .hist-cta-button:hover {
+    background: #d4553b;
+    transform: translateY(-2px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .hist-crosslinks {
+    padding: 0 0 var(--space-10);
+  }
+
+  .hist-crosslinks-heading {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+    text-align: center;
+    margin: 0 0 var(--space-4);
+  }
+
+  .hist-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 640px) {
+    .hist-crosslinks-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .hist-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-5) var(--space-4);
+    background: var(--color-white);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hist-crosslink-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .hist-crosslink-icon {
+    font-size: 1.8rem;
+  }
+
+  .hist-crosslink-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-deep-night);
+  }
+
+  .hist-crosslink-desc {
+    font-size: 0.78rem;
+    color: var(--color-slate);
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     VIEW TOGGLE
+     ================================================================ */
+  .hist-view-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    background: var(--color-sand-dark);
+    border-radius: 40px;
+    padding: 4px;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  .hist-toggle-btn {
+    flex: 1;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 36px;
+    font-size: 0.82rem;
+    font-weight: var(--weight-semibold);
+    cursor: pointer;
+    background: transparent;
+    color: var(--color-slate);
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  .hist-toggle-btn.active {
+    background: var(--color-ocean-teal);
+    color: #fff;
+  }
+
+  .hist-toggle-btn:hover:not(.active) {
+    color: var(--color-deep-night);
+  }
+
+  /* ================================================================
+     MAP VIEW
+     ================================================================ */
+  .hist-map-container {
+    border-radius: 24px;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(ellipse at 40% 30%, #0c3547 0%, #091e2f 40%, #060f1a 100%);
+    padding: 28px 20px 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .hist-map-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 600px 300px at 30% 70%, rgba(13, 115, 119, 0.08) 0%, transparent 70%),
+      radial-gradient(ellipse 400px 200px at 70% 20%, rgba(13, 115, 119, 0.06) 0%, transparent 70%);
+    animation: histOceanShimmer 8s ease-in-out infinite alternate;
+    pointer-events: none;
+  }
+
+  @keyframes histOceanShimmer {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+
+  #histLeafletMap {
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hist-map-tooltip {
+    position: absolute;
+    background: rgba(26, 35, 50, 0.95);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 10px 14px;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 50;
+    min-width: 160px;
+    max-width: 280px;
+  }
+
+  .hist-map-tooltip.hist-tooltip-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .hist-map-tooltip-title {
+    font-size: 0.85rem;
+    font-weight: var(--weight-bold);
+    color: white;
+    margin-bottom: 2px;
+    line-height: 1.3;
+  }
+
+  .hist-map-tooltip-date {
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.45);
+    font-weight: var(--weight-medium);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 2px;
+  }
+
+  .hist-map-tooltip-location {
+    font-size: 0.72rem;
+    color: var(--color-warm-coral);
+    font-weight: var(--weight-medium);
+  }
+
+  .hist-map-legend {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-5);
+    padding: var(--space-3) var(--space-4);
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hist-map-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.45);
+  }
+
+  .hist-map-legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(13, 115, 119, 0.5);
+  }
+
+  @media (max-width: 768px) {
+    #histLeafletMap { height: 380px; }
+  }
+
+  /* Personal intro */
+  .hist-personal {
+    padding-block: var(--space-8);
+  }
+
+  .hist-personal-quote {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: var(--space-6) var(--space-8);
+    border-left: 4px solid var(--color-ocean-teal);
+    background: var(--color-sky);
+    border-radius: 0 12px 12px 0;
+  }
+
+  .hist-personal-quote p {
+    font-size: var(--text-body);
+    color: var(--color-heading);
+    line-height: var(--leading-body);
+    font-style: italic;
+    margin-bottom: var(--space-3);
+  }
+
+  .hist-personal-quote cite {
+    font-size: var(--text-caption);
+    color: var(--color-ocean-teal);
+    font-weight: var(--weight-semibold);
+    font-style: normal;
+  }
+
+  /* Reveal animation */
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
