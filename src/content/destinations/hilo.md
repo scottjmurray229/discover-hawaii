@@ -38,31 +38,49 @@ faqItems:
     answer: 'The full market runs on Wednesday and Saturday from 6am to 4pm with over 200 vendors. A smaller daily market operates the other days of the week. The Saturday market is the main event and worth planning around.'
   - question: 'How far is Hilo from Volcanoes National Park?'
     answer: 'About 30 miles or 45 minutes by car via Highway 11. Hilo is the closest town base for exploring the park, making it ideal for multiple visits including night viewing of volcanic glow.'
+  - question: 'What is the Merrie Monarch Festival?'
+    answer: "The Merrie Monarch Festival, held in Hilo during Easter week each year, is the world championship of hula and the most prestigious Hawaiian cultural event in existence. It draws competitors from across Hawaii and the world to perform both ancient (kahiko) and modern (auana) hula styles before sold-out audiences. Tickets are by lottery and book out months to years in advance. The festival transforms Hilo into the cultural capital of Hawaii for one week."
+  - question: 'What are the best waterfalls near Hilo?'
+    answer: "Rainbow Falls (Waianuenue) is 5 minutes from downtown — an easy overlook of an 80-foot waterfall with a natural lava rock cave. Best viewed in the morning when rainbows form in the mist. Akaka Falls (14 miles north) drops 442 feet through a lush gorge and is among the most beautiful in Hawaii ($5/vehicle). Umauma Falls (20 miles north) has a dramatic multi-tiered cascade. Pe'epe'e Falls and Boiling Pots are 1 mile from Rainbow Falls on the same road."
+  - question: 'What is the Waipio Valley and is it worth visiting?'
+    answer: "Waipio Valley is a dramatic 2,000-acre valley 1 hour north of Hilo, accessible via a 25% grade road that is permitted only for 4WD vehicles. The valley floor has a black sand beach, taro farms, and streams. Most visitors view it from the lookout (free, stunning). Guided 4WD shuttles bring you to the valley floor ($60–80). The hike down and back is 3.5 miles round trip with serious elevation — only for prepared, fit hikers."
+  - question: 'Is the Big Island lava safe to see and walk on?'
+    answer: "Recent lava fields in Hawaii Volcanoes National Park are safe to walk on designated trails, but lava fields are fragile — footprints can last centuries. Never walk on lava outside marked trails. Active lava flows (when occurring) can be seen at a safe distance and create new land visible from designated viewing areas. The park updates access daily on its website. Never approach active lava alone or at night without an experienced guide."
 affiliatePicks:
   - name: 'Grand Naniloa Hotel'
     type: 'hotel'
     price: '$$'
     personalNote: 'Renovated waterfront hotel on Hilo Bay with golf course, pool, and views of Mauna Kea. The best hotel in Hilo at a fraction of Kona resort prices.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.booking.com/hotel/us/grand-naniloa-doubletree.html?aid=2778866'
     badge: 'Top Pick'
   - name: 'Volcanoes National Park Day Trip from Hilo'
     type: 'tour'
     price: '$$'
     personalNote: 'Guided tour from Hilo covering all the park highlights including Kilauea crater, lava tubes, and steam vents. Great if you want local expertise.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.getyourguide.com/hilo-l19024/volcanoes-day-trip-tc185/?partner_id=IVN6IQ3'
   - name: 'Waipi o Valley Shuttle Tour'
     type: 'tour'
     price: '$$'
     personalNote: 'The steep road into Waipi o Valley requires 4WD. This shuttle tour gets you to the valley floor and black sand beach safely with a knowledgeable guide.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.getyourguide.com/big-island-l350/waipio-valley-tc185/?partner_id=IVN6IQ3'
   - name: 'Hilo Bay Hostel'
     type: 'hotel'
     price: '$'
     personalNote: 'Clean, friendly hostel right in downtown Hilo. Dorm beds from $35 and private rooms available. The best budget option on the east side of the Big Island.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.booking.com/hotel/us/hilo-bay-hostel.html?aid=2778866'
 contentStatus: 'draft'
 draft: false
+scottTips:
+  logistics: "Fly into Hilo International Airport (ITO) with direct service from Honolulu and some mainland cities, or fly into Kona (KOA) and drive the Saddle Road (2.5 hours). Rental car is mandatory — Hilo has minimal public transit. The car also gets you to Volcanoes National Park (45 minutes south), Akaka Falls (14 miles north), and Mauna Kea (1 hour). Book car rentals well ahead; Hilo inventory is limited."
+  bestTime: "April through September is Hilo's drier season (relatively speaking — this is still the rainiest city in the US). Mornings are the driest time of day year-round. The Merrie Monarch Hula Festival (Easter week) transforms Hilo into the cultural capital of Hawaii — plan way ahead or avoid if you want affordable accommodation. The Big Island has wildly variable microclimates; a sunny Kona day can be raining in Hilo simultaneously."
+  gettingAround: "Rental car essential. Hilo's attractions are spread over significant distances. The Hilo Farmers Market is walkable from the main hotels. Rainbow Falls is 5 minutes from downtown. Akaka Falls is 14 miles north. Volcanoes National Park is 45 minutes south. Waipio Valley is 1 hour north. Plan your drives as day loops."
+  money: "Hilo is the most affordable major destination on the Big Island — 30–40% cheaper than Kona and the Kohala Coast resorts. Hotels start at $120/night vs. $350+ on the Kona side. The Hilo Farmers Market is the best food value in all of Hawaii — meals under $10 from a dozen vendors. Volcanoes National Park costs $30/vehicle (7-day pass)."
+  safety: "Volcanic air quality (vog) from Kilauea can affect Hilo on certain wind days — those with respiratory conditions should monitor USGS updates. Rainbow Falls and other waterfall trails can be slippery after rain; wear shoes with grip, not sandals. The ocean in Hilo is rough and not for casual swimming — stick to designated beach areas. Tsunamis: Hilo has been hit multiple times; know the evacuation route from your hotel."
+  packing: "Rain jacket or packable poncho — Hilo gets rain daily, often briefly. Waterproof hiking shoes for waterfall trails. Binoculars for bird watching at Volcanoes National Park and the Hamakua Coast. Layers for Volcanoes National Park at 4,000 feet elevation (often 20–30°F cooler than Hilo). Reef-safe sunscreen (required by Hawaii law). Cash for the Hilo Farmers Market."
+  localCulture: "Hilo is the most authentically Hawaiian town on the Big Island — a working community largely untouched by resort development. The residents are proud of the distinction. The Merrie Monarch Festival is not a tourist show; it is the world championship of hula and deeply sacred to Hawaiian cultural practitioners. Loco moco (rice, burger patty, fried egg, brown gravy) was invented at Cafe 100 in Hilo — eat one. The town's relationship with volcanic activity is matter-of-fact; residents have been evacuated multiple times and rebuilt."
 ---
+
+**Quick Facts:** Best months: April–Sept | Budget/day: $85–200 | Top attraction: Hawai'i Volcanoes National Park (45 min) + Hilo Farmers Market | Island: Big Island
 
 ## Things to Do
 

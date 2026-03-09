@@ -40,31 +40,49 @@ faqItems:
     answer: 'Excellent. Poipu Beach has a naturally protected shallow pool perfect for small children. Resorts offer extensive kids programs, the Spouting Horn is a hit with all ages, and the laid-back atmosphere is welcoming for families.'
   - question: 'What is the Tree Tunnel?'
     answer: 'The Tree Tunnel (Maluhia Road / Highway 520) is a mile-long canopy of eucalyptus trees planted in 1911 that creates a dramatic green corridor on the drive into Poipu. It is a beautiful way to arrive and one of Kauai most photographed roads.'
+  - question: 'What is the National Tropical Botanical Garden and which tour is best?'
+    answer: "The National Tropical Botanical Garden operates two adjacent gardens in Poipu: McBryde Garden (self-guided, $40 adult) and Allerton Garden (guided tours only, $55 adult). Allerton is the crown jewel — a masterwork of landscape design by Robert Allerton and John Gregg, with interconnected 'garden rooms' of tropical plants, fountains, and the famous Moreton Bay fig trees that appeared in Jurassic Park. The sunset tour (when available) is exceptional. Book Allerton 2–3 weeks ahead."
+  - question: 'How far is Poipu from the Na Pali Coast?'
+    answer: "Poipu is on Kauai's south shore; the Na Pali Coast is on the northwest. From Poipu, it is about 1.5 hours north to the Ke'e Beach Kalalau Trail trailhead, or 1 hour to Port Allen (south shore) where boat tours to Na Pali depart. The Port Allen boat tours from the south shore allow a full Na Pali experience without the long drive north — and the boats depart from the same side of the island where you're staying. This makes Poipu an excellent base for a Na Pali boat tour."
+  - question: 'What is the Spouting Horn and when should I visit it?'
+    answer: "Spouting Horn is a natural lava tube blowhole at the edge of the ocean near Poipu. When waves surge through the underground tube, seawater erupts 50 feet into the air with a dramatic hissing sound from a second, smaller tube — Hawaiian legend says it is a lizard trapped in the lava. The spectacle is best on bigger south swells and at high tide. Sunrise is magical here with low crowds. There is free parking at the Spouting Horn Park and a row of local vendors selling jewelry and carvings worth browsing."
+  - question: 'Is Poipu or the North Shore better for a Kauai base?'
+    answer: "Poipu is consistently sunnier (south shore = rain shadow from the mountains), warmer, and has the best resort infrastructure and beaches for families. The north shore (Princeville/Hanalei) is lush, dramatically beautiful, and the gateway to Na Pali and the Kalalau Trail — but can be rainy for days at a time in winter. Poipu is better for guaranteed sun and beach time; the north shore is better for dramatic scenery and adventure access. If you have 7+ days, spend time on both."
 affiliatePicks:
   - name: 'Grand Hyatt Kauai Resort & Spa'
     type: 'hotel'
     price: '$$$'
     personalNote: 'The premier resort in Poipu with a spectacular pool complex, saltwater lagoon, Robert Trent Jones golf course, and a spa that is regularly named among Hawaii best.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.booking.com/hotel/us/grand-hyatt-kauai-resort-and-spa.html?aid=2778866'
     badge: 'Top Pick'
   - name: 'Allerton Garden Sunset Tour'
     type: 'tour'
     price: '$$'
     personalNote: 'Walk through the stunning Allerton Garden at golden hour, through rooms of tropical plants, fountains, and the famous Moreton Bay fig trees from Jurassic Park.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.getyourguide.com/kauai-l424/allerton-garden-tc185/?partner_id=IVN6IQ3'
   - name: 'Koloa Landing Resort at Poipu'
     type: 'hotel'
     price: '$$$'
     personalNote: 'Luxury condo resort with full kitchens, multiple pools, and direct access to the best snorkeling reef in Poipu. Perfect for longer stays and families.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.booking.com/hotel/us/koloa-landing-resort-autograph-collection.html?aid=2778866'
   - name: 'Kauai Sea Tours Na Pali Snorkel Cruise'
     type: 'tour'
     price: '$$$'
     personalNote: 'Departs from nearby Port Allen for a full Na Pali Coast catamaran tour with snorkeling. Convenient from Poipu and one of the top-rated operators on the island.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.getyourguide.com/kauai-l424/na-pali-snorkel-cruise-tc185/?partner_id=IVN6IQ3'
 contentStatus: 'draft'
 draft: false
+scottTips:
+  logistics: "Fly into Lihue Airport (LIH) on Kauai — 30 minutes south to Poipu via Highway 50 and Highway 520 (the Tree Tunnel road). Rental car required — no meaningful public transit to Poipu. The Tree Tunnel drive (Maluhia Road) is one of the most beautiful entry roads anywhere in Hawaii. Grand Hyatt and Koloa Landing offer airport shuttle service to resort guests."
+  bestTime: "Poipu is the sunniest spot on Kauai year-round — its south shore location means the trade winds and north shore clouds rarely reach it. April through November is ideal, avoiding Kauai's wetter winter months. Even in 'winter' (December–February), Poipu is usually sunny while the north shore (Na Pali/Hanalei) is rainy. Hawaiian monk seals haul out year-round — no specific season needed."
+  gettingAround: "Car required for reaching Poipu from Lihue and for day trips to Waimea Canyon (1 hour west) and the north shore (1.5 hours). Within Poipu, the beach path and resorts are walkable. Port Allen (south shore boat tours to Na Pali) is 20 minutes west. Old Koloa Town is 5 minutes north for groceries and local restaurants."
+  money: "Premium Kauai destination. Grand Hyatt: $450–900+/night. Koloa Landing: $350–600/night. Mid-range vacation rentals near the beach: $250–400/night. The public beaches are free to access. Allerton Garden tour: $55 adult. Koloa Rum tasting room: free. National Tropical Botanical Garden: $40 for a self-guided tour. Budget $200–400/day mid-range."
+  safety: "Poipu Beach has a protected keiki (children) pool — genuinely calm and safe for small children. The outer break beyond the sand bar is moderate surf. Brennecke Beach is a bodyboarding beach with shore break — not for casual swimmers on bigger days. The monk seals at Poipu are federally protected; 50-foot minimum distance is required by law (volunteers enforce this). Apply reef-safe sunscreen only (Hawaii law)."
+  packing: "Reef-safe sunscreen (Hawaii law). Snorkeling gear (or rent at the beach) for Koloa Landing reef — one of Kauai's best. Water shoes for the rocky entry at Koloa Landing. Binoculars for monk seal and sea turtle watching from shore. Camera with a decent zoom for the Spouting Horn blowhole. A light jacket for evenings — Kauai cools down more than people expect."
+  localCulture: "Poipu and Old Koloa Town are steeped in Hawaii's plantation history — the Koloa Sugar Mill (the first successful sugar plantation in Hawaii, established 1835) operated here for over a century. The Plantation Heritage Trail is a free walking tour of this history. Koloa Rum Company, produced right here, is a genuine Hawaiian product; the tasting room is worth a stop. The Hawaiian monk seal is the state's most critically endangered species — the volunteers who monitor the beach seals donate their time to protect them. Thank them."
 ---
+
+**Quick Facts:** Best months: year-round (sunniest Kauai location) | Budget/day: $180–400 | Top attraction: Poipu Beach + Na Pali boat tour from Port Allen | Island: Kauai
 
 ## Things to Do
 

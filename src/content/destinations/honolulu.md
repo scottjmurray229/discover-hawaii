@@ -40,31 +40,49 @@ faqItems:
     answer: 'Honolulu has one of America most diverse and exciting food scenes. From traditional Hawaiian plate lunches and fresh poke to innovative Pacific Rim cuisine, James Beard-nominated chefs, and one of the best Chinatowns in the country.'
   - question: 'How many days do I need in Honolulu?'
     answer: 'Three to four days lets you explore downtown, Chinatown, museums, and the dining scene. Combined with nearby Waikiki and Diamond Head, plan 5–7 days for a thorough Oahu experience.'
+  - question: 'What is the Kaka ako neighborhood and why is it worth visiting?'
+    answer: "Kaka ako is Honolulu's emerging creative district between downtown and Ala Moana. Over 100 large-scale murals cover the warehouse walls — the POW! WOW! festival has made it one of the best street art destinations in the Pacific. The district also has excellent coffee shops, breweries, and the Blaisdell concert venue. Spend 2–3 hours walking and photographing."
+  - question: 'Is there a good farmers market in Honolulu?'
+    answer: "Yes — several. The KCC Farmers Market at Kapiolani Community College (Saturday mornings near Diamond Head) is the best on Oahu with dozens of vendors selling tropical fruits, local prepared foods, coffee, and flowers. The Honolulu Chinatown open market runs daily. The Ala Moana Center farmers market operates on Wednesdays. The KCC market is genuinely excellent."
+  - question: 'What is the Iolani Palace and do I need a guided tour?'
+    answer: "Iolani Palace is the only royal palace on American soil and where the Hawaiian monarchy was headquartered until the illegal 1893 overthrow. Self-guided audio tours ($21 adult) let you explore at your own pace. Guided docent tours ($25) provide much more historical context and are worth the extra cost if you want to truly understand what you're seeing. The adjacent Capitol Historic District adds another 30 minutes of free walking."
+  - question: "What are Honolulu's best neighborhoods for food beyond Chinatown?"
+    answer: "The McCully/Moiliili area has some of Hawaii's best Japanese restaurants. The Kapahulu strip has iconic local spots (Leonard's Malasadas, Rainbow Drive-In, Ono Seafood). Kaimuki's Waialae Avenue has a great independent restaurant scene. The Ala Moana Center food court (Makai Market) is genuinely excellent for cheap local plates. Each neighborhood rewards exploration beyond the tourist zone."
 affiliatePicks:
   - name: 'Laylow Autograph Collection'
     type: 'hotel'
     price: '$$$'
     personalNote: 'Mid-century modern boutique hotel bridging Waikiki and greater Honolulu. The rooftop pool deck and design-forward rooms feel special without resort pretension.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.booking.com/hotel/us/laylow-autograph-collection.html?aid=2778866'
     badge: 'Top Pick'
   - name: 'Honolulu City & Culture Walking Tour'
     type: 'tour'
     price: '$$'
     personalNote: 'Covers Iolani Palace, Chinatown, and the Capitol district with a historian guide. The best way to understand Honolulu beyond the beach.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.getyourguide.com/honolulu-l173/city-tour-tc185/?partner_id=IVN6IQ3'
   - name: 'Bishop Museum General Admission'
     type: 'activity'
     price: '$'
     personalNote: 'World-class Polynesian cultural exhibits, planetarium, and Hawaiian natural history. Plan at least 3 hours — there is more here than most people expect.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.viator.com/Oahu/d672-ttd?pid=P00290009&mcid=42383&medium=link'
   - name: 'OHANA Waikiki East by Outrigger'
     type: 'hotel'
     price: '$$'
     personalNote: 'Solid mid-range option between Waikiki and downtown Honolulu. Clean rooms, reliable service, and easy access to both the beach and city attractions.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.booking.com/hotel/us/ohana-waikiki-east-by-outrigger.html?aid=2778866'
 contentStatus: 'draft'
 draft: false
+scottTips:
+  logistics: "Fly into Daniel K. Inouye International Airport (HNL) — the primary Pacific hub. Downtown Honolulu is 15 minutes from the airport by car or 40 minutes on TheBus. The new Skyline rail connects west Oahu to Ala Moana and is gradually expanding toward downtown. Car recommended for reaching the Pali Highway lookout, Waimea Valley, and other outer Oahu attractions."
+  bestTime: "April through June and September through October: ideal temperatures, lower crowds, and best value. The First Friday art walk in Chinatown (first Friday of each month) is a great cultural event to time around. December brings holiday decorations and the Honolulu Marathon (second Sunday in December) — amazing atmosphere but advance booking essential."
+  gettingAround: "TheBus covers all of Oahu for $3/ride — reliable and comprehensive. Biki bikeshare works for downtown and Kaka'ako. Skyline rail serves Ala Moana and western suburbs. Rideshare (Uber/Lyft) is plentiful. Walking covers downtown, Chinatown, and Kaka'ako. Car recommended for reaching outer neighborhoods and attractions beyond downtown."
+  money: "Honolulu has lower hotel rates than Waikiki beachfront but similar food and activity costs. Budget $100–300/day depending on accommodation style. Helena's Hawaiian Food (James Beard-winning) charges fair prices for exceptional food. The Bishop Museum ($25 adult) and Iolani Palace ($25 guided tour) are worth every dollar. Chinatown lunch options under $15 are excellent."
+  safety: "Honolulu is generally safe in tourist areas. Downtown and Chinatown have improved significantly in recent years and are very active day and evening. Standard urban awareness applies at night on the outer fringes of downtown. Homeless encampments exist in some areas — maintain general city awareness."
+  packing: "Comfortable walking shoes for extensive Chinatown and downtown exploration on mostly flat, paved streets. Light jacket for the many heavily air-conditioned museums and dining spaces. Camera — Kaka'ako murals reward a proper camera. Binoculars for Diamond Head and Nuuanu Pali lookout. Business casual for a nicer Honolulu dinner."
+  localCulture: "Honolulu is a real city with 400,000 residents who have complex relationships with their tourist economy. The Hawaiian cultural renaissance of recent decades is genuine — Native Hawaiian language and arts are being actively revitalized. Iolani Palace is not just a tourist attraction; it represents a sovereign nation that was illegally overthrown. Approach it with the respect that history requires. The plate lunch (a working-person's meal, not a tourist creation) is worth understanding — two scoops of rice, a scoop of mac salad, and your protein of choice is the foundation of local food culture."
 ---
+
+**Quick Facts:** Best months: April–June, Sept–Nov | Budget/day: $150–320 | Top attraction: Iolani Palace + Chinatown + Bishop Museum | Island: Oahu
 
 ## Things to Do
 

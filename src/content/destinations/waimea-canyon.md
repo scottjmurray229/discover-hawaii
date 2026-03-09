@@ -39,26 +39,49 @@ faqItems:
     answer: 'The Canyon Trail to Waipo o Falls (3.4 miles round trip, moderate) is the most popular. The Cliff Trail offers easy canyon rim views. The Awa awapuhi Trail (6.2 miles round trip) ends at a dramatic Na Pali Coast overlook. The Alaka i Swamp Trail leads through an otherworldly bog ecosystem.'
   - question: 'Is Waimea Canyon free to visit?'
     answer: 'There is no entry fee for the canyon itself. Parking at the state park lookouts is free with a Hawaii state parks parking pass or a nominal fee. The Koke e Natural History Museum accepts donations.'
+  - question: 'What is the Kalalau Lookout and how is it different from Waimea Canyon Lookout?'
+    answer: "Waimea Canyon Lookout (3,400 feet) provides the classic canyon panorama looking into the red and green gorge. The Kalalau Lookout and Pu'u O Kila Lookout are at the end of the road (4,200 feet), at the top of the Na Pali coast ridge. From here, you look down 4,000 feet into the remote Kalalau Valley and out to the Na Pali sea cliffs. On a clear morning, it is one of the most spectacular views in all of Hawaii. These lookouts are 4 miles past the Waimea Canyon Lookout — continue to the end of the road."
+  - question: 'What native birds can I see in Koke e State Park?'
+    answer: "Koke'e State Park, atop the canyon, preserves native Hawaiian forest that harbors endemic honeycreeper bird species found nowhere else on Earth. The 'i'iwi (scarlet honeycreeper) and 'apapane (crimson honeycreeper) feed on native ohia blossoms. The 'elepaio (flycatcher) and 'oma'o (Hawaiian thrush) are also present. These birds are endangered due to introduced avian malaria; Koke'e's higher elevation (below the mosquito line) provides critical refuge. Birders rate this among the top birding sites in the Pacific."
+  - question: 'Can I combine Waimea Canyon with a Na Pali Coast boat tour in the same day?'
+    answer: "Yes — this is one of the best full-day Kauai itineraries. Start with an early morning Waimea Canyon drive (arrive at the first lookout by 8am before clouds build). Drive back down to Waimea town and west to Port Allen for a Na Pali Coast afternoon boat tour (typically 1pm departure). You will be back in Poipu or Lihue by sunset. This itinerary covers two of Kauai's greatest natural wonders in a single day."
+  - question: 'What is the town of Waimea like?'
+    answer: "Waimea is a small, historic town at the foot of the canyon where Captain Cook first landed on Kauai in 1778 — a monument marks the spot near the harbor. The town has a Captain Cook statue, historic Russian Fort Elizabeth (a ruined fort built by Russian agents in 1817, free to explore), local restaurants, and the Waimea Brewing Company. It offers a pleasant 30-minute stop between the coast highway and the canyon drive."
 affiliatePicks:
   - name: 'Waimea Canyon & Koke e Guided Hiking Tour'
     type: 'tour'
     price: '$$'
     personalNote: 'Guided hike to the best viewpoints and trails with a naturalist who knows the canyon geology, native birds, and Hawaiian cultural connections. Worth it for the expertise.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.getyourguide.com/kauai-l424/waimea-canyon-tc185/?partner_id=IVN6IQ3'
     badge: 'Top Pick'
   - name: 'Koke e Lodge'
     type: 'hotel'
     price: '$$'
     personalNote: 'Simple cabins in Koke e State Park at 3,600 feet elevation — cool mountain air and the chance to hike at sunrise before clouds roll in. The only accommodation near the canyon.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.booking.com/hotel/us/kokee-lodge.html?aid=2778866'
   - name: 'Jack Harter Helicopters Kauai Tour'
     type: 'tour'
     price: '$$$'
     personalNote: 'Doors-off helicopter flight over Waimea Canyon and the Na Pali Coast. Seeing the canyon from the air adds a completely different dimension to the experience.'
-    affiliateUrl: ''
+    affiliateUrl: 'https://www.getyourguide.com/kauai-l424/helicopter-tc185/?partner_id=IVN6IQ3'
+  - name: 'Waimea Plantation Cottages'
+    type: 'hotel'
+    price: '$$'
+    personalNote: 'Restored sugar plantation cottages on a coconut grove oceanfront at the base of the canyon road. Peaceful, historic, and a perfect base for early-morning canyon access.'
+    affiliateUrl: 'https://www.booking.com/hotel/us/waimea-plantation-cottages.html?aid=2778866'
 contentStatus: 'draft'
 draft: false
+scottTips:
+  logistics: "Fly into Lihue Airport (LIH) on Kauai — 1.5 hours to the main Waimea Canyon Lookout via Highway 50 to Highway 550. Rental car required — no public transit. Plan to spend a full morning at the canyon and Koke'e State Park. The drive from Poipu (south shore) is 1 hour to the canyon, making a natural half-day pairing with a Poipu morning beach day."
+  bestTime: "Morning visits are essential — clouds build reliably by early afternoon (11am–1pm) and can completely obscure the views. Arrive at the first lookout by 9am for the clearest conditions. March through October has the best overall weather. After significant rainfall, waterfalls appear on the canyon walls that are breathtaking — check webcams the night before."
+  gettingAround: "Drive Highway 550 up the canyon's western rim, stopping at each lookout as you gain elevation. The road continues to Koke'e State Park (14 miles from Waimea town) and the Kalalau Lookout at the end. Allow 3 hours minimum for the round trip with stops. Hiking trailheads are accessed directly from the road."
+  money: "No entrance fee for the canyon itself. Koke'e Lodge cabins: $90/night (the most affordable in-park experience in Hawaii). Helicopter tour over the canyon: $250–350. Guided hiking tour: $120–180. Waimea Plantation Cottages: $200–300/night. Budget $100–250/day including activities."
+  safety: "The canyon lookout railings are adequate but this is not a manicured experience — stay behind barriers. Several trails have exposed cliff edges without guardrails. Morning is safer for hiking as afternoon clouds can make navigation confusing on unfamiliar trails. The Awa'awapuhi Trail ends at an exposed knife-edge ridge with 2,500-foot drop; not for those with height anxiety. The canyon road has sharp switchbacks — drive carefully and let faster traffic pass at pullouts."
+  packing: "Layers — the canyon lookouts at 3,400–4,200 feet are noticeably cooler than the coast, often 15–20°F colder. Light jacket for the morning lookout. Binoculars for spotting native birds (honeycreepers) in Koke'e's old-growth forest. Trekking poles for the Canyon Trail to Waipo'o Falls. Picnic supplies — the Koke'e Lodge only serves breakfast and lunch; the lookouts have no food. Arrive with a full cooler."
+  localCulture: "The Hawaiian name for this area is Waimea — 'reddish water' referring to the red volcanic soil that colors the river. The canyon's colors shift dramatically throughout the day and with cloud light — sunrise and late afternoon produce the most vivid reds and golds. The Koke'e Natural History Museum (donation-based) has excellent information on native Hawaiian plants and birds of the Koke'e plateau — a surprisingly good small museum. The rare native birds of Koke'e (i'iwi, 'apapane, and others) are found nowhere else on Earth; birdwatchers rank this among the top birding sites in the Pacific."
 ---
+
+**Quick Facts:** Best months: March–Oct (go early morning) | Budget/day: $100–250 | Top attraction: Waimea Canyon Lookout + Kalalau Overlook + Canyon Trail hike | Island: Kauai
 
 ## Things to Do
 
