@@ -89,7 +89,7 @@ scottTips:
 
 **Quick Facts:** Best months: Dec–April (whales), May–Nov (value) | Budget/day: $180–400 | Top attraction: Whale watching + Ka'anapali Beach snorkeling | Island: Maui
 
-## Things to Do
+## What Are the Top Things to Do in Lahaina?
 
 Lahaina has been the beating heart of West Maui for centuries. Once the capital of the Hawaiian Kingdom and later a major Pacific whaling port, this coastal town carries layers of history in every block. The devastating 2023 wildfire brought immense loss, but Lahaina's community is rebuilding with remarkable determination, and visitors play a vital role in that recovery.
 
@@ -99,13 +99,13 @@ Between December and April, Lahaina becomes one of the best whale watching desti
 
 Nearby Ka'anapali Beach stretches three miles north of Lahaina, with Black Rock (Pu'u Keka'a) offering world-class snorkeling among sea turtles and vibrant reef fish. Sunset sailing cruises and snorkel trips to Lanai depart from Lahaina Harbor, offering full-day adventures on the water.
 
-## Where to Stay
+## Where Should I Stay in Lahaina?
 
 West Maui offers excellent accommodations along the Ka'anapali and Lahaina coastline. Ka'anapali Beach Hotel is known as "Hawaii's Most Hawaiian Hotel" for its cultural programming and welcoming spirit, with rates starting around $250 per night.
 
 Lahaina Shores Beach Resort provides condo-style units with full kitchens right on the waterfront. The Hyatt Regency Maui, Westin Maui, and Sheraton Maui line Ka'anapali Beach with full-service luxury starting around $400 per night. Budget options include vacation rentals in the surrounding neighborhoods and the Lahaina area hostels.
 
-## Where to Eat
+## What Should I Eat in Lahaina?
 
 Lahaina's food scene is evolving as the town rebuilds. Many beloved restaurants have reopened in new locations or temporary spaces. Star Noodle, famous for its Asian-fusion noodles and small plates, remains a must-visit. Aloha Mixed Plate served traditional Hawaiian plate lunches on the waterfront for decades and was a local icon.
 

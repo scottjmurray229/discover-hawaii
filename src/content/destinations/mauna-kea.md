@@ -91,7 +91,7 @@ scottTips:
 
 **Quick Facts:** Best months: April–Oct (clearest) | Budget/day: $50–280 | Top attraction: Summit stargazing above the clouds | Island: Big Island
 
-## Things to Do
+## What Are the Top Things to Do in Mauna Kea?
 
 Mauna Kea is a place where science, culture, and raw natural beauty converge at breathtaking altitude. At 13,796 feet above sea level — and over 33,000 feet from its base on the ocean floor — this dormant shield volcano is technically the tallest mountain on Earth when measured from base to peak. Its summit offers some of the most spectacular views and clearest night skies found anywhere on the planet.
 
@@ -101,13 +101,13 @@ The Visitor Information Station (VIS) at 9,200 feet is the most accessible way t
 
 Mauna Kea holds profound cultural significance for Native Hawaiians. Known as Mauna a Wakea, it is considered the sacred meeting place of sky father Wakea and earth mother Papahanaumoku. Visitors should treat the mountain with deep respect, staying on marked paths, removing nothing, and being mindful that the mountain's use remains an important cultural conversation.
 
-## Where to Stay
+## Where Should I Stay in Mauna Kea?
 
 Mauna Kea is a day (or evening) trip destination rather than an overnight base. Hilo is the closest major town at about one hour from the Visitor Information Station, making it the most convenient base. The Grand Naniloa Hotel on Hilo Bay offers comfortable waterfront rooms starting around $180 per night.
 
 From the Kona side, the drive to the VIS is approximately 1.5 hours via Saddle Road. Staying in Waimea (Kamuela), a ranch town between the two coasts, splits the difference and offers a cooler, upcountry atmosphere with B&Bs and vacation rentals starting around $150 per night.
 
-## Where to Eat
+## What Should I Eat in Mauna Kea?
 
 There are no food services on Mauna Kea itself, so bring everything you need. Pack warm drinks in a thermos, high-energy snacks, and plenty of water (dehydration accelerates at altitude). Guided summit tours typically include hot cocoa, sandwiches, and snacks.
 

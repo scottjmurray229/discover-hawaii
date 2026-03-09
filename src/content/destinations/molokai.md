@@ -92,7 +92,7 @@ scottTips:
 
 **Quick Facts:** Best months: April–Nov | Budget/day: $120–200 | Top attraction: Kalaupapa National Historical Park + Halawa Valley hike | Island: Molokai
 
-## Things to Do
+## What Are the Top Things to Do in Molokai?
 
 Molokai is Hawaii's quiet rebel — an island that has steadfastly refused the resort development that transformed its neighbors, preserving a way of life that feels closer to old Hawaii than anywhere else in the state. There are no traffic lights, no buildings taller than a coconut palm, and the island's 7,000 residents maintain a deep connection to Hawaiian cultural traditions.
 
@@ -102,13 +102,13 @@ On the east end of the island, the Halawa Valley is one of the oldest Hawaiian s
 
 The south shore preserves dozens of ancient Hawaiian fishponds — stone-walled enclosures built centuries ago to sustainably farm fish. Some are being actively restored by community groups. On the west end, Papohaku Beach stretches three miles of white sand that is usually empty — one of the longest beaches in Hawaii with scarcely a footprint on it.
 
-## Where to Stay
+## Where Should I Stay in Molokai?
 
 Accommodation on Molokai is limited, which is part of its charm. Hotel Molokai is the island's only hotel — a collection of Polynesian-style bungalows on the waterfront near Kaunakakai town, with rooms starting around $170 per night. Its restaurant and oceanfront tiki bar serve as the island's social gathering point, especially for Friday night live music.
 
 Vacation rentals are the primary alternative, with options ranging from simple studios near Kaunakakai to beachfront cottages on Papohaku Beach. Expect to pay $120–$300 per night. Book early as inventory is limited. There are no resorts, no Airbnb luxury villas, and no chain hotels — accommodation here is simple and authentic.
 
-## Where to Eat
+## What Should I Eat in Molokai?
 
 Dining on Molokai is simple and local. Kaunakakai, the main town, has a handful of restaurants and shops that serve the island. Paddlers Restaurant at Hotel Molokai offers the most varied menu with seafood, steaks, and Hawaiian plates right on the water.
 

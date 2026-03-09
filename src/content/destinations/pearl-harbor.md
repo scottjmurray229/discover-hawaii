@@ -88,7 +88,7 @@ scottTips:
 
 **Quick Facts:** Best months: year-round | Budget/day: $40–100 (site fees) | Top attraction: USS Arizona Memorial + Battleship Missouri | Island: Oahu
 
-## Things to Do
+## What Are the Top Things to Do in Pearl Harbor?
 
 Pearl Harbor is the most visited attraction in Hawaii and one of the most significant World War II sites in the world. The attack on December 7, 1941 thrust the United States into the war and forever changed the course of history. Today, the Pearl Harbor National Memorial preserves this legacy with dignity and power.
 
@@ -96,13 +96,13 @@ The experience begins at the visitor center, where a documentary film recounts t
 
 Beyond the memorial, Battleship Missouri offers a powerful bookend to the Pacific War story. It was on Missouri's deck that Japan signed the formal surrender on September 2, 1945. Walk the same teak decks and stand at the exact spot where the war ended. The USS Bowfin submarine, nicknamed the "Pearl Harbor Avenger," provides a fascinating look at underwater warfare, while the Pearl Harbor Aviation Museum houses restored warplanes from both sides of the conflict.
 
-## Where to Stay
+## Where Should I Stay in Pearl Harbor?
 
 Pearl Harbor is a day trip destination rather than a place to base yourself. Most visitors stay in Waikiki or greater Honolulu and travel to Pearl Harbor by car, bus, or tour shuttle. Hotels near the airport like the Best Western The Plaza Hotel offer proximity at lower rates ($140–$180/night) if you want an early start.
 
 For a more atmospheric stay, the historic neighborhoods of downtown Honolulu and Chinatown put you closer to Pearl Harbor while offering a different perspective on Oahu beyond the resort strip.
 
-## Where to Eat
+## What Should I Eat in Pearl Harbor?
 
 The Pearl Harbor Visitor Center has a casual cafe with sandwiches, snacks, and drinks — adequate but not memorable. For a better meal, plan to eat before or after your visit. Restaurant 604 at the Aloha Tower in Honolulu serves excellent seafood with harbor views, just 15 minutes from Pearl Harbor.
 

@@ -92,7 +92,7 @@ scottTips:
 
 **Quick Facts:** Best months: year-round (sunniest Kauai location) | Budget/day: $180–400 | Top attraction: Poipu Beach + Na Pali boat tour from Port Allen | Island: Kauai
 
-## Things to Do
+## What Are the Top Things to Do in Poipu?
 
 Poipu is Kauai's sunny south shore gem — the driest, warmest area on the Garden Isle and home to some of the best beaches on the island. Poipu Beach Park has been rated among America's top beaches multiple times, with golden sand, calm turquoise water, and a naturally protected kiddie pool that makes it perfect for families.
 
@@ -102,13 +102,13 @@ The Spouting Horn blowhole is a natural spectacle where ocean swells funnel thro
 
 Beyond the beach, Makauwahi Cave is the largest limestone cave in Hawaii and an active archaeological and paleontological site. Zipline tours over the lush south shore valleys provide an adrenaline rush with stunning views, and the historic town of Old Koloa is worth a stroll for its plantation-era buildings, shops, and the Koloa Rum Company tasting room.
 
-## Where to Stay
+## Where Should I Stay in Poipu?
 
 Poipu is Kauai's most developed resort area with options spanning every budget. The Grand Hyatt Kauai is the crown jewel — a sprawling resort with multiple pools, a saltwater lagoon, championship golf, and an award-winning spa. Rates start around $450 per night.
 
 Koloa Landing Resort offers luxury condo-style living with full kitchens and multiple pools, starting around $350 per night. The Sheraton Kauai Resort sits right on Poipu Beach. For mid-range budgets, the Poipu Kai Resort and various vacation rental condos offer good value from $200 per night. Budget-minded travelers can find vacation rental studios starting around $130 per night, though true budget accommodation is limited in Poipu.
 
-## Where to Eat
+## What Should I Eat in Poipu?
 
 Poipu's dining scene has grown considerably in recent years. The Beach House Restaurant is Kauai's most iconic sunset dining experience — perched right on the ocean with contemporary Hawaiian cuisine and an atmosphere that has graced countless proposals and anniversaries. Reserve well in advance for sunset seating.
 

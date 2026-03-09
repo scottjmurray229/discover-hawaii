@@ -92,7 +92,7 @@ scottTips:
 
 **Quick Facts:** Best months: May–Sept (boat/trail) | Budget/day: $200–450 | Top attraction: Catamaran coast tour or Kalalau Trail hike | Island: Kauai
 
-## Things to Do
+## What Are the Top Things to Do in Na Pali Coast?
 
 The Na Pali Coast is Hawaii at its most dramatic — 17 miles of emerald-green sea cliffs rising 4,000 feet straight from the Pacific, carved by millions of years of wind, rain, and waves into fluted cathedral spires and deep hanging valleys. There is no road access, and that isolation is what keeps it wild, pristine, and staggeringly beautiful.
 
@@ -102,13 +102,13 @@ From the air, helicopter tours provide the most comprehensive views, revealing h
 
 On foot, the Kalalau Trail is one of the most famous coastal hikes in the world. The 11-mile trail follows the cliff edge through five valleys to remote Kalalau Beach, where ancient Hawaiian terraces are still visible. The first two miles to Hanakapi'ai Beach and the additional two miles to Hanakapi'ai Falls are manageable as a day hike and offer a powerful taste of the coast.
 
-## Where to Stay
+## Where Should I Stay in Na Pali Coast?
 
 The Na Pali Coast itself has no accommodation except primitive camping at Kalalau Beach (permit required). Most visitors base themselves on Kauai's north shore in Princeville or Hanalei, about 30 minutes from the Ke'e Beach trailhead.
 
 The St. Regis Princeville (now 1 Hotel Hanalei Bay) overlooks Hanalei Bay with luxurious rooms starting around $600 per night. Hanalei Colony Resort is the last resort before the Na Pali coast, offering a quiet, no-TV beachfront experience from $300 per night. Vacation rentals in Hanalei and Princeville range from $200–$500 per night. Budget travelers can find hostels in Kapa'a (45 minutes from the trailhead) starting around $40 per night.
 
-## Where to Eat
+## What Should I Eat in Na Pali Coast?
 
 The north shore of Kauai, gateway to Na Pali, has an excellent food scene. Hanalei Bread Company serves outstanding baked goods and breakfast sandwiches — the perfect fuel before a hike. Postcards Cafe in Hanalei offers organic, island-inspired cuisine in a charming plantation-era house.
 

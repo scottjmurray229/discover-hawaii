@@ -91,7 +91,7 @@ scottTips:
 
 **Quick Facts:** Best months: April–Sept (clearest skies) | Budget/day: $90–250 | Top attraction: 10,023-foot sunrise above the clouds | Island: Maui
 
-## Things to Do
+## What Are the Top Things to Do in Haleakala?
 
 Haleakala — "House of the Sun" in Hawaiian — is a dormant shield volcano that rises 10,023 feet above sea level on eastern Maui. Its summit crater stretches seven miles across and 2,600 feet deep, creating an otherworldly landscape that feels more like Mars than Hawaii. Watching the sunrise from its peak is one of the most iconic experiences in the entire state.
 
@@ -101,13 +101,13 @@ For hikers, the Sliding Sands (Keonehe'ehe'e) Trail descends into the crater thr
 
 Beyond sunrise and hiking, Haleakala offers exceptional stargazing. The summit sits above the cloud inversion layer with minimal light pollution, revealing a night sky of staggering clarity. Several tour companies offer evening stargazing trips with telescopes and astronomy guides.
 
-## Where to Stay
+## Where Should I Stay in Haleakala?
 
 Most visitors experience Haleakala as a day trip from Maui's resort areas. However, staying in Upcountry Maui on the volcano's slopes offers a unique, cooler-climate Hawaiian experience. Kula Lodge sits at 3,200 feet with panoramic ocean views and a cozy restaurant, starting around $200 per night.
 
 For a true Upcountry experience, vacation rentals in Kula and Makawao offer charming cottages surrounded by protea farms and eucalyptus groves. The Lumeria Maui retreat center in Makawao combines wellness programming with comfortable rooms starting around $250 per night.
 
-## Where to Eat
+## What Should I Eat in Haleakala?
 
 Upcountry Maui's food scene reflects its agricultural heritage. Kula Bistro serves farm-to-table comfort food using ingredients from surrounding farms — their breakfasts are the perfect fuel before a sunrise mission. Grandma's Coffee House in Keokea roasts Maui-grown coffee and serves homemade pastries in a charming historic building.
 

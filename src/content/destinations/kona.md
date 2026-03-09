@@ -91,7 +91,7 @@ scottTips:
 
 **Quick Facts:** Best months: March–June, Sept–Oct | Budget/day: $150–400 | Top attraction: Manta ray night snorkel + Kona coffee belt | Island: Big Island
 
-## Things to Do
+## What Are the Top Things to Do in Kona?
 
 Kona is the sunny, lively heart of the Big Island's western coast. Kailua-Kona town stretches along Ali'i Drive, a waterfront strip of shops, restaurants, and historic sites centered on the Kailua Pier — the start and finish line of the annual Ironman World Championship triathlon.
 
@@ -101,13 +101,13 @@ The unmissable Kona experience is the manta ray night snorkel. After dark, boats
 
 Kealakekua Bay, accessible by boat tour or a steep hike, offers some of the best snorkeling in all of Hawaii. The crystal-clear waters around the Captain Cook monument teem with tropical fish, and spinner dolphins are regular visitors. Nearby, Pu'uhonua o Honaunau (Place of Refuge) National Historical Park preserves an ancient Hawaiian sanctuary with carved wooden temple images and a stunning oceanfront setting.
 
-## Where to Stay
+## Where Should I Stay in Kona?
 
 Kona offers a wider range of accommodation than most Big Island areas. In Kailua-Kona town, the Courtyard King Kamehameha Kona Beach Hotel sits right on the waterfront with good mid-range value starting around $220 per night. The Royal Kona Resort offers similar positioning with ocean-view rooms and a saltwater pool.
 
 Up the coast, the Kohala Coast resorts — Mauna Lani, Fairmont Orchid, and Waikoloa Beach Marriott — offer luxury beachfront stays starting around $400 per night. In the coffee country above town, Holualoa Inn provides a boutique bed-and-breakfast experience with panoramic ocean views. Budget travelers can find hostels in Kailua-Kona starting around $35 per night.
 
-## Where to Eat
+## What Should I Eat in Kona?
 
 Kona's dining scene ranges from casual pier-side fish and chips to elevated Hawaiian cuisine. Umeke's serves outstanding poke bowls with fresh daily catches. Jackie Rey's Ohana Grill is a long-standing local favorite for seafood and steaks at fair prices.
 

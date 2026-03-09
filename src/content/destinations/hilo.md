@@ -90,7 +90,7 @@ scottTips:
 
 **Quick Facts:** Best months: April–Sept | Budget/day: $85–200 | Top attraction: Hawai'i Volcanoes National Park (45 min) + Hilo Farmers Market | Island: Big Island
 
-## Things to Do
+## What Are the Top Things to Do in Hilo?
 
 Hilo is the Big Island's quiet, rain-kissed soul — a place where authentic Hawaiian small-town life thrives alongside jaw-dropping natural beauty. With over 130 inches of annual rainfall, Hilo is improbably lush, and that moisture feeds some of the most spectacular waterfalls in the state.
 
@@ -102,13 +102,13 @@ Downtown Hilo retains a charming, slightly weathered character with local boutiq
 
 Hilo is the gateway to Hawai'i Volcanoes National Park (45 minutes south) and the Waipi'o Valley lookout on the Hamakua Coast (1 hour north). It is also the closest town to Mauna Kea's summit stargazing.
 
-## Where to Stay
+## Where Should I Stay in Hilo?
 
 Hilo is significantly more affordable than Kona or the resort areas. The Grand Naniloa Hotel, a DoubleTree by Hilton, is Hilo's premier property — a renovated waterfront hotel with bay views, a nine-hole golf course, and rooms starting around $180 per night.
 
 The Hilo Hawaiian Hotel offers similar waterfront positioning at slightly lower rates. B&Bs and vacation rentals in the surrounding neighborhoods start as low as $100 per night. Budget travelers will appreciate the Hilo Bay Hostel in the heart of downtown, with dorm beds from $35 and private rooms from $85. For a unique stay, several treehouse and jungle B&Bs operate in the lush areas outside town.
 
-## Where to Eat
+## What Should I Eat in Hilo?
 
 Hilo's food scene is unpretentious and satisfying. Cafe 100 is the birthplace of the loco moco — rice, hamburger patty, fried egg, and brown gravy — and they serve dozens of variations for under $8. Ken's House of Pancakes is the Big Island's only 24-hour restaurant, a beloved institution for late-night bites.
 

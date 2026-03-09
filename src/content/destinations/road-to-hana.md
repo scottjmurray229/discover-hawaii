@@ -92,7 +92,7 @@ scottTips:
 
 **Quick Facts:** Best months: April–Sept | Budget/day: $50–200 | Top attraction: Wai'anapanapa black sand beach + Pipiwai Trail waterfalls | Island: Maui
 
-## Things to Do
+## What Are the Top Things to Do in Road to Hana?
 
 The Road to Hana is not just a drive — it is one of the most legendary road trips in the world. This 64-mile stretch of Highway 360 winds along Maui's lush northeastern coast through 620 curves and over 59 bridges, passing waterfalls, bamboo forests, black sand beaches, and roadside fruit stands that define the tropical Hawaiian experience.
 
@@ -102,13 +102,13 @@ The road's midpoint jewel is Wai'anapanapa State Park, home to a striking black 
 
 At the road's end, the Pools of 'Ohe'o (historically called the Seven Sacred Pools) cascade down a series of tiered waterfalls into the ocean at the Kipahulu section of Haleakala National Park. Don't forget to stop at the roadside stands for Aunty Sandy's banana bread, fresh coconuts, and hand-picked tropical fruit along the way.
 
-## Where to Stay
+## Where Should I Stay in Road to Hana?
 
 Most travelers drive the Road to Hana as a long day trip, returning to West or South Maui accommodations. However, staying overnight in Hana transforms the experience. Hana-Maui Resort (a Hyatt property) is the area's premier hotel, with oceanview cottages starting around $500 per night.
 
 Vacation rentals and B&Bs in Hana offer a more affordable alternative, with options ranging from $150–$350 per night. Camping is available at Wai'anapanapa State Park (with a permit) and at Kipahulu campground in Haleakala National Park on a first-come basis.
 
-## Where to Eat
+## What Should I Eat in Road to Hana?
 
 Food options along the Road to Hana are sparse but delicious. Pack a cooler with snacks and lunch from Pa'ia before you depart. Along the road, keep cash on hand for roadside fruit stands — the banana bread at Aunty Sandy's near Ke'anae is legendary, and the coconut candy at Nahiku Marketplace is addictive.
 

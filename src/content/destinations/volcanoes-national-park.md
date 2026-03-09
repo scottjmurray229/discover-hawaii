@@ -92,7 +92,7 @@ scottTips:
 
 **Quick Facts:** Best months: year-round (active eruption periods are special) | Budget/day: $90–250 | Top attraction: Kilauea caldera + Thurston Lava Tube + night volcanic glow | Island: Big Island
 
-## Things to Do
+## What Are the Top Things to Do in Volcanoes National Park?
 
 Hawai'i Volcanoes National Park is one of the most extraordinary places on Earth — a UNESCO World Heritage Site where you can witness the planet actively creating new land. The park encompasses two of the world's most active volcanoes: Kilauea and Mauna Loa, along with 333,308 acres of volcanic landscapes ranging from tropical coastline to barren lava fields.
 
@@ -102,13 +102,13 @@ Crater Rim Drive circles the Kilauea caldera with pullouts at steam vents, sulfu
 
 Chain of Craters Road descends 3,700 feet over 19 miles from the crater rim to the coast, passing lava flows of different ages and ending at the Holei Sea Arch. Along the way, the Pu'u Loa Petroglyphs preserve over 23,000 ancient Hawaiian carvings — one of the largest petroglyph fields in the Pacific.
 
-## Where to Stay
+## Where Should I Stay in Volcanoes National Park?
 
 Volcano House is the park's iconic accommodation — a hotel perched directly on the rim of Kilauea caldera. The views into the crater from the dining room and select guest rooms are unmatched anywhere, with rooms starting around $250 per night. Book well in advance.
 
 The nearby village of Volcano, just outside the park entrance, offers charming bed-and-breakfasts and vacation rentals in a cool, misty rainforest setting. Kilauea Lodge is a beloved property with a fireplace restaurant, starting around $200 per night. Budget options include camping within the park at Kulanaokuaiki and Namakanipaio campgrounds.
 
-## Where to Eat
+## What Should I Eat in Volcanoes National Park?
 
 Dining options inside the park are limited to the Rim restaurant at Volcano House, which serves decent meals with extraordinary crater views — the ambiance is the main draw. The small visitor center shop has packaged snacks and coffee.
 

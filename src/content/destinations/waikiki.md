@@ -89,7 +89,7 @@ scottTips:
 
 **Quick Facts:** Best months: April–June, Sept–Oct | Budget/day: $200–400+ | Top attraction: Waikiki Beach + Diamond Head sunrise hike | Island: Oahu
 
-## Things to Do
+## What Are the Top Things to Do in Waikiki?
 
 Waikiki is synonymous with Hawaiian beach culture and remains one of the most iconic stretches of sand in the world. The two-mile beachfront offers gentle waves perfect for first-time surfers and stand-up paddleboarders, with dozens of rental shops and surf schools lining the shore. Take an outrigger canoe ride with local watermen for an authentic taste of the sport that made this coastline famous.
 
@@ -97,13 +97,13 @@ Beyond the beach, Kalakaua Avenue delivers world-class shopping, from luxury bou
 
 Waikiki also serves as the perfect launchpad for exploring greater Oahu. Diamond Head crater is a quick drive or bus ride away, and the vibrant neighborhoods of Chinatown and Kaka'ako are just minutes up the road.
 
-## Where to Stay
+## Where Should I Stay in Waikiki?
 
 Waikiki packs an impressive range of accommodation into a compact footprint. Budget travelers will find hostels like the Waikiki Beachside Hostel starting around $40–$55 per night. Mid-range visitors have excellent options in the Surfjack Hotel, Holiday Inn Express, and Hyatt Place Waikiki Beach, ranging from $180–$350 per night.
 
 For luxury, the Outrigger Waikiki Beach Resort, Halekulani, and Royal Hawaiian (the "Pink Palace") offer beachfront elegance starting around $500 per night. Many resorts charge a daily resort fee of $30–$50, so factor that into your budget.
 
-## Where to Eat
+## What Should I Eat in Waikiki?
 
 Poke is king in Waikiki, and Ono Seafood and Maguro Brothers are must-visits for the freshest bowls on the island. For a sit-down meal, Duke's Waikiki serves solid Hawaiian fare right on the beach with live music most evenings.
 

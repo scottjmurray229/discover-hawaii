@@ -88,7 +88,7 @@ scottTips:
 
 **Quick Facts:** Best months: year-round (early morning visits) | Budget/day: $15–25 (activity only) | Top attraction: 760-foot summit panorama over Waikiki | Island: Oahu
 
-## Things to Do
+## What Are the Top Things to Do in Diamond Head?
 
 Diamond Head (Le'ahi in Hawaiian) is arguably the most recognizable natural landmark in Hawaii. This 300,000-year-old volcanic tuff cone rises 760 feet above sea level on the eastern edge of Waikiki, and hiking to its summit is a rite of passage for visitors to Oahu.
 
@@ -98,13 +98,13 @@ Diamond Head served as a strategic military lookout from the early 1900s through
 
 Beyond the hike, the Diamond Head area offers the scenic Diamond Head Lighthouse viewpoint, the KCC Farmers Market on Saturday mornings, and the quiet neighborhoods of Kahala and Diamond Head that feel worlds away from the bustle of Waikiki.
 
-## Where to Stay
+## Where Should I Stay in Diamond Head?
 
 Most visitors hike Diamond Head as a morning excursion from Waikiki, which is just 10 minutes away. However, staying near Diamond Head itself offers a quieter, more residential experience. The Lotus Honolulu sits right at the crater's base with stunning views and boutique charm, starting around $280 per night.
 
 The nearby Kahala Hotel and Resort is one of Oahu's most prestigious properties, with a private beach, dolphin lagoon, and rooms starting around $500 per night. For budget travelers, the Diamond Head area has several vacation rentals that offer better value than central Waikiki.
 
-## Where to Eat
+## What Should I Eat in Diamond Head?
 
 After your hike, the KCC Farmers Market (Saturday mornings) is the best food experience near Diamond Head, with dozens of vendors selling fresh tropical fruits, poke, pastries, and local coffee. It is one of the top farmers markets in all of Hawaii.
 

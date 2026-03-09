@@ -89,7 +89,7 @@ scottTips:
 
 **Quick Facts:** Best months: April–Sept | Budget/day: $130–250 | Top attraction: Kailua Beach + Mokulua Islands kayak | Island: Oahu (windward coast)
 
-## Things to Do
+## What Are the Top Things to Do in Kailua?
 
 Kailua is the beach town that locals love, and one visit to its impossibly turquoise waters will show you why. Kailua Beach Park stretches nearly a mile along Oahu's windward coast, with powder-soft sand and calm, clear water that is ideal for swimming, kayaking, and stand-up paddleboarding.
 
@@ -99,13 +99,13 @@ For hikers, the Lanikai Pillbox Trail is a short but rewarding climb to WWII-era
 
 The steady trade winds that funnel through the Ko'olau Mountains make Kailua one of the best kiteboarding and windsurfing spots in the state. Lessons are available for beginners, and watching the colorful kites dance over the turquoise water is a spectacle in itself.
 
-## Where to Stay
+## Where Should I Stay in Kailua?
 
 Kailua has no large resorts, which is part of its charm. Accommodation here means vacation rentals, bed-and-breakfasts, and small inns. Sheffield House B&B offers comfortable rooms within walking distance of the beach, starting around $140 per night.
 
 Vacation rentals range from studio apartments at $120 per night to beachfront homes at $400+. For budget travelers, options are limited — the closest hostels are in Waikiki, making Kailua better suited for mid-range and above. Many visitors opt for a few nights in Kailua paired with time in Waikiki for a balanced Oahu itinerary.
 
-## Where to Eat
+## What Should I Eat in Kailua?
 
 Kailua's food scene punches above its weight. Buzz's Original Steakhouse, right across from the beach, has been a local landmark since 1962 — their fresh catch and lanai seating are tough to beat. Cinnamon's Restaurant serves the island's best brunch, with red velvet pancakes and guava chiffon that draw long weekend lines.
 

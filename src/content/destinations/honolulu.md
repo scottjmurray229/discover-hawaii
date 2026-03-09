@@ -92,7 +92,7 @@ scottTips:
 
 **Quick Facts:** Best months: April–June, Sept–Nov | Budget/day: $150–320 | Top attraction: Iolani Palace + Chinatown + Bishop Museum | Island: Oahu
 
-## Things to Do
+## What Are the Top Things to Do in Honolulu?
 
 Honolulu is far more than a gateway to Waikiki — it is one of the most culturally rich cities in the Pacific. Start at Iolani Palace, the only royal palace on American soil, where the Hawaiian monarchy ruled until the 1893 overthrow. Guided tours of the opulent interior reveal a complex history of sovereignty and cultural pride.
 
@@ -102,13 +102,13 @@ Chinatown is Honolulu's most dynamic neighborhood. By day, explore bustling mark
 
 For shopping, Ala Moana Center is the world's largest open-air mall, with over 350 stores ranging from luxury brands to local designers. The nearby Ward Village offers a more curated, walkable shopping and dining experience.
 
-## Where to Stay
+## Where Should I Stay in Honolulu?
 
 Honolulu offers accommodation across every budget. Downtown and Chinatown have fewer hotel options but put you at the heart of the city's culture. The Surfjack Hotel and Laylow in the Waikiki-Honolulu border zone offer boutique style with easy access to both worlds, starting around $250 per night.
 
 Budget travelers find the best value in hostels along the Waikiki fringe, with dorm beds from $35–$55 per night. Mid-range chains like OHANA by Outrigger and Hyatt Place offer reliable rooms for $180–$300. Luxury seekers will appreciate the Halekulani or Kahala Hotel, both offering refined Hawaiian elegance.
 
-## Where to Eat
+## What Should I Eat in Honolulu?
 
 Honolulu's food scene is a melting pot of Hawaiian, Japanese, Chinese, Korean, Filipino, and American influences. Helena's Hawaiian Food, a James Beard Award winner, serves the most authentic traditional Hawaiian plate — laulau, pipikaula, and squid luau. Senia, from two former Alan Wong protégés, delivers cutting-edge tasting menus using local ingredients.
 

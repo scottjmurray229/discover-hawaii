@@ -91,7 +91,7 @@ scottTips:
 
 **Quick Facts:** Best months: March–Oct (go early morning) | Budget/day: $100–250 | Top attraction: Waimea Canyon Lookout + Kalalau Overlook + Canyon Trail hike | Island: Kauai
 
-## Things to Do
+## What Are the Top Things to Do in Waimea Canyon?
 
 Waimea Canyon is one of those places that makes you stop mid-step and stare. Often called "the Grand Canyon of the Pacific," this 14-mile-long, 3,600-foot-deep gorge slices through the heart of western Kauai with layers of red, orange, rust, and green that shift and glow throughout the day. Mark Twain reportedly gave it its famous nickname, and while the attribution is debated, the comparison is earned.
 
@@ -101,13 +101,13 @@ The main scenic drive follows Highway 550 up the canyon's western rim, with seve
 
 For hikers, the Canyon Trail to Waipo'o Falls (3.4 miles round trip) delivers canyon rim views and a dramatic waterfall overlook. The Awa'awapuhi Trail (6.2 miles round trip) ends at a knife-edge ridge with dizzying views 2,500 feet down to the Na Pali coastline. Koke'e State Park, at the top of the canyon road, protects native Hawaiian forests where you can spot rare honeycreepers like the 'i'iwi and 'apapane.
 
-## Where to Stay
+## Where Should I Stay in Waimea Canyon?
 
 Most visitors explore Waimea Canyon as a day trip from Poipu, Lihue, or the north shore. However, staying near the canyon offers a unique mountain experience. Koke'e Lodge in Koke'e State Park provides simple cabins at 3,600 feet elevation, where cool temperatures and birdsong replace the coastal heat and surf. Cabins start around $90 per night.
 
 In historic Waimea town at the canyon's base, the Waimea Plantation Cottages offer restored sugar plantation homes on a coconut grove facing the ocean, starting around $200 per night. The Inn Waimea provides affordable B&B accommodation in a charming historic building.
 
-## Where to Eat
+## What Should I Eat in Waimea Canyon?
 
 Dining options near Waimea Canyon are limited. Pack a picnic for the lookouts and trails — there are scenic picnic areas throughout Koke'e State Park. The Koke'e Lodge serves simple breakfast and lunch with coffee and baked goods.
 

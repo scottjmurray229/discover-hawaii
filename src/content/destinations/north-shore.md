@@ -92,7 +92,7 @@ scottTips:
 
 **Quick Facts:** Best months: Nov–Feb (surf), April–Sept (swimming) | Budget/day: $100–250 | Top attraction: Pipeline surf watching + Laniakea turtle beach | Island: Oahu
 
-## Things to Do
+## What Are the Top Things to Do in North Shore?
 
 The North Shore of Oahu is hallowed ground in the surfing world. Between November and February, massive Pacific swells transform beaches like Pipeline, Sunset Beach, and Waimea Bay into thundering amphitheaters where the world's best surfers compete. Even if you never touch a board, watching from the sand is a breathtaking experience.
 
@@ -100,13 +100,13 @@ In summer, those same beaches become calm, crystal-clear swimming and snorkeling
 
 The charming surf town of Haleiwa is the cultural heart of the North Shore. Browse vintage surf shops, local art galleries, and pick up a rainbow of shave ice at Matsumoto's — a North Shore tradition since 1951. The Kaena Point trail at the island's westernmost tip rewards hikers with albatross nesting sites and monk seal sightings.
 
-## Where to Stay
+## Where Should I Stay in North Shore?
 
 Accommodation on the North Shore is more limited than Waikiki but offers a peaceful alternative. Turtle Bay Resort is the area's premier property, with oceanfront rooms, a spa, and horseback riding along the beach. Rates start around $350 in shoulder season.
 
 Vacation rentals through VRBO and Airbnb dot the coastline from Haleiwa to Kahuku, with beachfront bungalows averaging $200–$400 per night. Budget travelers can bunk at Backpackers Vacation Inn in Haleiwa for as little as $35 per night in a dorm room.
 
-## Where to Eat
+## What Should I Eat in North Shore?
 
 The North Shore food truck scene is legendary. Giovanni's Shrimp Truck serves garlic shrimp that draws lines around the block — arrive by 11am for the shortest wait. Fumi's Kahuku Shrimp and Romy's Kahuku Prawns & Shrimp are equally beloved.
 

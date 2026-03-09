@@ -89,7 +89,7 @@ scottTips:
 
 **Quick Facts:** Best months: April–June, Sept–Nov | Budget/day: $400–1,200 | Top attraction: Five-beach coastal path + Molokini Crater snorkel | Island: Maui
 
-## Things to Do
+## What Are the Top Things to Do in Wailea?
 
 Wailea is Maui's premier resort destination, occupying the sun-drenched southwestern coast where rainfall is rare and golden sunshine is almost guaranteed. Five crescent-shaped beaches — Keawakapu, Mokapu, Wailea, Polo, and Ulua — line the coast, each offering pristine sand and clear, calm water ideal for swimming and snorkeling.
 
@@ -99,13 +99,13 @@ Snorkeling is exceptional along the Wailea coast, with Ulua Beach offering the b
 
 Wailea is also a golf destination, with three championship courses (Gold, Emerald, and Blue) offering ocean views and Haleakala as a backdrop. The Shops at Wailea provide upscale retail and dining, while the nearby town of Kihei offers a more casual, budget-friendly complement to Wailea's polish.
 
-## Where to Stay
+## Where Should I Stay in Wailea?
 
 Wailea is defined by its resorts. The Four Seasons Resort Maui sets the standard for Hawaiian luxury, with impeccable service and Spago by Wolfgang Puck on property. The Grand Wailea (a Waldorf Astoria resort) impresses with its 25,700-square-foot pool complex and exceptional art collection.
 
 The Andaz Maui brings a contemporary design aesthetic and excellent dining. The Fairmont Kea Lani, the Residence Inn, and Marriott Wailea round out the options. Rates across Wailea resorts typically range from $500–$1,500 per night. For more affordable options, the adjacent town of Kihei offers vacation rentals and mid-range hotels starting around $200 per night.
 
-## Where to Eat
+## What Should I Eat in Wailea?
 
 Wailea's dining scene matches its resort caliber. Spago at the Four Seasons serves Wolfgang Puck's Pacific-influenced cuisine with oceanfront seating — the sunset views are as impressive as the food. Morimoto Maui, from Iron Chef Masaharu Morimoto, delivers inventive Japanese-Hawaiian fusion at the Andaz resort.
 
