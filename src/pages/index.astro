@@ -68,6 +68,7 @@ const pillarLinks = [
   { icon: '🗺️', label: 'AI Trip Planner', desc: 'Build your itinerary', url: '/plan/' },
 ];
 ---
+import NetworkCrossLinks from '../components/NetworkCrossLinks.astro';
 <BaseLayout
   title="Discover Hawaii — Travel Guides by Scott"
   description="Your immersive guide to Hawaii — beaches, volcanoes, cuisine, and honest recommendations from real travel experience."
@@ -409,6 +410,7 @@ const pillarLinks = [
   <div class="container-content">
     <FTCDisclosure placement="inline" />
   </div>
+<NetworkCrossLinks currentSite="Hawaii" cluster="us-west" />
 </BaseLayout>
 
 <!-- Scroll Reveal Observer -->
