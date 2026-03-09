@@ -22,6 +22,14 @@ const festivals = [
     description: 'A week-long celebration of Hawaiian and Western heritage in historic Waimea town on Kauai\'s west side. Features a rodeo, canoe races, lei contests, Hawaiian music, and a paniolo (Hawaiian cowboy) heritage showcase. One of the most authentic community festivals in the islands.',
   },
   {
+    month: 'Feb',
+    monthIndex: 1,
+    name: 'Honolulu Chinatown Lunar New Year',
+    destination: 'Honolulu',
+    slug: 'honolulu',
+    description: 'Honolulu\'s historic Chinatown — the oldest in the United States, established in the 1850s — celebrates Lunar New Year with a week of dragon dances, lion dances, lantern festivals, and firecracker ceremonies along Hotel Street and Maunakea Street. In 2026, the celebration centers on February 17 (Year of the Horse). Hawaii\'s deep Chinese, Japanese, Korean, and Filipino heritage makes this one of America\'s most authentic Asian New Year celebrations. The Maunakea Marketplace fills with special holiday foods. Chinatown gallery walks and cultural performances run throughout the week. This is one of the most underrated events in Honolulu — and the neighborhood\'s art galleries and restaurants are at their most vibrant.',
+  },
+  {
     month: 'Apr',
     monthIndex: 3,
     name: 'Merrie Monarch Festival',
@@ -127,6 +135,7 @@ const geoLookup: Record<string, { lat: number; lng: number; label: string }> = {
   maui: { lat: 20.7984, lng: -156.3319, label: 'Maui' },
   'big-island': { lat: 19.7241, lng: -155.5850, label: 'Big Island' },
   kauai: { lat: 22.0964, lng: -159.5261, label: 'Kauai' },
+  honolulu: { lat: 21.3069, lng: -157.8583, label: 'Honolulu' },
 };
 
 // Build map markers — group festivals by slug (one marker per location)
