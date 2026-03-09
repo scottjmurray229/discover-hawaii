@@ -2,6 +2,7 @@
 title: "Hawaii Island Hopping Guide — How to Visit Multiple Islands"
 description: "How to island-hop in Hawaii without wasting time or money. Logistics, costs, recommended combos, and how many days to spend on each island."
 pubDate: 2026-02-26
+dateModified: 2026-03-08
 heroImage: ''
 heroVideo: ''
 author: 'Scott'

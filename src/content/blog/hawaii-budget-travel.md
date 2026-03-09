@@ -2,6 +2,7 @@
 title: "Hawaii on a Budget — How to Visit Without Going Broke"
 description: "Real strategies to visit Hawaii affordably. Budget breakdowns, cheap eats, free activities, and money-saving tips from actual trips to the islands."
 pubDate: 2026-02-26
+dateModified: 2026-03-08
 heroImage: ''
 heroVideo: ''
 author: 'Scott'

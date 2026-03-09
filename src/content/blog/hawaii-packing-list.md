@@ -2,6 +2,7 @@
 title: "Hawaii Packing List — What to Bring and What to Skip"
 description: "The complete Hawaii packing list based on real trips. What you actually need, what's a waste of space, and what to buy when you get there."
 pubDate: 2026-02-26
+dateModified: 2026-03-08
 heroImage: ''
 heroVideo: ''
 author: 'Scott'

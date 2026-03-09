@@ -2,6 +2,7 @@
 title: "Best Time to Visit Hawaii — Month-by-Month Breakdown"
 description: "When to visit Hawaii for the best weather, lowest prices, and fewest crowds. A month-by-month guide with honest advice from someone who's been multiple times."
 pubDate: 2026-02-26
+dateModified: 2026-03-08
 heroImage: ''
 heroVideo: ''
 author: 'Scott'

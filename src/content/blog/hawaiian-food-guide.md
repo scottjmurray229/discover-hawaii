@@ -2,6 +2,7 @@
 title: "Hawaiian Food Guide — 15 Dishes You Have to Try"
 description: "From poke and plate lunch to loco moco and malasadas — a guide to the essential Hawaiian foods with where to eat them and what to pay."
 pubDate: 2026-02-26
+dateModified: 2026-03-08
 heroImage: ''
 heroVideo: ''
 author: 'Scott'
