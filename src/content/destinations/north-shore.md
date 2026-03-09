@@ -68,47 +68,123 @@ affiliatePicks:
     type: 'activity'
     price: '$$'
     personalNote: 'Get face-to-face with Galapagos sharks from a secure cage. One of the most thrilling experiences on Oahu.'
-    affiliateUrl: 'https://www.getyourguide.com/oahu-l48/shark-cage-tc185/?partner_id=IVN6IQ3'
-  - name: 'Haleiwa Surf Lessons'
-    type: 'activity'
+    affiliateUrl: 'https://www.getyourguide.com/oahu-l188/shark-cage-tc185/?partner_id=IVN6IQ3'
+  - name: 'Circle Island Tour'
+    type: 'tour'
     price: '$$'
-    personalNote: 'Summer sessions on mellow North Shore breaks. Small groups with instructors who grew up surfing these waves.'
-    affiliateUrl: 'https://www.getyourguide.com/oahu-l48/north-shore-surf-lessons-tc185/?partner_id=IVN6IQ3'
-  - name: 'Backpackers Vacation Inn'
-    type: 'hotel'
-    price: '$'
-    personalNote: 'Budget-friendly hostel steps from the beach in Haleiwa. Basic but clean, with a great communal vibe and shared kitchen.'
-    affiliateUrl: 'https://www.booking.com/hotel/us/backpackers-vacation-inn.html?aid=2778866'
-contentStatus: 'draft'
+    personalNote: 'Full-day guided circle island tour covering the North Shore, turtle beach, and the east coast with hotel pickup included.'
+    affiliateUrl: 'https://www.viator.com/Oahu/d672-ttd?pid=P00290009&mcid=42383&medium=link'
+contentStatus: draft
 draft: false
-scottTips:
-  logistics: "From Waikiki, drive north on H-1 then H-2, exiting on Highway 99 to Kamehameha Highway (Highway 83) — about 45 minutes without traffic. TheBus Route 52 (Circle Island) also runs from Honolulu to Haleiwa. Traffic on Kamehameha Highway during winter surf season (November–February) can be severe on big swell days — some beaches literally close the highway. Check traffic apps before heading up."
-  bestTime: "Two distinct seasons: winter (November–February) for world-class surf and surf competitions (Triple Crown of Surfing); summer (April–September) for calm water, snorkeling, and swimming. If you want to watch big wave surfing, December is ideal. If you want to swim or snorkel, May through September is optimal. Year-round for shave ice and shrimp trucks."
-  gettingAround: "Car is the most practical option. Highway 83 (Kamehameha Highway) runs the length of the North Shore. Parking can be extremely limited near Pipeline and Sunset Beach on swell days — some lots fill by 6am. TheBus is a viable option from Honolulu for day trips. E-bike rentals from Haleiwa work well for the Haleiwa-to-beaches stretch."
-  money: "The North Shore is significantly more affordable than Waikiki. Giovanni's shrimp truck: $15–17 for a plate. Matsumoto's shave ice: $3–8. Turtle Bay Resort is the only full resort ($350+/night) but vacation rentals and beach houses run $200–350/night. Surf lessons: $80–120/person. Shark cage diving: $150–180/person. Many North Shore beaches are free to visit."
-  safety: "Winter surf at Pipeline and Sunset Beach creates shore break and backwash that can be deadly for non-swimmers — stay out of the water when red or yellow warning flags are flying. Do not walk on the sand in front of active surf breaks during competitions or large swells. Laniakea Beach has Hawaiian green sea turtles hauled out on the sand — maintain a 10-foot distance (federal law). Never touch or approach monk seals. Shark cage diving is genuinely safe with reputable operators."
-  packing: "Binoculars for watching distant surf breaks during competitions. Reef-safe sunscreen. Water shoes for rocky beach access. A good camera with zoom if you want to photograph the surfing — the pros are 100+ yards offshore. Cash for the food trucks (some don't take cards). Towel for after-snorkel at turtle beach."
-  localCulture: "The North Shore surfing culture is the spiritual home of modern professional surfing — Pipeline has been the proving ground for every generation of surfer since the 1960s. Treat the surf breaks with respect; experienced locals have territorial knowledge that keeps everyone safer. The shrimp truck wars between Giovanni's, Fumi's, and Romy's are a beloved local institution with decades of friendly rivalry. Haleiwa town's historic buildings (most from the 1920s–1940s plantation era) are real; the surf shops and galleries that occupy them are genuine, not manufactured."
+fmContentType: destination
 ---
 
-**Quick Facts:** Best months: Nov–Feb (surf), April–Sept (swimming) | Budget/day: $100–250 | Top attraction: Pipeline surf watching + Laniakea turtle beach | Island: Oahu
+The North Shore is 45 minutes from Waikiki and an entirely different world. The drive up H-2 through pineapple fields and then down Kamehameha Highway along the coast delivers you to a stretch of seven miles that contains the most famous surf breaks on the planet — Sunset Beach, Banzai Pipeline, Waimea Bay — and a small plantation town called Haleiwa where the main street has surf shops, shave ice stands, and a pace of life that feels about 40 years removed from the Honolulu I left behind. In summer, the water is impossibly turquoise and calm enough for snorkeling. In winter, the same beaches become the venue for the biggest surfed waves in professional competition, and crowds of thousands gather to watch athletes drop into 30-foot walls of water.
 
-## What Are the Top Things to Do in North Shore?
+The North Shore's character comes from its refusal to become the next Waikiki. There are no high-rise hotels here, no sprawling resort complexes. The zoning has held. Turtle Bay Resort is the one full-service operation on the coast — everything else is VRBO rentals, small inns, and the handful of local guesthouses that have been here since before the surfing boom. This is part of what makes it special and what makes it a completely different version of Hawaii from the one you get at a Waikiki beachfront hotel.
 
-The North Shore of Oahu is hallowed ground in the surfing world. Between November and February, massive Pacific swells transform beaches like Pipeline, Sunset Beach, and Waimea Bay into thundering amphitheaters where the world's best surfers compete. Even if you never touch a board, watching from the sand is a breathtaking experience.
+I find myself coming back to the North Shore specifically to eat at Giovanni's shrimp truck parked on the highway shoulder, to get a plate of scampi shrimp from the window, and to sit at one of the picnic tables in the sun watching the ocean for a couple of hours. That's the North Shore at its most elemental — remarkable food in informal surroundings with one of the better views in the Pacific.
 
-In summer, those same beaches become calm, crystal-clear swimming and snorkeling spots. Laniakea Beach — known as Turtle Beach — offers almost guaranteed sightings of Hawaiian green sea turtles basking on the sand. Shark cage diving tours depart from Haleiwa Harbor, putting you face-to-face with Galapagos sharks in the open ocean.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #38BDF8 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The North Shore</h2>
+    <p class="ib-text">Seven miles of legendary surf breaks, a plantation-era surf town, sea turtles hauling out on the sand, and a pace of life that refuses to accommodate Waikiki's speed. Forty-five minutes from Honolulu, a world away.</p>
+  </div>
+</div>
 
-The charming surf town of Haleiwa is the cultural heart of the North Shore. Browse vintage surf shops, local art galleries, and pick up a rainbow of shave ice at Matsumoto's — a North Shore tradition since 1951. The Kaena Point trail at the island's westernmost tip rewards hikers with albatross nesting sites and monk seal sightings.
+## Why North Shore should be on your Oahu itinerary
 
-## Where Should I Stay in North Shore?
+The North Shore does two completely different things depending on when you visit. From April through September, it's a paradise of calm, clear water — the snorkeling at Laniakea and Shark's Cove is excellent, the swimming is safe, and the beaches are far less crowded than anything in Waikiki. The turtles haul out on Laniakea Beach virtually every day, and the summer swell is gentle enough for beginning surfers to learn the sport at Haleiwa.
 
-Accommodation on the North Shore is more limited than Waikiki but offers a peaceful alternative. Turtle Bay Resort is the area's premier property, with oceanfront rooms, a spa, and horseback riding along the beach. Rates start around $350 in shoulder season.
+From November through February, the North Shore transforms entirely. The same breaks that looked like a swimming pool in August become 20-to-40-foot walls of water powered by North Pacific storms. The Triple Crown of Surfing competitions draw the world's best professional athletes and massive beach crowds. Pipeline, in particular, is one of the most terrifying and beautiful things I've seen in any sport — waves that break in maybe 6 feet of water over a razor-sharp reef, producing a hollow barrel that lasts seconds and that professionals train their entire lives to navigate.
 
-Vacation rentals through VRBO and Airbnb dot the coastline from Haleiwa to Kahuku, with beachfront bungalows averaging $200–$400 per night. Budget travelers can bunk at Backpackers Vacation Inn in Haleiwa for as little as $35 per night in a dorm room.
+Even outside competition season, driving slowly down Kamehameha Highway past Sunset and Pipeline in winter, watching waves detonate on the reef, is worth the trip from anywhere on Oahu.
 
-## What Should I Eat in North Shore?
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #4ADE80 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Sea turtle encounters at Laniakea, shave ice in Haleiwa, the world's most photographed surf break at Pipeline, and a shark cage floating two miles offshore. The North Shore delivers on all fronts.</p>
+  </div>
+</div>
 
-The North Shore food truck scene is legendary. Giovanni's Shrimp Truck serves garlic shrimp that draws lines around the block — arrive by 11am for the shortest wait. Fumi's Kahuku Shrimp and Romy's Kahuku Prawns & Shrimp are equally beloved.
+## What should you do on the North Shore?
 
-In Haleiwa town, Haleiwa Joe's delivers fresh seafood with harbor views, while Beet Box Cafe offers organic, plant-based bowls that fuel surfers and hikers alike. Don't leave without trying the acai bowls at Haleiwa Bowls or the fish tacos from the Elephant Truck. For the definitive North Shore shave ice experience, try both Matsumoto's and Aoki's — the friendly rivalry has been running for decades.
+**Laniakea Beach (Turtle Beach)** — The most reliable sea turtle viewing on Oahu. Green sea turtles (honu) haul out on the sand here virtually every day, and a small group of volunteer Malama na Honu turtle guardians manage the ropes that keep visitors at a respectful distance. Do not touch the turtles, do not block them from entering the water, and watch for 20–30 minutes — they're more interesting than they look. Free. Year-round.
+
+**Haleiwa Town** — The North Shore's main town is a 4-block stretch of surf shops, art galleries, and restaurants with a surf culture that predates the tourism industry. The Haleiwa Bowls lunch spot, the North Shore Marketplace, and the famous shave ice stands (Matsumoto's and Aoki's are directly across the street from each other — the debate never ends) make for a pleasant 2-hour stop.
+
+**Shark's Cove Snorkeling** — A protected rocky cove just north of Haleiwa with excellent marine life in summer (April–October). The rocks create natural channels and caverns filled with reef fish, sea turtles, and the occasional octopus. Best at high tide when the water is clearest. Free entry. Bring your own gear or rent from shops in Haleiwa.
+
+**Sunset Beach and Pipeline** — Park along the highway shoulder and walk to the beach break at any point along the 7-mile stretch from Haleiwa to the Turtle Bay end. In winter, bring a camera and watch from the beach — getting closer to the water is dangerous. In summer, these are excellent swimming and bodyboarding beaches with lifeguards.
+
+**Waimea Bay Rock Jump** — The famous 30-foot lava rock on the left side of Waimea Bay is a North Shore rite of passage in summer when the bay is calm. Jump only when conditions are safe (no waves, no current warnings), and feet-first only. The bay also has some of the clearest water on the North Shore for swimming.
+
+**Shark Cage Diving** — Several operators run shark cage diving trips 3 miles offshore, where Galapagos and sandbar sharks are reliably present. The cage is secured to a buoy line; no diving experience required. A genuinely remarkable experience that consistently gets high ratings. $150–180/person.
+
+**Kaena Point Hike** — 5 miles round trip along the westernmost tip of Oahu, accessible from the North Shore side via a closed military road trail. Monk seal haul-out zone, laysan albatross nesting site in winter, and no shade whatsoever. Bring 2 liters of water per person and start early. Free.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's North Shore Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> 45 minutes from Waikiki via H-1 north to H-2 then Highway 99 to Kamehameha Highway. Rental car is ideal — TheBus Route 52 runs from Honolulu's Ala Moana Center to Haleiwa in about 75 minutes ($3 each way).</li>
+    <li><strong>Best Time:</strong> April through September for swimming, snorkeling, and beach days. November through February for surf watching — Pipeline and Sunset are extraordinary with winter swells, and the Triple Crown competitions (November–December) are free to watch from the sand.</li>
+    <li><strong>Money:</strong> The North Shore is surprisingly affordable compared to Waikiki. Shave ice: $4–7. Giovanni's shrimp plate: $14. Lunch at a food truck: $12–18. Turtle Bay Resort rooms: $350–600/night. VRBO rentals: $150–400/night. Day trip from Waikiki can be done for under $40 in food and gas.</li>
+    <li><strong>Don't Miss:</strong> The shave ice. The debate between Matsumoto's and Aoki's is unresolvable. Get one at each. Matsumoto's has the longer line and the more famous name; Aoki's directly opposite has regulars who swear it's better. Both are excellent — ice shaved fine enough to absorb the syrup completely, not like a mainland snow cone.</li>
+    <li><strong>Avoid:</strong> Swimming at North Shore beaches in winter without checking lifeguard flags. The same beach that was a calm snorkel spot in August can have shore-break waves that kill in December. Always check the ocean safety Hawaii flag system before entering the water.</li>
+    <li><strong>Local Tip:</strong> Slow down on Kamehameha Highway. The speed limit exists for the traffic, the turtles crossing to the beach, and the cyclists. Pull over when you want to watch the surf rather than parking on the shoulder in traffic. Haleiwa town has proper paid parking lots — use them.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #FBBF24 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">The North Shore food truck scene is legendary — Giovanni's shrimp, Romy's plates, Matsumoto's shave ice, and a handful of restaurants in Haleiwa that punch well above their size.</p>
+  </div>
+</div>
+
+## Where should you eat on the North Shore?
+
+- **Giovanni's Shrimp Truck** — The original North Shore food truck. Garlic butter scampi shrimp with rice and two lemon slices, eaten at a picnic table with your name written on the truck if you request it. $14–16. Cash and card. Lines at peak hours but worth it.
+- **Romy's Kahuku Prawns & Shrimp** — At the far northeastern end of Kamehameha Highway near Kahuku. Freshly farmed prawns from the adjacent ponds, grilled or in garlic butter. More local, less touristed than Giovanni's. $13–16.
+- **Haleiwa Joe's** — Sit-down seafood in Haleiwa with fresh fish, good cocktails, and an open-air patio overlooking the harbor. More expensive than the trucks but the best full-service meal on the North Shore. $26–42.
+- **Matsumoto Shave Ice** — The institution. Shave ice with azuki beans at the bottom and li hing powder on top if you want the local treatment. $5–7. Lines wrap around the building on weekends.
+- **Aoki's Shave Ice** — Directly across the street from Matsumoto's. Locals are split on which is better. Get both and form your own opinion. $5–7.
+- **Kono's Northshore** — Burritos, kalua pork plates, and acai bowls in a casual setting in Haleiwa. Good breakfast option before a beach day. $10–16.
+- **Waialua Bakery** — Smoothies, acai bowls, and fresh-baked goods using local ingredients. A quieter alternative to the main Haleiwa crowd. $8–14.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #1E1B4B 0%, #1E3A5F 35%, #60A5FA 65%, #1E1B4B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Turtle Bay Resort is the one full resort option. Everything else is vacation rentals and local inns that keep the North Shore feeling like the North Shore rather than a Waikiki annex.</p>
+  </div>
+</div>
+
+## Where should you stay on the North Shore?
+
+**Turtle Bay Resort** ($350–600/night) — The only full-service resort on the North Shore, situated on a 1,300-acre oceanfront property at the northeastern tip of Oahu. Two golf courses, multiple pools, miles of private beach access, and enough amenities to stay entirely without leaving. The location is remote from Honolulu, which is the point.
+
+**VRBO and Airbnb Rentals** ($150–400/night) — The North Shore VRBO market offers oceanfront cottages, surf houses, and beach bungalows that are the authentic North Shore accommodation experience. Book directly through the properties when possible. Haleiwa and Sunset Beach have the most availability.
+
+**Backpacker Hostels** ($40–80/bunk) — Several backpacker-oriented guesthouses operate in Haleiwa and the surrounding area with dorm rooms, communal kitchens, and surf culture atmospheres. Budget-friendly and social.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #38BDF8 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Check the ocean safety flags before swimming. Know the season — summer North Shore and winter North Shore are two entirely different beaches. Leave your car time buffer for Kamehameha Highway traffic on weekends.</p>
+  </div>
+</div>
+
+## When is the best time to visit the North Shore?
+
+**April through September** — The summer season brings calm water perfect for swimming, snorkeling at Shark's Cove, and beginner surf lessons. The beaches are less crowded on weekdays and the turtles at Laniakea are reliably present year-round.
+
+**November through February** — Big wave season. Pipeline and Sunset Beach produce the largest surfed waves in professional competition. The Triple Crown competitions (typically November–December) are free to watch from the sand. The beaches themselves are dangerous for swimming but spectacular for spectating.
+
+**Weekend traffic warning:** Kamehameha Highway has no alternatives, and the North Shore is extremely popular on Oahu weekends. If driving from Honolulu, leave by 8am or be prepared for backed-up traffic through the single-lane corridor. Weekday day trips are significantly more relaxed.
+
+The North Shore pairs naturally with a circle island drive — drive up the H-2, spend the day on the North Shore, then continue around the northeastern tip through Kahuku and come back through Kailua. See the [full Hawaii islands guide](/destinations/) for itinerary ideas.

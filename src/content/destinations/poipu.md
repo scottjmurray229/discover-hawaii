@@ -69,48 +69,123 @@ affiliatePicks:
     price: '$$'
     personalNote: 'Walk through the stunning Allerton Garden at golden hour, through rooms of tropical plants, fountains, and the famous Moreton Bay fig trees from Jurassic Park.'
     affiliateUrl: 'https://www.getyourguide.com/kauai-l424/allerton-garden-tc185/?partner_id=IVN6IQ3'
-  - name: 'Koloa Landing Resort at Poipu'
-    type: 'hotel'
-    price: '$$$'
-    personalNote: 'Luxury condo resort with full kitchens, multiple pools, and direct access to the best snorkeling reef in Poipu. Perfect for longer stays and families.'
-    affiliateUrl: 'https://www.booking.com/hotel/us/koloa-landing-resort-autograph-collection.html?aid=2778866'
-  - name: 'Kauai Sea Tours Na Pali Snorkel Cruise'
+  - name: 'Poipu Na Pali Catamaran Tour'
     type: 'tour'
     price: '$$$'
-    personalNote: 'Departs from nearby Port Allen for a full Na Pali Coast catamaran tour with snorkeling. Convenient from Poipu and one of the top-rated operators on the island.'
-    affiliateUrl: 'https://www.getyourguide.com/kauai-l424/na-pali-snorkel-cruise-tc185/?partner_id=IVN6IQ3'
-contentStatus: 'draft'
+    personalNote: 'Departs from Port Allen (30 minutes from Poipu) for a full-day Na Pali Coast catamaran with snorkeling and dolphins. The best way to do Na Pali from a south shore base.'
+    affiliateUrl: 'https://www.getyourguide.com/kauai-l424/na-pali-catamaran-tc185/?partner_id=IVN6IQ3'
+contentStatus: draft
 draft: false
-scottTips:
-  logistics: "Fly into Lihue Airport (LIH) on Kauai — 30 minutes south to Poipu via Highway 50 and Highway 520 (the Tree Tunnel road). Rental car required — no meaningful public transit to Poipu. The Tree Tunnel drive (Maluhia Road) is one of the most beautiful entry roads anywhere in Hawaii. Grand Hyatt and Koloa Landing offer airport shuttle service to resort guests."
-  bestTime: "Poipu is the sunniest spot on Kauai year-round — its south shore location means the trade winds and north shore clouds rarely reach it. April through November is ideal, avoiding Kauai's wetter winter months. Even in 'winter' (December–February), Poipu is usually sunny while the north shore (Na Pali/Hanalei) is rainy. Hawaiian monk seals haul out year-round — no specific season needed."
-  gettingAround: "Car required for reaching Poipu from Lihue and for day trips to Waimea Canyon (1 hour west) and the north shore (1.5 hours). Within Poipu, the beach path and resorts are walkable. Port Allen (south shore boat tours to Na Pali) is 20 minutes west. Old Koloa Town is 5 minutes north for groceries and local restaurants."
-  money: "Premium Kauai destination. Grand Hyatt: $450–900+/night. Koloa Landing: $350–600/night. Mid-range vacation rentals near the beach: $250–400/night. The public beaches are free to access. Allerton Garden tour: $55 adult. Koloa Rum tasting room: free. National Tropical Botanical Garden: $40 for a self-guided tour. Budget $200–400/day mid-range."
-  safety: "Poipu Beach has a protected keiki (children) pool — genuinely calm and safe for small children. The outer break beyond the sand bar is moderate surf. Brennecke Beach is a bodyboarding beach with shore break — not for casual swimmers on bigger days. The monk seals at Poipu are federally protected; 50-foot minimum distance is required by law (volunteers enforce this). Apply reef-safe sunscreen only (Hawaii law)."
-  packing: "Reef-safe sunscreen (Hawaii law). Snorkeling gear (or rent at the beach) for Koloa Landing reef — one of Kauai's best. Water shoes for the rocky entry at Koloa Landing. Binoculars for monk seal and sea turtle watching from shore. Camera with a decent zoom for the Spouting Horn blowhole. A light jacket for evenings — Kauai cools down more than people expect."
-  localCulture: "Poipu and Old Koloa Town are steeped in Hawaii's plantation history — the Koloa Sugar Mill (the first successful sugar plantation in Hawaii, established 1835) operated here for over a century. The Plantation Heritage Trail is a free walking tour of this history. Koloa Rum Company, produced right here, is a genuine Hawaiian product; the tasting room is worth a stop. The Hawaiian monk seal is the state's most critically endangered species — the volunteers who monitor the beach seals donate their time to protect them. Thank them."
+fmContentType: destination
 ---
 
-**Quick Facts:** Best months: year-round (sunniest Kauai location) | Budget/day: $180–400 | Top attraction: Poipu Beach + Na Pali boat tour from Port Allen | Island: Kauai
+The drive into Poipu runs through the Tree Tunnel — a mile-long canopy of eucalyptus trees planted in 1911 that arch over Highway 520 and create a corridor of green and shadow. Coming out the other side, the landscape opens to the south shore of Kauai: dry, golden, consistently sunny in a way the north shore and interior of the island never quite promise. Kauai earns its reputation as the "Garden Isle" from the lush north shore; Poipu earns its reputation as the best beach resort area on the island from this reliable patch of sunshine on the south.
 
-## What Are the Top Things to Do in Poipu?
+The Poipu Beach Park area is where I come when I want guaranteed sun on Kauai. The Grand Hyatt's pool complex is the most spectacular hotel pool in Hawaii — a series of connected lagoons, slides, and swim-up bars that genuinely compete with the ocean for attention. Across the lawn, the reef at Koloa Landing starts. And at Poipu Beach itself, a naturally protected shallow area called a keiki (children) pool sits at the edge of the ocean, creating safe swimming conditions that let children wade and splash while adults snorkel the outer reef twenty feet away.
 
-Poipu is Kauai's sunny south shore gem — the driest, warmest area on the Garden Isle and home to some of the best beaches on the island. Poipu Beach Park has been rated among America's top beaches multiple times, with golden sand, calm turquoise water, and a naturally protected kiddie pool that makes it perfect for families.
+The monk seals are what most visitors remember. The Hawaiian monk seal is one of the most endangered marine mammals on Earth — fewer than 1,500 remain — and Poipu Beach is one of the most reliable viewing locations in the state. Seal volunteers in yellow t-shirts manage a perimeter of plastic rope when a seal hauls out, and the animal simply sleeps or rolls in the sun, utterly indifferent to the humans pressing cameras toward it from a respectful distance. These sightings feel like genuine luck every time.
 
-The beaches here deliver reliable wildlife encounters. Hawaiian monk seals — one of the most endangered marine mammals on Earth — regularly haul out on Poipu's sand to rest. Sea turtles cruise the nearshore waters and are commonly spotted while snorkeling. Koloa Landing, on the western end of Poipu, has the best reef access with an abundance of tropical fish, turtles, and the occasional eagle ray.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #38BDF8 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Sunny South Shore</h2>
+    <p class="ib-text">While the north shore delivers drama and the interior delivers waterfalls, Poipu delivers what most Hawaii visitors actually come for: reliable sunshine, beautiful beaches, clear water, and enough wildlife to feel like you earned the day.</p>
+  </div>
+</div>
 
-The Spouting Horn blowhole is a natural spectacle where ocean swells funnel through a lava tube and erupt 50 feet into the air with a dramatic hiss. Nearby, the National Tropical Botanical Garden operates two extraordinary gardens — McBryde Garden showcases native Hawaiian and tropical plants, while the Allerton Garden (featured in Jurassic Park) is a masterwork of landscape architecture with guided tours through its "rooms" of tropical plants and fountains.
+## Why Poipu should be on your Kauai itinerary
 
-Beyond the beach, Makauwahi Cave is the largest limestone cave in Hawaii and an active archaeological and paleontological site. Zipline tours over the lush south shore valleys provide an adrenaline rush with stunning views, and the historic town of Old Koloa is worth a stroll for its plantation-era buildings, shops, and the Koloa Rum Company tasting room.
+Poipu is the most practical and reliable base on Kauai for beach-focused visitors. The south shore's rain shadow geography means that even when the rest of the island is cloudy, Poipu often holds blue skies. The beaches are excellent — Poipu Beach Park has won national recognition repeatedly — and the resort infrastructure is the best-developed on the island.
 
-## Where Should I Stay in Poipu?
+As a base for island exploration, Poipu is well-positioned. Port Allen, the departure point for Na Pali Coast boat tours, is 30 minutes west. Waimea Canyon is an hour north and west. The north shore Hanalei and Na Pali trailhead is 1.5 hours north. A rental car (essential on Kauai) makes all of these accessible as day trips from a Poipu base.
 
-Poipu is Kauai's most developed resort area with options spanning every budget. The Grand Hyatt Kauai is the crown jewel — a sprawling resort with multiple pools, a saltwater lagoon, championship golf, and an award-winning spa. Rates start around $450 per night.
+The Allerton and McBryde Botanical Gardens are among the finest in the Pacific and are rarely mentioned as prominently as the beaches — an error. The Allerton Garden in particular is a masterwork of landscape design, with interconnected garden rooms, fountains, and the enormous Moreton Bay fig trees that became the dinosaur-shade canopy in Jurassic Park. Book the guided Allerton tour at least two weeks in advance.
 
-Koloa Landing Resort offers luxury condo-style living with full kitchens and multiple pools, starting around $350 per night. The Sheraton Kauai Resort sits right on Poipu Beach. For mid-range budgets, the Poipu Kai Resort and various vacation rental condos offer good value from $200 per night. Budget-minded travelers can find vacation rental studios starting around $130 per night, though true budget accommodation is limited in Poipu.
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Monk seals on the sand, sea turtles on the reef, a blowhole that erupts 50 feet into the air, botanical gardens where Jurassic Park was filmed, and the clearest snorkeling on Kauai's south coast.</p>
+  </div>
+</div>
 
-## What Should I Eat in Poipu?
+## What should you do in Poipu?
 
-Poipu's dining scene has grown considerably in recent years. The Beach House Restaurant is Kauai's most iconic sunset dining experience — perched right on the ocean with contemporary Hawaiian cuisine and an atmosphere that has graced countless proposals and anniversaries. Reserve well in advance for sunset seating.
+**Poipu Beach Park** — The main beach with lifeguards, a protected keiki pool, and the best swimming on the south shore. Snorkeling off the reef to the right of the point is excellent for sea turtles. Hawaiian monk seals occasionally haul out on the sand here. Free public access with parking.
 
-Merriman's Poipu serves the farm-to-table philosophy that chef Peter Merriman pioneered on the Big Island, featuring Kauai-grown produce and local seafood. Eating House 1849 by Roy Yamaguchi offers Hawaiian plantation-era inspired dishes. For casual fare, Brennecke's Beach Broiler serves burgers and fish right across from the beach. Koloa Fish Market has excellent poke and plate lunches at local prices, and the Kukui'ula Village shops offer several mid-range dining options. Puka Dog at Poipu Shopping Village serves the island's famous tropical hot dogs with lilikoi relish.
+**Spouting Horn Blowhole** — A natural lava tube on the rocky south coast that erupts 50 feet of seawater when waves surge through it. A second smaller tube produces a haunting hissing sound (reportedly the sound of a mythological lizard trapped in the rock). Best on medium to large south swells and at high tide. Free parking, vendors selling Hawaiian jewelry and crafts alongside.
+
+**Koloa Landing Snorkeling** — The most reliably excellent snorkeling on the south shore. A rocky entry point leads to a submerged lava shelf with abundant fish, sea turtles, and the occasional monk seal sleeping on the bottom. Best at high tide when visibility is clearest. Gear rental available in Poipu.
+
+**Allerton and McBryde Gardens** — Two adjacent National Tropical Botanical Garden properties. McBryde is self-guided ($40/adult) with 252 acres of native and tropical plants. Allerton is guided tours only ($55/adult) and showcases extraordinary garden design — the Moreton Bay fig trees from Jurassic Park are here. Book Allerton at least two weeks in advance; sunset tours are especially beautiful.
+
+**Makauwahi Cave** — The largest limestone cave in Hawaii, carved by freshwater and sea erosion over thousands of years. Archaeological excavations have recovered bones of extinct Hawaiian birds and artifacts from the earliest Polynesian settlers. Open for self-guided tours on weekday afternoons; free guided tours available on some Sundays. Free.
+
+**Zipline Tours** — Several operators run zipline tours over the south shore landscape from upcountry viewpoints. Koloa Zipline is the closest operation to Poipu. A good afternoon activity when you've had enough sun. $120–180/person.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Poipu Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> Fly to Lihue Airport (LIH) — 30 minutes from Poipu via Highway 50 and the Tree Tunnel (Highway 520). Rental car is essential; no public transit serves Poipu. Book at the airport.</li>
+    <li><strong>Best Time:</strong> April through October for the calmest seas and best snorkeling. The south shore is drier and sunnier than the rest of Kauai year-round, but summer brings the most reliable swimming and water conditions. Winter south swells make the Spouting Horn more dramatic but beaches can be rough.</li>
+    <li><strong>Money:</strong> Grand Hyatt Kauai: $400–800/night. Poipu vacation rentals: $200–400/night. Na Pali catamaran tour from Port Allen: $150–200/person. Allerton Garden tour: $55/person. Daily budget $250–500/day mid-range with activities.</li>
+    <li><strong>Don't Miss:</strong> The Spouting Horn at sunrise. Zero crowds, the light is extraordinary, and the blowhole puts on the same show regardless of audience size. Takes 10 minutes from any Poipu resort. The vendor stalls open later, so you have the whole area to yourself.</li>
+    <li><strong>Avoid:</strong> Assuming the monk seal will be there. Sightings are wonderful but never guaranteed — they're wild animals making their own schedule. The volunteers who manage the ropes are there when the seals are there; an empty beach with no rope perimeter means no seal today.</li>
+    <li><strong>Local Tip:</strong> For Na Pali Coast boat tours, book Port Allen departures rather than making the 1.5-hour drive to the north shore. Port Allen is 30 minutes from Poipu and runs Na Pali tours on the same boats. The south shore departure actually gets you along the full coast — same cliffs, same dolphins, less driving.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #FBBF24 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Poipu's dining ranges from the Grand Hyatt's resort restaurants to the casual lunch trucks in Koloa town — with a notable concentration of good food in the Old Koloa Town a mile inland.</p>
+  </div>
+</div>
+
+## Where should you eat in Poipu?
+
+- **Merriman's Fish House** — The South Shore's best dinner. Chef Peter Merriman's farm-to-table Pacific cuisine focuses on local Kauai ingredients. Fresh island fish, Kauai beef, and a wine list that takes the occasion seriously. $35–65/person.
+- **Tortilla Republic** — Mexican food on Poipu Road with a patio, good margaritas, and fish tacos made with local catch. A casual and genuinely enjoyable dinner. $18–28.
+- **Koloa Fish Market** — The best plate lunch in the area. Fresh poke, ahi katsu, and plate lunches from a deli case in Koloa town. $10–15. Lines at noon.
+- **The Beach House Restaurant** — An oceanfront dinner spot south of Poipu with dramatic sunset views. Solid Pacific Rim cuisine in the best setting money can buy in this area. $30–55.
+- **Brennecke's Beach Broiler** — Casual beachfront burgers and seafood directly above Brennecke Beach. Good for a quick lunch between snorkeling sessions. $14–22.
+- **Poipu Tropical Burgers** — A local food truck with fresh fish sandwiches, burgers, and acai bowls. $10–16.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #1E1B4B 0%, #1E3A5F 35%, #60A5FA 65%, #1E1B4B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Grand Hyatt leads the resort options. Vacation rentals in the Kiahuna Plantation complex offer kitchen access and condo-style comfort at lower rates. Both put you within walking distance of the beach.</p>
+  </div>
+</div>
+
+## Where should you stay in Poipu?
+
+**Grand Hyatt Kauai Resort & Spa** ($400–800/night) — The crown jewel of Poipu. The pool complex is genuinely extraordinary — multiple connected lagoons, water slides, a lazy river, and a saltwater swimming lagoon surrounded by 50 acres of manicured grounds. The spa is among Hawaii's best. A self-contained destination resort that justifies its rates.
+
+**Sheraton Kauai Resort** ($300–550/night) — The other major full-service resort in Poipu, directly on the beach with oceanfront rooms that provide direct wave access. Less elaborate pool situation than the Hyatt but an excellent beachfront location.
+
+**Kiahuna Plantation Resort** ($200–400/night) — A low-rise condo complex behind the main Poipu Beach with full kitchens, multiple bedrooms, and access to the beach. Managed through VRBO and direct rentals. The best value in Poipu for families and week-long stays.
+
+**Vacation Rentals** ($180–450/night) — Poipu has an extensive VRBO and Airbnb market of private homes and condos. Many have ocean views, private pools, and kitchen facilities that reduce dining costs significantly over a week-long stay.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #38BDF8 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Book Allerton Garden tours in advance. Bring reef-safe sunscreen only — Hawaii law prohibits oxybenzone-containing sunscreens. Keep respectful distances from monk seals and turtles.</p>
+  </div>
+</div>
+
+## When is the best time to visit Poipu?
+
+Poipu's south shore position makes it the most reliably sunny spot on Kauai year-round. A few seasonal considerations:
+
+**April through October** — Best for snorkeling and swimming. The water is calm, visibility is high, and the keiki pool at Poipu Beach Park is safe for all ages. Peak season brings more visitors but the beaches are large enough to absorb crowds.
+
+**November through March** — South swells can make some beaches rough, but Poipu Beach Park's protected keiki pool remains swimable. The Spouting Horn is at its most dramatic with larger swells. Whale watching from shore is possible December through April (humpbacks in the channel).
+
+**Rain note:** Even in "winter," Poipu's rain shadow position means the south shore receives significantly less rainfall than the rest of Kauai. While the north shore may be under clouds, Poipu often remains sunny. This is the main reason to base on the south shore.
+
+Poipu pairs naturally with Waimea Canyon — an hour west and north — for a Kauai experience that combines beach and canyon. Na Pali Coast boat tours from Port Allen (30 minutes away) can be added as a full-day excursion. See the [full Hawaii destinations guide](/destinations/) for island-wide planning.

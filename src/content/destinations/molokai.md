@@ -91,28 +91,109 @@ scottTips:
   localCulture: "Molokai has voted down resort development three times. The community has made a conscious, democratic choice to remain as it is — respect that choice completely. Do not treat the island's 'undeveloped' character as a curiosity or complaint; it is a deliberate cultural statement. Ask before photographing anyone. Buy from local vendors and farms. The spirit of malama aina (care for the land) is taken more seriously here than anywhere else in Hawaii. Kanemitsu's bakery back-door hot bread service is a genuine local tradition — participate in it as a guest, not as a tourist checking a box."
 ---
 
-**Quick Facts:** Best months: April–Nov | Budget/day: $120–200 | Top attraction: Kalaupapa National Historical Park + Halawa Valley hike | Island: Molokai
+Molokai resists tourism the way a healthy immune system resists infection. The island has voted down resort development three times. There are no traffic lights, no buildings taller than a coconut palm, no chain restaurants, no Airbnb luxury villas, and no Instagram overlooks with crowds six-deep for the photo. The 7,000 residents have made a deliberate, democratic choice to preserve what they have, and the choice is visible in every quiet kilometer of red dirt road.
 
-## What Are the Top Things to Do in Molokai?
+This is the most authentic Hawaiian island. Roughly 60% of residents have Native Hawaiian ancestry — the highest percentage of any island in the chain. The connection to the land here is not decorative. The ancient fishponds along the south shore are being actively restored by community groups. The taro fields in Halawa Valley represent continuous cultivation going back 1,500 years. When a local family invites you to the back door of Kanemitsu's Bakery late at night for hot bread slathered with cream cheese and jam, you're not a tourist receiving a service — you're a guest in a genuine community ritual.
 
-Molokai is Hawaii's quiet rebel — an island that has steadfastly refused the resort development that transformed its neighbors, preserving a way of life that feels closer to old Hawaii than anywhere else in the state. There are no traffic lights, no buildings taller than a coconut palm, and the island's 7,000 residents maintain a deep connection to Hawaiian cultural traditions.
+The north shore of Molokai holds the tallest sea cliffs in the world — rising over 3,000 feet directly from the ocean, taller than the Na Pali Coast on Kauai and visible by air tour or seasonal boat as a wall of impossible vertical green. At the base of these cliffs sits Kalaupapa — the peninsula where over 8,000 people with Hansen's disease (leprosy) were forcibly exiled between 1866 and 1969. Visiting Kalaupapa requires a guided tour arranged in advance. It is one of the most powerful and sobering cultural experiences in Hawaii — a place that tells a story of great suffering, great courage, and the Belgian priest who chose to share the exile rather than serve it from a distance. Father Damien died of leprosy in 1889. The Pope canonized him in 2009.
 
-The north shore of Molokai features the highest sea cliffs in the world, rising over 3,000 feet from the ocean — taller than the Na Pali Coast and visible by air tour or seasonal boat excursion. Tucked at the base of these cliffs is Kalaupapa National Historical Park, the former leprosy (Hansen's disease) settlement where over 8,000 patients were exiled between 1866 and 1969. Visiting Kalaupapa — accessible only by trail, mule, or small plane — is one of the most powerful cultural experiences in all of Hawaii.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #4ADE80 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">The 25-minute flight from Honolulu lands on a short runway flanked by deer and wild turkeys. No resort shuttle awaits. This is exactly as it should be.</p>
+  </div>
+</div>
 
-On the east end of the island, the Halawa Valley is one of the oldest Hawaiian settlements, inhabited continuously for over 1,500 years. A guided cultural hike through the valley to Mo'aula Falls (250 feet) is the signature Molokai experience, with local Hawaiian guides sharing stories, traditions, and botanical knowledge passed down through generations.
+## Why Molokai should be on your Hawaii itinerary
 
-The south shore preserves dozens of ancient Hawaiian fishponds — stone-walled enclosures built centuries ago to sustainably farm fish. Some are being actively restored by community groups. On the west end, Papohaku Beach stretches three miles of white sand that is usually empty — one of the longest beaches in Hawaii with scarcely a footprint on it.
+Molokai is not for everyone. If your Hawaii trip is built around luxury resort pools, vibrant nightlife, and Instagram-optimized activity, Molokai will disappoint. There are no resort pools. Nightlife ends at 9pm. Many roads are unpaved.
 
-## Where Should I Stay in Molokai?
+But if you're after the Hawaii that existed before mass tourism — the landscape, the culture, the pace, the genuine interaction — Molokai delivers something that no other island in the chain can. The emptiness of Papohaku Beach (3 miles of white sand with no one on it) is not an accident or an undiscovered gem. It is the result of a community that has actively chosen not to develop it. That choice is itself worth respecting and experiencing.
 
-Accommodation on Molokai is limited, which is part of its charm. Hotel Molokai is the island's only hotel — a collection of Polynesian-style bungalows on the waterfront near Kaunakakai town, with rooms starting around $170 per night. Its restaurant and oceanfront tiki bar serve as the island's social gathering point, especially for Friday night live music.
+The Halawa Valley and Kalaupapa together provide two of the most historically and culturally significant experiences in all of Hawaii. One is ancient — 1,500 years of continuous habitation, taro cultivation, and Hawaiian spiritual practice. The other is recent — 100 years of forced exile that ended only in 1969. Both require a local Hawaiian guide, which is not a formality. The guides are descendants of the communities they're walking you through. The knowledge they share is inherited, not researched.
 
-Vacation rentals are the primary alternative, with options ranging from simple studios near Kaunakakai to beachfront cottages on Papohaku Beach. Expect to pay $120–$300 per night. Book early as inventory is limited. There are no resorts, no Airbnb luxury villas, and no chain hotels — accommodation here is simple and authentic.
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #38BDF8 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">The world's highest sea cliffs, a settlement where the exiled built a community, an ancient valley still tended by the descendants of its founders, and the longest empty beach in Hawaii.</p>
+  </div>
+</div>
 
-## What Should I Eat in Molokai?
+## What should you do on Molokai?
 
-Dining on Molokai is simple and local. Kaunakakai, the main town, has a handful of restaurants and shops that serve the island. Paddlers Restaurant at Hotel Molokai offers the most varied menu with seafood, steaks, and Hawaiian plates right on the water.
+**Kalaupapa National Historical Park** — Access by the 3-mile trail (1,600-foot descent, 26 switchbacks), mule ride, or small plane. Guided tour required and must be arranged in advance. The settlement of white churches, patient homes, and the grave of Father Damien is profoundly moving. Check current access status before booking — regulations have changed and continue to evolve.
 
-Kanemitsu's Bakery is a Molokai institution — famous for its hot bread served from the back alley late at night with cream cheese, butter, and jam. Arrive after 8pm and knock on the back door. Molokai Burger serves solid burgers and plate lunches. Maka's Corner offers lunch plates, and the various food trucks around Kaunakakai rotate weekly.
+**Halawa Valley Cultural Hike** — East end of the island. The 4-mile round-trip hike to Mo'aula Falls (250 feet) through ancient taro terraces and sacred sites requires a local Hawaiian guide ($75–100/person). The guides are descendants of Halawa residents; the cultural knowledge they share is the heart of the experience.
 
-Stock up at Friendly Market Center, Molokai's main grocery store, for supplies — especially if you are staying in a vacation rental. The Saturday morning farmers market in Kaunakakai sells local produce, honey, and baked goods. The limited dining options are part of Molokai's appeal — cook fresh fish from the wharf, eat simply, and embrace the island's unhurried rhythm.
+**North Shore Sea Cliffs** — Viewable by air tour (helicopter from Maui) or by seasonal boat excursion when winter swells don't close access. The cliffs at over 3,000 feet are the tallest in the world and visible from the north shore lookout on the Pali Highway.
+
+**Papohaku Beach** — West end. Three miles of mostly empty white sand. Not safe for swimming (strong rip currents and shore break), but one of the most strikingly beautiful beach walks in Hawaii. Spectacular for sunset.
+
+**South Shore Fishponds** — Ancient Hawaiian stone-walled fish enclosures built centuries ago line the south shore. Ali'i Fishpond and Keawa Nui Pond are visible from the road. Some are being actively restored by community groups. A deeply instructive example of sustainable aquaculture.
+
+**Kaunakakai Town** — The main town is three blocks long, has one grocery store and a dozen small businesses. Walk it, eat at Paddlers Restaurant, buy local honey and papaya at the Farmers Market (Saturday mornings). The most compact authentic small-town Hawaiian experience in the chain.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Molokai Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> Mokulele Airlines or Southern Airways Express fly Honolulu–Molokai in 25 minutes ($80–150 each way if booked ahead). Rental car must be booked months in advance — there are fewer than 100 rental cars on the entire island. Book before the flight.</li>
+    <li><strong>Best Time:</strong> April through November is drier and warmer. Winter swells (November–March) close the Kalaupapa trail and make north shore access difficult. April through June and September through October are optimal.</li>
+    <li><strong>Money:</strong> Surprisingly affordable. Hotel Molokai: $170–230/night. Vacation rentals from $120/night. Food $25–40/day. No expensive admission attractions (Kalaupapa tour $65–80). Budget $120–200/day all-in.</li>
+    <li><strong>Don't Miss:</strong> The back-door bread at Kanemitsu's Bakery — arrive after 8pm, knock on the back door, and receive hot bread with cream cheese and jam. This is a genuine Molokai tradition, not a tourist attraction. Participate as a respectful guest.</li>
+    <li><strong>Avoid:</strong> Treating the island's lack of development as a complaint or a review point. The residents have voted three times against resort development. This is not underdevelopment — it is a conscious choice. Molokai is not failing to become Waikiki. It is succeeding at being itself.</li>
+    <li><strong>Local Tip:</strong> Molokai has the best reef fishing in the state. If you're a fisher, ask at the small boat harbor in Kaunakakai about charter options or boat rentals. The south shore reef system is largely undisturbed by development or excessive recreational pressure.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #FBBF24 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Simple, local, and limited — the best Molokai meal is hot bread from a bakery back door at 9pm with cream cheese and guava jam. Everything else is a bonus.</p>
+  </div>
+</div>
+
+## Where should you eat on Molokai?
+
+- **Kanemitsu's Bakery** — The back-door hot bread service (after 8pm) is Molokai's most famous food experience. Knock, receive fresh-from-the-oven bread with spreads. $5–8. A genuine island tradition.
+- **Paddlers Restaurant** — Hotel Molokai's waterfront restaurant. Most varied menu on the island: seafood, steaks, Hawaiian plates. The island's only full-service restaurant. $22–45 mains.
+- **Molokai Burger** — Solid burgers and plate lunches for lunch. $10–16. Fast, cheap, local crowd.
+- **Maka's Corner** — Plate lunches and local comfort food for quick lunches. $8–14.
+- **Saturday Farmers Market (Kaunakakai)** — Local produce, honey, papaya, and baked goods. The best fresh food option on the island. Free to browse.
+- **Friendly Market Deli Counter** — The island's main grocery store has a deli with prepared items. Stock up here if you're in a vacation rental. $6–12.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0E4D5C 0%, #0D7377 35%, #14B8A6 65%, #0E4D5C 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">One hotel, some vacation rentals, and the understanding that accommodation here is simple and authentic — and that's the entire point of coming.</p>
+  </div>
+</div>
+
+## Where should you stay on Molokai?
+
+**Hotel Molokai** ($170–230/night) — The only hotel on the island. Polynesian-style bungalows on the waterfront near Kaunakakai, with a good restaurant and oceanfront tiki bar. The social hub of the island, especially Friday nights with live music. Simple and characterful.
+
+**Vacation Rentals** ($120–300/night) — Studios and cottages around Kaunakakai and along the west end near Papohaku Beach. VRBO has the best selection. Book early as inventory is limited. West end cottages on Papohaku Beach offer extraordinary sunsets and complete isolation.
+
+**Papohaku Beach Cottages** ($200–350/night) — The west end cottages near the beach offer the most remote Molokai experience. No services nearby — bring supplies from Kaunakakai. Complete privacy and the longest empty beach in Hawaii at your doorstep.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B91C1C 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Book the rental car before the flight, arrange the Kalaupapa tour before you land, pack medications and food supplies, and arrive with the expectation of slowing down.</p>
+  </div>
+</div>
+
+## When is the best time to visit Molokai?
+
+**April through November** is the optimal period. Drier weather, calmer ocean conditions, and better access to the north shore. April through June and September through October offer the best combination of conditions without the holiday crowds that appear briefly in July and August.
+
+**December through March** brings heavy winter swells to the north shore that close the Kalaupapa trail periodically and make boat access to the base of the sea cliffs impossible. The Halawa Valley road can be muddy and slick after sustained rain. If these activities are priorities, visit April through October.
+
+**The Aloha Festivals (September)** and **Makahiki Festival (January)** are significant cultural events that make Molokai especially worth visiting for those interested in Hawaiian tradition.
+
+**Three to five days** is the ideal stay. Shorter visits feel rushed; longer stays reward those who slow down enough to let the island's rhythm become their own. See [all Hawaii island destinations](/destinations/) for planning, or [visit trip planning](/plan/) for island-hopping logistics.

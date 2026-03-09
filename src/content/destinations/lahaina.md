@@ -88,26 +88,117 @@ scottTips:
   localCulture: "The 2023 Lahaina wildfire was the deadliest US natural disaster in over a century. The community is rebuilding with remarkable resilience but needs visitor support in the right way — spend money at local businesses, not just resort restaurants. The famous Banyan Tree (planted 1873, nearly an acre) survived the fire and has become a symbol of community resilience. Whale watching is not entertainment here — it is a sacred encounter with the humpback whales that Hawaiian culture has always honored. Maui No Ka Oi means 'Maui is the best' — locals genuinely mean it."
 ---
 
-**Quick Facts:** Best months: Dec–April (whales), May–Nov (value) | Budget/day: $180–400 | Top attraction: Whale watching + Ka'anapali Beach snorkeling | Island: Maui
+Lahaina carries more history per square foot than almost any town in Hawaii. Walking its streets — or what's accessible of them now — means walking through layers of Polynesian settlement, the Hawaiian Kingdom's royal capital, the Pacific whaling industry's shore headquarters, the missionary era, the plantation age, and now, after August 2023, through something harder: the aftermath of the deadliest American wildfire in over a century.
 
-## What Are the Top Things to Do in Lahaina?
+I'd visited Lahaina four times before the fire. The banyan tree in Banyan Court Park, planted in 1873, had been the size of a city block — a single tree with sixteen trunks covering nearly an acre of shade where the whole town gathered. The galleries and restaurants of Front Street. The Lahaina Courthouse with its small history museum. The harbor with whale watching boats lined up in season. All of it either damaged or destroyed in a fire that killed more than 100 people on August 8, 2023.
 
-Lahaina has been the beating heart of West Maui for centuries. Once the capital of the Hawaiian Kingdom and later a major Pacific whaling port, this coastal town carries layers of history in every block. The devastating 2023 wildfire brought immense loss, but Lahaina's community is rebuilding with remarkable determination, and visitors play a vital role in that recovery.
+The banyan tree survived. Arborists worked through months of careful treatment, and the tree — scorched, leafless for months — has been recovering with the same stubbornness as the community around it. Lahaina is rebuilding. Businesses have reopened in temporary locations. New structures are rising where the old ones stood. Visitors are welcome, and tourism spending is one of the most direct ways to support the community's economic recovery. Come with awareness of what happened, spend money at local businesses, and carry the place with some gravity.
 
-The historic waterfront remains the center of activity. When rebuilt, Front Street's galleries, restaurants, and shops will once again line this famous stretch. The legendary Banyan Court Park, home to a massive banyan tree planted in 1873 that covers nearly an acre, is a symbol of the town's deep roots and resilience.
+What Lahaina still delivers, regardless of the rebuilding phase, is access to some of the most spectacular marine wildlife experiences in Hawaii. Between December and April, the waters between Maui and Lanai fill with humpback whales that have migrated from Alaska to breed and calve. These whales breach, tail-slap, and display visible from shore — and whale watching tours from Lahaina Harbor bring you alongside them with hydrophones that let you hear the males singing underwater. It is one of the great wildlife experiences of the Pacific.
 
-Between December and April, Lahaina becomes one of the best whale watching destinations in the world. Humpback whales migrate to the warm, shallow waters between Maui and Lanai to breed and calve, and you can often spot them breaching right from shore. Whale watching cruises depart Lahaina Harbor daily during season, with naturalist guides and underwater hydrophones that let you hear the whales sing.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #FBBF24 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">Drive west from Kahului through the volcanic ridge of West Maui and descend to a harbor town that carries 200 years of Pacific history — and is rebuilding from the hardest chapter in its story.</p>
+  </div>
+</div>
 
-Nearby Ka'anapali Beach stretches three miles north of Lahaina, with Black Rock (Pu'u Keka'a) offering world-class snorkeling among sea turtles and vibrant reef fish. Sunset sailing cruises and snorkel trips to Lanai depart from Lahaina Harbor, offering full-day adventures on the water.
+## Why Lahaina should be on your Maui itinerary
 
-## Where Should I Stay in Lahaina?
+West Maui is anchored by Lahaina and Ka'anapali Beach — together the most historically and recreationally rich stretch of the island. Ka'anapali stretches three miles of excellent beach directly north of Lahaina town, with Black Rock (Pu'u Keka'a) providing one of the best shore-access snorkel spots on the island.
 
-West Maui offers excellent accommodations along the Ka'anapali and Lahaina coastline. Ka'anapali Beach Hotel is known as "Hawaii's Most Hawaiian Hotel" for its cultural programming and welcoming spirit, with rates starting around $250 per night.
+The whale watching from this coast is unparalleled in Hawaii. From December through April, humpbacks feed in the nutrient-rich Alaskan waters all summer and arrive in Maui's warm, shallow channel to mate and give birth. The narrow strait between Maui and Lanai creates a protected nursery — cetacean researchers consider it one of the world's most important humpback habitats. In peak season (January–March), you can see multiple whales from Ka'anapali Beach without binoculars. From a whale watching boat, the encounters are intimate.
 
-Lahaina Shores Beach Resort provides condo-style units with full kitchens right on the waterfront. The Hyatt Regency Maui, Westin Maui, and Sheraton Maui line Ka'anapali Beach with full-service luxury starting around $400 per night. Budget options include vacation rentals in the surrounding neighborhoods and the Lahaina area hostels.
+The Molokini Crater snorkel tours that depart from Ma'alaea Harbor (20 minutes east) connect West Maui to the offshore volcanic caldera that has arguably the best snorkeling in the state. Combining a Lahaina whale watch in the morning with a Molokini snorkel is a viable and spectacular full-day itinerary during whale season.
 
-## What Should I Eat in Lahaina?
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #9D174D 0%, #DB2777 35%, #F9A8D4 65%, #9D174D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Humpback whales in the channel, sea turtles at Black Rock, historic courthouse museums, and a community rebuilding with the same determination that built the banyan tree's canopy over 150 years.</p>
+  </div>
+</div>
 
-Lahaina's food scene is evolving as the town rebuilds. Many beloved restaurants have reopened in new locations or temporary spaces. Star Noodle, famous for its Asian-fusion noodles and small plates, remains a must-visit. Aloha Mixed Plate served traditional Hawaiian plate lunches on the waterfront for decades and was a local icon.
+## What should you do in Lahaina?
 
-For fresh seafood, Pacific'o and Feast at Lele (when operating) deliver ocean-to-table experiences with sunset views. Down the Hatch in Lahaina Harbor serves casual seafood and wood-fired pizza. The Gazebo in nearby Napili draws legendary brunch lines for its macadamia nut pancakes — arrive before 7:30am or prepare to wait.
+**Whale Watching Tours** — December through April from Lahaina Harbor. Pacific Whale Foundation (nonprofit, naturalist-guided) is the most educational option; Trilogy Excursions offers a more premium catamaran experience. Tours run 2–3 hours, $45–85/person. Hydrophones let you hear whale songs underwater. Best in January through March at peak season.
+
+**Ka'anapali Beach and Black Rock** — Three miles of excellent beach directly north of town. Black Rock (Pu'u Keka'a) at the Sheraton end is one of the best shore-access snorkel spots on Maui — sea turtles, reef fish, and the occasional monk seal. The famous cliff dive from Black Rock's top happens at sunset. Free to access; resort parking has fees.
+
+**Banyan Court Park** — The surviving banyan tree (planted 1873, covering nearly an acre) is a pilgrimage for anyone who loves Lahaina's history. The tree's recovery is ongoing and remarkable. Check current access status before visiting.
+
+**Sunset Sailing and Snorkel Cruises to Lanai** — Trilogy Excursions runs the gold-standard full-day catamaran to Lanai with snorkeling, a beach BBQ, and dolphin encounters. Departures from Lahaina Harbor. $180–230/adult. Worth every dollar for a memorable water day.
+
+**Honolua Bay** — 12 miles north on Highway 30. A protected marine reserve with exceptional snorkeling (April–October) and world-class surfing (November–March). Walk through a bamboo forest to the bay. Free access. Bring your own gear.
+
+**Historic District Walking** — The Lahaina Courthouse (1859), the Pioneer Inn, and the former sites of galleries and shops along Front Street and Wharf Street tell Lahaina's layered history. The Wo Hing Museum (restored Chinese social hall) is a gem of Hawaiian immigration history.
+
+**Haleakala Day Trip** — Lahaina is a viable base for a Haleakala summit visit, though the drive (45 minutes to Kahului + 2 hours to the summit) is long. The Upcountry road via Highway 30 to Highway 37 is scenic.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Lahaina Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> Fly OGG (Kahului), drive west 45 minutes on Highway 30. Rental car required. Ka'anapali has resort parking; Lahaina town has limited public parking — arrive early.</li>
+    <li><strong>Best Time:</strong> December through April for whale season — the primary draw. May through November offers better availability, lower rates, and still-excellent beach weather. The community is rebuilding; check current Lahaina town access before visiting.</li>
+    <li><strong>Money:</strong> West Maui is expensive. Ka'anapali resorts: $350–800+/night. Vacation rentals: $200–400/night. Whale watching: $45–85/person. Spending at local businesses directly supports community recovery.</li>
+    <li><strong>Don't Miss:</strong> A whale watching tour during humpback season (December–April). The Pacific Whale Foundation tours use hydrophones so you can hear the males singing — one of the most haunting and beautiful sounds in nature, amplified through underwater speakers on a Maui boat.</li>
+    <li><strong>Avoid:</strong> Treating the fire-damaged areas of Lahaina as a disaster tourism site. These were people's homes and businesses. Walk through with awareness and respect; spend your money at the businesses that have reopened; don't photograph the ruins.</li>
+    <li><strong>Local Tip:</strong> The Gazebo Restaurant in Napili (20 minutes north) draws legendary breakfast lines for its macadamia nut pancakes. Arrive before 7:30am or be prepared to wait an hour. The macadamia nut pancakes are legitimately worth it. Cash only.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0E4D5C 0%, #0369A1 35%, #38BDF8 65%, #0E4D5C 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Lahaina's food scene is rebuilding alongside its streets — many beloved spots have reopened in new locations, and supporting them is the best thing a visitor can do.</p>
+  </div>
+</div>
+
+## Where should you eat near Lahaina?
+
+- **Star Noodle** — Asian-fusion noodles and small plates that have earned consistent praise. Reopened after the fire in a new location. Book ahead. $16–28 mains.
+- **Down the Hatch** — Lahaina Harbor casual seafood and wood-fired pizza. Good for lunch before or after a boat tour. $18–32.
+- **Mala Ocean Tavern** — Oceanfront Mediterranean-influenced dining. Fresh fish, good cocktails, excellent sunset views. $28–48 mains.
+- **Gazebo Restaurant (Napili)** — 20 minutes north, famous macadamia nut pancakes. Lines form before 7am on weekends. $12–18. Cash only. Worth the wait.
+- **The Plantation House (Kapalua)** — Upscale dining with golf course and ocean views. One of West Maui's best dinner options. $35–65 mains. Reservations essential.
+- **Honu Seafood & Pizza** — Casual beachfront pizza and seafood in the Lahaina area. Good for families and post-beach meals. $18–32.
+- **Aloha Mixed Plate** — Traditional Hawaiian plate lunches at the waterfront. Kalua pork, lomi salmon, poi. Has been part of Lahaina's food culture for decades. $14–22.
+- **Cool Cat Cafe** — 1950s-themed burger and milkshake spot upstairs on Front Street. Family-friendly, good value, open through dinner. $14–22.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B91C1C 35%, #F59E0B 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Ka'anapali's resort corridor sits immediately north of Lahaina — world-class beachfront hotels within 10 minutes of the historic harbor and whale watching departures.</p>
+  </div>
+</div>
+
+## Where should you stay near Lahaina?
+
+**Ka'anapali Beach Hotel** ($250–400/night) — Known as "Hawaii's Most Hawaiian Hotel" for its cultural programming, hula shows, and welcoming atmosphere. Right on Ka'anapali Beach. The most character-rich mid-range option on this coast.
+
+**Ka'anapali Luxury Tier** ($400–900+/night) — Hyatt Regency Maui, Westin Maui, and Sheraton Maui all line Ka'anapali Beach with full-service facilities. The Westin and Sheraton are closest to Black Rock snorkel access.
+
+**Lahaina Shores Beach Resort** ($280–450/night) — Condo-style resort with full kitchens right on the Lahaina waterfront. Ideal for longer stays and those wanting to cook and save on dining.
+
+**Napili/Kapalua Properties** ($300–600/night) — Quieter options 15–25 minutes north. The Napili Kai Beach Resort and Ritz-Carlton Kapalua are the area's best in their respective price tiers.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #4ADE80 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Check current Lahaina town access before visiting, book whale watching tours early for December through April, and bring binoculars for shore-based sightings.</p>
+  </div>
+</div>
+
+## When is the best time to visit Lahaina?
+
+**December through April** is Lahaina's primary season, driven by humpback whale migration. January and February are the peak months — the highest whale density, the most active surface behavior, and the most dramatic encounters on whale watching tours. Book accommodation 3–6 months ahead for peak whale season.
+
+**May through November** offers better availability and lower rates, with excellent beach weather. Ka'anapali Beach is excellent for swimming and snorkeling throughout summer. Honolua Bay's snorkeling is at its best April through October.
+
+**The rebuilding situation** requires checking current conditions before visiting Lahaina town proper. Access to some areas may be restricted as recovery and investigation continues. Ka'anapali Beach, Napili, and Kapalua are all unaffected and fully operational. The whale watching harbor at Lahaina has remained operational.
+
+Visit [Maui destination guides](/destinations/) for the complete picture, or [start planning your Hawaii trip](/plan/) with timing and logistics help.

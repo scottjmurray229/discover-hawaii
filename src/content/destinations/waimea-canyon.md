@@ -68,48 +68,127 @@ affiliatePicks:
     price: '$$'
     personalNote: 'Simple cabins in Koke e State Park at 3,600 feet elevation — cool mountain air and the chance to hike at sunrise before clouds roll in. The only accommodation near the canyon.'
     affiliateUrl: 'https://www.booking.com/hotel/us/kokee-lodge.html?aid=2778866'
-  - name: 'Jack Harter Helicopters Kauai Tour'
+  - name: 'Grand Canyon of the Pacific Helicopter Tour'
     type: 'tour'
     price: '$$$'
-    personalNote: 'Doors-off helicopter flight over Waimea Canyon and the Na Pali Coast. Seeing the canyon from the air adds a completely different dimension to the experience.'
+    personalNote: 'Aerial tour combining Waimea Canyon with the Na Pali Coast in one circuit. The canyon looks completely different from above — especially the waterfalls that are invisible from the road lookouts.'
     affiliateUrl: 'https://www.getyourguide.com/kauai-l424/helicopter-tc185/?partner_id=IVN6IQ3'
-  - name: 'Waimea Plantation Cottages'
-    type: 'hotel'
-    price: '$$'
-    personalNote: 'Restored sugar plantation cottages on a coconut grove oceanfront at the base of the canyon road. Peaceful, historic, and a perfect base for early-morning canyon access.'
-    affiliateUrl: 'https://www.booking.com/hotel/us/waimea-plantation-cottages.html?aid=2778866'
-contentStatus: 'draft'
+contentStatus: draft
 draft: false
-scottTips:
-  logistics: "Fly into Lihue Airport (LIH) on Kauai — 1.5 hours to the main Waimea Canyon Lookout via Highway 50 to Highway 550. Rental car required — no public transit. Plan to spend a full morning at the canyon and Koke'e State Park. The drive from Poipu (south shore) is 1 hour to the canyon, making a natural half-day pairing with a Poipu morning beach day."
-  bestTime: "Morning visits are essential — clouds build reliably by early afternoon (11am–1pm) and can completely obscure the views. Arrive at the first lookout by 9am for the clearest conditions. March through October has the best overall weather. After significant rainfall, waterfalls appear on the canyon walls that are breathtaking — check webcams the night before."
-  gettingAround: "Drive Highway 550 up the canyon's western rim, stopping at each lookout as you gain elevation. The road continues to Koke'e State Park (14 miles from Waimea town) and the Kalalau Lookout at the end. Allow 3 hours minimum for the round trip with stops. Hiking trailheads are accessed directly from the road."
-  money: "No entrance fee for the canyon itself. Koke'e Lodge cabins: $90/night (the most affordable in-park experience in Hawaii). Helicopter tour over the canyon: $250–350. Guided hiking tour: $120–180. Waimea Plantation Cottages: $200–300/night. Budget $100–250/day including activities."
-  safety: "The canyon lookout railings are adequate but this is not a manicured experience — stay behind barriers. Several trails have exposed cliff edges without guardrails. Morning is safer for hiking as afternoon clouds can make navigation confusing on unfamiliar trails. The Awa'awapuhi Trail ends at an exposed knife-edge ridge with 2,500-foot drop; not for those with height anxiety. The canyon road has sharp switchbacks — drive carefully and let faster traffic pass at pullouts."
-  packing: "Layers — the canyon lookouts at 3,400–4,200 feet are noticeably cooler than the coast, often 15–20°F colder. Light jacket for the morning lookout. Binoculars for spotting native birds (honeycreepers) in Koke'e's old-growth forest. Trekking poles for the Canyon Trail to Waipo'o Falls. Picnic supplies — the Koke'e Lodge only serves breakfast and lunch; the lookouts have no food. Arrive with a full cooler."
-  localCulture: "The Hawaiian name for this area is Waimea — 'reddish water' referring to the red volcanic soil that colors the river. The canyon's colors shift dramatically throughout the day and with cloud light — sunrise and late afternoon produce the most vivid reds and golds. The Koke'e Natural History Museum (donation-based) has excellent information on native Hawaiian plants and birds of the Koke'e plateau — a surprisingly good small museum. The rare native birds of Koke'e (i'iwi, 'apapane, and others) are found nowhere else on Earth; birdwatchers rank this among the top birding sites in the Pacific."
+fmContentType: destination
 ---
 
-**Quick Facts:** Best months: March–Oct (go early morning) | Budget/day: $100–250 | Top attraction: Waimea Canyon Lookout + Kalalau Overlook + Canyon Trail hike | Island: Kauai
+The first time I drove up Highway 550 from Waimea town, I was expecting something pleasant — a canyon, some views, the kind of natural feature that earns a spot on a list. What I wasn't prepared for was the moment the Waimea Canyon Lookout appeared and I found myself looking into a gorge 14 miles long, 3,600 feet deep, its walls layered in red, orange, rust, and green in a way that looked geologically impossible for a Pacific island. Mark Twain reportedly called it the Grand Canyon of the Pacific. The comparison is reasonable in scale if not in character — Waimea has waterfalls threading down its walls and a lushness the Arizona desert never has, but the depth and drama are comparable.
 
-## What Are the Top Things to Do in Waimea Canyon?
+The canyon is the result of Kauai's geological history — the island formed from a single massive volcano, and when that volcano collapsed and the rains began, the Waimea River carved this gorge through the ancient lava layers over millions of years. Each layer represents a different eruption epoch, a different lava composition, a different shade of color. The alternating red and green of the walls comes from iron-rich basalt and the native forest clinging to every ledge.
 
-Waimea Canyon is one of those places that makes you stop mid-step and stare. Often called "the Grand Canyon of the Pacific," this 14-mile-long, 3,600-foot-deep gorge slices through the heart of western Kauai with layers of red, orange, rust, and green that shift and glow throughout the day. Mark Twain reportedly gave it its famous nickname, and while the attribution is debated, the comparison is earned.
+The critical thing to know is that you need to arrive early. Clouds build over the canyon by early afternoon on most days and can completely obscure the views from the main lookouts. The Waimea Canyon Lookout at 3,400 feet and, especially, the Kalalau and Pu'u O Kila Lookouts at 4,200 feet (which look down over the Na Pali Coast into the remote Kalalau Valley) are cloud-dependent. Arrive by 8–9am for reliable views. At 2pm, you may see nothing but white.
 
-The canyon was carved over millions of years by the Waimea River and a catastrophic structural collapse of the volcano that formed Kauai. The result is a geological masterpiece — waterfalls stream down layered cliff faces, feral goats traverse impossibly steep walls, and native Hawaiian birds flit through the remaining pockets of old-growth forest.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Grand Canyon of the Pacific</h2>
+    <p class="ib-text">Fourteen miles long, 3,600 feet deep, walls layered in red, orange, and green. Waimea Canyon is the most dramatic landscape on Kauai that isn't a sea cliff — and at the end of the road, the Kalalau Lookout reveals the Na Pali Coast from above.</p>
+  </div>
+</div>
 
-The main scenic drive follows Highway 550 up the canyon's western rim, with several lookout points offering progressively more impressive views. The Waimea Canyon Lookout at 3,400 feet provides the classic panorama, while the Kalalau Lookout and Pu'u O Kila Lookout at the road's end peer down into the remote Na Pali coast valleys from above — one of the few ways to see this coast without a boat or helicopter.
+## Why Waimea Canyon should be on your Kauai itinerary
 
-For hikers, the Canyon Trail to Waipo'o Falls (3.4 miles round trip) delivers canyon rim views and a dramatic waterfall overlook. The Awa'awapuhi Trail (6.2 miles round trip) ends at a knife-edge ridge with dizzying views 2,500 feet down to the Na Pali coastline. Koke'e State Park, at the top of the canyon road, protects native Hawaiian forests where you can spot rare honeycreepers like the 'i'iwi and 'apapane.
+Waimea Canyon is Kauai's answer to the question of what lies inland from the beaches and cliffs. While the Na Pali Coast is the island's most famous feature, Waimea Canyon provides a completely different kind of spectacle — geological drama rather than coastal drama, a landscape shaped by millions of years of erosion rather than ocean wave action.
 
-## Where Should I Stay in Waimea Canyon?
+The canyon rewards visitors who continue past the main Waimea Canyon Lookout to the end of the road at 4,200 feet, where the Kalalau and Pu'u O Kila Lookouts provide one of the most extraordinary views in Hawaii: standing at the top of the Na Pali ridge and looking 4,000 feet straight down into the remote Kalalau Valley, with the sea cliffs extending to either side. This perspective — the Kalalau Valley from above — is usually visible only from a helicopter, and here you can park your car and walk to it for free.
 
-Most visitors explore Waimea Canyon as a day trip from Poipu, Lihue, or the north shore. However, staying near the canyon offers a unique mountain experience. Koke'e Lodge in Koke'e State Park provides simple cabins at 3,600 feet elevation, where cool temperatures and birdsong replace the coastal heat and surf. Cabins start around $90 per night.
+For hikers, the Canyon Trail to Waipo'o Falls is the best introduction — 3.4 miles round trip through the canyon rim forest with direct views into the gorge and a 800-foot waterfall at the turnaround. For birders, Koke'e State Park atop the canyon is one of the most important native bird habitats in Hawaii, with endemic honeycreeper species that exist nowhere else on Earth.
 
-In historic Waimea town at the canyon's base, the Waimea Plantation Cottages offer restored sugar plantation homes on a coconut grove facing the ocean, starting around $200 per night. The Inn Waimea provides affordable B&B accommodation in a charming historic building.
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #4ADE80 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To See</h2>
+    <p class="ib-text">Drive the full canyon road to the Kalalau Lookout. Hike to Waipo'o Falls. Look for 'i'iwi honeycreepers in the native forest. And if clouds clear, the view down into the Kalalau Valley is one of the most spectacular in Hawaii.</p>
+  </div>
+</div>
 
-## What Should I Eat in Waimea Canyon?
+## What should you do at Waimea Canyon?
 
-Dining options near Waimea Canyon are limited. Pack a picnic for the lookouts and trails — there are scenic picnic areas throughout Koke'e State Park. The Koke'e Lodge serves simple breakfast and lunch with coffee and baked goods.
+**Waimea Canyon Lookout** — The main canyon overlook at 3,400 feet elevation, accessible directly off Highway 550. Panoramic views of the 3,600-foot red gorge, the Waimea River threading below, and waterfalls on the far walls after rain. Multiple pullouts along the drive offer different perspectives. Free, no reservation required.
 
-In Waimea town, Porky's Kauai serves outstanding smoked meats and plate lunches. Ishihara Market has a surprisingly good poke counter and deli. The Waimea Brewing Company, housed in a plantation-era building at Waimea Plantation Cottages, serves craft beers and pub food with a laid-back west side atmosphere. Jo-Jo's Anuenue Shave Ice is a must-stop for the best shave ice on Kauai — the tropical flavors are perfect after a morning of canyon hiking.
+**Kalalau Lookout and Pu'u O Kila Lookout** — Drive an additional 4 miles past Waimea Canyon Lookout to the end of the road at 4,200 feet. From here, you stand at the ridge above the Na Pali Coast and look down into Kalalau Valley — 4,000 feet below, remote, accessible only by hiking the 11-mile Kalalau Trail or by boat. One of Hawaii's greatest views, available from a parking lot. Go early before clouds form.
+
+**Canyon Trail to Waipo'o Falls** — A moderate 3.4-mile round-trip hike along the canyon rim with direct views into the gorge and ending at a vista above Waipo'o Falls (800 feet). Allow 2.5 hours. The trailhead is off Highway 550 at the Pu'u Hinahina Lookout parking area.
+
+**Awa'awapuhi Trail** — A strenuous 6.2-mile round-trip hike from Koke'e State Park to a knife-edge ridge above the Na Pali sea cliffs — one of the most dramatic trail views in Hawaii. Allow 4–5 hours. Fit hikers only.
+
+**Koke'e State Park** — At 4,000 feet elevation, the park occupies the plateau above the canyon with native forest, campgrounds, the Koke'e Natural History Museum, and Koke'e Lodge. The museum has exhibits on Kauai's geology, birds, and Hawaiian history. Free (donations accepted).
+
+**Alaka'i Swamp Trail** — An otherworldly 8-mile round-trip hike through one of the highest-elevation swamps in the world, at 4,000 feet, where the nearly constant cloud cover and rainfall have created a bog ecosystem unique on Earth. Native Hawaiian birds at high density. Requires full day and proper gear.
+
+**Waimea Town** — At the foot of the canyon, a historic Hawaiian town where Captain James Cook first landed on Kauai in 1778. Russian Fort Elizabeth (ruins of a 19th-century fort built by Russian traders) is a free stop. The Captain Cook monument marks the landing site. Waimea Brewing Company does solid local ales and pub food.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Waimea Canyon Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> From Lihue Airport, drive west on Highway 50 to Waimea town (1 hour), then north on Highway 550 (Waimea Canyon Drive) to the lookouts. Total from Lihue: 1.5 hours. Rental car required. Fill up in Waimea — no gas in the park.</li>
+    <li><strong>Best Time:</strong> Leave Lihue by 7am to reach the canyon lookouts by 8:30–9am before clouds build. Morning light on the red canyon walls is also the best for photography. Arrive at the Kalalau Lookout by 9am or the valley view is often obscured.</li>
+    <li><strong>Money:</strong> No entry fee for the canyon. Koke'e Lodge cabins: $90–150/night. Day hikes are free. Guided tours $100–150/person. Gas and food in Waimea: budget $30–50 for a canyon day. Park at the state park lookouts for free with a day pass available at the trailhead kiosks.</li>
+    <li><strong>Don't Miss:</strong> The Kalalau and Pu'u O Kila Lookouts at the END of the road. Most visitors stop at the Waimea Canyon Lookout and turn around. Drive the additional 4 miles to the top — the view down into the remote Kalalau Valley is extraordinary and most travelers never see it.</li>
+    <li><strong>Avoid:</strong> Arriving after noon. The canyon clouds over reliably by early afternoon and can completely white out the lookout views. This is the single most common tourist disappointment on Kauai — driving 1.5 hours to look at fog. Leave Lihue early.</li>
+    <li><strong>Local Tip:</strong> Combine the canyon with a Na Pali Coast boat tour from Port Allen for the best possible Kauai day. Drive the canyon road early (7–11am), then drive down to Port Allen (45 minutes southwest of Waimea) for a 1pm or 2pm Na Pali catamaran departure. You see Kauai's two greatest landscapes — canyon and cliffs — in a single day from different perspectives.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #FBBF24 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Food Nearby</h2>
+    <p class="ib-text">There is no restaurant inside the canyon. Eat before you arrive in Waimea, pack lunch for the hikes, and return to Waimea Brewing Company or the south shore for a proper dinner.</p>
+  </div>
+</div>
+
+## Where should you eat near Waimea Canyon?
+
+The canyon and Koke'e State Park have no restaurants. Pack food for hikes. The Koke'e Lodge snack bar serves light items during limited hours.
+
+**In Waimea:**
+- **Waimea Brewing Company** — The best sit-down meal in Waimea. Craft beers, burgers, fish and chips, and local plates in a historic building. $16–28. A rewarding post-canyon stop.
+- **The Shrimp Station** — Outdoor shrimp truck on the highway with garlic butter, lemon pepper, and spicy shrimp plates over rice. Cash only. $12–16. Lines at lunch.
+- **Jo-Jo's Shave Ice** — The best shave ice on the west side of Kauai, in Waimea town. $4–7. A mandatory stop after the canyon drive.
+
+**In Hanapepe (15 minutes east of Waimea):**
+- **Hanapepe Cafe** — Creative vegetarian cafe with daily specials. Open Friday evenings for the Hanapepe Art Night. $12–20.
+- **Midnight Bear Breads** — An artisan bakery in Hanapepe with excellent bread and pastries for a canyon-day breakfast. Open mornings.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #1E1B4B 0%, #1E3A5F 35%, #60A5FA 65%, #1E1B4B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Koke'e Lodge cabins put you at 4,000 feet for cool mountain mornings and early canyon access. Poipu on the south shore is the best beach resort base for day trips to both the canyon and Na Pali.</p>
+  </div>
+</div>
+
+## Where should you stay near Waimea Canyon?
+
+**Koke'e Lodge Cabins** ($90–150/night) — Simple wood-framed cabins in Koke'e State Park at 3,600 feet elevation. No TVs, no air conditioning needed (it's cool at altitude), full kitchen facilities, and the ability to hike the canyon trails at sunrise before any day visitors arrive. The most atmospheric accommodation on Kauai's west side.
+
+**Waimea Plantation Cottages** ($180–350/night) — Historic plantation-era cottages on the oceanfront in Waimea town, at the foot of the canyon. Restored early-20th century workers' cottages with full kitchens, wide lanais, and a coconut grove setting. Convenient for both canyon access and the west side beaches.
+
+**Poipu (south shore base)** ($200–800+/night) — The best overall Kauai base for combining canyon day trips with beach time and Na Pali boat tours from Port Allen. 45 minutes from the canyon road, 30 minutes from Port Allen. See the [Poipu guide](/destinations/poipu/) for accommodation details.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Go early. Pack layers — 4,200 feet is cold and often windy at the top lookouts. Pack food and water. Drive to the Kalalau Lookout at the end of the road, not just the main canyon overlook.</p>
+  </div>
+</div>
+
+## When is the best time to visit Waimea Canyon?
+
+**March through October** — The drier period produces the clearest morning views. Even in summer, afternoon clouds are routine — arrive early regardless of season.
+
+**After heavy rain** — Counterintuitively, the day following heavy rain can produce spectacular views: waterfalls appear on every canyon wall, the colors are saturated, and the clouds often clear by morning. The valley-floor mist adds drama to the canyon overlooks.
+
+**December through February** — Winter can bring frequent cloud and occasional rain at the canyon level. Views are less reliable. The Alaka'i Swamp Trail becomes particularly atmospheric (and muddy) in winter. Still worth visiting but harder to guarantee clear lookouts.
+
+**Morning is non-negotiable** — The single most important planning factor for Waimea Canyon is time of day. Arrive before 9am for the canyon views. Arrive before 9am for the Kalalau Lookout. Plan your entire Kauai day around this requirement.
+
+Waimea Canyon pairs naturally with a Na Pali Coast boat tour from Port Allen on the same day — two of Kauai's greatest natural wonders covered in one long day. See the [full Kauai destinations guide](/destinations/) for island-wide planning.

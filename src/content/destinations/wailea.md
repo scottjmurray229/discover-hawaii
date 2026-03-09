@@ -69,45 +69,121 @@ affiliatePicks:
   - name: 'Wailea Golf Club'
     type: 'activity'
     price: '$$$'
-    personalNote: 'Three championship courses (Gold, Emerald, Blue) with stunning ocean and Haleakala views. The Gold course has hosted numerous PGA events.'
+    personalNote: 'Championship golf above the Pacific with ocean views from every tee box. The Gold Course is the most scenic; the Emerald Course is the most playable.'
     affiliateUrl: 'https://www.viator.com/Maui/d664-ttd?pid=P00290009&mcid=42383&medium=link'
-  - name: 'Andaz Maui at Wailea Resort'
-    type: 'hotel'
-    price: '$$$'
-    personalNote: 'Contemporary luxury with an infinity pool overlooking Mokapu Beach. The Ka ana Kitchen restaurant is one of Wailea best for breakfast and dinner.'
-    affiliateUrl: 'https://www.booking.com/hotel/us/andaz-maui-at-wailea-resort.html?aid=2778866'
-contentStatus: 'draft'
+contentStatus: draft
 draft: false
-scottTips:
-  logistics: "Fly into Kahului Airport (OGG) and drive south on Highway 31 (Pi'ilani Highway) — 30 minutes to Wailea. Rental car required for reaching the airport and for day trips to Haleakala and the Road to Hana. Within Wailea, the beach path connects all five beaches and most resorts on foot. The Shops at Wailea are walkable from the main resort cluster."
-  bestTime: "April through June and September through November: excellent weather with lower rates than peak December–March. December through April brings peak whale season — humpbacks breach right offshore from the beach path. Wailea is on Maui's dry southwest coast, so it is consistently sunny year-round — rainy weather is genuinely rare."
-  gettingAround: "Car required for Kahului airport and major day trips. Within Wailea, the 1.5-mile beach path connects all five beaches and is excellent on foot or with a rental bike from the resort. Ma'alaea Harbor (Molokini boat tours) is 10 minutes north. Kihei is 5 minutes north with more affordable restaurants and grocery stores."
-  money: "The most expensive area in Maui. Four Seasons: $900–3,000+/night. Grand Wailea: $600–1,800/night. Andaz: $500–1,200/night. Molokini snorkel tour: $90–140/person. Wailea Golf: $220–280/round. The beaches are free (public access required by law). Kihei, 5 minutes north, has restaurants 40–60% cheaper than Wailea resort pricing. Budget $400–1,200+/day depending on resort choice."
-  safety: "Wailea's five beaches are generally calm and safe for swimming. Ulua Beach has a rocky reef entry — reef shoes recommended. Watch for strong surf at Polo Beach on bigger south swell days. Sea turtles and monk seals may haul out on Wailea beaches — maintain required distances (10 feet for turtles, 50 feet for monk seals). Molokini Crater boat tours are safe with reputable operators; choose companies that do two snorkel stops (Molokini + another reef) for best value."
-  packing: "Reef-safe sunscreen (Hawaii law). Snorkeling gear (or high-end rental from resort — it matters for Molokini). Wailea Beach Path is paved and flat — sandals work for evening walks. One formal outfit — Spago, Morimoto, and Ferraro's at the Four Seasons expect resort formal dress. Binoculars for whale watching (December–April) from the beach path."
-  localCulture: "Wailea is explicitly a luxury resort enclave — this is exactly what it was designed to be starting in the 1970s. The irony is that the public beaches right in front of the most expensive resorts are accessible to anyone; Hawaii's public beach access laws are robust. Kihei, directly north, was the working-class neighbor to Wailea's opulence and has been gentrifying rapidly — eat there to experience real Maui food culture. Maui has the most expensive cost of living of any island; the service workers at these resorts often commute 40+ miles each way."
+fmContentType: destination
 ---
 
-**Quick Facts:** Best months: April–June, Sept–Nov | Budget/day: $400–1,200 | Top attraction: Five-beach coastal path + Molokini Crater snorkel | Island: Maui
+Wailea is what most people picture when they imagine a Hawaii luxury vacation, and it delivers that vision with exceptional consistency. Five crescent beaches line the south Maui coast, each one cleaner and calmer than anything you'll find at a mainland beach resort. The Four Seasons is here. The Grand Wailea is here. The Fairmont Kea Lani is here. The Wailea Beach Path runs 1.5 miles of oceanfront walking trail past all of them, past the manicured resort grounds, past the sea turtle haul-out areas, and past viewpoints where, in December through April, humpback whales breach close enough that you don't need binoculars to see them.
 
-## What Are the Top Things to Do in Wailea?
+Wailea earns its luxury designation from the south Maui geography. This part of Maui sits in a rain shadow — the West Maui Mountains block the northeast trade winds and their moisture before they reach the south coast, giving Wailea reliably drier and sunnier conditions than almost anywhere else on the island. While Hana can be raining and the Road to Hana is wet, Wailea often holds clear skies. This is why the resorts are here.
 
-Wailea is Maui's premier resort destination, occupying the sun-drenched southwestern coast where rainfall is rare and golden sunshine is almost guaranteed. Five crescent-shaped beaches — Keawakapu, Mokapu, Wailea, Polo, and Ulua — line the coast, each offering pristine sand and clear, calm water ideal for swimming and snorkeling.
+I've stayed at the Four Seasons and the Grand Wailea. Both are extraordinary in different ways. The Four Seasons is quieter, more intimate, and has the best hotel restaurant on Maui (Spago). The Grand Wailea is a spectacle — an $800 million resort built in 1991 that has a 9-pool water complex, a waterfall, an art collection worth $30 million, and the Spa Grande, which is one of the largest resort spas in the United States. The Grand Wailea is exactly as over-the-top as it sounds, and children love it completely.
 
-The 1.5-mile Wailea Beach Path connects all five beaches along a paved oceanfront walkway, winding past luxury resorts, lush tropical landscaping, and rocky points where sea turtles haul out to rest. Walk it at sunset for one of the most beautiful evening strolls in Hawaii. During whale season (December through April), you can spot humpback whales breaching offshore right from the path.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #FBBF24 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Sunny South Coast</h2>
+    <p class="ib-text">Five crescent beaches. Three championship golf courses. The rain shadow that keeps Wailea sunny when the rest of Maui is under clouds. And offshore, from December through April, humpback whales visible from the beach path without a boat.</p>
+  </div>
+</div>
 
-Snorkeling is exceptional along the Wailea coast, with Ulua Beach offering the best reef access directly from shore. For a deeper underwater experience, half-day boat tours to Molokini Crater — a crescent-shaped volcanic caldera three miles offshore — deliver visibility often exceeding 100 feet and encounters with reef sharks, rays, and sea turtles.
+## Why Wailea should be on your Maui itinerary
 
-Wailea is also a golf destination, with three championship courses (Gold, Emerald, and Blue) offering ocean views and Haleakala as a backdrop. The Shops at Wailea provide upscale retail and dining, while the nearby town of Kihei offers a more casual, budget-friendly complement to Wailea's polish.
+Wailea is the right choice for visitors who want the full Hawaii resort experience without compromise — the best beaches, the best weather, the best accommodation, and enough day trip options to fill a week without repeating yourself. Haleakala Summit is 2 hours northeast for the sunrise experience. The Road to Hana begins 90 minutes north and east. Lahaina is 45 minutes north. Molokini Crater snorkel tours depart from Ma'alaea Harbor, 10 minutes north.
 
-## Where Should I Stay in Wailea?
+For non-resort visitors, Wailea's beaches are all legally public. The Wailea Beach Path provides access to all five beaches without requiring a resort stay. Public parking is available at each beach access point — arrive before 8am on weekends to find spots. The snorkeling at Ulua Beach is some of the best in Maui without taking a boat anywhere.
 
-Wailea is defined by its resorts. The Four Seasons Resort Maui sets the standard for Hawaiian luxury, with impeccable service and Spago by Wolfgang Puck on property. The Grand Wailea (a Waldorf Astoria resort) impresses with its 25,700-square-foot pool complex and exceptional art collection.
+The Molokini Crater snorkel tour is Wailea's premium activity — a half-day trip to a crescent-shaped volcanic caldera 3 miles offshore where visibility regularly exceeds 100 feet and marine life includes reef sharks, eagle rays, sea turtles, and enormous schools of tropical fish. Book the morning departure; afternoon winds reduce visibility significantly. Trilogy Excursions and Pride of Maui depart from Ma'alaea Harbor, 10 minutes north of Wailea.
 
-The Andaz Maui brings a contemporary design aesthetic and excellent dining. The Fairmont Kea Lani, the Residence Inn, and Marriott Wailea round out the options. Rates across Wailea resorts typically range from $500–$1,500 per night. For more affordable options, the adjacent town of Kihei offers vacation rentals and mid-range hotels starting around $200 per night.
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #38BDF8 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">The Wailea Beach Path at sunrise. Snorkeling at Ulua Beach with sea turtles. A morning catamaran to Molokini Crater with 100-foot visibility. Humpback whales from shore in winter. Golf above the Pacific.</p>
+  </div>
+</div>
 
-## What Should I Eat in Wailea?
+## What should you do in Wailea?
 
-Wailea's dining scene matches its resort caliber. Spago at the Four Seasons serves Wolfgang Puck's Pacific-influenced cuisine with oceanfront seating — the sunset views are as impressive as the food. Morimoto Maui, from Iron Chef Masaharu Morimoto, delivers inventive Japanese-Hawaiian fusion at the Andaz resort.
+**Wailea Beach Path** — A 1.5-mile paved walking and cycling trail that runs directly along the ocean past all five Wailea beaches. Public access. Beautiful at sunrise before the crowds. Sea turtles rest on the rocks. In winter, humpback whale sightings from the path are common. Free.
 
-Ko at the Fairmont Kea Lani celebrates Maui's multicultural plantation heritage through dishes inspired by Hawaiian, Chinese, Japanese, Filipino, and Portuguese traditions. For casual dining, Monkeypod Kitchen by Peter Merriman serves craft cocktails and farm-to-table comfort food in a lively setting. In neighboring Kihei, Coconut's Fish Cafe serves the island's best fish tacos, and Da Kitchen delivers generous Hawaiian plate lunches at fair prices.
+**Ulua Beach Snorkeling** — The best reef snorkeling in Wailea, accessible from the public beach access point on Ulua Beach Road. The reef at the left end of the beach has sea turtles, abundant reef fish, and the occasional monk seal resting on the bottom. Best at high tide. Free.
+
+**Big Beach (Makena Beach State Park)** — 10 minutes south of Wailea. One of the largest and most beautiful beaches on Maui — a half-mile of golden sand with no development visible. The shore break can be powerful; swim with caution. A smaller "Little Beach" over the rocks at the north end is Maui's most famous clothing-optional beach. Free.
+
+**Molokini Crater Snorkel Tour** — Departs from Ma'alaea Harbor (10 minutes north). A crescent volcanic crater 3 miles offshore with extraordinary visibility (regularly 100+ feet) and rich marine life. Half-day tours run 5–8am to beat the afternoon winds. Trilogy Excursions and Pride of Maui are the most consistently excellent operators. $130–180/person.
+
+**Wailea Golf** — Three championship courses: the Gold, Blue, and Emerald. All have ocean views and well-maintained fairways. Green fees $195–250 with cart. Book tee times through resort concierges or the Wailea Golf Club website. The Gold Course at sunrise before the heat builds is one of the best golf experiences in Hawaii.
+
+**Whale Watching from Shore** — December through April, North Pacific humpback whales come to Maui's warm waters to breed and give birth. From the Wailea Beach Path, whales are visible from shore without a boat on most clear days. Binoculars help but aren't necessary for large surface behaviors like breaching and tail slapping.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Wailea Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> Fly to Kahului Airport (OGG) — 30 minutes north on Pi'ilani Highway (Highway 31). Rental car essential; no public transit serves Wailea. Most resorts offer airport shuttle service ($40–60 each way) which beats the rental car if you're staying put.</li>
+    <li><strong>Best Time:</strong> April through October for the best beach and snorkeling conditions. December through April for humpback whale watching from shore. The south coast is consistently the sunniest part of Maui year-round.</li>
+    <li><strong>Money:</strong> Four Seasons: $700–1,400+/night. Grand Wailea: $500–1,000+/night. Fairmont Kea Lani: $600–1,000+/night. Kihei condos 10 minutes north: $150–300/night. Molokini tour: $130–180/person. Daily budget $400–800/day mid-range with activities.</li>
+    <li><strong>Don't Miss:</strong> The Wailea Beach Path at sunrise before anyone is walking it. The path is public, the light is extraordinary, and you'll see turtles resting on the rocks and, in winter, whale spouts in the channel. It's one of the best morning walks in all of Hawaii and it's completely free.</li>
+    <li><strong>Avoid:</strong> The afternoon Molokini Crater departure times. The morning trades pick up significantly by afternoon, reducing visibility dramatically and making the crossing rough. Book the earliest available morning departure — typically 5:30–7:00am — and you'll arrive at the crater before the wind kicks up.</li>
+    <li><strong>Local Tip:</strong> Stay in Kihei instead of Wailea and use the beach path for day access. Kihei is 10–15 minutes north of Wailea, has excellent condo rentals with kitchens for $150–300/night, local restaurants at half the price, and the Kamaole Beach parks for free swimming. The Wailea beaches are fully public — drive down for the snorkeling, return to Kihei for dinner.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Wailea's resort restaurants are some of the best in Hawaii. The best non-resort food is in Kihei, 10 minutes north, where local spots serve plate lunches and poke at a fraction of the resort price.</p>
+  </div>
+</div>
+
+## Where should you eat in Wailea?
+
+**Resort dining:**
+- **Spago by Wolfgang Puck (Four Seasons)** — The best hotel restaurant on Maui. California-Pacific cuisine with fresh local ingredients and a seafood menu that changes with the catch. $40–80/person. Book well ahead.
+- **Humuhumunukunukuapua'a (Grand Wailea)** — The fish-pond restaurant at the Grand Wailea. A spectacle of a setting with excellent Hawaiian regional cuisine. $35–65.
+- **Ferraro's Bar e Ristorante (Four Seasons)** — Italian-influenced dinner with an oceanfront terrace that produces some of the best sunset dining on Maui. $35–60.
+
+**Local and mid-range nearby:**
+- **Nalu's South Shore Grill (Kihei)** — Casual beachside restaurant with excellent fish tacos, fresh poke, and a lively bar scene. $18–28.
+- **Kihei Caffe** — A local breakfast institution in Kihei with eggs, pancakes, and plate-style breakfasts that fuel a full day. $10–16.
+- **808 Deli (Kihei)** — The best poke bowl counter near Wailea. Fresh ahi, fresh ingredients, and a build-your-own bowl that beats resort poke at a fraction of the cost. $14–18.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #1E1B4B 0%, #1E3A5F 35%, #60A5FA 65%, #1E1B4B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Four Seasons for quiet luxury. Grand Wailea for families and spectacle. Fairmont Kea Lani for suites and value. Or stay in Kihei and use the public beach path — a practical strategy that cuts accommodation costs in half.</p>
+  </div>
+</div>
+
+## Where should you stay in Wailea?
+
+**Four Seasons Resort Maui at Wailea** ($700–1,400+/night) — The finest resort hotel in Maui. Impeccable service, three pools, Spago restaurant, and a level of quiet luxury that matches or exceeds anything in the Hawaiian Islands. For a once-in-a-career Hawaii splurge, this is the contender.
+
+**Grand Wailea** ($450–900+/night) — A Waldorf Astoria property and the most spectacular resort in Hawaii in terms of sheer scale. A 9-pool water attraction complex, $30 million art collection, and 780 rooms. The best choice for families and those who want maximum amenities at a luxury price.
+
+**Fairmont Kea Lani** ($450–800+/night) — An all-suite resort with full kitchen suites — the only major all-suite property in Wailea. Excellent value for families or week-long stays where the kitchen reduces dining costs. Polo Beach access is excellent.
+
+**Kihei Vacation Rentals** ($150–350/night) — Condos with kitchens, proximity to local restaurants, and easy Wailea beach path access. Significantly better value than resort rates. The Kamaole Beach parks in Kihei are excellent for swimming. Best for budget-conscious visitors who want Maui's south coast experience.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #FBBF24 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Book the morning Molokini tour, not the afternoon. Reserve resort dining ahead. Pack reef-safe sunscreen — Hawaii law. And bring binoculars for whale season if you're visiting December through April.</p>
+  </div>
+</div>
+
+## When is the best time to visit Wailea?
+
+**April through October** — Prime beach and snorkeling season. Calm waters, clear visibility at Ulua Beach and Molokini, and the sunniest conditions on an already-sunny coast. Hotel rates are slightly lower in shoulder months (April–May and September–October).
+
+**December through April** — Humpback whale season. The channel between Maui and Molokini fills with North Pacific humpbacks who come to breed and give birth in the warm water. Shore-based sightings from the Wailea Beach Path are common on clear days. Whale watching tours from Ma'alaea Harbor operate during this season.
+
+**Year-round sunshine advantage** — Wailea's rain shadow position means the south coast receives significantly less rainfall than the rest of Maui year-round. Even in "winter," sunny Wailea days are the norm rather than the exception.
+
+Wailea is an excellent Maui base for combining luxury beach time with island exploration. Haleakala for the sunrise crater is a 2-hour drive. Road to Hana is 90 minutes to the starting point in Pa'ia. Lahaina is 45 minutes north. See the [full Hawaii destinations guide](/destinations/) for Maui-wide planning.

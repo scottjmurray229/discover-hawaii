@@ -69,43 +69,122 @@ affiliatePicks:
   - name: 'Waikiki Sunset Catamaran Cruise'
     type: 'tour'
     price: '$$'
-    personalNote: 'A two-hour sail along the coast with open bar and live music — the most magical way to end a Waikiki day.'
-    affiliateUrl: 'https://www.getyourguide.com/waikiki-l1649/catamaran-cruise-tc185/?partner_id=IVN6IQ3'
-  - name: 'Surfjack Hotel & Swim Club'
-    type: 'hotel'
-    price: '$$'
-    personalNote: 'Boutique vibes with a retro-cool pool scene, one block from the beach. Great for couples seeking style over size.'
-    affiliateUrl: 'https://www.booking.com/hotel/us/the-surfjack-hotel-swim-club.html?aid=2778866'
-contentStatus: 'draft'
+    personalNote: 'Two-hour sunset sail along the Waikiki coastline with drinks included. The best way to see Diamond Head from the water at golden hour.'
+    affiliateUrl: 'https://www.getyourguide.com/honolulu-l173/catamaran-tc185/?partner_id=IVN6IQ3'
+contentStatus: draft
 draft: false
-scottTips:
-  logistics: "Fly into Daniel K. Inouye International Airport (HNL) — major hub with direct flights from the mainland US and many international cities. Waikiki is 20 minutes by car, shuttle ($14–18), or TheBus ($3 one-way). Car rental is optional if staying in Waikiki — the neighborhood is walkable and TheBus covers greater Oahu. If planning day trips to the North Shore or Kailua, rent for specific days rather than the full stay."
-  bestTime: "April through June and September through October: the sweet spot — dry, warm (78–84°F), lower hotel rates than summer, and smaller crowds than peak December–March. The Merrie Monarch Hula Festival is in April on the Big Island but energizes all of Hawaii culturally. December and January bring peak whale watching offshore and the World Surf League events on the North Shore."
-  gettingAround: "Waikiki is 2 miles long and entirely walkable. TheBus ($3/ride, $80/month pass) covers all of Oahu including the North Shore, Kailua, and Pearl Harbor. Biki bikeshare works well for short hops. The Waikiki Trolley ($25–45/day depending on route) covers main tourist zones. Rideshare (Uber/Lyft) is available and affordable within Honolulu. Rent a car only for specific day trips."
-  money: "One of the most expensive destinations in the US. Hotels run $200–500+/night for a mid-range beachfront property. Budget travelers can find hostels from $40/dorm. Daily expenses for food add up fast — grocery stores (Foodland at Ala Moana) dramatically cut costs vs. restaurants. Plate lunch ($12–18) vs. restaurant dinner ($40–80+ per person) is the budget traveler's key decision. Resort fees ($30–50/day) are common on top of room rates."
-  safety: "Waikiki is safe for tourists but exercise standard urban awareness. Rip currents exist at Waikiki Beach — swim in designated areas between the flags. Never turn your back on the ocean. UV index is extreme year-round — apply SPF 50+ before leaving the hotel, reapply every 2 hours. Petty theft from unlocked rental cars does happen; don't leave anything visible."
-  packing: "Reef-safe sunscreen (required by Hawaii law — oxybenzone and octinoxate are banned). Rashguard or long-sleeve UV shirt for all-day beach days. Light layers for evening dining (Waikiki restaurants are heavily air-conditioned). Waterproof phone case for water activities. Reef shoes for snorkeling on rocky entry points. One dressy outfit — several restaurants in Waikiki are upscale."
-  localCulture: "Aloha is not just a word — it is a practice. Slow down, smile, acknowledge people. The Duke Kahanamoku statue is the spiritual heart of Waikiki — the father of modern surfing deserves a respectful stop. Hawaii's indigenous culture is alive and evolving; hula is a sacred art form, not a tourist show. The Royal Hawaiian (the 'Pink Palace') has been on this beach since 1927 and its history reflects the entire arc of Waikiki's transformation. Learn a few words of Hawaiian — mahalo (thank you), aloha (love/hello/goodbye), makai (toward the ocean), mauka (toward the mountain)."
+fmContentType: destination
 ---
 
-**Quick Facts:** Best months: April–June, Sept–Oct | Budget/day: $200–400+ | Top attraction: Waikiki Beach + Diamond Head sunrise hike | Island: Oahu
+Waikiki is where most people's Hawaii begins. The flight lands at Honolulu, you drive 20 minutes southwest, and suddenly there it is: a two-mile crescent of white sand flanked by high-rise hotels, with Diamond Head crater rising at the eastern end and the Pacific stretching to the horizon beyond the surf. It's simultaneously more crowded and more beautiful than you expect. The beach itself is genuinely lovely — the water is warm and clear, the surf is gentle enough for beginners, and the trade winds keep the air moving even in summer heat.
 
-## What Are the Top Things to Do in Waikiki?
+I've stayed in Waikiki a dozen times, from the first hostels I booked on my first Hawaii trip to a room at the Royal Hawaiian on an anniversary that felt appropriately ridiculous and worth every cent. What I've learned is that Waikiki rewards perspective. Treat it as a resort area — beach, surf lessons, sunset catamaran, Friday night fireworks — and it delivers consistently. Treat it as the entire Hawaii experience and you miss what makes the state remarkable. Waikiki is the excellent base for exploring the rest of Oahu. The North Shore is 45 minutes north. Kailua Beach (the most beautiful beach on the island) is 30 minutes east via the Pali Highway. Pearl Harbor is 30 minutes west. Diamond Head is 20 minutes by car or TheBus.
 
-Waikiki is synonymous with Hawaiian beach culture and remains one of the most iconic stretches of sand in the world. The two-mile beachfront offers gentle waves perfect for first-time surfers and stand-up paddleboarders, with dozens of rental shops and surf schools lining the shore. Take an outrigger canoe ride with local watermen for an authentic taste of the sport that made this coastline famous.
+The most Hawaiian thing about Waikiki isn't the hotels. It's the Duke Kahanamoku statue at the east end of the beach, arms spread wide, surrounded by leis left by visitors from around the world. Duke Kahanamoku was a Native Hawaiian swimmer, five-time Olympic medalist, and the man primarily credited with spreading surfing from Hawaii to the mainland United States and Australia. The spot where he stood and surfed these waves is the origin point of modern surfing. The outrigger canoe rides that leave from the beach nearby are a direct continuation of the ocean culture he embodied.
 
-Beyond the beach, Kalakaua Avenue delivers world-class shopping, from luxury boutiques to local artisan shops. The strip comes alive after dark with live music venues, cocktail bars, and the weekly Friday night fireworks spectacular at Hilton Hawaiian Village. For culture, visit the Duke Kahanamoku statue, wander the Honolulu Zoo, or catch a free hula show at Kuhio Beach.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #38BDF8 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Beach</h2>
+    <p class="ib-text">Two miles of white sand, warm Pacific water, gentle rolling surf, Diamond Head at the east end — and the birthplace of modern surfing. Waikiki is exactly what travel posters promised, and a far better base for island exploration than its resort-strip reputation suggests.</p>
+  </div>
+</div>
 
-Waikiki also serves as the perfect launchpad for exploring greater Oahu. Diamond Head crater is a quick drive or bus ride away, and the vibrant neighborhoods of Chinatown and Kaka'ako are just minutes up the road.
+## Why Waikiki should be on your Oahu itinerary
 
-## Where Should I Stay in Waikiki?
+Waikiki is the logical Oahu base for first-time visitors and anyone who wants Hawaii beach infrastructure without the logistical complexity of a more remote location. The accommodation range is the widest in the islands — from $40 hostel bunks to $1,000+/night oceanfront suites. Everything is walkable or reachable by the $3 TheBus system. Airport access is 20 minutes. And the beach itself is genuinely good — the surf is calm enough for beginners, the water is warm, and the people-watching from a beach chair at sunset is first-rate.
 
-Waikiki packs an impressive range of accommodation into a compact footprint. Budget travelers will find hostels like the Waikiki Beachside Hostel starting around $40–$55 per night. Mid-range visitors have excellent options in the Surfjack Hotel, Holiday Inn Express, and Hyatt Place Waikiki Beach, ranging from $180–$350 per night.
+For experienced Hawaii visitors who want to get off the tourist track, Waikiki is still a useful base. You can walk the beach at 6am before any crowds form, take the bus to Kailua for the day, return for dinner at a good Honolulu restaurant, and experience a version of Waikiki that has nothing to do with the souvenir shops on Kalakaua Avenue.
 
-For luxury, the Outrigger Waikiki Beach Resort, Halekulani, and Royal Hawaiian (the "Pink Palace") offer beachfront elegance starting around $500 per night. Many resorts charge a daily resort fee of $30–$50, so factor that into your budget.
+The catamaran sunset cruise off Waikiki is one of Hawaii's best value experiences — a couple of hours on the water as the sun drops behind Diamond Head, with drinks and a view of the shoreline from the ocean. It's $60–80/person and it's what the beach looks like from the other direction.
 
-## What Should I Eat in Waikiki?
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #FBBF24 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Do</h2>
+    <p class="ib-text">Surf lessons on the gentlest waves in Hawaii. An outrigger canoe ride with local watermen. A sunset catamaran. Diamond Head hike before 8am. Waikiki has enough to fill a week without leaving the neighborhood.</p>
+  </div>
+</div>
 
-Poke is king in Waikiki, and Ono Seafood and Maguro Brothers are must-visits for the freshest bowls on the island. For a sit-down meal, Duke's Waikiki serves solid Hawaiian fare right on the beach with live music most evenings.
+## What should you do in Waikiki?
 
-Marukame Udon draws legendary lines for handmade udon noodles starting at just $5 — arrive before 11am to skip the wait. Ramen Nakamura and Musubi Cafe Iyasume offer affordable, local-favorite eats. For a splurge, Roy's Waikiki delivers Hawaiian fusion cuisine that showcases the island's incredible local produce and seafood.
+**Surf Lessons** — Waikiki's gentle, rolling waves are the ideal learning environment. Dozens of certified surf schools operate from the beach with equipment included — soft-top foam boards, reef shoes, and instructors who have been teaching beginners here for decades. Most people stand up on their first lesson. $80–120/person, 90 minutes. Operators include Hans Hedemann Surf School, Aloha Beach Services, and Hawaiian Oceans.
+
+**Outrigger Canoe Rides** — Traditional Hawaiian outrigger canoes depart from the beach with local watermen who explain the history of Hawaiian ocean culture while you paddle out and ride waves back to shore. 45-minute experience, $30–40/person. Book at the beach huts.
+
+**Sunset Catamaran Cruise** — Multiple catamarans depart from the beach and Ala Wai Harbor for 90-minute to 2-hour sunset sails along the Waikiki coast. Most include two drinks in the price. The view of Diamond Head from the ocean at golden hour is one of Oahu's best photo opportunities. $60–90/person.
+
+**Diamond Head Hike** — 20 minutes from Waikiki by car or TheBus (Route 23). The 1.6-mile round-trip summit trail climbs to the crater rim for panoramic views over Waikiki, the south shore, and the ocean. Go before 8am to beat the crowds. Advance reservation required on the Hawaii state parks website. $5/person + $10/vehicle.
+
+**Duke Kahanamoku Statue and Kuhio Beach** — The east end of Waikiki Beach. Duke Kahanamoku's statue is the most photographed spot on the beach and a genuine tribute to the man who introduced surfing to the world. The adjacent Kuhio Beach has free hula and Hawaiian music performances most evenings at sunset.
+
+**Friday Night Fireworks** — The Hilton Hawaiian Village hosts free fireworks every Friday at approximately 7:45pm. Watch from the beach, from a catamaran offshore, or from any rooftop that has line of sight to the western end of Waikiki.
+
+**Kalakaua Avenue Shopping and Dining** — The main commercial boulevard parallel to the beach has luxury shopping (Chanel, Tiffany, Louis Vuitton), local surf shops, ABC Stores (the everywhere-in-Hawaii convenience chain), and a range of restaurants from tourist-trap buffets to genuinely excellent local food.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Waikiki Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> Fly into HNL. TheBus Routes 19 and 20 run from the airport to Waikiki for $3. Most hotels offer airport shuttles for $15–20. Rideshare is $30–40. Skip the car — Waikiki is walkable and TheBus covers the rest of Oahu for $3 each way.</li>
+    <li><strong>Best Time:</strong> April through June and September through October for the best combination of good weather, smaller crowds, and slightly lower hotel rates. December through March is when most mainland visitors arrive, pushing prices up and beach density higher.</li>
+    <li><strong>Money:</strong> Budget hostel: $40–60/night. Mid-range hotel (Outrigger, Aston, Aqua brands): $180–320/night. Luxury (Royal Hawaiian, Halekulani): $500–1,000+/night. Food: plate lunches $10–14, casual dinners $20–40, nice restaurants $50+. Daily budget $200–400 mid-range.</li>
+    <li><strong>Don't Miss:</strong> The beach at 6am before anyone is there. The surf schools and catamaran operators don't open until 8am. The diamond head end of the beach in early morning light, with the crater reflecting the sunrise, is quieter and more beautiful than any time of day.</li>
+    <li><strong>Avoid:</strong> Eating at the International Marketplace food court or any restaurant facing directly onto Kalakaua Avenue with a hostess standing outside. The restaurants one block off the beach or in the hotel side streets are significantly better value and quality. The worst food in Hawaii is reliably found on the Waikiki tourist strip.</li>
+    <li><strong>Local Tip:</strong> Use TheBus instead of rideshare for day trips. TheBus Route 23 goes to Diamond Head ($3), Route 52 goes all the way to the North Shore ($3), and the express via the Pali Highway reaches Kailua. A full day of Oahu exploration on TheBus costs $6 total. The bus passes people, neighborhoods, and places a rideshare window never shows you.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #4ADE80 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">The best food in Waikiki is not on Kalakaua Avenue facing the beach. It's one block back, in the neighborhoods, in the food courts that locals actually use, and in Honolulu proper 10 minutes away.</p>
+  </div>
+</div>
+
+## Where should you eat in Waikiki?
+
+- **Marukame Udon** — Udon noodle chain from Japan with a Hawaii flagship in Waikiki. Lines wrap around the block. $8–12. The tempura and udon combination is one of Waikiki's best cheap meals.
+- **Ramen Nakamura** — A small ramen shop in Waikiki that has operated since 1952. Tonkotsu, miso, and shoyu ramen with deep broth and quality toppings. $14–18. Small space, worth the wait.
+- **Ono Seafood** — Hawaii's best poke counter. A small shop near Waikiki that locals have been eating at for decades. Fresh ahi poke in Hawaiian-style (shoyu, limu, sesame) that is genuinely superior to the tourist poke bowls nearby. $14–18.
+- **Duke's Waikiki** — The oceanfront restaurant at the Outrigger. Inconsistently reviewed but the location — directly on the sand at sunset — is unbeatable for a special dinner. $30–55.
+- **Morimoto Waikiki** — Iron Chef Masaharu Morimoto's Waikiki restaurant with creative Japanese fusion cuisine. The omakase experience is expensive ($100+) but the quality is real. $40–80.
+- **Leonard's Bakery** — Not in Waikiki proper but worth the 15-minute drive to Kapahulu Avenue. The original malasada (Portuguese fried dough) shop in Hawaii. Order custard or haupia filled. $2–3 each. Buy a dozen.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #1E1B4B 0%, #1E3A5F 35%, #60A5FA 65%, #1E1B4B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Waikiki has the widest range of accommodation in Hawaii — from $40 hostel bunks to $1,000+ oceanfront suites. The beachfront positions carry a significant premium; the tradeoff is worth it if you can afford the delta.</p>
+  </div>
+</div>
+
+## Where should you stay in Waikiki?
+
+**Halekulani** ($500–1,000+/night) — The most revered hotel in Waikiki. Understated elegance, impeccable service, and the beautiful L'aperitif dining room overlooking Diamond Head. The orchid mosaic at the bottom of the pool is photographed thousands of times a day. For a special occasion Waikiki stay, nothing comes close.
+
+**Royal Hawaiian** ($400–800+/night) — The "Pink Palace of the Pacific" opened in 1927 and is the most iconic hotel on the beach. Oceanfront rooms, the beloved Mai Tai Bar on the sand, and a property that earns its historic landmark status. Mid-tier luxury by Waikiki standards with genuine character.
+
+**Outrigger Waikiki Beach Resort** ($280–500/night) — The most directly beachfront mid-range option. Duke's restaurant on the sand, good room views, and the classic Waikiki hotel experience without the Halekulani price tag. Consistently well-reviewed for value.
+
+**Aston at the Waikiki Banyan** ($150–250/night) — Studio suites with kitchenettes one block from the beach. Good value for families and week-long stays where kitchen access reduces food costs. Tennis courts and pool on property.
+
+**Hostels** ($40–80/night dorm) — Waikiki has several backpacker hostels with dorm rooms, communal kitchens, and surfboard storage. Polynesian Hostel Beach Club and Waikiki Beachside Hostel are the most central options.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #38BDF8 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Skip the rental car for a Waikiki-based Oahu trip — TheBus covers everything for $3. Book Diamond Head reservations in advance. Plan your day trips early and leave Waikiki before 8am to beat traffic on the north routes.</p>
+  </div>
+</div>
+
+## When is the best time to visit Waikiki?
+
+**April through October** — The best overall window. April through June is ideal: post-spring break crowds, summer weather building, hotel rates slightly lower than peak summer. September and October are the local favorite — the summer crowds have thinned but the weather remains excellent.
+
+**July and August** — Peak season. Schools are out, prices are highest, and the beach is most crowded. Still enjoyable but expect to pay a premium and arrive at Diamond Head before 8am to have the trail to yourself.
+
+**December through March** — The main mainland visitor season. Prices rise around Christmas and New Year; January and February can be quieter at mid-month. The North Shore's big wave season is at its peak, making a day trip to watch surf competitions more likely.
+
+Waikiki is the hub from which most Oahu exploration happens. The island's major attractions — Diamond Head, Pearl Harbor, the North Shore, Kailua Beach, Hanauma Bay — all branch out from here. See the [full Hawaii islands guide](/destinations/) for complete Oahu planning.

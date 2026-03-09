@@ -90,26 +90,117 @@ scottTips:
   localCulture: "Mauna a Wakea (the full Hawaiian name) is among the most sacred places in Hawaiian culture — the summit is where sky father Wakea and earth mother Papahanaumoku come together. The mountain has been at the center of a significant cultural and political debate regarding telescope construction on sacred land. Whatever your view on the science-culture tension, approach the mountain with respect for both the science and the sacredness. Remove nothing. Disturb no stones."
 ---
 
-**Quick Facts:** Best months: April–Oct (clearest) | Budget/day: $50–280 | Top attraction: Summit stargazing above the clouds | Island: Big Island
+I stood at the Mauna Kea summit at 13,796 feet while the sun dropped below a sea of clouds that covered the entire Big Island below me. The temperature was 28°F. My fingers were numb despite gloves. The light turned the clouds below orange, then pink, then deep red as the sun disappeared, and then the stars came out. Not gradually — dramatically. The Milky Way appeared as a complete, visible band within minutes of full darkness, bright enough to cast a faint shadow. I'd seen stars from remote places before, but never like this.
 
-## What Are the Top Things to Do in Mauna Kea?
+Mauna Kea's summit sits above 40% of the Earth's atmosphere and above essentially all of its water vapor. The combination of low atmospheric density, dry air, minimal light pollution, and the stable atmospheric conditions created by the island's geographic isolation makes this one of the three or four best astronomical sites on the planet. Thirteen countries have invested billions of dollars in telescope infrastructure on this mountain. The Keck Observatory's twin 10-meter mirrors are among the largest in the world. You can photograph them — massive white domes on the summit ridge — from the parking area.
 
-Mauna Kea is a place where science, culture, and raw natural beauty converge at breathtaking altitude. At 13,796 feet above sea level — and over 33,000 feet from its base on the ocean floor — this dormant shield volcano is technically the tallest mountain on Earth when measured from base to peak. Its summit offers some of the most spectacular views and clearest night skies found anywhere on the planet.
+The Visitor Information Station at 9,200 feet is where most visitors should spend most of their time. It's accessible to any vehicle (the road above requires 4WD and most rental car companies prohibit it contractually), and the free nightly stargazing program that runs from 6pm to 10pm is genuinely remarkable. Volunteer astronomers from the observatories set up telescopes and give talks about the mountain's significance — both as an astronomical site and as Mauna a Wakea, the sacred meeting place of Hawaiian sky father and earth mother. On a clear night, the Milky Way is visible to the naked eye from the VIS at 9,200 feet. From the summit at 13,796 feet, it is almost overwhelming.
 
-The premier Mauna Kea experience is a sunset and stargazing session. Watching the sun sink below a vast sea of clouds from above 13,000 feet is otherworldly — the sky cycles through impossible shades of orange, pink, and purple. After dark, the Milky Way blazes across the sky with a brilliance that is simply unavailable at lower elevations. Thirteen countries operate world-class astronomical observatories on the summit, testament to the exceptional viewing conditions.
+The cultural context matters enormously here. The Thirty Meter Telescope controversy — a proposed new observatory that has been opposed by Native Hawaiian sovereignty advocates since it was announced — is unresolved and ongoing. The mountain is genuinely sacred to Native Hawaiians in a way that is not metaphorical. Approach Mauna a Wakea with the reverence that both the science and the sacredness deserve. Leave nothing behind. Take nothing.
 
-The Visitor Information Station (VIS) at 9,200 feet is the most accessible way to experience Mauna Kea. Free nightly stargazing programs run with volunteer astronomers and telescopes — no reservation required and accessible with any vehicle. The VIS also serves as an essential acclimatization stop for anyone continuing to the summit.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #1E1B4B 0%, #1E3A5F 35%, #60A5FA 65%, #1E1B4B 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">You drive an hour from Hilo through lava fields and up into alpine desert, stop at 9,200 feet to breathe and acclimate, then watch the sky go dark and the stars appear in a way that no photograph has ever adequately captured.</p>
+  </div>
+</div>
 
-Mauna Kea holds profound cultural significance for Native Hawaiians. Known as Mauna a Wakea, it is considered the sacred meeting place of sky father Wakea and earth mother Papahanaumoku. Visitors should treat the mountain with deep respect, staying on marked paths, removing nothing, and being mindful that the mountain's use remains an important cultural conversation.
+## Why Mauna Kea should be on your Big Island itinerary
 
-## Where Should I Stay in Mauna Kea?
+Mauna Kea is a place where two entirely different kinds of wonder converge at the same altitude. The astronomical wonder — one of the best stargazing sites on Earth, the platform for some of humanity's most significant cosmic discoveries — and the cultural wonder — a mountain considered the birthplace of the Hawaiian world, where sky and earth meet in Hawaiian cosmology.
 
-Mauna Kea is a day (or evening) trip destination rather than an overnight base. Hilo is the closest major town at about one hour from the Visitor Information Station, making it the most convenient base. The Grand Naniloa Hotel on Hilo Bay offers comfortable waterfront rooms starting around $180 per night.
+Both are worth your time. The free nightly stargazing program at the VIS is one of the best free experiences in all of Hawaii, and it requires no special access, no 4WD, and no altitude adaptation beyond a 30-minute stop. The summit experience, for those who take a guided tour or self-drive in an appropriate vehicle, adds an extraordinary sunset and a star field that most people have never seen anywhere in their lives.
 
-From the Kona side, the drive to the VIS is approximately 1.5 hours via Saddle Road. Staying in Waimea (Kamuela), a ranch town between the two coasts, splits the difference and offers a cooler, upcountry atmosphere with B&Bs and vacation rentals starting around $150 per night.
+The mountain also rewards daytime visitors. The saddle between Mauna Kea and Mauna Loa — the Saddle Road crossing — is one of the most dramatic terrestrial landscapes in the Pacific, a volcanic wasteland between two enormous shield volcanoes that feels genuinely extraterrestrial. The short hike to Lake Waiau at 13,020 feet — one of the highest lakes in the Pacific — takes 20 minutes from the summit parking area.
 
-## What Should I Eat in Mauna Kea?
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #4ADE80 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">The summit observatories, the free VIS stargazing, the Lake Waiau walk, the sunset above the clouds, and the night sky that makes you understand why civilizations built their most important telescopes here.</p>
+  </div>
+</div>
 
-There are no food services on Mauna Kea itself, so bring everything you need. Pack warm drinks in a thermos, high-energy snacks, and plenty of water (dehydration accelerates at altitude). Guided summit tours typically include hot cocoa, sandwiches, and snacks.
+## What should you do at Mauna Kea?
 
-In Hilo before your trip, fuel up at Cafe 100 for a classic loco moco or grab poke from Suisan Fish Market. In Waimea, Merriman's Restaurant is one of the Big Island's best dining experiences, pioneering the farm-to-table movement in Hawaii with locally sourced meats and produce. Village Burger in Waimea serves excellent grass-fed beef burgers — perfect post-stargazing fuel.
+**Free VIS Stargazing Program** — 6pm to 10pm nightly at the Visitor Information Station (9,200 feet). Volunteer astronomers with telescopes and astronomy talks. No reservation required; accessible with any vehicle. One of the best free experiences in Hawaii.
+
+**Guided Summit Sunset and Stargazing Tour** — $200–280 all-inclusive. 4WD transport, warm parkas, hot cocoa, sunset from 13,796 feet, and dedicated telescope time above the clouds. The easiest and safest way to experience the summit. Book at least a week ahead.
+
+**Self-Drive Summit (4WD Required)** — The summit road above the VIS is unpaved and most rental car companies prohibit it. If you have a 4WD rental (confirm with your company), the drive is straightforward but requires VIS acclimatization first. Arrive at the summit before 4pm for the best sunset positioning.
+
+**Lake Waiau** — One of the highest lakes in the Pacific, at 13,020 feet on the southwest slope. A 20-minute round-trip walk from the summit visitor parking area. The lake is culturally significant — Hawaiian families have brought umbilical cords here for generations.
+
+**Observatory Photography** — The 13 observatory domes on the summit rim are spectacular photography subjects, especially at twilight. Public access to the summit parking area allows close views of the domes without entering the restricted research areas.
+
+**Saddle Road Drive** — Highway 200 crossing the saddle between Mauna Kea and Mauna Loa is itself a destination — a volcanic highland crossing through one of the most otherworldly landscapes in the Pacific. Worth slowing down for even if not visiting the summit.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Mauna Kea Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> From Hilo, 1 hour to the VIS via Saddle Road. From Kona, 1.5 hours. The VIS is accessible to any vehicle. Above the VIS, 4WD required — confirm your rental car company allows it before attempting.</li>
+    <li><strong>Best Time:</strong> April through October for the highest probability of clear summit skies. Check the Mauna Kea Observatory webcam (mkwc.ifa.hawaii.edu) the night before — this tells you exactly what conditions to expect.</li>
+    <li><strong>Money:</strong> The VIS stargazing is completely free. Guided summit tours run $200–280 all-inclusive. Driving yourself costs just the fuel. Bring food — nothing available at the VIS or summit.</li>
+    <li><strong>Don't Miss:</strong> The 30 minutes at the VIS before sunset when the clouds below glow orange and the observatories on the summit above you turn pink. This transition — day to night, tropical island to alpine desert to space — is one of the most visually astonishing things I've experienced anywhere.</li>
+    <li><strong>Avoid:</strong> Going straight from sea level (Kailua-Kona or Hilo) to the 13,796-foot summit without stopping at the VIS for at least 30 minutes. Altitude sickness symptoms — headache, nausea, dizziness — develop faster than people expect. The VIS stop is mandatory, not optional.</li>
+    <li><strong>Local Tip:</strong> The Mauna Kea observatory webcam (mkwc.ifa.hawaii.edu/mko/cams/) updates in near real-time and shows current summit cloud conditions. Check it the afternoon of your planned visit. A clear summit at sunset is extraordinary; a clouded summit after a 2-hour drive is deeply disappointing.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F97316 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Nothing is available on the mountain — bring a thermos, pack your dinner, and eat under the stars at the VIS before driving back down to Hilo or Waimea for a late meal.</p>
+  </div>
+</div>
+
+## Where should you eat near Mauna Kea?
+
+There are no food services on Mauna Kea itself. Bring everything you need.
+
+- **Cafe 100 (Hilo)** — Fill up before the drive. Loco moco, local plate lunches, cheap and reliable. Open from 6:45am.
+- **Suisan Fish Market (Hilo)** — Fresh poke from the harbor. Get it to go and eat at the VIS before the stargazing program.
+- **Merriman's Restaurant (Waimea)** — From the Kona side, Waimea is 45 minutes down from the VIS. Merriman's pioneered farm-to-table in Hawaii and remains one of the best dinners on the island. $35–60 mains. Perfect post-stargazing reward.
+- **Village Burger (Waimea)** — Grass-fed Big Island beef burgers. A more casual post-mountain option in Waimea. $12–18.
+- **Kilauea Lodge (Volcano Village)** — If combining Mauna Kea with Volcanoes National Park, the lodge restaurant serves hearty continental cuisine in a fireplace-lit dining room. $28–45 mains.
+- **Thermos of hot coffee/tea** — Seriously non-negotiable. The VIS and summit are 30–40°F and there is nothing to drink or eat available. Pack accordingly.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #38BDF8 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Hilo is the closest town base (1 hour to the VIS). Waimea offers a high-elevation cattle-country alternative between the Kona and Hilo sides.</p>
+  </div>
+</div>
+
+## Where should you stay near Mauna Kea?
+
+Mauna Kea is a day/evening trip rather than an overnight base. Choose your base town based on your overall Big Island itinerary.
+
+**Hilo** (1 hour to VIS) — The closest town base with the widest accommodation range. Grand Naniloa Hotel ($180–260/night) is the best option. Hilo also provides easy access to Volcanoes National Park for a combined itinerary.
+
+**Waimea (Kamuela)** (1 hour to VIS from the Kona side) — A ranch town at 2,700 feet with a cool upcountry atmosphere. B&Bs and vacation rentals from $150–280/night. The midpoint between Kona and Hilo makes it convenient for exploring both sides of the island.
+
+**Kona** (1.5 hours to VIS) — The most popular Big Island base gives longer drive time to Mauna Kea but the best beach and dining options for the rest of your trip.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #86EFAC 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Check the summit webcam, pack every layer you own, bring your own food and hot drinks, and plan your VIS acclimatization time before considering the summit road.</p>
+  </div>
+</div>
+
+## When is the best time to visit Mauna Kea?
+
+**April through October** delivers the highest probability of clear summit skies and the warmest summit temperatures (still cold — 35–50°F at the summit). Summer months consistently produce clear stargazing conditions above the cloud inversion.
+
+**November through March** brings colder summit temperatures and more cloud cover at the VIS, but winter nights above the clouds produce some of the best astronomical conditions of the year. Snow can close the summit road entirely (several times per winter) — always check before driving up.
+
+**Daily timing** matters more than season. Clear summit conditions in the afternoon can shift to clouded-in by evening, or vice versa. The observatory webcam is the authoritative source; check it in the afternoon before your planned evening drive.
+
+The VIS free stargazing program operates nightly (weather permitting) year-round. This is the single most reliable Mauna Kea experience regardless of season.
+
+Combine Mauna Kea with Hilo's waterfalls and the Volcanoes National Park for the definitive Big Island east-side experience. See [all Big Island destinations](/destinations/) for itinerary ideas, or [start planning your Hawaii trip](/plan/).
