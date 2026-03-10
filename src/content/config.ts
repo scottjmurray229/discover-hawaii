@@ -13,7 +13,7 @@ const destinations = defineCollection({
     heroImage: z.string().default(''),
     heroAlt: z.string().optional(),
     tagline: z.string().default(''),
-    region: z.enum(['oahu', 'maui', 'big-island', 'kauai', 'molokai', 'lanai']),
+    region: z.string(),
     bestMonths: z.array(z.string()).default([]),
     budgetPerDay: z.object({
       backpacker: z.number().default(0),
@@ -50,7 +50,7 @@ const destinations = defineCollection({
     })).default([]),
     affiliatePicks: z.array(z.record(z.string(), z.any())).optional(),
     lastVerified: z.coerce.date().optional(),
-    contentStatus: z.enum(['draft', 'review', 'published', 'needs-update']).default('draft'),
+    contentStatus: z.string().optional(),
     draft: z.boolean().default(true),
     fmContentType: z.string().optional(),
     aeoFacts: z.object({
