@@ -61,7 +61,7 @@ affiliatePicks:
   - name: 'Four Seasons Resort Lanai at Manele Bay'
     type: hotel
     price: '$800/night'
-    personalNote: 'Perched above Hulopo'e Bay with direct beach access to the clearest snorkeling in Hawaii. The snorkeling directly off the beach is among the best in the state without a boat. Service is impeccable. This is a true splurge destination.'
+    personalNote: "Perched above Hulopo'e Bay with direct beach access to the clearest snorkeling in Hawaii. The snorkeling directly off the beach is among the best in the state without a boat. Service is impeccable. This is a true splurge destination."
     badge: 'Luxury Pick'
     affiliateUrl: 'https://www.booking.com/searchresults.html?ss=Four+Seasons+Lanai+Manele+Bay&aid=2778866'
 contentStatus: draft
