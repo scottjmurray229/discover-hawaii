@@ -403,16 +403,15 @@ function pickVideo(heroes, preferred) {
 function wirePillarPages(heroes) {
   // Page config: file path (relative to PAGES_DIR), hero tag to inject into, preferred video slugs
   const pillarPages = [
-    { rel: 'beaches/index.astro',      heroTag: 'menu-hero',  preferred: ['clearwater', 'pensacola', 'destin'] },
-    { rel: 'cuisine/index.astro',      heroTag: 'menu-hero',  preferred: ['miami', 'tampa', 'key-west'] },
-    { rel: 'finer-things/index.astro', heroTag: 'ft-hero',    preferred: ['palm-beach', 'miami', 'naples'] },
-    { rel: 'history/index.astro',      heroTag: 'menu-hero',  preferred: ['st-augustine', 'cape-canaveral', 'pensacola'] },
-    { rel: 'practical/index.astro',    heroTag: 'menu-hero',  preferred: ['orlando', 'miami', 'tampa'] },
-    { rel: 'theme-parks/index.astro',  heroTag: 'menu-hero',  preferred: ['orlando', 'tampa'] },
-    { rel: 'wildlife/index.astro',     heroTag: 'menu-hero',  preferred: ['everglades', 'clearwater', 'sanibel-island'] },
-    { rel: 'companion.astro',          heroTag: 'cp-hero',    preferred: ['miami', 'orlando', 'tampa'] },
-    { rel: 'about/index.astro',        heroTag: 'about-hero', preferred: ['clearwater', 'miami', 'sarasota'] },
-    { rel: 'festivals/index.astro',    heroTag: 'fest-hero',  preferred: ['tampa', 'miami', 'st-augustine'] },
+    { rel: 'beaches/index.astro',      heroTag: 'menu-hero', preferred: ['waikiki', 'kailua', 'poipu'] },
+    { rel: 'cuisine/index.astro',      heroTag: 'menu-hero', preferred: ['honolulu', 'lahaina', 'kona'] },
+    { rel: 'festivals/index.astro',    heroTag: 'menu-hero', preferred: ['honolulu', 'hilo', 'kona'] },
+    { rel: 'finer-things/index.astro', heroTag: 'ft-hero',   preferred: ['wailea', 'honolulu', 'lanai'] },
+    { rel: 'history/index.astro',      heroTag: 'menu-hero', preferred: ['pearl-harbor', 'honolulu', 'lahaina'] },
+    { rel: 'outdoor/index.astro',      heroTag: 'menu-hero', preferred: ['haleakala', 'mauna-kea', 'na-pali-coast'] },
+    { rel: 'practical/index.astro',    heroTag: 'menu-hero', preferred: ['honolulu', 'waikiki', 'lahaina'] },
+    { rel: 'companion.astro',          heroTag: 'cp-hero',   preferred: ['honolulu', 'wailea', 'kona'] },
+    { rel: 'about/index.astro',        heroTag: 'about-hero',preferred: ['waikiki', 'honolulu', 'wailea'] },
   ];
 
   // Blog posts — wire heroVideo frontmatter field
@@ -619,21 +618,19 @@ function runAudit(heroes, previews, breaks) {
   console.log(`\n  STATIC PAGE HEROES:\n`);
 
   const staticPages = [
-    { name: 'Homepage',       p: path.join(PAGES_DIR, 'index.astro') },
-    { name: 'Dest Index',     p: path.join(PAGES_DIR, 'destinations', 'index.astro') },
-    { name: 'Blog Index',     p: path.join(PAGES_DIR, 'blog', 'index.astro') },
-    { name: 'Plan',           p: path.join(PAGES_DIR, 'plan.astro') },
-    { name: 'About',          p: path.join(PAGES_DIR, 'about', 'index.astro') },
-    { name: 'About/Scott',    p: path.join(PAGES_DIR, 'about', 'scott.astro') },
-    { name: 'Cuisine',        p: path.join(PAGES_DIR, 'cuisine', 'index.astro') },
-    { name: 'Festivals',      p: path.join(PAGES_DIR, 'festivals', 'index.astro') },
-    { name: 'Beaches',        p: path.join(PAGES_DIR, 'beaches', 'index.astro') },
-    { name: 'Finer Things',   p: path.join(PAGES_DIR, 'finer-things', 'index.astro') },
-    { name: 'History',        p: path.join(PAGES_DIR, 'history', 'index.astro') },
-    { name: 'Practical',      p: path.join(PAGES_DIR, 'practical', 'index.astro') },
-    { name: 'Theme Parks',    p: path.join(PAGES_DIR, 'theme-parks', 'index.astro') },
-    { name: 'Wildlife',       p: path.join(PAGES_DIR, 'wildlife', 'index.astro') },
-    { name: 'Companion',      p: path.join(PAGES_DIR, 'companion.astro') },
+    { name: 'Homepage',     p: path.join(PAGES_DIR, 'index.astro') },
+    { name: 'Dest Index',   p: path.join(PAGES_DIR, 'destinations', 'index.astro') },
+    { name: 'Blog Index',   p: path.join(PAGES_DIR, 'blog', 'index.astro') },
+    { name: 'Plan',         p: path.join(PAGES_DIR, 'plan.astro') },
+    { name: 'About',        p: path.join(PAGES_DIR, 'about', 'index.astro') },
+    { name: 'Beaches',      p: path.join(PAGES_DIR, 'beaches', 'index.astro') },
+    { name: 'Cuisine',      p: path.join(PAGES_DIR, 'cuisine', 'index.astro') },
+    { name: 'Festivals',    p: path.join(PAGES_DIR, 'festivals', 'index.astro') },
+    { name: 'Finer Things', p: path.join(PAGES_DIR, 'finer-things', 'index.astro') },
+    { name: 'History',      p: path.join(PAGES_DIR, 'history', 'index.astro') },
+    { name: 'Outdoor',      p: path.join(PAGES_DIR, 'outdoor', 'index.astro') },
+    { name: 'Practical',    p: path.join(PAGES_DIR, 'practical', 'index.astro') },
+    { name: 'Companion',    p: path.join(PAGES_DIR, 'companion.astro') },
   ];
 
   for (const page of staticPages) {

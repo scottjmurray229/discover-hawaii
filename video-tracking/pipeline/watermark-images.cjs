@@ -15,7 +15,9 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const PROJECT_ROOT = path.join(__dirname, '..', '..');
+const { loadConfig } = require('./config-loader.cjs');
+const config = loadConfig();
+const PROJECT_ROOT = config.PROJECT_ROOT || path.join(__dirname, '..', '..');
 const IMAGES_ROOT = path.join(PROJECT_ROOT, 'public', 'images');
 const STATE_FILE = path.join(__dirname, 'watermark-images-state.json');
 const FONT_PATH = '/Windows/Fonts/arialbd.ttf';
@@ -89,7 +91,8 @@ function getImageHeight(filePath) {
 
 // Watermark drawtext filter
 function watermarkFilter(fontsize) {
-  return `drawtext=text='discoverphilippines.info':fontsize=${fontsize}:fontcolor=white@0.8:shadowcolor=black@0.6:shadowx=2:shadowy=2:x=w-tw-20:y=h-th-20:fontfile='${FONT_PATH}'`;
+  const text = config.WATERMARK_TEXT || 'discover more travel';
+  return `drawtext=text='${text}':fontsize=${fontsize}:fontcolor=white@0.8:shadowcolor=black@0.6:shadowx=2:shadowy=2:x=w-tw-20:y=h-th-20:fontfile='${FONT_PATH}'`;
 }
 
 // Recursively find all image files
@@ -178,7 +181,7 @@ function formatSize(bytes) {
 // Main
 function main() {
   console.log('╔══════════════════════════════════════════════════════════╗');
-  console.log('║   BATCH IMAGE WATERMARK — DISCOVER PHILIPPINES          ║');
+  console.log('║   BATCH IMAGE WATERMARK — DISCOVER MORE TRAVEL          ║');
   console.log('╚══════════════════════════════════════════════════════════╝\n');
 
   const state = loadState();
