@@ -7,6 +7,36 @@ export const HAWAII_ESSENTIALS: PackingItem[] = [
   { id: 'hi-jacket', name: 'Light Fleece or Windbreaker', category: 'destination', description: 'Mauna Kea summit is 40°F. Haleakala sunrise is 30°F. Even sea-level Kauai gets cool evenings. One packable layer transforms your trip.', essential: true, amazonSearchFallback: 'packable+fleece+jacket+travel', affiliatePrice: '$35–60' },
   { id: 'hi-waterbottle', name: 'Reusable Water Bottle', category: 'destination', description: 'Hawaii is serious about plastic. Many parks, beaches, and trails have refill stations. Single-use plastic water bottles are increasingly hard to find on Kauai especially.', essential: true, amazonSearchFallback: 'reusable+water+bottle+insulated', affiliatePrice: '$20–35' },
   { id: 'hi-hikeshoes', name: 'Hiking Shoes / Trail Runners', category: 'destination', description: 'Kalalau Trail, Diamond Head, Waimea Canyon — Hawaii\'s trails are volcanic, muddy, and uneven. Flip-flops get people helicoptered out. Trail runners are minimum; waterproof boots preferred.', essential: false, amazonSearchFallback: 'waterproof+trail+running+shoes+hiking', affiliatePrice: '$80–150' },
+  {
+    id: 'vpn-subscription',
+    name: 'VPN Subscription',
+    category: 'electronics',
+    description: 'Secure your data on public WiFi — essential for hotel, airport, and cafe networks abroad.',
+    essential: false,
+    affiliateUrl: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=142311&url_id=902',
+    affiliatePrice: '~$3/month',
+    affiliatePartner: 'NordVPN',
+  },
+  {
+    id: 'action-camera',
+    name: 'Waterproof Action Camera',
+    category: 'gear',
+    description: 'Capture snorkeling, diving, and beach adventures hands-free.',
+    essential: false,
+    affiliateUrl: 'https://www.insta360.com/sal/go-ultra?utm_source=AffiliateCenter&utm_medium=copylink&utm_term=INRSG7H5RTR',
+    affiliatePrice: '~$299',
+    affiliatePartner: 'Insta360',
+  },
+  {
+    id: 'phone-gimbal',
+    name: 'Phone Gimbal for Travel Vlogging',
+    category: 'electronics',
+    description: 'Stabilized video from your phone — no editing needed.',
+    essential: false,
+    affiliateUrl: 'https://www.insta360.com/sal/flow-2-pro?utm_source=AffiliateCenter&utm_medium=copylink&utm_term=INRSG7H5RTR',
+    affiliatePrice: '~$149',
+    affiliatePartner: 'Insta360',
+  },
 ];
 
 export const HAWAII_GEAR_RECOMMENDATIONS: GearRecommendation[] = [
