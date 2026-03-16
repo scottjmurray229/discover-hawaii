@@ -2,7 +2,7 @@
 /**
  * Batch watermark all existing images in public/images/
  *
- * Uses FFmpeg drawtext to overlay "discoverphilippines.info" on all JPG/PNG images.
+ * Uses FFmpeg drawtext to overlay "discover more travel" on all JPG/PNG images.
  * Skips logo, favicon, and OG default image.
  *
  * Usage:

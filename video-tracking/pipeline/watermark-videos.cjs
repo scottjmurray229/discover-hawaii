@@ -2,7 +2,7 @@
 /**
  * Batch watermark all existing videos in public/videos/
  *
- * Re-encodes each .mp4 with a "discoverphilippines.info" drawtext overlay
+ * Re-encodes each .mp4 with a "discover more travel" drawtext overlay
  * in the bottom-right corner. Writes to a temp file, then replaces the original.
  *
  * Usage:

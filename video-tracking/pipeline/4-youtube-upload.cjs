@@ -118,7 +118,6 @@ I've been exploring Hawaii for over 15 years with deep local knowledge. No spons
 
 📖 FULL WRITTEN GUIDE: https://discoverhawaii.info/destinations/${slug}/
 📱 TRIP COMPANION (works offline): https://discoverhawaii.info/companion/
-📱 TRIP COMPANION (works offline): https://discoverhawaii.info/companion/
 
 #Hawaii #${title.replace(/\s+/g, '')} #HawaiiTravel #TravelGuide${year}`;
 }
