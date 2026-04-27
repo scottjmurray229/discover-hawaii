@@ -4,7 +4,9 @@ import type { APIContext } from 'astro';
 import { estimateCost, fmtCost, fmtNum, fmtTokens } from '../../../lib/stats-helpers';
 import { sendEmail } from '../../../lib/send-email';
 
-const ADMIN_EMAILS = ['scottjmurray@gmail.com', 'murrayjenicesphr@gmail.com'];
+// Spoke daily-report email disabled 2026-04-27 — hub network-report.ts aggregates instead.
+// Re-enable by restoring the recipient list.
+const ADMIN_EMAILS: string[] = [];
 
 export async function GET(context: APIContext): Promise<Response> {
   const { locals, request } = context;
