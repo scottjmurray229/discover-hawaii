@@ -12,6 +12,10 @@ export async function GET(context: APIContext): Promise<Response> {
   const { locals, request } = context;
   const env = (locals as any).runtime?.env;
 
+  // Endpoint retired 2026-04-27. Hub network-report aggregates instead.
+  // Returning 410 Gone so any stale cron-job.org jobs auto-disable cleanly.
+  return new Response('Gone: spoke daily-report endpoint retired. Use hub network-report instead.', { status: 410 });
+
   if (!env?.DB) {
     return new Response('Database not configured', { status: 500 });
   }
