@@ -127,7 +127,7 @@ function buildDestinationSchemas() {
       '@id': `${currentUrl}#video`,
       name: `${data.title} — Travel Guide Video`,
       description: data.description || `Explore ${data.title} with this immersive travel video.`,
-      thumbnailUrl: data.heroImage ? (data.heroImage.startsWith('http') ? data.heroImage : `${baseUrl}${data.heroImage}`) : `${baseUrl}/og-image.jpg`,
+      thumbnailUrl: data.heroImage ? (data.heroImage.startsWith('http') ? data.heroImage : `${baseUrl}${data.heroImage}`) : `${baseUrl}/images/og-default.jpg`,
       contentUrl: data.heroVideo.startsWith('http') ? data.heroVideo : `${baseUrl}${data.heroVideo}`,
       uploadDate: data.lastVerified ? new Date(data.lastVerified).toISOString() : new Date().toISOString(),
     });
